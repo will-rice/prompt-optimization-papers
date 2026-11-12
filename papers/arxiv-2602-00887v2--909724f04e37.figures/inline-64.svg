@@ -1,0 +1,24 @@
+<svg id="A17.SS7.SSS0.Px3.p2.pic1" class="ltx_picture" height="241.68" overflow="visible" version="1.1" viewbox="0 0 477.38 241.68" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,241.68) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#009900;" fill="#009900" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.04 L 0 236.64 C 0 239.42 2.26 241.68 5.04 241.68 L 472.33 241.68 C 475.12 241.68 477.38 239.42 477.38 236.64 L 477.38 5.04 C 477.38 2.26 475.12 0 472.33 0 L 5.04 0 C 2.26 0 0 2.26 0 5.04 Z" /></g><g style="--ltx-fill-color:#F2FFF2;" fill="#F2FFF2" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 5.04 L 1.11 219.29 L 476.27 219.29 L 476.27 5.04 C 476.27 2.87 474.51 1.11 472.33 1.11 L 5.04 1.11 C 2.87 1.11 1.11 2.87 1.11 5.04 Z" /></g><g style="--ltx-fill-color:#009900;" fill="#009900" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 220.4 L 1.11 236.64 C 1.11 238.81 2.87 240.57 5.04 240.57 L 472.33 240.57 C 474.51 240.57 476.27 238.81 476.27 236.64 L 476.27 220.4 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.79 227.03)"><foreignobject style="--ltx-fo-width:27.39em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="379"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A17.SS7.SSS0.Px3.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:27.39em;">
+<span id="A17.SS7.SSS0.Px3.p2.pic1.1.1" class="ltx_p"><span id="A17.SS7.SSS0.Px3.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Best Practice: Error Monitoring</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.79 16.38)"><foreignobject style="--ltx-fo-width:31.5em;--ltx-fo-height:13.81em;--ltx-fo-depth:0.25em;font-size:10pt;" class="ltx_minipage" height="194.57" overflow="visible" transform="matrix(1 0 0 -1 0 191.11)" width="30em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><pre id="A17.SS7.SSS0.Px3.p2.pic1.2" class="ltx_verbatim ltx_font_typewriter" style="--ltx-fg-color:#000000;">from effgen import Agent
+from effgen.core.agent import AgentConfig
+from effgen.core.execution_tracker import ExecutionTracker
+
+agent = Agent(config=AgentConfig(
+    name=&quot;tracked_agent&quot;,
+    model=&quot;Qwen/Qwen2.5-7B-Instruct&quot;,
+))
+
+# Inspect tracked execution events (including any errors).
+tracker: ExecutionTracker = agent.execution_tracker
+trace  = tracker.get_trace()
+errors = [e for e in trace
+          if e.type.name in {&quot;ERROR&quot;, &quot;TOOL_CALL_FAILED&quot;,
+                              &quot;TASK_FAILED&quot;, &quot;SUB_AGENT_FAILED&quot;}]
+from collections import Counter
+by_type = Counter(e.type.name for e in errors)
+print(f&quot;Total events: {len(trace)}&quot;)
+print(f&quot;Error events: {len(errors)}&quot;)
+print(f&quot;By type: {dict(by_type)}&quot;)
+</pre></span></span></foreignobject></g></g></svg>

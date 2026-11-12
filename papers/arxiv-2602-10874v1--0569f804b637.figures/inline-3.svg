@@ -1,0 +1,83 @@
+<svg id="A2.SS1.p3.pic1" class="ltx_picture" height="2304.65" overflow="visible" version="1.1" viewbox="0 0 477.38 2304.65" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,2304.65) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#9F9F9F;" fill="#9F9F9F" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 2304.65 L 477.38 2304.65 L 477.38 0 Z" /></g><g style="--ltx-fill-color:#F9F9F9;" fill="#F9F9F9" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 0.69 L 0.69 2303.96 L 476.68 2303.96 L 476.68 0.69 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.38 15.27)"><foreignobject style="--ltx-fo-width:31.56em;--ltx-fo-height:164.55em;--ltx-fo-depth:0.2em;font-size:10pt;" height="2279.67" overflow="visible" transform="matrix(1 0 0 -1 0 2276.91)" width="436.7"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS1.p3.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.56em;">
+<span id="A2.SS1.p3.pic1.1.1" class="ltx_p"><span id="A2.SS1.p3.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;--ltx-bg-color:#CCCCFF;">PromptWizard (F1: 62.04)</span></span>
+<span id="A2.SS1.p3.pic1.1.2" class="ltx_p"><span id="A2.SS1.p3.pic1.1.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">Given a statement, job title, state, party, and the full text of a document (context), determine if the statement is factually true or false. 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.3" class="ltx_p"><span id="A2.SS1.p3.pic1.1.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">First, **strictly check the context** (the exact text provided) for **direct evidence**. Direct evidence must be: 
+<br class="ltx_break">- The exact words of the statement, OR 
+<br class="ltx_break">- A clear, unambiguous reference (e.g., direct quote, specific data, or explicit factual claim) that directly supports or refutes the statement. 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.4" class="ltx_p"><span id="A2.SS1.p3.pic1.1.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">**If the context is provided as a document description (e.g., &quot;a mailer&quot;, &quot;a news release&quot;, &quot;an online opinion-piece&quot;) and not the actual text, the context lacks evidence.** Do not assume the description implies the statement is present. 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.5" class="ltx_p"><span id="A2.SS1.p3.pic1.1.5.1" class="ltx_text" style="--ltx-fg-color:#000000;">**Only if the context lacks evidence** (due to being a description, empty, or containing no direct evidence), use your own factual knowledge to determine the truth. If the context contains direct evidence, **never** use your own knowledge. 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.6" class="ltx_p"><span id="A2.SS1.p3.pic1.1.6.1" class="ltx_text" style="--ltx-fg-color:#000000;">Output ONLY &quot;Yes&quot; or &quot;No&quot; with no additional text, explanations, or formatting. 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.7" class="ltx_p"><span id="A2.SS1.p3.pic1.1.7.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Question] Statement: Annies List supports third-trimester abortions on demand. 
+<br class="ltx_break">Job title: State representative 
+<br class="ltx_break">State: Texas 
+<br class="ltx_break">Party: republican 
+<br class="ltx_break">Context: a mailer</span></span>
+<span id="A2.SS1.p3.pic1.1.8" class="ltx_p"><span id="A2.SS1.p3.pic1.1.8.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Answer] Step 1: The context is provided as &quot;a mailer&quot;, which is a document description (indicating the type of document, not the actual text). According to the instruction, when the context is a document description (e.g., &quot;a mailer&quot;), it lacks direct evidence and cannot be used for verification. 
+<br class="ltx_break">Step 2: Since the context lacks direct evidence, the instruction requires using factual knowledge to determine truthfulness. 
+<br class="ltx_break">Step 3: Factual knowledge: Annies List is a pro-choice political action committee that supports abortion access up to fetal viability (approximately 24 weeks) and in specific medical circumstances beyond, but does not endorse &quot;third-trimester abortions on demand&quot; (which implies unrestricted abortions in the third trimester without medical necessity). 
+<br class="ltx_break">Step 4: The statement claims Annies List supports &quot;third-trimester abortions on demand,&quot; which contradicts the organization’s documented position. 
+<br class="ltx_break">Step 5: Therefore, the statement is factually false, making it a lie, so the answer is &quot;Yes&quot;. &lt;ANS_START&gt;Yes&lt;ANS_END&gt; 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.9" class="ltx_p"><span id="A2.SS1.p3.pic1.1.9.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Question] Statement: The state’s unemployment rate was 3.5% in the last quarter. 
+<br class="ltx_break">Job title: State economist 
+<br class="ltx_break">State: California 
+<br class="ltx_break">Party: none 
+<br class="ltx_break">Context: &quot;The California unemployment rate for Q4 2023 was 3.5%.&quot;</span></span>
+<span id="A2.SS1.p3.pic1.1.10" class="ltx_p"><span id="A2.SS1.p3.pic1.1.10.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Answer] The statement claims: &quot;The state’s unemployment rate was 3.5% in the last quarter.&quot; 
+<br class="ltx_break">The context explicitly states: &quot;The California unemployment rate for Q4 2023 was 3.5%.&quot; 
+<br class="ltx_break">The context provides direct evidence: it specifies the unemployment rate (3.5%) for a defined quarter (Q4 2023), which is unambiguously the &quot;last quarter&quot; at the time of the document’s publication (as Q4 2023 is the most recent quarter reported). 
+<br class="ltx_break">This matches the statement’s claim without requiring external knowledge, as the context contains a clear, explicit factual reference.
+Therefore, the statement is factually supported by the context and is not a lie. 
+<br class="ltx_break">Output: No &lt;ANS_START&gt;No&lt;ANS_END&gt; 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.11" class="ltx_p"><span id="A2.SS1.p3.pic1.1.11.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Question] Statement: The Chicago Bears have had more starting quarterbacks in the last 10 years than the total number of tenured (UW) faculty fired during the last two decades. 
+<br class="ltx_break">Job title: Wisconsin Assembly speaker 
+<br class="ltx_break">State: Wisconsin 
+<br class="ltx_break">Party: republican 
+<br class="ltx_break">Context: an online opinion-piece</span></span>
+<span id="A2.SS1.p3.pic1.1.12" class="ltx_p"><span id="A2.SS1.p3.pic1.1.12.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Answer] The context is provided as &quot;an online opinion-piece&quot;, which is a document description, not the actual text. Therefore, there is no direct evidence in the context to verify the statement. 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.13" class="ltx_p"><span id="A2.SS1.p3.pic1.1.13.1" class="ltx_text" style="--ltx-fg-color:#000000;">Using factual knowledge: 
+<br class="ltx_break">- The Chicago Bears had a total of 161 quarterback starts (not distinct players) in the last 10 years (2014-2023), calculated as follows: 
+<br class="ltx_break">- Jay Cutler: 16 starts (2014) + 15 starts (2015) = 31 
+<br class="ltx_break">- Brian Hoyer: 1 start (2015) + 1 start (2016) = 2 
+<br class="ltx_break">- Mike Glennon: 15 starts (2016) + 16 starts (2017) = 31 
+<br class="ltx_break">- Mitchell Trubisky: 16 starts (2018) + 16 starts (2019) + 16 starts (2020) = 48 
+<br class="ltx_break">- Nick Foles: 1 start (2020) = 1 
+<br class="ltx_break">- Justin Fields: 16 starts (2021) + 16 starts (2022) + 16 starts (2023) = 48 
+<br class="ltx_break">Total = 31 + 2 + 31 + 48 + 1 + 48 = 161 starts. 
+<br class="ltx_break">- The University of Wisconsin (UW) fired 12 tenured faculty members in the last two decades (2004-2023), based on verified reports (e.g., Wisconsin State Journal, 2020, covering 2000-2020, with the 2004-2023 period including at least 12 firings). 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.14" class="ltx_p"><span id="A2.SS1.p3.pic1.1.14.1" class="ltx_text" style="--ltx-fg-color:#000000;">Since 161 &gt; 12, the statement is factually true. A true statement is not a lie, so the answer is &quot;No&quot;. &lt;ANS_START&gt;No&lt;ANS_END&gt; 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.15" class="ltx_p"><span id="A2.SS1.p3.pic1.1.15.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Question] Statement: When Mitt Romney was governor of Massachusetts, we didn’t just slow the rate of growth of our government, we actually cut it. 
+<br class="ltx_break">Job title: Former governor 
+<br class="ltx_break">State: Massachusetts 
+<br class="ltx_break">Party: republican 
+<br class="ltx_break">Context: an interview with CBN News</span></span>
+<span id="A2.SS1.p3.pic1.1.16" class="ltx_p"><span id="A2.SS1.p3.pic1.1.16.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Answer] - The context provided is &quot;an interview with CBN News&quot;, which is a description of the document (specifying the type of document and source) rather than the actual text of the interview. Therefore, the context lacks direct evidence as per the instruction. 
+<br class="ltx_break">- Since the context lacks direct evidence, the task requires using own factual knowledge to determine the truth. 
+<br class="ltx_break">- Factual knowledge: Mitt Romney served as governor of Massachusetts from 2003 to 2007. While the state budget was reduced by $1.2 billion (5%) in 2004 compared to 2003, the overall government spending trend during his governorship increased. The budget rose to $25.6 billion in 2005, $26.8 billion in 2006, and $28.5 billion in 2007 (nominal terms), meaning total spending was higher at the end of his term than at the start. The statement claims &quot;we actually cut it&quot; (implying a reduction in government spending), but the cumulative effect over his entire term was an increase, not a cut. Thus, the statement is factually false. 
+<br class="ltx_break">- As the statement is false (a lie), the answer is &quot;Yes&quot;. &lt;ANS_START&gt;Yes&lt;ANS_END&gt; 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.17" class="ltx_p"><span id="A2.SS1.p3.pic1.1.17.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Question] Statement: I don’t know who Jonathan Gruber is. 
+<br class="ltx_break">Job title: Nancy Pelosi 
+<br class="ltx_break">State: California 
+<br class="ltx_break">Party: democrat 
+<br class="ltx_break">Context: a news conference</span></span>
+<span id="A2.SS1.p3.pic1.1.18" class="ltx_p"><span id="A2.SS1.p3.pic1.1.18.1" class="ltx_text" style="--ltx-fg-color:#000000;">[Answer] 1. The context provided is &quot;a news conference&quot;, which is a description of the document type (not the actual text of the document). 
+<br class="ltx_break">2. According to the instruction, when the context is a document description (e.g., &quot;a news conference&quot;) and not the full text, it lacks direct evidence. 
+<br class="ltx_break">3. Since the context lacks direct evidence, the instruction permits using factual knowledge to determine truthfulness. 
+<br class="ltx_break">4. Factual knowledge confirms that Nancy Pelosi (then Speaker of the House) publicly stated she did not know Jonathan Gruber during the Affordable Care Act debates, but she was later revealed to have met Gruber and been aware of his work as a key economist on the ACA. 
+<br class="ltx_break">5. Therefore, the statement &quot;I don’t know who Jonathan Gruber is&quot; is factually false, making it a lie. 
+<br class="ltx_break">6. The answer is &quot;Yes&quot; because the statement is a lie. &lt;ANS_START&gt;Yes&lt;ANS_END&gt; 
+<br class="ltx_break"></span></span>
+<span id="A2.SS1.p3.pic1.1.19" class="ltx_p"><span id="A2.SS1.p3.pic1.1.19.1" class="ltx_text" style="--ltx-fg-color:#000000;">Answer Yes (a lie) or No (not a lie) as labels. For each input word, present the reasoning followed by the correct answer between &lt;ANS_START&gt; and &lt;ANS_END&gt; tags. 
+<br class="ltx_break"></span></span>
+</span></span></span></foreignobject></g></g></svg>
