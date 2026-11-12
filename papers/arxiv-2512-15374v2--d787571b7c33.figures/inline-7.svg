@@ -1,0 +1,32 @@
+<svg id="A6.SS2.p2.pic1" class="ltx_picture" height="536.69" overflow="visible" version="1.1" viewbox="0 0 550 536.69" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,536.69) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 530.78 C 0 534.04 2.64 536.69 5.91 536.69 L 544.09 536.69 C 547.36 536.69 550 534.04 550 530.78 L 550 5.91 C 550 2.64 547.36 0 544.09 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 512.58 L 548.03 512.58 L 548.03 5.91 C 548.03 3.73 546.27 1.97 544.09 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 521.17)"><foreignobject style="--ltx-fo-width:36.62em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="506.72"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.SS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.62em;">
+<span id="A6.SS2.p2.pic1.1.1" class="ltx_p"><span id="A6.SS2.p2.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">Classifier Prompt</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 17.24)"><foreignobject style="--ltx-fo-width:36.62em;--ltx-fo-height:34.94em;--ltx-fo-depth:0.25em;font-size:10pt;" height="486.99" overflow="visible" transform="matrix(1 0 0 -1 0 483.53)" width="506.72"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.SS2.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.62em;">
+<span id="A6.SS2.p2.pic1.2.1" class="ltx_p"><span id="A6.SS2.p2.pic1.2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">You are a rule classifier. Analyze the proposed update and determine:<span id="A6.SS2.p2.pic1.2.1.1.1" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break">
+<br class="ltx_break"></span>1. **Is it a DUPLICATE/REDUNDANT?** Check if it’s already covered by existing strategic or tactical rules.<span id="A6.SS2.p2.pic1.2.1.1.2" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>2. **What is its SCOPE?**<span id="A6.SS2.p2.pic1.2.1.1.3" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> - STRATEGIC: General best practice that applies across different tasks (<span id="A6.SS2.p2.pic1.2.1.1.4" class="ltx_text ltx_font_italic">e.g.</span>, &quot;Always validate inputs&quot;, &quot;Use batch operations when possible&quot;)<span id="A6.SS2.p2.pic1.2.1.1.5" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> - TACTICAL: Task-specific constraint for current task only (<span id="A6.SS2.p2.pic1.2.1.1.6" class="ltx_text ltx_font_italic">e.g.</span>, &quot;This dataset has missing values in column X&quot;, &quot;API rate limit is 100/min&quot;)<span id="A6.SS2.p2.pic1.2.1.1.7" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>3. **Refined CONFIDENCE**: Assess confidence (0.0-1.0) based on how actionable and useful this rule is.<span id="A6.SS2.p2.pic1.2.1.1.8" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>4. **DOMAIN**: If strategic, you MUST categorize it into ONE of the following allowed domains: {allowed_domains}<span id="A6.SS2.p2.pic1.2.1.1.9" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break">
+<br class="ltx_break"></span>=== PROPOSED UPDATE ===<span id="A6.SS2.p2.pic1.2.1.1.10" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>Update: {update_text}<span id="A6.SS2.p2.pic1.2.1.1.11" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>Rationale: {rationale}<span id="A6.SS2.p2.pic1.2.1.1.12" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>Initial Confidence: {initial_confidence}<span id="A6.SS2.p2.pic1.2.1.1.13" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break">
+<br class="ltx_break"></span>{all_rules_context}<span id="A6.SS2.p2.pic1.2.1.1.14" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break">
+<br class="ltx_break"></span>=== YOUR ANALYSIS ===<span id="A6.SS2.p2.pic1.2.1.1.15" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>Respond in JSON format:<span id="A6.SS2.p2.pic1.2.1.1.16" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>{{<span id="A6.SS2.p2.pic1.2.1.1.17" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> &quot;is_duplicate&quot;: true/false,<span id="A6.SS2.p2.pic1.2.1.1.18" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> &quot;scope&quot;: &quot;strategic&quot; or &quot;tactical&quot;,<span id="A6.SS2.p2.pic1.2.1.1.19" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> &quot;confidence&quot;: 0.0-1.0,<span id="A6.SS2.p2.pic1.2.1.1.20" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> &quot;domain&quot;: &quot;domain_name&quot; (only if scope is strategic, otherwise &quot;&quot;),<span id="A6.SS2.p2.pic1.2.1.1.21" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span> &quot;reason&quot;: &quot;Brief explanation of your classification&quot;<span id="A6.SS2.p2.pic1.2.1.1.22" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span>}}<span id="A6.SS2.p2.pic1.2.1.1.23" class="ltx_text ltx_font_serif">
+</span></span></span>
+</span></span></span></foreignobject></g></g></svg>
