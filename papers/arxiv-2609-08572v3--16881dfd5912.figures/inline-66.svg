@@ -1,0 +1,116 @@
+<svg id="A2.SS2.p1.pic1" class="ltx_picture" height="540.09" overflow="visible" version="1.1" viewbox="0 0 477.38 540.09" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,540.09) matrix(1 0 0 -1 0 0)"><clippath id="pgfcp78"><path d="M -22670.54 -22670.54 L 22670.54 -22670.54 L 22670.54 22670.54 L -22670.54 22670.54 Z M 0 0.55 L 0 539.54 C 0 539.84 0.25 540.09 0.55 540.09 L 476.82 540.09 C 477.13 540.09 477.38 539.84 477.38 539.54 L 477.38 0.55 C 477.38 0.25 477.13 0 476.82 0 L 0.55 0 C 0.25 0 0 0.25 0 0.55 Z" /></clippath><g fill-rule="evenodd"><g style="--ltx-fill-color:#8C8C8C;" fill="#8C8C8C" fill-opacity="1.0"><path style="stroke:none" d="M 0 0.55 L 0 539.54 C 0 539.84 0.25 540.09 0.55 540.09 L 476.82 540.09 C 477.13 540.09 477.38 539.84 477.38 539.54 L 477.38 0.55 C 477.38 0.25 477.13 0 476.82 0 L 0.55 0 C 0.25 0 0 0.25 0 0.55 Z M 0.55 0.55 L 0.55 539.54 L 476.82 539.54 L 476.82 0.55 Z" /></g><g style="--ltx-fill-color:#FAFEFC;" fill="#FAFEFC" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 0.55 L 0.55 539.54 L 476.82 539.54 L 476.82 0.55 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 10.03 10.79)"><foreignobject style="--ltx-fo-width:44.97em;--ltx-fo-height:37.63em;--ltx-fo-depth:0.16em;font-size:10pt;" height="522.81" overflow="visible" transform="matrix(1 0 0 -1 0 520.66)" width="622.26"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS2.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.97em;">
+<span id="A2.SS2.p1.pic1.1.1" class="ltx_p"><span id="A2.SS2.p1.pic1.1.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.1.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.1.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.1.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p1.1" class="ltx_p">You are analyzing how to improve the prompt of an AI agent in a multi-agent reasoning system.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.2" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.2.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.2.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.2.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p2.1" class="ltx_p">The agent produced an incorrect output for the given input and prompt. However, we know the correct output that the agent should have produced.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.3" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.3.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.3.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.3.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p3.1" class="ltx_p">Your goal is to analyze the difference between the wrong output and the correct output, and extract a detailed prompt update direction that would help the agent produce the correct behavior in the future.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.4" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS2.p1.pic1.1.5" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p5.1" class="ltx_p">You are given:</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.6" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p6.1" class="ltx_p">- Current Prompt: The current prompt of the agent.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.7" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p7.1" class="ltx_p">- Agent Input: The input that was provided to the agent.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.8" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p8.1" class="ltx_p">- Wrong Output: The output generated by the agent using the current prompt.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.9" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p9.1" class="ltx_p">- Correct Output: The output that the agent should have produced.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.10" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS2.p1.pic1.1.11" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.11.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p11.1" class="ltx_p">Your task is to carefully analyze the behavioral difference and extract a detailed prompt update direction.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.12" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS2.p1.pic1.1.13" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p13.1" class="ltx_p">Steps:</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.14" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p14.1" class="ltx_p">1. Identify the key mistake in the wrong output.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.15" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p15.1" class="ltx_p">   Explain what the agent did incorrectly.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.16" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.16.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p16.1" class="ltx_p">2. Compare the wrong output and the correct output.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.17" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p17.1" class="ltx_p">   Identify what reasoning step, constraint, or behavior is missing.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.18" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p18.1" class="ltx_p">3. Infer what instruction is missing or unclear in the current prompt.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.19" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.19.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.19.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.19.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p19.1" class="ltx_p">4. Propose a detailed update direction that should be added to the agent’s current prompt to prevent this type of mistake.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.20" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.20.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.20.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.20.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p20.1" class="ltx_p">   The update direction should not ignore the current prompt, but instead build upon it by extending or refining its content.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.21" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS2.p1.pic1.1.22" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p22.1" class="ltx_p">Important Guidelines:</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.23" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p23.1" class="ltx_p">- Focus on the behavioral difference between the wrong output and the correct output.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.24" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p24.1" class="ltx_p">- The update direction should describe how the prompt should guide the agent differently.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.25" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p25.1" class="ltx_p">- Be specific about what reasoning or behavior the prompt should enforce.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.26" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p26.1" class="ltx_p">- Do NOT reference specific entities or facts from this example unless necessary.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.27" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p27.1" class="ltx_p">- Write the update direction as a general instruction that could help in similar cases.</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.28" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS2.p1.pic1.1.29" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p29.1" class="ltx_p">Output format:</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.30" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p30.1" class="ltx_p">Failure Analysis: Explain the mistake made by the agent</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.31" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.31.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.31.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS2.p1.pic1.1.31.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p31.1" class="ltx_p">Behavioral Gap: Explain what behavior exists in the correct output but not in the wrong output</span>
+</span></span></span></span>
+<span id="A2.SS2.p1.pic1.1.32" class="ltx_p" style="width:330.5pt;"><span id="A2.SS2.p1.pic1.1.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS2.p1.pic1.1.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS2.p1.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A2.SS2.p1.pic1.p32.1" class="ltx_p">Update Direction: Detailed prompt update direction</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></g></svg>

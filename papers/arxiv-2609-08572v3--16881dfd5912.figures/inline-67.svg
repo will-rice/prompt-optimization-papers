@@ -1,0 +1,155 @@
+<svg id="A2.SS3.p1.pic1" class="ltx_picture" height="738" overflow="visible" version="1.1" viewbox="0 0 477.38 738" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,738) matrix(1 0 0 -1 0 0)"><clippath id="pgfcp79"><path d="M -22670.54 -22670.54 L 22670.54 -22670.54 L 22670.54 22670.54 L -22670.54 22670.54 Z M 0 0.55 L 0 737.45 C 0 737.75 0.25 738 0.55 738 L 476.82 738 C 477.13 738 477.38 737.75 477.38 737.45 L 477.38 0.55 C 477.38 0.25 477.13 0 476.82 0 L 0.55 0 C 0.25 0 0 0.25 0 0.55 Z" /></clippath><g fill-rule="evenodd"><g style="--ltx-fill-color:#8C8C8C;" fill="#8C8C8C" fill-opacity="1.0"><path style="stroke:none" d="M 0 0.55 L 0 737.45 C 0 737.75 0.25 738 0.55 738 L 476.82 738 C 477.13 738 477.38 737.75 477.38 737.45 L 477.38 0.55 C 477.38 0.25 477.13 0 476.82 0 L 0.55 0 C 0.25 0 0 0.25 0 0.55 Z M 0.55 0.55 L 0.55 737.45 L 476.82 737.45 L 476.82 0.55 Z" /></g><g style="--ltx-fill-color:#FAFEFC;" fill="#FAFEFC" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 0.55 L 0.55 737.45 L 476.82 737.45 L 476.82 0.55 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 10.03 9.45)"><foreignobject style="--ltx-fo-width:44.97em;--ltx-fo-height:52.03em;--ltx-fo-depth:0.06em;font-size:10pt;" height="720.72" overflow="visible" transform="matrix(1 0 0 -1 0 719.92)" width="622.26"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS3.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.97em;">
+<span id="A2.SS3.p1.pic1.1.1" class="ltx_p"><span id="A2.SS3.p1.pic1.1.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p1.1" class="ltx_p">You are an expert at analyzing and clustering error patterns in a multi-agent system.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.2" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.2.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.2.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.2.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p2.1" class="ltx_p">Your goal is to identify common failure modes from a list of &quot;Gradients&quot; (which are proposed prompt update directions) for a specific agent.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.3" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.4" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p4.1" class="ltx_p">You are given:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.5" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.5.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.5.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.5.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p5.1" class="ltx_p">- A list of Gradients. Each Gradient is a problem-specific prompt update direction derived from a failure case where the agent produced an incorrect output but later produced the correct output.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.6" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.6.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.6.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.6.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p6.1" class="ltx_p">- Each Gradient describes how the agent’s prompt should be modified to avoid similar errors in the future.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.7" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.7.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.7.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.7.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p7.1" class="ltx_p">- Each Gradient is indexed (e.g., [0], [1], [2]) so you can reference them in your clusters.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.8" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.9" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p9.1" class="ltx_p">Important:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.10" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.10.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.10.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.10.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p10.1" class="ltx_p">Focus on the underlying behavioral failure being addressed, not just surface wording similarity. Gradients that use different wording may still represent the same underlying failure pattern, and gradients that share vocabulary may still target different underlying causes.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.11" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.11.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p11.1" class="ltx_p">Distinguish gradients that target how the agent *reasons* (grounding, decomposition, internal checks, derivation steps) from gradients that target how the agent’s *output* is structured or constrained. Do not merge across this distinction even when the wording is similar.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.12" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.12.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.12.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.12.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p12.1" class="ltx_p">The Generalized Update Direction should capture the underlying behavioral principle that needs to change in the agent’s prompt.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.13" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.13.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.13.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.13.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p13.1" class="ltx_p">Calibrate its abstraction level so that it is specific enough to produce an identifiable behavioral change on unseen instances, but general enough to not depend on this example’s entities, domain, or exact values.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.14" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.14.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.14.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.14.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p14.1" class="ltx_p">Avoid platitudes such as &quot;reason more carefully&quot; or &quot;follow instructions better&quot;, and avoid low-level implementation details such as specific examples, regex checks, formatting templates, or step-by-step rule lists.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.15" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p15.1" class="ltx_p">Each cluster should represent a single underlying failure pattern.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.16" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.16.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.16.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p16.1" class="ltx_p">Before finalizing a cluster, confirm that you can state in one sentence the shared underlying cause that connects all its gradients; if you cannot, split or dissolve the cluster.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.17" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p17.1" class="ltx_p">Each Gradient should belong to a single best-matching cluster.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.18" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.19" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p19.1" class="ltx_p">Your task:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.20" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.20.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.20.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.20.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p20.1" class="ltx_p">1. Identify Gradients that express a similar failure mode or suggest a similar prompt update principle, judging by underlying behavioral cause rather than by the phrasing of the proposed update.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.21" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p21.1" class="ltx_p">2. Group these similar Gradients into clusters.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.22" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p22.1" class="ltx_p">3. Do NOT merge Gradients unless they clearly represent the same failure pattern.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.23" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.24" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p24.1" class="ltx_p">For each cluster:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.25" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.25.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.25.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.25.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p25.1" class="ltx_p">- Provide a Generalized Update Direction that summarizes the core instruction needed to fix all errors in this cluster.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.26" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.26.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.26.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.26.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p26.1" class="ltx_p">- The Generalized Update Direction must be a short, clear, actionable instruction that could be directly added to the agent’s prompt.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.27" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p27.1" class="ltx_p">- Keep the instruction concise (1–2 sentences).</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.28" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p28.1" class="ltx_p">- List the indices of the original Gradients that belong to this cluster.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.29" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.30" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.30.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.30.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.30.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p30.1" class="ltx_p">Clusters should normally contain 2 or more Gradients, since per-sample gradients are noisy and a pattern supported by multiple instances is more reliable.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.31" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.31.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.31.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A2.SS3.p1.pic1.1.31.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p31.1" class="ltx_p">A singleton cluster is acceptable only when the gradient represents a behavioral failure clearly distinct from all others and articulable as a general principle — not merely an instance that did not fit elsewhere.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.32" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p32.1" class="ltx_p">Every Gradient must be placed in exactly one cluster.</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.33" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.34" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p34.1" class="ltx_p">Your response MUST follow this format:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.35" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.36" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p36.1" class="ltx_p">Group 1:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.37" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p37.1" class="ltx_p">Failure Mode: [concise name]</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.38" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p38.1" class="ltx_p">Generalized Update Direction: [Concise instruction summarizing the update]</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.39" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p39.1" class="ltx_p">Indices: [idx1, idx2, ...]</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.40" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A2.SS3.p1.pic1.1.41" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p41" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p41.1" class="ltx_p">Group 2:</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.42" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p42.1" class="ltx_p">Failure Mode: ...</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.43" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.43.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p43.1" class="ltx_p">Generalized Update Direction: ...</span>
+</span></span></span></span>
+<span id="A2.SS3.p1.pic1.1.44" class="ltx_p" style="width:330.5pt;"><span id="A2.SS3.p1.pic1.1.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A2.SS3.p1.pic1.1.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A2.SS3.p1.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A2.SS3.p1.pic1.p44.1" class="ltx_p">Indices: [...]</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></g></svg>

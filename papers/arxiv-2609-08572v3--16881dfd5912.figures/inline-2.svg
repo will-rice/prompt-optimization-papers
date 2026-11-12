@@ -1,0 +1,142 @@
+<svg id="A1.SS1.p5.pic1" class="ltx_picture" height="673.79" overflow="visible" version="1.1" viewbox="0 0 477.38 673.79" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,673.79) matrix(1 0 0 -1 0 0)"><clippath id="pgfcp14"><path d="M -22670.54 -22670.54 L 22670.54 -22670.54 L 22670.54 22670.54 L -22670.54 22670.54 Z M 0 0.55 L 0 673.23 C 0 673.54 0.25 673.79 0.55 673.79 L 476.82 673.79 C 477.13 673.79 477.38 673.54 477.38 673.23 L 477.38 0.55 C 477.38 0.25 477.13 0 476.82 0 L 0.55 0 C 0.25 0 0 0.25 0 0.55 Z" /></clippath><g fill-rule="evenodd"><g style="--ltx-fill-color:#8C8C8C;" fill="#8C8C8C" fill-opacity="1.0"><path style="stroke:none" d="M 0 0.55 L 0 673.23 C 0 673.54 0.25 673.79 0.55 673.79 L 476.82 673.79 C 477.13 673.79 477.38 673.54 477.38 673.23 L 477.38 0.55 C 477.38 0.25 477.13 0 476.82 0 L 0.55 0 C 0.25 0 0 0.25 0 0.55 Z M 0.55 0.55 L 0.55 673.23 L 476.82 673.23 L 476.82 0.55 Z" /></g><g style="--ltx-fill-color:#F9FDFE;" fill="#F9FDFE" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 0.55 L 0.55 673.23 L 476.82 673.23 L 476.82 0.55 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 10.03 10.79)"><foreignobject style="--ltx-fo-width:44.97em;--ltx-fo-height:47.29em;--ltx-fo-depth:0.16em;font-size:10pt;" height="656.51" overflow="visible" transform="matrix(1 0 0 -1 0 654.36)" width="622.26"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS1.p5.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.97em;">
+<span id="A1.SS1.p5.pic1.1.1" class="ltx_p"><span id="A1.SS1.p5.pic1.1.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.1.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.1.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.1.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p1.1" class="ltx_p">Given inputs question (string) and passages (list of strings), produce a single textual output to populate the field &quot;summary&quot;. The &quot;summary&quot; output must include the following labeled sections and follow these rules exactly.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.2" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.3" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p3.1" class="ltx_p">1) Format</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.4" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p4.1" class="ltx_p">- Begin with: [[ ## reasoning ## ]]</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.5" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p5.1" class="ltx_p">- End the reasoning block and then include: [[ ## summary ## ]]</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.6" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p6.1" class="ltx_p">- The final output may optionally end with: [[ ## completed ## ]]</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.7" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.8" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p8.1" class="ltx_p">2) Reasoning section (required)</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.9" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p9.1" class="ltx_p">- For each passage i, include a concise mapping that:</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.10" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.10.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.10.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.10.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p10.1" class="ltx_p">  - Quotes or paraphrases the exact supporting text from Passage [i] (use quotation marks or exact substring).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.11" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.11.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p11.1" class="ltx_p">  - Explicitly maps each quoted fact to the entity and scope it supports (e.g., &quot;Passage [3] → ENTITY: Dan Boren; SCOPE: biographical birth date&quot;; or &quot;Passage [1] → ENTITY: Ilha (Santana); SCOPE: parish-level population 2011&quot;).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.12" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.12.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.12.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.12.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p12.1" class="ltx_p">  - If a passage contains only lower-level, local, or different-scope facts that are NOT sufficient to answer the question (e.g., parish populations when the question asks for archipelago total), explicitly state that and refuse to treat them as the final answer.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.13" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.14" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.14.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.14.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.14.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p14.1" class="ltx_p">- After mapping passages, state whether the exact target fact required by the question is present in the provided passages:</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.15" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.15.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.15.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.15.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p15.1" class="ltx_p">  - If present: identify the exact sentence(s) and supporting-text pattern matched (literal pattern required, e.g., &quot;ENTITY_NAME (born &lt;date&gt;)&quot; or &quot;The population in 2011 was &lt;number&gt;&quot;). Cite passage indices that contain that exact supporting text.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.16" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.16.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.16.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p16.1" class="ltx_p">  - If not present: explain precisely which fact is missing and why the existing passage facts are insufficient (cite passage indices).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.17" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.18" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.18.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.18.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.18.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p18.1" class="ltx_p">3) If missing: prioritized next-hop retrieval plan (required when exact supporting text is absent)</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.19" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.19.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.19.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.19.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p19.1" class="ltx_p">- Name the target entity to retrieve (canonical/title-first form) and give one-sentence rationale linking it to the question (use the bridging passage index).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.20" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.20.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.20.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.20.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p20.1" class="ltx_p">- Provide at least three disambiguating short query variants (each a short search phrase). At least one variant must begin with the canonical/title-first suggestion. Include scope/context tokens (e.g., &quot;birth date&quot;, &quot;2011 population&quot;, &quot;archipelago&quot;, &quot;U.S. Representative&quot;, &quot;politician&quot;, location).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.21" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.21.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.21.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.21.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p21.1" class="ltx_p">- Specify the exact supporting-text pattern required from the retrieved document that will permit a final answer (literal pattern, e.g., &quot;Dan Boren (born &lt;date&gt;)&quot;, or &quot;The population of Madeira in 2011 was &lt;number&gt;&quot;, or &quot;X (born YYYY-MM-DD)&quot;).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.22" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.22.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.22.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.22.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p22.1" class="ltx_p">- Provide the exact bridging phrase(s) the follow-up query should include to connect current passages to the target (e.g., &quot;Dan Boren&quot; + &quot;Oklahoma’s 2nd Congressional District&quot; or &quot;Ilha (Santana) → Madeira&quot;).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.23" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.23.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.23.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.23.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p23.1" class="ltx_p">- Include a short reasoning subsection that cites the passage indices showing why a second hop is needed (one or two sentences).</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.24" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.25" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p25.1" class="ltx_p">4) If present: final-answer extraction</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.26" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p26.1" class="ltx_p">- Extract the final answer verbatim from the supporting sentence(s) in the passages.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.27" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p27.1" class="ltx_p">- State the exact supporting-text pattern matched.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.28" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p28.1" class="ltx_p">- Cite the passage index(es) that contain the supporting text.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.29" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.30" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p30.1" class="ltx_p">5) Summary section (one line)</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.31" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p31.1" class="ltx_p">- Provide a one-line summary that is either:</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.32" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p32.1" class="ltx_p">  - The cited answer followed by its supporting passage index(es), OR</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.33" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.33.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.33.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.33.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p33.1" class="ltx_p">  - A concise retrieval plan statement that names the target entity and says &quot;retrieve [target]&quot; (and optionally lists the top query variant), if a second hop is needed.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.34" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p34.1" class="ltx_p">- Do not include any new facts not present in the passages or the retrieval plan.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.35" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:330.5pt;"></span></span></span>
+<span id="A1.SS1.p5.pic1.1.36" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p36.1" class="ltx_p">6) Constraints and behavior</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.37" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.37.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.37.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.37.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p37.1" class="ltx_p">- Never answer from memory. If the exact required supporting text is not in the provided passages, do not invent or guess an answer—emit the retrieval plan described above.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.38" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p38.1" class="ltx_p">- Be concise and prioritized: when providing query variants, order them by priority.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.39" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p39.1" class="ltx_p">- Always include passage indices in reasoning to justify conclusions.</span>
+</span></span></span></span>
+<span id="A1.SS1.p5.pic1.1.40" class="ltx_p" style="width:330.5pt;"><span id="A1.SS1.p5.pic1.1.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:70%;width:330.5pt;--ltx-fg-color:#000000;"><span id="A1.SS1.p5.pic1.1.40.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.40.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS1.p5.pic1.1.40.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:330.5pt;">
+<span id="A1.SS1.p5.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A1.SS1.p5.pic1.p40.1" class="ltx_p">- Generalize this behavior to any question type (dates, populations, roles, totals, comparisons, etc.).</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></g></svg>

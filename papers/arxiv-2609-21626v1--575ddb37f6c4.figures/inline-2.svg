@@ -1,0 +1,23 @@
+<svg id="A4.F5.pic1" class="ltx_picture" height="349.91" overflow="visible" version="1.1" viewbox="0 0 653.15 349.91" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,349.91) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#404040;" fill="#404040" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 344.01 C 0 347.27 2.64 349.91 5.91 349.91 L 647.24 349.91 C 650.51 349.91 653.15 347.27 653.15 344.01 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 344.01 C 1.97 346.18 3.73 347.94 5.91 347.94 L 647.24 347.94 C 649.42 347.94 651.18 346.18 651.18 344.01 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 10.06 10.06)"><foreignobject style="--ltx-fo-width:43.57em;--ltx-fo-height:23.83em;--ltx-fo-depth:0em;font-size:10pt;" height="329.8" overflow="visible" transform="matrix(1 0 0 -1 0 329.8)" width="602.89"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A4.F5.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:43.57em;">
+<span id="A4.F5.pic1.1.1" class="ltx_p"><span id="A4.F5.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Initial extraction prompt (abridged)
+<br class="ltx_break"></span></span>
+<span id="A4.F5.pic1.1.2" class="ltx_p"><span id="A4.F5.pic1.1.2.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">You are an expert analyst tasked with extracting the current user’s project names and tasks. Read the provided enterprise artifacts and output exactly one valid JSON object that matches the schema below. Output JSON only.
+<br class="ltx_break">
+<br class="ltx_break">## Objectives
+<br class="ltx_break">- Identify projects the user actively works on and extract relevant tasks.
+<br class="ltx_break">- Preserve exact project names from the artifacts.
+<br class="ltx_break">- Rank projects by relevance based on ownership, urgency, recency, and leadership signals.
+<br class="ltx_break">
+<br class="ltx_break">## Citing Sources
+<br class="ltx_break">- Cite evidence using <span id="A4.F5.pic1.1.2.1.1" class="ltx_text" style="--ltx-fg-color:#0000FF;">{cursor}<math id="A4.F5.pic1.m1" class="ltx_Math" alttext="\dagger" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#0000FF;" mathcolor="#0000FF">†</mo><annotation encoding="application/x-tex">\dagger</annotation></semantics></math>L{line_start}(-L{line_end})?</span>.
+<br class="ltx_break">- Include at least one citation for every project and task.
+<br class="ltx_break">
+<br class="ltx_break">## Project Identity Gate
+<br class="ltx_break">Tier-A: user involvement plus stable identity in <math id="A4.F5.pic1.m2" class="ltx_Math" alttext="\geq" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">≥</mo><annotation encoding="application/x-tex">\geq</annotation></semantics></math>2 artifacts within 30 days.
+<br class="ltx_break">Tier-B: one strong anchor authored/owned by the user within 14 days plus one weak corroborator.
+<br class="ltx_break">
+<br class="ltx_break">## JSON Output Contract
+<br class="ltx_break">- Return exactly one JSON object; double-quoted keys/values; no trailing commas; no markdown.
+<br class="ltx_break"></span></span>
+</span></span></span></foreignobject></g></g></svg>
