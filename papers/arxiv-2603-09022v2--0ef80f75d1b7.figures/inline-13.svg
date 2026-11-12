@@ -1,0 +1,24 @@
+<svg id="A7.F18.pic1" class="ltx_picture ltx_centering" height="191.39" overflow="visible" version="1.1" viewbox="0 0 626.77 191.39" width="626.77"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,191.39) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#9999FF;" fill="#9999FF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 170.52 C 0 173.79 2.64 176.43 5.91 176.43 L 620.87 176.43 C 624.13 176.43 626.77 173.79 626.77 170.52 L 626.77 5.91 C 626.77 2.64 624.13 0 620.87 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2FF;" fill="#F2F2FF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 170.52 C 1.97 172.7 3.73 174.46 5.91 174.46 L 620.87 174.46 C 623.04 174.46 624.8 172.7 624.8 170.52 L 624.8 5.91 C 624.8 3.73 623.04 1.97 620.87 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g transform="matrix(1.0 0.0 0.0 1.0 210.84 168.56)"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" class="ltx_nestedsvg" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="matrix(1 0 0 1 0 0)"><g style="--ltx-fill-color:#9999FF;" fill="#9999FF" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.53 L 0 18.3 C 0 20.8 2.03 22.83 4.53 22.83 L 200.56 22.83 C 203.06 22.83 205.08 20.8 205.08 18.3 L 205.08 4.53 C 205.08 2.03 203.06 0 200.56 0 L 4.53 0 C 2.03 0 0 2.03 0 4.53 Z" /></g><g style="--ltx-fill-color:#9999FF;" fill="#9999FF" fill-opacity="1.0"><path style="stroke:none" d="M 1.57 4.53 L 1.57 18.3 C 1.57 19.93 2.9 21.26 4.53 21.26 L 200.56 21.26 C 202.19 21.26 203.51 19.93 203.51 18.3 L 203.51 4.53 C 203.51 2.9 202.19 1.57 200.56 1.57 L 4.53 1.57 C 2.9 1.57 1.57 2.9 1.57 4.53 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.39 8.65)"><foreignobject style="--ltx-fo-width:15.16em;--ltx-fo-height:0.65em;--ltx-fo-depth:0.18em;font-size:8.5pt;" height="9.84" overflow="visible" transform="matrix(1 0 0 -1 0 7.69)" width="178.32"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A7.F18.pic1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#FFFFFF;">SimpleTak Game Starting Prompt</span></span></span></foreignobject></g></g></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 8.27 11.04)"><foreignobject style="--ltx-fo-width:51.88em;--ltx-fo-height:11.36em;--ltx-fo-depth:0.2em;font-size:10pt;" height="159.9" overflow="visible" transform="matrix(1 0 0 -1 0 157.13)" width="717.87"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.F18.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:51.88em;">
+<span id="A7.F18.pic1.2.1" class="ltx_p"><span id="A7.F18.pic1.2.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">You are Player 0 in SimpleTak.
+<br class="ltx_break">On the board, your stones appear as ’O’ and your opponent’s stones appear as ’X’.
+<br class="ltx_break"></span></span>
+<span id="A7.F18.pic1.2.2" class="ltx_p"><span id="A7.F18.pic1.2.2.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">On your turn, choose one empty cell (by its numbered index) and place your stone there.
+For example, ’[12]’ places your stone in cell 12.
+<br class="ltx_break"></span></span>
+<span id="A7.F18.pic1.2.3" class="ltx_p"><span id="A7.F18.pic1.2.3.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Your objective is to form a continuous path of your stones that connects two opposite edges of the board (top-to-bottom or left-to-right).
+<br class="ltx_break"></span></span>
+<span id="A7.F18.pic1.2.4" class="ltx_p"><span id="A7.F18.pic1.2.4.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Current Board:
+<br class="ltx_break"></span></span><pre id="A7.F18.pic1.2.5" class="ltx_verbatim ltx_font_typewriter" style="font-size:80%;--ltx-fg-color:#000000;">+----+----+----+----+
+| 0  | 1  | 2  | 3  |
++----+----+----+----+
+| 4  | 5  | 6  | 7  |
++----+----+----+----+
+| 8  | 9  | 10 | 11 |
++----+----+----+----+
+| 12 | 13 | 14 | 15 |
++----+----+----+----+
+</pre>
+<span id="A7.F18.pic1.2.6" class="ltx_p"><span id="A7.F18.pic1.2.6.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Available Moves: [0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15]
+<br class="ltx_break"></span></span>
+</span></span></span></foreignobject></g></g></svg>

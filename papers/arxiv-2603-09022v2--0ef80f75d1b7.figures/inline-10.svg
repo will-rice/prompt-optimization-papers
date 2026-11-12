@@ -1,0 +1,24 @@
+<svg id="A7.F15.pic1" class="ltx_picture ltx_centering" height="573.29" overflow="visible" version="1.1" viewbox="0 0 626.77 573.29" width="626.77"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,573.29) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#9999FF;" fill="#9999FF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 552.43 C 0 555.69 2.64 558.33 5.91 558.33 L 620.87 558.33 C 624.13 558.33 626.77 555.69 626.77 552.43 L 626.77 5.91 C 626.77 2.64 624.13 0 620.87 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2FF;" fill="#F2F2FF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 552.43 C 1.97 554.6 3.73 556.36 5.91 556.36 L 620.87 556.36 C 623.04 556.36 624.8 554.6 624.8 552.43 L 624.8 5.91 C 624.8 3.73 623.04 1.97 620.87 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g transform="matrix(1.0 0.0 0.0 1.0 217.91 550.46)"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" class="ltx_nestedsvg" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="matrix(1 0 0 1 0 0)"><g style="--ltx-fill-color:#9999FF;" fill="#9999FF" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.53 L 0 18.3 C 0 20.8 2.03 22.83 4.53 22.83 L 186.41 22.83 C 188.92 22.83 190.94 20.8 190.94 18.3 L 190.94 4.53 C 190.94 2.03 188.92 0 186.41 0 L 4.53 0 C 2.03 0 0 2.03 0 4.53 Z" /></g><g style="--ltx-fill-color:#9999FF;" fill="#9999FF" fill-opacity="1.0"><path style="stroke:none" d="M 1.57 4.53 L 1.57 18.3 C 1.57 19.93 2.9 21.26 4.53 21.26 L 186.41 21.26 C 188.05 21.26 189.37 19.93 189.37 18.3 L 189.37 4.53 C 189.37 2.9 188.05 1.57 186.41 1.57 L 4.53 1.57 C 2.9 1.57 1.57 2.9 1.57 4.53 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.39 8.65)"><foreignobject style="--ltx-fo-width:13.96em;--ltx-fo-height:0.65em;--ltx-fo-depth:0.18em;font-size:8.5pt;" height="9.84" overflow="visible" transform="matrix(1 0 0 -1 0 7.69)" width="164.17"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A7.F15.pic1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#FFFFFF;">Briscola Game Starting Prompt</span></span></span></foreignobject></g></g></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 8.27 11.04)"><foreignobject style="--ltx-fo-width:51.88em;--ltx-fo-height:38.96em;--ltx-fo-depth:0.2em;font-size:10pt;" height="541.8" overflow="visible" transform="matrix(1 0 0 -1 0 539.03)" width="717.87"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.F15.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:51.88em;">
+<span id="A7.F15.pic1.2.1" class="ltx_p"><span id="A7.F15.pic1.2.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">You are playing Briscola - Player 0.
+<br class="ltx_break">Goal: Win tricks and collect the most points (120 total points in the deck).
+<br class="ltx_break">Card Points: A=11, 3=10, K=4, Q=3, J=2, others=0
+<br class="ltx_break">Card Power: A &gt; 3 &gt; K &gt; Q &gt; J &gt; 7 &gt; 6 &gt; 5 &gt; 4 &gt; 2
+<br class="ltx_break">Trump cards beat non-trump cards regardless of power.
+<br class="ltx_break"></span></span>
+<span id="A7.F15.pic1.2.2" class="ltx_p"><span id="A7.F15.pic1.2.2.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Action: ’[play X]’ where X is the position (1-3) of the card in your hand
+<br class="ltx_break"></span></span>
+<span id="A7.F15.pic1.2.3" class="ltx_p"><span id="A7.F15.pic1.2.3.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Briscola game started! Trump suit: ♣ (Trump card: Q♣)
+<br class="ltx_break">Your hand:
+<br class="ltx_break"> 1. J♠ [2 pts]
+<br class="ltx_break"> 2. K♣ [4 pts] (TRUMP)
+<br class="ltx_break"> 3. A♠ [11 pts]
+<br class="ltx_break"></span></span>
+<span id="A7.F15.pic1.2.4" class="ltx_p"><span id="A7.F15.pic1.2.4.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">No cards played yet this trick.
+<br class="ltx_break"></span></span>
+<span id="A7.F15.pic1.2.5" class="ltx_p"><span id="A7.F15.pic1.2.5.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Scores: Player 0: 0 pts | Player 1: 0 pts
+<br class="ltx_break">Trump suit: ♣ | Cards left in deck: 34
+<br class="ltx_break"></span></span>
+<span id="A7.F15.pic1.2.6" class="ltx_p"><span id="A7.F15.pic1.2.6.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Play a card using [play X]
+<br class="ltx_break"></span></span>
+</span></span></span></foreignobject></g></g></svg>
