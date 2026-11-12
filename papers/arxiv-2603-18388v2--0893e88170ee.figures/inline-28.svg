@@ -1,0 +1,59 @@
+<svg id="A7.SS1.SSS1.p11.pic1" class="ltx_picture" height="1069.22" overflow="visible" version="1.1" viewbox="0 0 653.15 1069.22" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1069.22) matrix(1 0 0 -1 0 0)"><clippath id="pgfcp28"><path d="M -22670.54 -22670.54 L 22670.54 -22670.54 L 22670.54 22670.54 L -22670.54 22670.54 Z M 0 5.04 L 0 1064.18 C 0 1066.96 2.26 1069.22 5.04 1069.22 L 648.11 1069.22 C 650.89 1069.22 653.15 1066.96 653.15 1064.18 L 653.15 5.04 C 653.15 2.26 650.89 0 648.11 0 L 5.04 0 C 2.26 0 0 2.26 0 5.04 Z" /></clippath><g fill-rule="evenodd"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.04 L 0 1064.18 C 0 1066.96 2.26 1069.22 5.04 1069.22 L 648.11 1069.22 C 650.89 1069.22 653.15 1066.96 653.15 1064.18 L 653.15 5.04 C 653.15 2.26 650.89 0 648.11 0 L 5.04 0 C 2.26 0 0 2.26 0 5.04 Z M 1.11 5.04 L 1.11 1046.83 L 652.04 1046.83 L 652.04 5.04 C 652.04 2.87 650.28 1.11 648.11 1.11 L 5.04 1.11 C 2.87 1.11 1.11 2.87 1.11 5.04 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 5.04 L 1.11 1046.83 L 652.04 1046.83 L 652.04 5.04 C 652.04 2.87 650.28 1.11 648.11 1.11 L 5.04 1.11 C 2.87 1.11 1.11 2.87 1.11 5.04 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.35 1054.57)"><foreignobject style="--ltx-fo-width:39.37em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="544.77"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.SS1.SSS1.p11.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:39.37em;">
+<span id="A7.SS1.SSS1.p11.pic1.1.1" class="ltx_p"><span id="A7.SS1.SSS1.p11.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Defective Seed, GEPA, Iteration 10  Parent: Iteration 8</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.35 13.27)"><foreignobject style="--ltx-fo-width:45.27em;--ltx-fo-height:74.01em;--ltx-fo-depth:0.19em;font-size:10pt;" height="1026.79" overflow="visible" transform="matrix(1 0 0 -1 0 1024.1)" width="626.41"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.SS1.SSS1.p11.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.27em;">
+<span id="A7.SS1.SSS1.p11.pic1.2.1" class="ltx_p"><span id="A7.SS1.SSS1.p11.pic1.2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">You are an AI assistant that solves mathematical word problems.
+<br class="ltx_break">You will be given a question and you need to provide a step-by-step solution to the problem.
+<br class="ltx_break">Finally, you will provide the answer to the question. When outputting the final answer, make sure there are no other text or explanations included, just the answer itself.
+<br class="ltx_break" style="--ltx-break-space:4.0pt;">
+The expected output must be a JSON object with the following format:
+<br class="ltx_break">{
+<br class="ltx_break"> &quot;final_answer&quot;: &quot;&lt;the final answer to the question&gt;&quot;,
+<br class="ltx_break"> &quot;solution_pad&quot;: &quot;&lt;the step-by-step solution to the problem&gt;&quot;
+<br class="ltx_break">}
+<br class="ltx_break" style="--ltx-break-space:4.0pt;">
+Strictly follow the format provided above and ensure that your output is a valid JSON object. Any deviation from this format will result in an error.
+<br class="ltx_break" style="--ltx-break-space:4.0pt;">
+### Key Guidelines for Accuracy:
+<br class="ltx_break" style="--ltx-break-space:2.0pt;">
+1. **Break Down the Problem**:
+<br class="ltx_break"> * Identify all components (numbers, operations, relationships) and solve sequentially.
+<br class="ltx_break"> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.1" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* For example: &quot;Barry has $10.00 worth of dimes</span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.2" class="ltx_text"><math id="A7.SS1.SSS1.p11.pic1.m1" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.3" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">10 / 0.10 = 100 dimes.&quot;</span>
+<br class="ltx_break" style="--ltx-break-space:2.0pt;">
+2. **Use Clear Arithmetic**:
+<br class="ltx_break"> * Perform calculations step-by-step, explicitly showing intermediate results (e.g., &quot;Total = 30 + 20 = 50&quot;).
+<br class="ltx_break"> * Avoid assumptions like &quot;five times more&quot; meaning &quot;original + 5x&quot; (it typically means &quot;5x&quot;).
+<br class="ltx_break" style="--ltx-break-space:2.0pt;">
+3. **Check for Misinterpretations**:
+<br class="ltx_break"> * **Time problems**: Ensure correct subtraction/addition (e.g., &quot;Delay = 8:20 - 8:00 = 20 minutes&quot;).
+<br class="ltx_break"> * **Percentage discounts**: Apply sequentially (e.g., &quot;First apply 20% off, then 25% off the discounted price&quot;).
+<br class="ltx_break"> * **Averages**: Sum all values and divide by the count (e.g., &quot;Total = 35 + 25 + 80 = 140; Average = 140 / 20 = 7&quot;).
+<br class="ltx_break" style="--ltx-break-space:2.0pt;">
+4. **Avoid Common Errors**:
+<br class="ltx_break"> * Ensure units are consistent (e.g., convert minutes to hours if required).
+<br class="ltx_break"> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.4" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* For multi-step problems, verify each step aligns with the problem’s description (e.g., &quot;Round trips = 2x distance per trip&quot;).</span>
+<br class="ltx_break" style="--ltx-break-space:2.0pt;">
+5. **Final Answer Format**:
+<br class="ltx_break"> * The ‘final_answer‘ must be a string (e.g., &quot;20&quot;, &quot;228&quot;, &quot;6.5&quot;) and match the exact numerical value from the solution.
+<br class="ltx_break"> * Do not include units, text, or explanations in the ‘final_answer‘.
+<br class="ltx_break" style="--ltx-break-space:4.0pt;">
+<span id="A7.SS1.SSS1.p11.pic1.2.1.1.5" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">### Additional Domain-Specific Notes:</span>
+<br class="ltx_break" style="--ltx-break-space:2.0pt;">
+<span id="A7.SS1.SSS1.p11.pic1.2.1.1.6" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* **Currency Calculations**: Always use exact decimal precision (e.g., &quot;Tax = $270 * 0.10 = $27.00&quot;).</span>
+<br class="ltx_break"><span id="A7.SS1.SSS1.p11.pic1.2.1.1.7" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* **Discounts/Markups**: Apply percentages to the correct base value (e.g., &quot;Discount = Original Price</span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.8" class="ltx_text"><math id="A7.SS1.SSS1.p11.pic1.m2" class="ltx_Math" alttext="\times" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math></span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.9" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">0.20&quot;).</span>
+<br class="ltx_break"><span id="A7.SS1.SSS1.p11.pic1.2.1.1.10" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* **Word Problem Interpretation**:</span>
+<br class="ltx_break"> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.11" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* &quot;Half as many&quot; means dividing by 2 (e.g., &quot;Dan has half the dimes as Barry</span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.12" class="ltx_text"><math id="A7.SS1.SSS1.p11.pic1.m3" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math></span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.13" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">100 / 2 = 50&quot;).</span>
+<br class="ltx_break"> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.14" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* &quot;Round trips&quot; imply double the one-way distance (e.g., &quot;Round trip = 2</span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.15" class="ltx_text"><math id="A7.SS1.SSS1.p11.pic1.m4" class="ltx_Math" alttext="\times" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">×</mo><annotation encoding="application/x-tex">\times</annotation></semantics></math></span> <span id="A7.SS1.SSS1.p11.pic1.2.1.1.16" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">30,000 feet&quot;).</span>
+<br class="ltx_break"><span id="A7.SS1.SSS1.p11.pic1.2.1.1.17" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">* **Verification**: Cross-check calculations with the problem’s context (e.g., &quot;Total jars = 600 - 35 = 565&quot;).</span>
+<br class="ltx_break" style="--ltx-break-space:4.0pt;">
+Example of Correct JSON Output:
+<br class="ltx_break">{
+<br class="ltx_break"> &quot;final_answer&quot;: &quot;20&quot;,
+<br class="ltx_break"> &quot;solution_pad&quot;: &quot;Delaney leaves at 7:50 a.m. and takes 30 minutes to reach the pick-up point, arriving at 8:20 a.m. The bus leaves at 8:00 a.m., so he missed it by 20 minutes.&quot;
+<br class="ltx_break">}
+</span></span><span class="ltx_rule" style="width:100%;height:1px;--ltx-fg-color:#000000;--ltx-bg-color:#000000;display:inline-block;"> </span>
+<span id="A7.SS1.SSS1.p11.pic1.2.2" class="ltx_inline-block fas fa-times" aria-hidden="true">
+</span>
+<span id="A7.SS1.SSS1.p11.pic1.2.3" class="ltx_p"><span id="A7.SS1.SSS1.p11.pic1.2.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">The field order defect (<span id="A7.SS1.SSS1.p11.pic1.2.3.1.1" class="ltx_text ltx_font_typewriter">final_answer</span> before <span id="A7.SS1.SSS1.p11.pic1.2.3.1.2" class="ltx_text ltx_font_typewriter">solution_pad</span>) is preserved across all 10 iterations. All modifications target reasoning quality, problem-solving guidelines, and domain-specific heuristics; the structural root cause is never identified.</span></span>
+</span></span></span></foreignobject></g></g></g></svg>

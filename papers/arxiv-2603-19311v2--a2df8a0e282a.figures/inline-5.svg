@@ -1,0 +1,69 @@
+<svg id="A1.SS2.p4.pic1" class="ltx_picture" height="381.6" overflow="visible" version="1.1" viewbox="0 0 550 381.6" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,381.6) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 3.87 L 0 377.72 C 0 379.86 1.73 381.6 3.87 381.6 L 546.13 381.6 C 548.27 381.6 550 379.86 550 377.72 L 550 3.87 C 550 1.73 548.27 0 546.13 0 L 3.87 0 C 1.73 0 0 1.73 0 3.87 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 3.87 L 1.11 357.67 L 548.89 357.67 L 548.89 3.87 C 548.89 2.35 547.65 1.11 546.13 1.11 L 3.87 1.11 C 2.35 1.11 1.11 2.35 1.11 3.87 Z" /></g><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 358.78 L 1.11 377.72 C 1.11 379.25 2.35 380.49 3.87 380.49 L 546.13 380.49 C 547.65 380.49 548.89 379.25 548.89 377.72 L 548.89 358.78 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.35 366.18)"><foreignobject style="--ltx-fo-width:32.89em;--ltx-fo-height:0.75em;--ltx-fo-depth:0.25em;font-size:10pt;" height="13.84" overflow="visible" transform="matrix(1 0 0 -1 0 10.38)" width="455.11"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS2.p4.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:32.89em;">
+<span id="A1.SS2.p4.pic1.1.1" class="ltx_p"><span id="A1.SS2.p4.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Discriminator User Prompt (IFEval-Hard)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.35 13.35)"><foreignobject style="--ltx-fo-width:36.02em;--ltx-fo-height:24em;--ltx-fo-depth:0em;font-size:10pt;" height="332.09" overflow="visible" transform="matrix(1 0 0 -1 0 332.09)" width="498.42"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS2.p4.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.02em;">
+<span id="A1.SS2.p4.pic1.2.1" class="ltx_p"><span id="A1.SS2.p4.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+<span id="A1.SS2.p4.pic1.2.2" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p2.1" class="ltx_p">Compare these two model outputs:</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.3" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+<span id="A1.SS2.p4.pic1.2.4" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p4.1" class="ltx_p">OUTPUT 1:</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.5" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p5.1" class="ltx_p">{Output from prompt variant 1}</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.6" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+<span id="A1.SS2.p4.pic1.2.7" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p7.1" class="ltx_p">OUTPUT 2:</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.8" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p8.1" class="ltx_p">{Output from prompt variant 2}</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.9" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+<span id="A1.SS2.p4.pic1.2.10" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p10.1" class="ltx_p">CRITERIA THAT MUST BE SATISFIED:</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.11" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p4.pic1.2.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p4.pic1.2.11.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p11.1" class="ltx_p">1. {Criterion 1 description; for example: &quot;Response must contain all of these keywords (case-insensitive): correlated, experiencing&quot;}</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.12" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p12.1" class="ltx_p">2. {Criterion 2 description}</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.13" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p13.1" class="ltx_p">3. {Criterion 3 description}</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.14" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p14.1" class="ltx_p">...</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.15" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+<span id="A1.SS2.p4.pic1.2.16" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p4.pic1.2.16.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p4.pic1.2.16.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p16.1" class="ltx_p">Analyze which output better satisfies the criteria. For each criterion, check if it’s satisfied.</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.17" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+<span id="A1.SS2.p4.pic1.2.18" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p18.1" class="ltx_p">Return JSON with:</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.19" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p19.1" class="ltx_p">- &quot;preferred&quot;: 1 or 2 (which output is better)</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.20" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.20.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p4.pic1.2.20.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p4.pic1.2.20.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.2pt;">
+<span id="A1.SS2.p4.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p4.pic1.p20.1" class="ltx_p">- &quot;feedback&quot;: Brief explanation of why the preferred output works better and what the non-preferred output fails to do</span>
+</span></span></span></span>
+<span id="A1.SS2.p4.pic1.2.21" class="ltx_p" style="width:378.2pt;"><span id="A1.SS2.p4.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.2pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p4.pic1.2.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.2pt;"></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

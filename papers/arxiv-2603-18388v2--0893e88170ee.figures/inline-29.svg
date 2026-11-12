@@ -1,0 +1,55 @@
+<svg id="A7.SS1.SSS2.p2.pic1" class="ltx_picture" height="667.07" overflow="visible" version="1.1" viewbox="0 0 653.15 667.07" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,667.07) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.04 L 0 662.03 C 0 664.81 2.26 667.07 5.04 667.07 L 648.11 667.07 C 650.89 667.07 653.15 664.81 653.15 662.03 L 653.15 5.04 C 653.15 2.26 650.89 0 648.11 0 L 5.04 0 C 2.26 0 0 2.26 0 5.04 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 5.04 L 1.11 644.68 L 652.04 644.68 L 652.04 5.04 C 652.04 2.87 650.28 1.11 648.11 1.11 L 5.04 1.11 C 2.87 1.11 1.11 2.87 1.11 5.04 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.35 652.42)"><foreignobject style="--ltx-fo-width:39.37em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="544.77"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.SS1.SSS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:39.37em;">
+<span id="A7.SS1.SSS2.p2.pic1.1.1" class="ltx_p"><span id="A7.SS1.SSS2.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Defective Seed, VISTA, Iteration 1  Parent: Seed</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.35 10.58)"><foreignobject style="--ltx-fo-width:45.27em;--ltx-fo-height:45.14em;--ltx-fo-depth:0em;font-size:10pt;" height="624.64" overflow="visible" transform="matrix(1 0 0 -1 0 624.64)" width="626.41"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.SS1.SSS2.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.27em;">
+<span id="A7.SS1.SSS2.p2.pic1.2.1" class="ltx_p"><span id="A7.SS1.SSS2.p2.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Strategy: <span id="A7.SS1.SSS2.p2.pic1.2.1.1.1" class="ltx_text ltx_font_typewriter">heuristics
+<br class="ltx_break" style="--ltx-break-space:4.0pt;"></span>
+
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<span class="ltx_thead">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1" class="ltx_tr">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1.1" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt"><span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1.1.1" class="ltx_text ltx_font_bold">Hyp.</span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1.2" class="ltx_td ltx_align_left ltx_th ltx_th_column ltx_border_tt"><span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1.2.1" class="ltx_text ltx_font_bold">Label</span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1.3" class="ltx_td ltx_nopad_r ltx_align_right ltx_th ltx_th_column ltx_border_tt"><math id="A7.SS1.SSS2.p2.pic1.m1" class="ltx_Math" alttext="\Delta" display="inline" intent=":literal"><semantics><mi style="--ltx-fg-color:#000000;" mathcolor="#000000" mathvariant="normal">Δ</mi><annotation encoding="application/x-tex">\Delta</annotation></semantics></math><span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.1.3.1" class="ltx_text ltx_font_bold">acc</span></span></span>
+</span>
+<span class="ltx_tbody">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.2" class="ltx_tr">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.2.1" class="ltx_td ltx_align_left ltx_border_t">H1</span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.2.2" class="ltx_td ltx_align_left ltx_border_t"><span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.2.2.1" class="ltx_text ltx_font_typewriter">cot_field_ordering</span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.2.3" class="ltx_td ltx_nopad_r ltx_align_right ltx_border_t">+6.0 
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.2.3.1" class="ltx_inline-block fas fa-check" aria-hidden="true">
+</span></span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.3" class="ltx_tr">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.3.1" class="ltx_td ltx_align_left">H2</span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.3.2" class="ltx_td ltx_align_left"><span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.3.2.1" class="ltx_text ltx_font_typewriter">task_instruction_clarity</span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.3.3" class="ltx_td ltx_nopad_r ltx_align_right">0.0</span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.4" class="ltx_tr">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.4.1" class="ltx_td ltx_align_left ltx_border_bb">H3</span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.4.2" class="ltx_td ltx_align_left ltx_border_bb"><span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.4.2.1" class="ltx_text ltx_font_typewriter">reasoning_strategy</span></span>
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.2.4.3" class="ltx_td ltx_nopad_r ltx_align_right ltx_border_bb">0.0</span></span>
+</span>
+</span>
+<br class="ltx_break" style="--ltx-break-space:4.0pt;">
+<span id="A7.SS1.SSS2.p2.pic1.2.1.1.3" class="ltx_text" style="--ltx-fg-color:#009900;">Selected: H1 [<span id="A7.SS1.SSS2.p2.pic1.2.1.1.3.1" class="ltx_text ltx_font_typewriter">cot_field_ordering</span>] — Candidate Accepted
+<br class="ltx_break" style="--ltx-break-space:2.0pt;"></span></span></span><span class="ltx_rule" style="width:100%;height:1px;--ltx-fg-color:#000000;--ltx-bg-color:#000000;display:inline-block;"> </span>
+<span id="A7.SS1.SSS2.p2.pic1.2.2" class="ltx_p"><span id="A7.SS1.SSS2.p2.pic1.2.2.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;--ltx-bg-color:#FFFFB3;">{</span><span id="A7.SS1.SSS2.p2.pic1.2.2.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> 
+<br class="ltx_break"> <span id="A7.SS1.SSS2.p2.pic1.2.2.2.1" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;role&quot;:</span> &quot;You are an AI assistant that solves mathematical word problems.&quot;, 
+<br class="ltx_break"> <span id="A7.SS1.SSS2.p2.pic1.2.2.2.2" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;task&quot;:</span> &quot;You will be given a question and you need to provide a step-by-step solution to the problem. Finally, you will provide the answer to the question.&quot;, 
+<br class="ltx_break"> <span id="A7.SS1.SSS2.p2.pic1.2.2.2.3" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;output_format&quot;: {</span> 
+<br class="ltx_break">   <span id="A7.SS1.SSS2.p2.pic1.2.2.2.4" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;strict&quot;: true,</span> 
+<br class="ltx_break">   <span id="A7.SS1.SSS2.p2.pic1.2.2.2.5" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;required_fields&quot;: [&quot;solution_pad&quot;, &quot;final_answer&quot;],</span> 
+<br class="ltx_break">   <span id="A7.SS1.SSS2.p2.pic1.2.2.2.6" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;instructions&quot;: &quot;Generate the solution_pad first, ensuring complete chain-of-thought reasoning before finalizing the final_answer. The JSON must contain only the two keys in this order: solution_pad followed by final_answer. Do not include any additional text or explanations outside the JSON structure.&quot;</span> 
+<br class="ltx_break"> <span id="A7.SS1.SSS2.p2.pic1.2.2.2.7" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">},</span> 
+<br class="ltx_break"> <span id="A7.SS1.SSS2.p2.pic1.2.2.2.8" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;example&quot;: {</span> 
+<br class="ltx_break">   <span id="A7.SS1.SSS2.p2.pic1.2.2.2.9" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;input&quot;: &quot;Marion’s bike cost $356. Stephanie’s bike is worth twice as much. What is the total price of their bikes?&quot;,</span> 
+<br class="ltx_break">   <span id="A7.SS1.SSS2.p2.pic1.2.2.2.10" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;output&quot;: {</span> 
+<br class="ltx_break">    <span id="A7.SS1.SSS2.p2.pic1.2.2.2.11" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;solution_pad&quot;: &quot;Marion’s bike costs $356. Stephanie’s bike is worth twice as much, so 356 * 2 = 712. The total price of their bikes is 356 + 712 = 1068.&quot;,</span> 
+<br class="ltx_break">    <span id="A7.SS1.SSS2.p2.pic1.2.2.2.12" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">&quot;final_answer&quot;: &quot;1068&quot;</span> 
+<br class="ltx_break">   <span id="A7.SS1.SSS2.p2.pic1.2.2.2.13" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">}</span> 
+<br class="ltx_break"> <span id="A7.SS1.SSS2.p2.pic1.2.2.2.14" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">}</span> 
+<br class="ltx_break"><span id="A7.SS1.SSS2.p2.pic1.2.2.2.15" class="ltx_text" style="--ltx-bg-color:#FFFFB3;">}</span>
+
+<br class="ltx_break"><span id="A7.SS1.SSS2.p2.pic1.2.2.2.16" class="ltx_text ltx_font_serif">
+</span></span></span>
+</span></span></span></foreignobject></g></g></svg>
