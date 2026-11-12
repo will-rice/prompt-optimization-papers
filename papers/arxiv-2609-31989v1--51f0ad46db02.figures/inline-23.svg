@@ -1,0 +1,339 @@
+<svg id="A2.SS4.p2.pic1" class="ltx_picture" height="1602.16" overflow="visible" version="1.1" viewbox="0 0 477.38 1602.16" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1602.16) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#DEDEDE;" fill="#DEDEDE" fill-opacity="1.0"><path style="stroke:none" d="M 0 6.23 L 0 1595.93 C 0 1599.37 2.79 1602.16 6.23 1602.16 L 471.15 1602.16 C 474.59 1602.16 477.38 1599.37 477.38 1595.93 L 477.38 6.23 C 477.38 2.79 474.59 0 471.15 0 L 6.23 0 C 2.79 0 0 2.79 0 6.23 Z" /></g><g style="--ltx-fill-color:#F9F2EC;" fill="#F9F2EC" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 6.23 L 0.69 1595.93 C 0.69 1598.99 3.17 1601.47 6.23 1601.47 L 471.15 1601.47 C 474.21 1601.47 476.68 1598.99 476.68 1595.93 L 476.68 6.23 C 476.68 3.17 474.21 0.69 471.15 0.69 L 6.23 0.69 C 3.17 0.69 0.69 3.17 0.69 6.23 Z" /></g><g style="--ltx-stroke-color:#8A4B2F;--ltx-fill-color:#8A4B2F;--ltx-fg-color:#8A4B2F;" color="#8A4B2F" fill="#8A4B2F" stroke="#8A4B2F" stroke-width="3.0pt"><path style="fill:none" d="M 2.08 1602.16 L 2.08 0" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.23 21.16)"><foreignobject style="--ltx-fo-width:31.43em;--ltx-fo-height:112.93em;--ltx-fo-depth:0.19em;font-size:10pt;" height="1565.24" overflow="visible" transform="matrix(1 0 0 -1 0 1562.55)" width="434.9"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS4.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.43em;">
+<span id="A2.SS4.p2.pic1.1.1" class="ltx_p"><span id="A2.SS4.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#8A4B2F;">RECEIVER · REASON GENE (optimizable) · optimized, the full run</span></span>
+<span id="A2.SS4.p2.pic1.1.2" class="ltx_p"><span id="A2.SS4.p2.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.2.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.2.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p1.1" class="ltx_p">You are the receiver in a communication game. You see a MESSAGE and a numbered list of</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.3" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.3.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.3.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p2.1" class="ltx_p">CANDIDATE objects, exactly one of which is the sender’s intended object. Choose WHICH</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.4" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.4.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.4.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p3.1" class="ltx_p">numbered candidate. The answer is ALWAYS one of the listed candidates. Score 1 if correct.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.5" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.6" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p5.1" class="ltx_p">Always begin your reply with a single line:</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.7" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.7.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.7.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p6.1" class="ltx_p">RULE: &lt;the decoding rule, stated compactly enough to reuse verbatim&gt;</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.8" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.8.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.8.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p7.1" class="ltx_p">Then show working, then end with your chosen candidate NUMBER and its 3-character object.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.9" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.10" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.10.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.10.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p9.1" class="ltx_p">===================================================================================</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.11" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p10.1" class="ltx_p">TASK FORMAT</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.12" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p11.1" class="ltx_p">———————————————————————————–</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.13" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p12.1" class="ltx_p">- MESSAGE: exactly 8 characters, each is ’p’ or ’w’.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.14" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.14.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.14.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p13.1" class="ltx_p">- OBJECT: exactly 3 characters, each from the 6-letter alphabet: x b j q z k</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.15" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p14.1" class="ltx_p">- You are given 20 candidate objects; pick the one the sender meant.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.16" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.16.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p15.1" class="ltx_p">- The mapping from message -&gt; object is DETERMINISTIC: the same message always</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.17" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p16.1" class="ltx_p">produces the same object.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.18" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.18.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.18.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p17.1" class="ltx_p">- History rows use: &quot;WAS x&quot; = the true object was x; &quot;NOT x -&gt; one of: …&quot; = the</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.19" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.19.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p18.1" class="ltx_p">true object was NOT x but was one of the listed alternatives.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.20" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.20.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.21" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.21.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.21.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.21.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p20.1" class="ltx_p">===================================================================================</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.22" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.22.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.22.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.22.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p21.1" class="ltx_p">THE ENCODING (BINARY -&gt; BASE-6 numeric code; NOT run-lengths, pairs, or similarity)</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.23" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.23.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p22.1" class="ltx_p">———————————————————————————–</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.24" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.24.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.24.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.24.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p23.1" class="ltx_p">8 binary digits encode 3 base-6 digits (2ˆ8 = 256, 6ˆ3 = 216). Decode like this:</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.25" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.25.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.26" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.26.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p25.1" class="ltx_p">STEP 1 - Turn the message into a number N.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.27" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.27.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.27.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.27.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p26.1" class="ltx_p">Map p=0, w=1. Read the 8 characters as a binary number with the LEFTMOST char as</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.28" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.28.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.28.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.28.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p27.1" class="ltx_p">the MOST significant bit (weight 128), rightmost char weight 1. Sum the weights of</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.29" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.29.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p28.1" class="ltx_p">the ’w’ positions to get decimal N.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.30" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.30.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p29.1" class="ltx_p">Position weights (left to right): 128, 64, 32, 16, 8, 4, 2, 1.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.31" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.31.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.32" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.32.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.32.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.32.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p31.1" class="ltx_p">*** CRITICAL ARITHMETIC WARNING (a prior wrong answer came from this exact bug): ***</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.33" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.33.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.33.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.33.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p32.1" class="ltx_p">Explicitly write out all 8 bits and their weights, then add. Do NOT skip or</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.34" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.34.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p33.1" class="ltx_p">misalign bits. Example done correctly:</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.35" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.35.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p34.1" class="ltx_p">’wpppwwwp’ = w p p p w w w p = 1 0 0 0 1 1 1 0</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.36" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.36.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p35.1" class="ltx_p">= 128 + 8 + 4 + 2 = 142  (NOT 156).</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.37" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.37.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.38" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.38.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.38.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.38.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p37.1" class="ltx_p">STEP 2 - Convert N to 3 base-6 digits (d1 d2 d3), most significant first:</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.39" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.39.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p38.1" class="ltx_p">d1 = N // 36</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.40" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.40.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p39.1" class="ltx_p">d2 = (N % 36) // 6</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.41" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.41.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p40.1" class="ltx_p">d3 = N % 6</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.42" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.42.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.43" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.43.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.43.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.43.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p42.1" class="ltx_p">STEP 3 - Map each base-6 digit (0..5) to a letter using this FIXED, VERIFIED table:</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.44" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.44.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p43.1" class="ltx_p">0 -&gt; x</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.45" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.45.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.45.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p44.1" class="ltx_p">1 -&gt; z</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.46" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.46.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p45.1" class="ltx_p">2 -&gt; j</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.47" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.47.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p46" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p46.1" class="ltx_p">3 -&gt; k</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.48" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.48.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.48.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p47.1" class="ltx_p">4 -&gt; q</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.49" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.49.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.49.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p48.1" class="ltx_p">5 -&gt; b</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.50" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.50.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.50.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.51" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.51.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.51.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.51.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p50.1" class="ltx_p">This table has been confirmed consistent across every known pair. You should still</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.52" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.52.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.52.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.52.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p51.1" class="ltx_p">re-verify it each turn against a few WAS pairs (recompute N and digits yourself,</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.53" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.53.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.53.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.53.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p52.1" class="ltx_p">then line up digits with letters), but it will come out to exactly the mapping</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.54" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.54.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.54.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p53.1" class="ltx_p">above. Do not invent a different ordering.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.55" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.55.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.55.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.56" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.56.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.56.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.56.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p55" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p55.1" class="ltx_p">===================================================================================</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.57" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.57.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.57.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.57.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p56" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p56.1" class="ltx_p">CONFIRMED CALIBRATION PAIRS (recompute to verify; results shown)</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.58" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.58.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.58.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p57" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p57.1" class="ltx_p">———————————————————————————–</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.59" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.59.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.59.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p58.1" class="ltx_p">pppwwppw = 00011001 = 25  -&gt; (0,4,1) -&gt; xqz</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.60" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.60.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.60.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p59.1" class="ltx_p">ppppppwp = 00000010 = 2   -&gt; (0,0,2) -&gt; xxj</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.61" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.61.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.61.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p60" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p60.1" class="ltx_p">pppppwpw = 00000101 = 5   -&gt; (0,0,5) -&gt; xxb</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.62" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.62.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.62.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p61.1" class="ltx_p">ppppwpww = 00001011 = 11  -&gt; (0,1,5) -&gt; xzb</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.63" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.63.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.63.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p62" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p62.1" class="ltx_p">wpppwwwp = 10001110 = 142 -&gt; (3,5,4) -&gt; kbq</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.64" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.64.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.64.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p63" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p63.1" class="ltx_p">pwpwpwpp = 01010100 = 84  -&gt; (2,2,0) -&gt; jjx</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.65" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.65.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.65.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p64.1" class="ltx_p">pppwpppp = 00010000 = 16  -&gt; (0,2,4) -&gt; xjq</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.66" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.66.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.66.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p65" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p65.1" class="ltx_p">pwwpwppw = 01101001 = 105 -&gt; (2,5,3) -&gt; jbk</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.67" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.67.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.67.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p66" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p66.1" class="ltx_p">ppwwwppw = 00111001 = 57  -&gt; (1,3,3) -&gt; zkk</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.68" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.68.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.68.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.68.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p67" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p67.1" class="ltx_p">All of these are consistent with the table 0-&gt;x,1-&gt;z,2-&gt;j,3-&gt;k,4-&gt;q,5-&gt;b.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.69" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.69.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.69.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.70" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.70.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.70.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.70.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p69" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p69.1" class="ltx_p">===================================================================================</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.71" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.71.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.71.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p70.1" class="ltx_p">PROCEDURE FOR THIS TURN</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.72" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.72.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.72.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p71" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p71.1" class="ltx_p">———————————————————————————–</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.73" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.73.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p72" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p72.1" class="ltx_p">1. Restate the digit-&gt;letter table: 0-&gt;x, 1-&gt;z, 2-&gt;j, 3-&gt;k, 4-&gt;q, 5-&gt;b.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.74" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.74.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.74.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p73" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p73.1" class="ltx_p">2. Decode the current MESSAGE:</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.75" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.75.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.75.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.75.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p74.1" class="ltx_p">a. Write out the 8 bits (p=0, w=1) with their weights 128,64,32,16,8,4,2,1.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.76" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.76.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.76.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p75" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p75.1" class="ltx_p">b. Sum the ’w’ weights to get N. Double-check the addition.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.77" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.77.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.77.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p76.1" class="ltx_p">c. d1 = N // 36, d2 = (N % 36) // 6, d3 = N % 6.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.78" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.78.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.78.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p77" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p77.1" class="ltx_p">d. Convert digits to letters -&gt; predicted 3-letter object.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.79" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.79.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.79.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p78.1" class="ltx_p">3. Find the predicted object in the candidate list; choose its number.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.80" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.80.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.80.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.80.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p79" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p79.1" class="ltx_p">4. If the exact predicted object is NOT among the candidates, pick the candidate that</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.81" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.81.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.81.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.81.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p80.1" class="ltx_p">best matches digit-by-digit, matching the most significant position first</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.82" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.82.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.82.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.82.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p81" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p81.1" class="ltx_p">(d1/first letter, then d2, then d3). Never output an object outside the list.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.83" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.83.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.83.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.83.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p82" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p82.1" class="ltx_p">5. A &quot;NOT x&quot; history entry means object x is excluded for THAT message only; it does</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.84" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.84.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.84.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p83" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p83.1" class="ltx_p">not help decode a different message.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.85" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.85.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.85.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS4.p2.pic1.1.86" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.86.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.86.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p85" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p85.1" class="ltx_p">IMPORTANT REMINDERS</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.87" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.87.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.87.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.87.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p86" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p86.1" class="ltx_p">- Do NOT use run-length decoding, letter-repetition heuristics, pair-substitution, or</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.88" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.88.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.88.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p87" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p87.1" class="ltx_p">&quot;message looks similar&quot; guessing — those all scored 0.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.89" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.89.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.89.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.89.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p88" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p88.1" class="ltx_p">- The single most common failure is arithmetic error in STEP 1. Lay out every bit and</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.90" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.90.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.90.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p89" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p89.1" class="ltx_p">its weight explicitly and re-add before proceeding.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.91" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.91.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.91.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p90" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p90.1" class="ltx_p">- Always pick from the candidate list only.</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.92" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.92.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.92.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS4.p2.pic1.1.92.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p91" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p91.1" class="ltx_p">- A score of 0 means the object was not the candidate you chose, never a misreading by</span>
+</span></span></span></span>
+<span id="A2.SS4.p2.pic1.1.93" class="ltx_p" style="width:314.3pt;"><span id="A2.SS4.p2.pic1.1.93.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS4.p2.pic1.1.93.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS4.p2.pic1.p92" class="ltx_para ltx_noindent">
+<span id="A2.SS4.p2.pic1.p92.1" class="ltx_p">your partner.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

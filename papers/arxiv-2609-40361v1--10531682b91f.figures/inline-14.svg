@@ -1,0 +1,82 @@
+<svg id="A4.p3.pic1" class="ltx_picture" height="1030.93" overflow="visible" version="1.1" viewbox="0 0 550 1030.93" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1030.93) matrix(1 0 0 -1 0 0)"><clippath id="pgfcp14"><path d="M -22670.54 -22670.54 L 22670.54 -22670.54 L 22670.54 22670.54 L -22670.54 22670.54 Z M 0 4.49 L 0 1026.44 C 0 1028.92 2.01 1030.93 4.49 1030.93 L 545.51 1030.93 C 547.99 1030.93 550 1028.92 550 1026.44 L 550 4.49 C 550 2.01 547.99 0 545.51 0 L 4.49 0 C 2.01 0 0 2.01 0 4.49 Z" /></clippath><g fill-rule="evenodd"><g style="--ltx-fill-color:#007300;" fill="#007300" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.49 L 0 1026.44 C 0 1028.92 2.01 1030.93 4.49 1030.93 L 545.51 1030.93 C 547.99 1030.93 550 1028.92 550 1026.44 L 550 4.49 C 550 2.01 547.99 0 545.51 0 L 4.49 0 C 2.01 0 0 2.01 0 4.49 Z M 0.55 4.49 L 0.55 1008.11 L 549.45 1008.11 L 549.45 4.49 C 549.45 2.32 547.68 0.55 545.51 0.55 L 4.49 0.55 C 2.32 0.55 0.55 2.32 0.55 4.49 Z" /></g><g style="--ltx-fill-color:#F5FFF5;" fill="#F5FFF5" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 4.49 L 0.55 1008.11 L 549.45 1008.11 L 549.45 4.49 C 549.45 2.32 547.68 0.55 545.51 0.55 L 4.49 0.55 C 2.32 0.55 0.55 2.32 0.55 4.49 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 10.03 1016.06)"><foreignobject style="--ltx-fo-width:33.3em;--ltx-fo-height:0.75em;--ltx-fo-depth:0.25em;font-size:10pt;" height="13.84" overflow="visible" transform="matrix(1 0 0 -1 0 10.38)" width="460.78"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A4.p3.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.3em;">
+<span id="A4.p3.pic1.1.1" class="ltx_p"><span id="A4.p3.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Ranking-PE optimized prompt (Ranking-PE, ours): val AUROC 0.7054</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 10.03 79.13)"><foreignobject style="--ltx-fo-width:38.3em;--ltx-fo-height:66.55em;--ltx-fo-depth:5.09em;font-size:10pt;" height="991.39" overflow="visible" transform="matrix(1 0 0 -1 0 920.9)" width="529.96"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A4.p3.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:38.3em;">
+<span id="A4.p3.pic1.2.1" class="ltx_p"><span id="A4.p3.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are given a chest X-ray image, a clinical profile (age, gender, race, admission type, view), and lab context (hematology, chemistry, coagulation, etc.), along with a specific finding to evaluate (e.g., “Cardiomegaly”). Your task is to determine whether the target finding is present in the image, based on visual analysis of the chest X-ray, and to integrate this with the clinical and lab context to support your judgment.</span></span>
+<span id="A4.p3.pic1.2.2" class="ltx_p"><span id="A4.p3.pic1.2.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Visual Analysis Guidance:<span id="A4.p3.pic1.2.2.1.1" class="ltx_text"></span></span></span>
+<span id="A4.I5" class="ltx_itemize">
+<span id="A4.I5.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I5.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I5.i1.p1.1" class="ltx_p"><span id="A4.I5.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Carefully examine the cardiac silhouette: Look for enlargement of the heart relative to the thoracic cavity. Cardiomegaly is typically defined as the heart occupying more than half of the thoracic cavity in AP views, or an increased transverse diameter relative to the thoracic cage.</span></span>
+</span></span>
+<span id="A4.I5.i2" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I5.i2.p1" class="ltx_para ltx_noindent">
+<span id="A4.I5.i2.p1.1" class="ltx_p"><span id="A4.I5.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Pay attention to the borders of the heart: Assess the right and left heart borders for widening, especially in the AP view where the heart appears more horizontally oriented.</span></span>
+</span></span>
+<span id="A4.I5.i3" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I5.i3.p1" class="ltx_para ltx_noindent">
+<span id="A4.I5.i3.p1.1" class="ltx_p"><span id="A4.I5.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Consider the mediastinum and lung fields: While not directly diagnostic, widened mediastinum or pleural effusions can be associated with cardiomegaly, but their absence does not rule it out.</span></span>
+</span></span>
+<span id="A4.I5.i4" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I5.i4.p1" class="ltx_para">
+<span id="A4.I5.i4.p1.1" class="ltx_p"><span id="A4.I5.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Note any technical factors: Portable views may have limited detail, so subtle findings may be missed. Be cautious of over-reliance on technical limitations.</span></span>
+</span></span>
+</span>
+<span id="A4.p3.pic1.2.3" class="ltx_p"><span id="A4.p3.pic1.2.3.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Integration Guidance:<span id="A4.p3.pic1.2.3.1.1" class="ltx_text"></span></span></span>
+<span id="A4.I6" class="ltx_itemize">
+<span id="A4.I6.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I6.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I6.i1.p1.1" class="ltx_p"><span id="A4.I6.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Use the clinical profile to contextualize the finding: Age, gender, admission type, and view (AP vs. PA) can influence interpretation. For example, elderly patients or those with surgical admissions may have more baseline cardiac enlargement.</span></span>
+</span></span>
+<span id="A4.I6.i2" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I6.i2.p1" class="ltx_para ltx_noindent">
+<span id="A4.I6.i2.p1.1" class="ltx_p"><span id="A4.I6.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Use lab context to support or refute the finding: Look for markers of chronic illness, renal dysfunction, electrolyte imbalances, or acute cardiac stress that may correlate with cardiomegaly. However, remember that lab values are not definitive for cardiac size.</span></span>
+</span></span>
+<span id="A4.I6.i3" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I6.i3.p1" class="ltx_para">
+<span id="A4.I6.i3.p1.1" class="ltx_p"><span id="A4.I6.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Do not rely solely on the image or lab values: Combine both to form a comprehensive judgment. If the image is ambiguous or of low quality, use clinical context to guide interpretation.</span></span>
+</span></span>
+</span>
+<span id="A4.p3.pic1.2.4" class="ltx_p"><span id="A4.p3.pic1.2.4.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Domain-Specific Knowledge:<span id="A4.p3.pic1.2.4.1.1" class="ltx_text"></span></span></span>
+<span id="A4.I7" class="ltx_itemize">
+<span id="A4.I7.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I7.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I7.i1.p1.1" class="ltx_p"><span id="A4.I7.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Cardiomegaly is not always obvious: It may be subtle, especially in portable views or in patients with normal lung fields. Do not assume absence if the image is unclear.</span></span>
+</span></span>
+<span id="A4.I7.i2" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I7.i2.p1" class="ltx_para ltx_noindent">
+<span id="A4.I7.i2.p1.1" class="ltx_p"><span id="A4.I7.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Cardiomegaly can be associated with chronic conditions: Consider underlying causes such as hypertension, valvular disease, or chronic heart failure, which may be suggested by clinical or lab data.</span></span>
+</span></span>
+<span id="A4.I7.i3" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I7.i3.p1" class="ltx_para">
+<span id="A4.I7.i3.p1.1" class="ltx_p"><span id="A4.I7.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Always assess the cardiac silhouette relative to the thoracic cavity: Use the ribs and diaphragm as landmarks. The heart should not exceed half the thoracic cavity in AP views.</span></span>
+</span></span>
+</span>
+<span id="A4.p3.pic1.2.5" class="ltx_p"><span id="A4.p3.pic1.2.5.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Error Prevention Guidance:<span id="A4.p3.pic1.2.5.1.1" class="ltx_text"></span></span></span>
+<span id="A4.I8" class="ltx_itemize">
+<span id="A4.I8.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I8.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I8.i1.p1.1" class="ltx_p"><span id="A4.I8.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Avoid false negatives: If the image is unclear or portable, do not rule out cardiomegaly without strong clinical or lab evidence. Re-examine for subtle signs of enlargement.</span></span>
+</span></span>
+<span id="A4.I8.i2" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I8.i2.p1" class="ltx_para ltx_noindent">
+<span id="A4.I8.i2.p1.1" class="ltx_p"><span id="A4.I8.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Avoid overconfidence: Even if the image appears normal, consider the clinical context. A patient with acute illness or chronic disease may have an enlarged heart that is not visually obvious.</span></span>
+</span></span>
+<span id="A4.I8.i3" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I8.i3.p1" class="ltx_para">
+<span id="A4.I8.i3.p1.1" class="ltx_p"><span id="A4.I8.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Do not rely on lab values alone: Use them to support or contextualize the visual finding, not to replace it.</span></span>
+</span></span>
+</span>
+<span id="A4.p3.pic1.2.6" class="ltx_p"><span id="A4.p3.pic1.2.6.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Output Format:<span id="A4.p3.pic1.2.6.1.1" class="ltx_text"></span></span></span>
+<span id="A4.I9" class="ltx_itemize">
+<span id="A4.I9.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I9.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I9.i1.p1.1" class="ltx_p"><span id="A4.I9.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Answer: “Yes” if the finding is present, “No” if it is not.</span></span>
+</span></span>
+<span id="A4.I9.i2" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I9.i2.p1" class="ltx_para">
+<span id="A4.I9.i2.p1.1" class="ltx_p"><span id="A4.I9.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Reasoning: Provide a clear, concise explanation of your visual analysis and how it integrates with the clinical and lab context. Be specific about what you observed in the image and how it relates to the finding.</span></span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></g></svg>

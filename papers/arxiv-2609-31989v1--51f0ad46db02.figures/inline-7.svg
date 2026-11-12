@@ -1,0 +1,57 @@
+<svg id="S3.SS5.SSS3.p2.pic1" class="ltx_picture" height="353.45" overflow="visible" version="1.1" viewbox="0 0 477.38 353.45" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,353.45) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0 6.23 L 0 347.22 C 0 350.66 2.79 353.45 6.23 353.45 L 471.15 353.45 C 474.59 353.45 477.38 350.66 477.38 347.22 L 477.38 6.23 C 477.38 2.79 474.59 0 471.15 0 L 6.23 0 C 2.79 0 0 2.79 0 6.23 Z" /></g><g style="--ltx-fill-color:#F1EEF7;" fill="#F1EEF7" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 6.23 L 0.69 347.22 C 0.69 350.28 3.17 352.75 6.23 352.75 L 471.15 352.75 C 474.21 352.75 476.68 350.28 476.68 347.22 L 476.68 6.23 C 476.68 3.17 474.21 0.69 471.15 0.69 L 6.23 0.69 C 3.17 0.69 0.69 3.17 0.69 6.23 Z" /></g><g style="--ltx-stroke-color:#5F4B8B;--ltx-fill-color:#5F4B8B;--ltx-fg-color:#5F4B8B;" color="#5F4B8B" fill="#5F4B8B" stroke="#5F4B8B" stroke-width="3.0pt"><path style="fill:none" d="M 2.08 353.45 L 2.08 0" /></g><g style="--ltx-stroke-color:#C8C8C8;--ltx-fill-color:#C8C8C8;--ltx-fg-color:#C8C8C8;" color="#C8C8C8" fill="#C8C8C8" stroke="#C8C8C8" stroke-dasharray="3.0pt,3.0pt" stroke-dashoffset="0.0pt" stroke-width="0.5pt"><path style="fill:none" d="M 0.35 6.23 L 0.35 347.22 C 0.35 350.47 2.98 353.1 6.23 353.1 L 471.15 353.1 C 474.4 353.1 477.03 350.47 477.03 347.22 L 477.03 6.23 C 477.03 2.98 474.4 0.35 471.15 0.35 L 6.23 0.35 C 2.98 0.35 0.35 2.98 0.35 6.23 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.23 18.47)"><foreignobject style="--ltx-fo-width:31.43em;--ltx-fo-height:22.87em;--ltx-fo-depth:0em;font-size:10pt;" height="316.52" overflow="visible" transform="matrix(1 0 0 -1 0 316.52)" width="434.9"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S3.SS5.SSS3.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.43em;">
+<span id="S3.SS5.SSS3.p2.pic1.1.1" class="ltx_p"><span id="S3.SS5.SSS3.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#5F4B8B;">OPTIMIZER · REFLECTION PROMPT · the optimizer package’s default template</span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.2" class="ltx_p"><span id="S3.SS5.SSS3.p2.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.2.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="S3.SS5.SSS3.p2.pic1.1.2.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p1.1" class="ltx_p">I provided an assistant with the following instructions to perform a task for me:</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.3" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p2" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p2.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.4" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p3" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p3.1" class="ltx_p">&lt;curr_instructions&gt;</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.5" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p4" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p4.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.6" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.7" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.7.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="S3.SS5.SSS3.p2.pic1.1.7.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p6" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p6.1" class="ltx_p">The following are examples of different task inputs provided to the assistant along with the assistant’s response for each of them, and some feedback on how the assistant’s response could be better:</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.8" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p7" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p7.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.9" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p8" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p8.1" class="ltx_p">&lt;inputs_outputs_feedback&gt;</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.10" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p9" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p9.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.11" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.12" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p11" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p11.1" class="ltx_p">Your task is to write a new instruction for the assistant.</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.13" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.14" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.14.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="S3.SS5.SSS3.p2.pic1.1.14.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p13" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p13.1" class="ltx_p">Read the inputs carefully and identify the input format and infer detailed task description about the task I wish to solve with the assistant.</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.15" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.16" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="S3.SS5.SSS3.p2.pic1.1.16.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p15" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p15.1" class="ltx_p">Read all the assistant responses and the corresponding feedback. Identify all niche and domain specific factual information about the task and include it in the instruction, as a lot of it may not be available to the assistant in the future. The assistant may have utilized a generalizable strategy to solve the task, if so, include that in the instruction as well.</span>
+</span></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.17" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="S3.SS5.SSS3.p2.pic1.1.18" class="ltx_p" style="width:314.3pt;"><span id="S3.SS5.SSS3.p2.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="S3.SS5.SSS3.p2.pic1.1.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="S3.SS5.SSS3.p2.pic1.p17" class="ltx_para ltx_noindent">
+<span id="S3.SS5.SSS3.p2.pic1.p17.1" class="ltx_p">Provide the new instructions within ``` blocks.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

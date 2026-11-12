@@ -1,0 +1,346 @@
+<svg id="A2.SS1.p4.pic1" class="ltx_picture" height="1619.53" overflow="visible" version="1.1" viewbox="0 0 477.38 1619.53" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1619.53) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#DEDEDE;" fill="#DEDEDE" fill-opacity="1.0"><path style="stroke:none" d="M 0 6.23 L 0 1613.3 C 0 1616.74 2.79 1619.53 6.23 1619.53 L 471.15 1619.53 C 474.59 1619.53 477.38 1616.74 477.38 1613.3 L 477.38 6.23 C 477.38 2.79 474.59 0 471.15 0 L 6.23 0 C 2.79 0 0 2.79 0 6.23 Z" /></g><g style="--ltx-fill-color:#F9F2EC;" fill="#F9F2EC" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 6.23 L 0.69 1613.3 C 0.69 1616.36 3.17 1618.84 6.23 1618.84 L 471.15 1618.84 C 474.21 1618.84 476.68 1616.36 476.68 1613.3 L 476.68 6.23 C 476.68 3.17 474.21 0.69 471.15 0.69 L 6.23 0.69 C 3.17 0.69 0.69 3.17 0.69 6.23 Z" /></g><g style="--ltx-stroke-color:#8A4B2F;--ltx-fill-color:#8A4B2F;--ltx-fg-color:#8A4B2F;" color="#8A4B2F" fill="#8A4B2F" stroke="#8A4B2F" stroke-width="3.0pt"><path style="fill:none" d="M 2.08 1619.53 L 2.08 0" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.23 21.93)"><foreignobject style="--ltx-fo-width:31.43em;--ltx-fo-height:114.13em;--ltx-fo-depth:0.25em;font-size:10pt;" height="1582.62" overflow="visible" transform="matrix(1 0 0 -1 0 1579.16)" width="434.9"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS1.p4.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.43em;">
+<span id="A2.SS1.p4.pic1.1.1" class="ltx_p"><span id="A2.SS1.p4.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#8A4B2F;">RECEIVER · REASON GENE (optimizable) · optimized, 4096 objects</span></span>
+<span id="A2.SS1.p4.pic1.1.2" class="ltx_p"><span id="A2.SS1.p4.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.2.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.2.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p1.1" class="ltx_p">You are the RECEIVER in a two-player reference game. Each turn you are given a MESSAGE</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.3" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.3.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.3.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p2.1" class="ltx_p">and a numbered list of 8 CANDIDATE objects. Exactly one candidate is the object the</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.4" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.4.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.4.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p3.1" class="ltx_p">sender meant. Choose it. You score 1 if you pick the sender’s object, 0 otherwise. The</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.5" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.5.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.5.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p4.1" class="ltx_p">answer is ALWAYS one of the listed candidates – never name an object outside the list.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.6" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.7" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.7.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.7.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p6.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.8" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p7.1" class="ltx_p">INPUT FORMAT</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.9" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.9.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.9.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p8.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.10" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p9.1" class="ltx_p">- MESSAGE: a string of exactly 12 characters, each either ’g’ or ’m’.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.11" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.11.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p10.1" class="ltx_p">- OBJECTS/CANDIDATES: strings of exactly 4 characters from the alphabet: x j k b q n z v</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.12" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p11.1" class="ltx_p">- You are shown a numbered list of 8 candidates.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.13" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p12.1" class="ltx_p">- A MEMORY table of past turns. Rows are one of:</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.14" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.14.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.14.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p13.1" class="ltx_p">* &quot;&lt;message&gt; | WAS &lt;obj&gt;&quot;  -&gt; that message decoded to &lt;obj&gt; (a CONFIRMED pair).</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.15" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.15.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.15.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p14.1" class="ltx_p">* &quot;&lt;message&gt; | NOT &lt;obj&gt; -&gt; one of: …&quot;: you guessed &lt;obj&gt; and it was WRONG; the</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.16" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.16.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p15.1" class="ltx_p">true object was one of the OTHER listed candidates on that row.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.17" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.17.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.17.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p16.1" class="ltx_p">* &quot;&lt;message&gt; | NO ANSWER -&gt; one of: …&quot;: the true object was NOT among those.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.18" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.19" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.19.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.19.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.19.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p18.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.20" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.20.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p19.1" class="ltx_p">TASK STRUCTURE</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.21" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.21.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.21.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.21.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p20.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.22" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.22.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.22.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.22.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p21.1" class="ltx_p">Object length 4, message length 12 =&gt; each object character maps to a contiguous GROUP</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.23" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.23.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p22.1" class="ltx_p">OF 3 message characters, read left to right:</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.24" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.24.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p23.1" class="ltx_p">positions 1-3   -&gt; object char 1</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.25" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.25.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p24.1" class="ltx_p">positions 4-6   -&gt; object char 2</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.26" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.26.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p25.1" class="ltx_p">positions 7-9   -&gt; object char 3</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.27" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.27.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p26.1" class="ltx_p">positions 10-12 -&gt; object char 4</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.28" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.28.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.28.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.28.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p27.1" class="ltx_p">Decoding is a FIXED bijection from the 8 possible 3-char groups to the 8 letters.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.29" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.29.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.30" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.30.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.30.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.30.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p29.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.31" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.31.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.31.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.31.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p30.1" class="ltx_p">STEP 1 (HIGHEST PRIORITY): CHECK MEMORY FOR AN EXACT MESSAGE MATCH</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.32" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.32.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.32.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.32.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p31.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.33" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.33.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.33.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.33.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p32.1" class="ltx_p">Before anything else, scan the MEMORY table for a &quot;WAS&quot; row whose message EXACTLY</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.34" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.34.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.34.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.34.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p33.1" class="ltx_p">equals the current MESSAGE. If found, the answer is that row’s object – pick the</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.35" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.35.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.35.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.35.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p34.1" class="ltx_p">candidate matching it. This OVERRIDES any decoding table. Confirmed &quot;WAS&quot; rows are</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.36" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.36.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.36.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.36.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p35.1" class="ltx_p">ground truth and take precedence over the substitution table below, because the table</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.37" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.37.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p36.1" class="ltx_p">has been observed to be WRONG in at least one case (see note).</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.38" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.38.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.39" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.39.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.39.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.39.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p38.1" class="ltx_p">Example: message ’mmmmgmgggmgg’ appears in memory as &quot;WAS xjbk&quot;, so the answer is</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.40" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.40.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.40.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.40.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p39.1" class="ltx_p">xjbk – even though the table below would decode it to something else. Trust the</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.41" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.41.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p40.1" class="ltx_p">memory row, not the table.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.42" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.42.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.43" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.43.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.43.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.43.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p42.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.44" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.44.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.44.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.44.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p43.1" class="ltx_p">STEP 2: WORKING SUBSTITUTION TABLE (use only if no exact WAS-match)</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.45" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.45.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.45.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.45.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p44.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.46" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.46.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p45.1" class="ltx_p">ggg -&gt; b     mgg -&gt; k</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.47" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.47.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p46" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p46.1" class="ltx_p">ggm -&gt; z     mgm -&gt; j</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.48" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.48.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.48.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p47.1" class="ltx_p">gmg -&gt; n     mmg -&gt; q</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.49" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.49.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.49.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p48.1" class="ltx_p">gmm -&gt; v     mmm -&gt; x</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.50" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.50.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.50.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.51" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.51.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.51.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.51.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p50.1" class="ltx_p">WARNING: This table is a best guess and has produced at least one wrong answer. When</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.52" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.52.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.52.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.52.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p51.1" class="ltx_p">you decode with it and NO candidate matches exactly, DO NOT blindly trust the decode.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.53" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.53.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.53.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p52.1" class="ltx_p">Instead, treat memory as more authoritative:</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.54" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.54.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.54.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.54.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p53.1" class="ltx_p">- Derive per-group mappings empirically from &quot;WAS&quot; rows when possible: for each group</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.55" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.55.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.55.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.55.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p54" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p54.1" class="ltx_p">position, find confirmed rows sharing the same 3-char group in that slot to verify</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.56" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.56.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.56.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.56.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p55" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p55.1" class="ltx_p">what letter it produces. Prefer those observed mappings over the table.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.57" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.57.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.57.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.58" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.58.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.58.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.58.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p57" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p57.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.59" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.59.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.59.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p58.1" class="ltx_p">CAREFUL SPLITTING (a known source of errors)</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.60" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.60.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.60.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.60.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p59.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.61" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.61.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.61.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p60" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p60.1" class="ltx_p">- Write out all 12 characters with explicit indices 1..12.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.62" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.62.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.62.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p61.1" class="ltx_p">- Group as [1,2,3] [4,5,6] [7,8,9] [10,11,12].</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.63" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.63.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.63.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p62" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p62.1" class="ltx_p">- Re-read each group against the indices before decoding.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.64" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.64.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.64.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.65" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.65.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.65.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.65.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p64.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.66" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.66.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.66.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p65" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p65.1" class="ltx_p">PER-TURN PROCEDURE</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.67" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.67.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.67.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.67.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p66" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p66.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.68" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.68.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.68.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.68.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p67" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p67.1" class="ltx_p">a. FIRST: look for an exact-message &quot;WAS&quot; row in memory. If present, choose the</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.69" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.69.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.69.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p68" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p68.1" class="ltx_p">candidate equal to that object. Done.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.70" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.70.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.70.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.70.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p69" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p69.1" class="ltx_p">b. Otherwise split the MESSAGE into four 3-char groups (verify indices).</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.71" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.71.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.71.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.71.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p70.1" class="ltx_p">c. Decode each group. Prefer letter-for-group mappings you can confirm from &quot;WAS&quot; rows;</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.72" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.72.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.72.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.72.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p71" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p71.1" class="ltx_p">fall back to the working table only for groups not otherwise pinned down.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.73" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.73.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p72" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p72.1" class="ltx_p">d. Compare the decoded object to the 8 candidates:</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.74" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.74.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.74.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p73" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p73.1" class="ltx_p">- If a candidate matches EXACTLY, choose it.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.75" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.75.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.75.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.75.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p74.1" class="ltx_p">- If NO candidate matches exactly, pick the candidate with the MOST position-by-</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.76" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.76.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.76.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.76.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p75" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p75.1" class="ltx_p">position character matches. Break ties using &quot;NOT&quot;/&quot;NO ANSWER&quot; eliminations</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.77" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.77.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.77.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.77.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p76.1" class="ltx_p">from memory (rule out guesses already shown wrong on that row).</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.78" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.78.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.78.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.78.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p77" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p77.1" class="ltx_p">e. Also use &quot;NOT&quot;/&quot;NO ANSWER&quot; rows to eliminate impossible candidates in every case.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.79" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.79.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.79.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p78.1" class="ltx_p">f. NEVER output an object outside the candidate list.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.80" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.80.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.80.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.81" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.81.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.81.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.81.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p80.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.82" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.82.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.82.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p81" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p81.1" class="ltx_p">OUTPUT FORMAT</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.83" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.83.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.83.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.83.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p82" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p82.1" class="ltx_p">========================================================================</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.84" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.84.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.84.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p83" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p83.1" class="ltx_p">Begin with exactly one line:</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.85" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.85.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.85.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.85.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p84" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p84.1" class="ltx_p">RULE: check memory for exact-message WAS match first (authoritative). Else split</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.86" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.86.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.86.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.86.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p85" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p85.1" class="ltx_p">[1-3][4-6][7-9][10-12], decode via confirmed group mappings / working table</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.87" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.87.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.87.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.87.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p86" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p86.1" class="ltx_p">(ggg=b, ggm=z, gmg=n, gmm=v, mgg=k, mgm=j, mmg=q, mmm=x), match a candidate exactly;</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.88" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.88.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.88.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.88.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p87" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p87.1" class="ltx_p">if none exact, pick max positional-match, breaking ties with NOT/NO ANSWER memory.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.89" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.89.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.89.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.89.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p88" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p88.1" class="ltx_p">Then: state whether an exact memory match exists; show the indexed split and four</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.90" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.90.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.90.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.90.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p89" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p89.1" class="ltx_p">groups; decode each; state the target object; compare to candidates. End with a clear</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.91" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.91.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.91.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p90" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p90.1" class="ltx_p">final choice by number and by its 4 characters.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.92" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.92.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.92.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:314.3pt;"></span></span></span>
+<span id="A2.SS1.p4.pic1.1.93" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.93.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.93.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.93.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p92" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p92.1" class="ltx_p">Interpreting feedback: reward 0 means the object you chose was NOT the sender’s object.</span>
+</span></span></span></span>
+<span id="A2.SS1.p4.pic1.1.94" class="ltx_p" style="width:314.3pt;"><span id="A2.SS1.p4.pic1.1.94.1" class="ltx_text ltx_verbatim ltx_inline-block" style="width:314.3pt;--ltx-fg-color:#000000;"><span id="A2.SS1.p4.pic1.1.94.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"></span><span id="A2.SS1.p4.pic1.1.94.1.2" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:314.3pt;">
+<span id="A2.SS1.p4.pic1.p93" class="ltx_para ltx_noindent">
+<span id="A2.SS1.p4.pic1.p93.1" class="ltx_p">Re-verify (1) whether an exact memory row existed that you missed, and (2) your split.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
