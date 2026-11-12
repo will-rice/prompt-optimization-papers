@@ -1,0 +1,27 @@
+<svg id="A9.F13.pic1" class="ltx_picture ltx_centering" height="342.36" overflow="visible" version="1.1" viewbox="0 0 653.15 342.36" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,342.36) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BF0000;" fill="#BF0000" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 336.46 C 0 339.72 2.64 342.36 5.91 342.36 L 647.24 342.36 C 650.51 342.36 653.15 339.72 653.15 336.46 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FFF2F2;" fill="#FFF2F2" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 326.2 L 651.18 326.2 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g style="--ltx-stroke-color:#BF0000;" fill-opacity="1.0" stroke="#BF0000" stroke-dasharray="2.84528pt,2.84528pt" stroke-dashoffset="0.0pt"><path style="fill:none" d="M 1.97 26.45 L 651.18 26.45" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 8.89 329.56)"><foreignobject style="--ltx-fo-width:45.92em;--ltx-fo-height:0.68em;--ltx-fo-depth:0em;font-size:10pt;" height="9.46" overflow="visible" transform="matrix(1 0 0 -1 0 9.46)" width="635.4"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A9.F13.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.92em;">
+<span id="A9.F13.pic1.1.1" class="ltx_p ltx_align_center"><span id="A9.F13.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">PRL</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 8.89 35.7)"><foreignobject style="--ltx-fo-width:45.92em;--ltx-fo-height:19.89em;--ltx-fo-depth:0em;font-size:10pt;" height="275.28" overflow="visible" transform="matrix(1 0 0 -1 0 275.28)" width="635.4"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A9.F13.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.92em;">
+<span id="A9.F13.pic1.2.1" class="ltx_p"><span id="A9.F13.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">In this task, you will be given a news article and asked to classify it into one of the four predefined categories: ’World’, ’Sports’,
+’Business’, or ’Tech’. 
+<br class="ltx_break">Follow these detailed instructions to ensure accurate classification
+<br class="ltx_break">1. Read the article thoroughly to understand its main subject matter.
+<br class="ltx_break">2. Determine which of the following categories the article’s main topic most closely aligns with:
+<br class="ltx_break">- ’World’: articles covering global news, politics, international affairs, etc.
+<br class="ltx_break">- ’Sports’: articles discussing various sports, competitions, athletes, etc.
+<br class="ltx_break">- ’Business’: articles focusing on financial news, corporate activities, markets, etc.
+<br class="ltx_break">- ’Tech’: articles about technology, innovations, companies, gadgets, etc.
+<br class="ltx_break">3. If the article’s content is not clearly related to any of these categories, choose the closest option based on the predominant
+subject matter.
+<br class="ltx_break">4. Return the label of the chosen category as a single word without any additional text or explanations, e.g., ’World’, ’Sports’,
+’Business’, or ’Tech’.
+<br class="ltx_break">Example: 
+<br class="ltx_break">Article: &quot;Apple Launches New iPhone Model with Improved Camera Features&quot; Label: Tech
+<br class="ltx_break">Article: &quot;China and the US Reach a New Trade Agreement&quot; Label: World
+<br class="ltx_break">Article: &quot;Local Soccer Team Qualifies for the World Cup&quot; Label: Sports
+<br class="ltx_break">Article: &quot;Oil Prices Drop as OPEC Decides to Cut Production&quot; Label: Business</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 8.89 17.19)"><foreignobject style="--ltx-fo-width:45.92em;--ltx-fo-height:0em;--ltx-fo-depth:0em;font-size:10pt;" height="0" overflow="visible" transform="matrix(1 0 0 -1 0 0)" width="635.4"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A9.F13.pic1.3" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.92em;">
+<span id="A9.F13.pic1.3.1" class="ltx_p ltx_align_center"><span id="A9.F13.pic1.3.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Acc.: <math id="A9.F13.pic1.m1" class="ltx_Math" alttext="84.42" display="inline" intent=":literal"><semantics><mn style="--ltx-fg-color:#000000;" mathcolor="#000000">84.42</mn><annotation encoding="application/x-tex">84.42</annotation></semantics></math></span></span>
+</span></span></span></foreignobject></g></g></svg>
