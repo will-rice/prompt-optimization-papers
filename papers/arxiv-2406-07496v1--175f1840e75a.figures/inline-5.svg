@@ -1,0 +1,22 @@
+<svg id="S3.SS1.p7.pic1" class="ltx_picture" height="296" overflow="visible" version="1.1" viewbox="0 0 650 296" width="650"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,296) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#140091;" fill="#140091" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 290.09 C 0 293.36 2.64 296 5.91 296 L 644.09 296 C 647.36 296 650 293.36 650 290.09 L 650 5.91 C 650 2.64 647.36 0 644.09 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F6F5FB;" fill="#F6F5FB" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 271.89 L 648.03 271.89 L 648.03 5.91 C 648.03 3.73 646.27 1.97 644.09 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 280.49)"><foreignobject style="--ltx-fo-width:43.85em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="606.76"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S3.SS1.p7.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:43.85em;">
+<span id="S3.SS1.p7.pic1.1.1" class="ltx_p"><span id="S3.SS1.p7.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">Code Refinement Objective</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 17.24)"><foreignobject style="--ltx-fo-width:43.85em;--ltx-fo-height:17.55em;--ltx-fo-depth:0.25em;font-size:10pt;" height="246.3" overflow="visible" transform="matrix(1 0 0 -1 0 242.84)" width="606.76"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S3.SS1.p7.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:43.85em;">
+<span id="S3.SS1.p7.pic1.2.1" class="ltx_p"><math id="S3.SS1.p7.pic1.m1" class="ltx_Math" alttext="{\color[rgb]{0.25,0.1,1}\text{LLM}}(" display="inline" intent=":literal"><semantics><mrow><mtext style="--ltx-fg-color:#401AFF;" mathcolor="#401AFF">LLM</mtext><mo lspace="0em" rspace="0em">​</mo><mrow><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">(</mo><mo style="--ltx-fg-color:#000000;" fence="true" lspace="0em" mathcolor="#000000">CLOSE</mo></mrow></mrow><annotation encoding="application/x-tex">{\color[rgb]{0.25,0.1,1}\text{LLM}}(</annotation></semantics></math><span id="S3.SS1.p7.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">&quot;You are an intelligent assistant used as an evaluator, and part of an optimization system.
+You will analyze a code implementation for a coding problem and unit test results.
+The code will be tested with harder tests, so do not just check if the code passes the provided tests.
+Think about the correctness of the code and its performance in harder test cases.
+Give very concise feedback.
+Investigate the code problem and the provided implementation.
+For each failed unit test case, start analyzing it by saying &quot;The code did not pass this test because…&quot;.
+Explain why the current implementation is not getting the expected output. Do not provide a revised implementation. Carefully
+suggest why there are issues with the code and provide feedback. 
+<br class="ltx_break">{Test-time Instruction} 
+<br class="ltx_break">**The coding problem:**</span></span>
+<span id="S3.SS1.p7.pic1.2.2" class="ltx_p"><span id="S3.SS1.p7.pic1.2.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">{Problem}</span></span>
+<span id="S3.SS1.p7.pic1.2.3" class="ltx_p"><span id="S3.SS1.p7.pic1.2.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">**Code generated that must be evaluated for correctness and runtime performance**</span></span>
+<span id="S3.SS1.p7.pic1.2.4" class="ltx_p"><span id="S3.SS1.p7.pic1.2.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">{<span id="S3.SS1.p7.pic1.2.4.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#228B22;">Code</span>}</span></span>
+<span id="S3.SS1.p7.pic1.2.5" class="ltx_p"><span id="S3.SS1.p7.pic1.2.5.1" class="ltx_text" style="--ltx-fg-color:#000000;">**The test results:**</span></span>
+<span id="S3.SS1.p7.pic1.2.6" class="ltx_p"><span id="S3.SS1.p7.pic1.2.6.1" class="ltx_text" style="--ltx-fg-color:#000000;">{Local test Results}</span></span>
+</span></span></span></foreignobject></g></g></svg>

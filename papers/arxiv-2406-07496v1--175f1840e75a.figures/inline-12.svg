@@ -1,0 +1,40 @@
+<svg id="A1.SS4.p5.pic1" class="ltx_picture" height="591.5" overflow="visible" version="1.1" viewbox="0 0 650 591.5" width="650"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,591.5) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 585.59 C 0 588.85 2.64 591.5 5.91 591.5 L 644.09 591.5 C 647.36 591.5 650 588.85 650 585.59 L 650 5.91 C 650 2.64 647.36 0 644.09 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F7F7F7;" fill="#F7F7F7" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 567.39 L 648.03 567.39 L 648.03 5.91 C 648.03 3.73 646.27 1.97 644.09 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 575.98)"><foreignobject style="--ltx-fo-width:43.85em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="606.76"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS4.p5.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:43.85em;">
+<span id="A1.SS4.p5.pic1.1.1" class="ltx_p"><span id="A1.SS4.p5.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">An example prompt to the optimizer</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 15.93)"><foreignobject style="--ltx-fo-width:51.59em;--ltx-fo-height:39em;--ltx-fo-depth:0.16em;font-size:10pt;" height="541.8" overflow="visible" transform="matrix(1 0 0 -1 0 539.65)" width="713.86"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS4.p5.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:51.59em;">
+<span id="A1.SS4.p5.pic1.2.1" class="ltx_p"><span id="A1.SS4.p5.pic1.2.1.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Here is the role of the variable you will improve: &lt;ROLE&gt;system prompt to the language model&lt;/ROLE&gt;.</span></span>
+<span id="A1.SS4.p5.pic1.2.2" class="ltx_p"><span id="A1.SS4.p5.pic1.2.2.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">The variable is the text within the following span: &lt;VARIABLE&gt; You will answer a reasoning question. Think step by step. (…) following format: ’Answer: $VALUE’ where VALUE is a numerical value. &lt;/VARIABLE&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.3" class="ltx_p"><span id="A1.SS4.p5.pic1.2.3.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Here is the context and feedback we got for the variable:</span></span>
+<span id="A1.SS4.p5.pic1.2.4" class="ltx_p"><span id="A1.SS4.p5.pic1.2.4.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;CONTEXT&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.5" class="ltx_p"><span id="A1.SS4.p5.pic1.2.5.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Here is a conversation:</span></span>
+<span id="A1.SS4.p5.pic1.2.6" class="ltx_p"><span id="A1.SS4.p5.pic1.2.6.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;CONVERSATION&gt;&lt;LM_SYSTEM_PROMPT&gt; You will answer a reasoning question. Think step by step. The last line of your response should be of the following format: ’Answer: $VALUE’ where VALUE is a numerical value. &lt;/LM_SYSTEM_PROMPT&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.7" class="ltx_p"><span id="A1.SS4.p5.pic1.2.7.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;LM_INPUT&gt; I have a carrot, an onion, a stalk of celery, three yams, a garlic, a head of broccoli, and a potato. How many vegetables do I have? &lt;/LM_INPUT&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.8" class="ltx_p"><span id="A1.SS4.p5.pic1.2.8.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;LM_OUTPUT&gt; To determine the number of vegetables you have, we need to count each individual vegetable item.</span></span>
+<span id="A1.SS4.p5.pic1.2.9" class="ltx_p"><span id="A1.SS4.p5.pic1.2.9.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">1. Carrot
+2. Onion
+3. Celery
+4. Yams (3 yams)
+5. Garlic
+6. Broccoli
+7. Potato</span></span>
+<span id="A1.SS4.p5.pic1.2.10" class="ltx_p"><span id="A1.SS4.p5.pic1.2.10.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Counting all the individual vegetable items, we have a total of 7 vegetables.</span></span>
+<span id="A1.SS4.p5.pic1.2.11" class="ltx_p"><span id="A1.SS4.p5.pic1.2.11.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Therefore, you have 7 vegetables.</span></span>
+<span id="A1.SS4.p5.pic1.2.12" class="ltx_p"><span id="A1.SS4.p5.pic1.2.12.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Answer: 7 &lt;/LM_OUTPUT&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.13" class="ltx_p"><span id="A1.SS4.p5.pic1.2.13.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;/CONVERSATION&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.14" class="ltx_p"><span id="A1.SS4.p5.pic1.2.14.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">This conversation is potentially part of a larger system. The output is used as response from the language model</span></span>
+<span id="A1.SS4.p5.pic1.2.15" class="ltx_p"><span id="A1.SS4.p5.pic1.2.15.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Here is the feedback we got for system prompt to the language model in the conversation:</span></span>
+<span id="A1.SS4.p5.pic1.2.16" class="ltx_p"><span id="A1.SS4.p5.pic1.2.16.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;FEEDBACK&gt;To improve the structured system prompt for the language model, consider the following feedback:</span></span>
+<span id="A1.SS4.p5.pic1.2.17" class="ltx_p"><span id="A1.SS4.p5.pic1.2.17.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">1. **Clarify the Calculation Process**:
+- **Current Issue**: The prompt does not explicitly instruct the model to outline each step of its calculation process.
+- **Improvement**: Add a directive that requires the model to explicitly state each quantity and the sum. For example, &quot;Clearly outline each step of your calculation process, stating each quantity and the sum.&quot;</span></span>
+<span id="A1.SS4.p5.pic1.2.18" class="ltx_p"><span id="A1.SS4.p5.pic1.2.18.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">2. **Verify Intermediate Steps**:
+- **Current Issue**: The prompt does not instruct the model to verify each intermediate step.
+- **Improvement**: Include a directive for the model to verify each step against known correct values. For example, &quot;Verify each intermediate step in your calculation to ensure accuracy.&quot;</span></span>
+<span id="A1.SS4.p5.pic1.2.19" class="ltx_p"><span id="A1.SS4.p5.pic1.2.19.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;/FEEDBACK&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.20" class="ltx_p"><span id="A1.SS4.p5.pic1.2.20.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;/CONTEXT&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.21" class="ltx_p"><span id="A1.SS4.p5.pic1.2.21.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Improve the variable (system prompt to the language model) using the feedback provided in &lt;FEEDBACK&gt; tags.
+Send the improved variable in the following format:</span></span>
+<span id="A1.SS4.p5.pic1.2.22" class="ltx_p"><span id="A1.SS4.p5.pic1.2.22.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">&lt;IMPROVED_VARIABLE&gt;the improved variable&lt;/IMPROVED_VARIABLE&gt;</span></span>
+<span id="A1.SS4.p5.pic1.2.23" class="ltx_p"><span id="A1.SS4.p5.pic1.2.23.1" class="ltx_text" style="font-size:80%;--ltx-fg-color:#000000;">Send ONLY the improved variable between the &lt;IMPROVED_VARIABLE&gt; tags, and nothing else.</span></span>
+</span></span></span></foreignobject></g></g></svg>
