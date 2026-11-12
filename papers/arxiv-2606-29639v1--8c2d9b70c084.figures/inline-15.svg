@@ -1,0 +1,50 @@
+<svg id="A3.SS2.SSS6.p1.pic1" class="ltx_picture" height="1249" overflow="visible" version="1.1" viewbox="0 0 653.15 1249" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1249) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BFBFBF;" fill="#BFBFBF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 1243.09 C 0 1246.35 2.64 1249 5.91 1249 L 647.24 1249 C 650.51 1249 653.15 1246.35 653.15 1243.09 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 1224.88 L 651.18 1224.88 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 14.21 1233.48)"><foreignobject style="--ltx-fo-width:39.26em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="543.25"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A3.SS2.SSS6.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:39.26em;">
+<span id="A3.SS2.SSS6.p1.pic1.1.1" class="ltx_p"><span id="A3.SS2.SSS6.p1.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">DE operation prompt</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 14.21 11.44)"><foreignobject style="--ltx-fo-width:43em;--ltx-fo-height:87.01em;--ltx-fo-depth:0em;font-size:10pt;" height="1203.99" overflow="visible" transform="matrix(1 0 0 -1 0 1203.99)" width="595"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A3.SS2.SSS6.p1.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:43em;">
+<span id="A3.SS2.SSS6.p1.pic1.2.1" class="ltx_p"><span id="A3.SS2.SSS6.p1.pic1.2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Please follow the instruction step-by-step to generate a better prompt. 
+<br class="ltx_break">1. Identify the different parts between Prompt 1 and Prompt 2: 
+<br class="ltx_break">Prompt 1: Determine whether the named relation holds between the tagged subject and tagged object in the query sentence. Use the support sentence only as an example of the relation. 
+<br class="ltx_break">Prompt 2: Decide if the query sentence expresses the requested relation from Subject to Object. Check the relation definition, entity roles, direction, and whether the evidence is explicit or clearly implied. 
+<br class="ltx_break">2. Randomly mutate the different parts. 
+<br class="ltx_break">3. Combine the different parts with Prompt 3, selectively replace it with the different parts from step 2, and generate a new prompt. 
+<br class="ltx_break">Prompt 3: Carefully compare the relation definition with the query sentence, verify that the tagged Subject and Object have the right semantic types and direction, and avoid using irrelevant facts from the support example. 
+<br class="ltx_break">4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with #PROMPT_OPEN_TAG# and #PROMPT_CLOSE_TAG#: 
+<br class="ltx_break">Basic Prompt: You are given a relation name, a relation description, a support sentence that exemplifies the relation, and a query sentence. Answer only yes or no depending on whether the relation holds between the tagged Subject and Object in the query sentence. 
+<br class="ltx_break">
+<br class="ltx_break">1. Identifying the different parts between Prompt 1 and Prompt 2: 
+<br class="ltx_break">Prompt 1: Determine whether the named relation holds between the tagged subject and tagged object in the query sentence. Use the support sentence only as an example of the relation. 
+<br class="ltx_break">Prompt 2: Decide if the query sentence expresses the requested relation from Subject to Object. Check the relation definition, entity roles, direction, and whether the evidence is explicit or clearly implied. 
+<br class="ltx_break">Different parts: 
+<br class="ltx_break">‘‘named relation holds’’ vs ‘‘query sentence expresses the requested relation’’ 
+<br class="ltx_break">‘‘tagged subject and tagged object’’ vs ‘‘Subject to Object’’ 
+<br class="ltx_break">‘‘Use the support sentence only as an example’’ vs ‘‘Check the relation definition, entity roles, direction’’ 
+<br class="ltx_break">
+<br class="ltx_break">2. Randomly mutate the different parts: 
+<br class="ltx_break">‘‘named relation holds’’ -&gt; ‘‘specified relation is valid’’ 
+<br class="ltx_break">‘‘query sentence expresses the requested relation’’ -&gt; ‘‘query provides enough evidence for the target relation’’ 
+<br class="ltx_break">‘‘tagged subject and tagged object’’ -&gt; ‘‘marked Subject and Object entities’’ 
+<br class="ltx_break">‘‘Check the relation definition, entity roles, direction’’ -&gt; ‘‘verify the definition, argument roles, semantic types, and direction’’ 
+<br class="ltx_break">
+<br class="ltx_break">3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2 and generate a new prompt: 
+<br class="ltx_break">Prompt 3: Carefully compare the relation definition with the query sentence, verify that the tagged Subject and Object have the right semantic types and direction, and avoid using irrelevant facts from the support example. 
+<br class="ltx_break">New Prompt: Carefully compare the relation definition with the query sentence and decide whether the specified relation is valid for the marked Subject and Object entities. Verify the definition, argument roles, semantic types, and direction, and use the support sentence only as a guide to the relation type. 
+<br class="ltx_break">
+<br class="ltx_break">4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with #PROMPT_OPEN_TAG# and #PROMPT_CLOSE_TAG#: 
+<br class="ltx_break">Basic Prompt: You are given a relation name, a relation description, a support sentence that exemplifies the relation, and a query sentence. Answer only yes or no depending on whether the relation holds between the tagged Subject and Object in the query sentence. 
+<br class="ltx_break">Final Prompt: #PROMPT_OPEN_TAG#Carefully compare the relation definition with the query sentence and decide whether the specified relation is valid for the tagged Subject and Object entities. Use the support sentence only as an example of the relation type. Verify the argument roles, semantic types, direction of the relation, and whether the query gives explicit or clearly implied evidence. If the relation holds between the Subject and Object in the query sentence, answer ‘‘yes’’; otherwise, answer ‘‘no’’.#PROMPT_CLOSE_TAG# 
+<br class="ltx_break">
+<br class="ltx_break">Please follow the instruction step-by-step to generate a better prompt. 
+<br class="ltx_break">1. Identify the different parts between Prompt 1 and Prompt 2: 
+<br class="ltx_break">Prompt 1: &lt;prompt1&gt; 
+<br class="ltx_break">Prompt 2: &lt;prompt2&gt; 
+<br class="ltx_break">2. Randomly mutate the different parts. 
+<br class="ltx_break">3. Combine the different parts with Prompt 3, selectively replace it with the different parts in step 2, and generate a new prompt. 
+<br class="ltx_break">Prompt 3: &lt;prompt3&gt; 
+<br class="ltx_break">4. Crossover the prompt in step 3 with the following basic prompt and generate a final prompt bracketed with #PROMPT_OPEN_TAG# and #PROMPT_CLOSE_TAG#: 
+<br class="ltx_break">Basic Prompt: &lt;prompt0&gt; 
+<br class="ltx_break">
+<br class="ltx_break">1. 
+<br class="ltx_break"></span></span>
+</span></span></span></foreignobject></g></g></svg>

@@ -1,0 +1,94 @@
+<svg id="S1.F2.pic1" class="ltx_picture" height="791.75" overflow="visible" version="1.1" viewbox="0 0 477.38 791.75" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,791.75) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#36454F;" fill="#36454F" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 785.84 C 0 789.1 2.64 791.75 5.91 791.75 L 471.47 791.75 C 474.73 791.75 477.38 789.1 477.38 785.84 L 477.38 5.91 C 477.38 2.64 474.73 0 471.47 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FBFBFB;" fill="#FBFBFB" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 748.57 L 475.41 748.57 L 475.41 5.91 C 475.41 3.73 473.65 1.97 471.47 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g style="--ltx-fill-color:#36454F;" fill="#36454F" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 750.54 L 1.97 785.84 C 1.97 788.02 3.73 789.78 5.91 789.78 L 471.47 789.78 C 473.65 789.78 475.41 788.02 475.41 785.84 L 475.41 750.54 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 757.71)"><foreignobject style="--ltx-fo-width:23.24em;--ltx-fo-height:2.03em;--ltx-fo-depth:0.23em;font-size:10pt;" height="31.36" overflow="visible" transform="matrix(1 0 0 -1 0 28.14)" width="321.58"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S1.F2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:23.24em;">
+<span id="S1.F2.pic1.1.1" class="ltx_p"><span id="S1.F2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:120%;--ltx-fg-color:#FFFFFF;">Prompt engineering guideline generated for MBPP+, GPT-4.1-mini</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 714.28)"><foreignobject style="--ltx-fo-width:33.91em;--ltx-fo-height:1.63em;--ltx-fo-depth:50.63em;font-size:10pt;" height="722.99" overflow="visible" transform="matrix(1 0 0 -1 0 22.49)" width="469.22"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S1.F2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.91em;">
+<span id="S1.I1" class="ltx_enumerate ltx_leftmargin_flush">
+<span id="S1.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">A)</span> 
+<span id="S1.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Scope and observable behavior</span></span>
+<span id="S1.I1.i1.I1" class="ltx_itemize">
+<span id="S1.I1.i1.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i1.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i1.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i1.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Define what each function does strictly by observable behavior (inputs → outputs), including whether it mutates inputs (in-place updates) and what part of the data it processes…</span></span>
+</span></span>
+<span id="S1.I1.i1.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i1.I1.i2.p1" class="ltx_para">
+<span id="S1.I1.i1.I1.i2.p1.1" class="ltx_p"><span id="S1.I1.i1.I1.i2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">If sets/dicts are used and </span><span id="S1.I1.i1.I1.i2.p1.1.2" class="ltx_text ltx_font_italic" style="font-size:90%;--ltx-fg-color:#000000;">ordering is not preserved, state that</span><span id="S1.I1.i1.I1.i2.p1.1.3" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">.</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="S1.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">B)</span> 
+<span id="S1.I1.i2.p1" class="ltx_para">
+<span id="S1.I1.i2.p1.1" class="ltx_p"><span id="S1.I1.i2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">API details</span></span>
+<span id="S1.I1.i2.I1" class="ltx_itemize">
+<span id="S1.I1.i2.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i2.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i2.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i2.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">List all function names.</span></span>
+</span></span>
+<span id="S1.I1.i2.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i2.I1.i2.p1" class="ltx_para">
+<span id="S1.I1.i2.I1.i2.p1.1" class="ltx_p"><span id="S1.I1.i2.I1.i2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">List parameter names (and order) exactly.</span></span>
+</span></span>
+<span id="S1.I1.i2.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i2.I1.i3.p1" class="ltx_para">
+<span id="S1.I1.i2.I1.i3.p1.1" class="ltx_p"><span id="S1.I1.i2.I1.i3.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">State return type/value(s), including sentinels.</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="S1.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">C)</span> 
+<span id="S1.I1.i3.p1" class="ltx_para">
+<span id="S1.I1.i3.p1.1" class="ltx_p"><span id="S1.I1.i3.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Dependencies</span></span>
+<span id="S1.I1.i3.I1" class="ltx_itemize">
+<span id="S1.I1.i3.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i3.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i3.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i3.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">List exact imports. If none, say “no external dependencies”.</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="S1.I1.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">D)</span> 
+<span id="S1.I1.i4.p1" class="ltx_para">
+<span id="S1.I1.i4.p1.1" class="ltx_p"><span id="S1.I1.i4.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Preconditions / constraints</span></span>
+<span id="S1.I1.i4.I1" class="ltx_itemize">
+<span id="S1.I1.i4.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i4.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i4.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i4.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">State only the minimal constraints needed to avoid runtime errors (e.g., non-empty list if index 0 is accessed, numeric types if arithmetic is used, etc.).</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="S1.I1.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">E)</span> 
+<span id="S1.I1.i5.p1" class="ltx_para">
+<span id="S1.I1.i5.p1.1" class="ltx_p"><span id="S1.I1.i5.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Correctness conditions</span></span>
+<span id="S1.I1.i5.I1" class="ltx_itemize">
+<span id="S1.I1.i5.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i5.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i5.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i5.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Provide clear properties that must hold for all valid inputs (e.g., inclusivity of ranges, whether replacement is global, whether counting is per-digit vs per-number, etc.).</span></span>
+</span></span>
+<span id="S1.I1.i5.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i5.I1.i2.p1" class="ltx_para">
+<span id="S1.I1.i5.I1.i2.p1.1" class="ltx_p"><span id="S1.I1.i5.I1.i2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Explicitly mention mutation vs non-mutation where relevant.</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="S1.I1.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">F)</span> 
+<span id="S1.I1.i6.p1" class="ltx_para">
+<span id="S1.I1.i6.p1.1" class="ltx_p"><span id="S1.I1.i6.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Error handling</span></span>
+<span id="S1.I1.i6.I1" class="ltx_itemize">
+<span id="S1.I1.i6.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i6.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i6.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i6.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Only require exceptions/edge-case behavior that should be enforced. Otherwise say behavior is undefined for invalid inputs.</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="S1.I1.i7" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">G)</span> 
+<span id="S1.I1.i7.p1" class="ltx_para">
+<span id="S1.I1.i7.p1.1" class="ltx_p"><span id="S1.I1.i7.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Examples</span></span>
+<span id="S1.I1.i7.I1" class="ltx_itemize">
+<span id="S1.I1.i7.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="S1.I1.i7.I1.i1.p1" class="ltx_para">
+<span id="S1.I1.i7.I1.i1.p1.1" class="ltx_p"><span id="S1.I1.i7.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Add 1–3 additional asserts chosen to disambiguate tricky behavior (e.g., boundary values, empty/minimal structures, in-place mutation), without…</span></span>
+</span></span>
+</span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>
