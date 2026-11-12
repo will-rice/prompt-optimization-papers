@@ -1,0 +1,53 @@
+repository:
+  name: "Prompt Optimization Papers"
+  slug: "prompt-optimization-papers"
+  description: "Automatic prompt optimization research papers"
+adapters:
+  - name: arxiv
+    enabled: true
+    secret_env: null
+    lookback_days: 8
+    # AutoPrompt (2020) is the earliest automatic discrete prompt search.
+    backfill_start: 2020-01-01
+    backfill_days: 365
+    page_size: 200
+    max_pages: 10
+    max_results: 2000
+    filters:
+      # Restricted to computer science: "prompt search" is also a particle
+      # physics phrase. topic_plugin.py decides relevance.
+      search_query: '(ti:"prompt optimization" OR abs:"prompt optimization" OR ti:"prompt optimisation" OR abs:"prompt optimisation" OR ti:"automatic prompt" OR abs:"automatic prompt" OR ti:"automated prompt" OR abs:"automated prompt" OR ti:"optimizing prompts" OR abs:"optimizing prompts" OR ti:"optimising prompts" OR abs:"optimising prompts" OR ti:"prompt search" OR abs:"prompt search" OR ti:"instruction optimization" OR abs:"instruction optimization" OR ti:"textual gradient" OR abs:"textual gradient" OR ti:"prompt evolution" OR abs:"prompt evolution" OR ti:"evolutionary prompt" OR abs:"evolutionary prompt" OR ti:"instruction induction" OR abs:"instruction induction" OR ti:"discrete prompt" OR abs:"discrete prompt" OR ti:"hard prompt" OR abs:"hard prompt" OR ti:"prompt refinement" OR abs:"prompt refinement" OR ti:"prompt rewriting" OR abs:"prompt rewriting" OR ti:DSPy OR abs:DSPy OR ti:TextGrad OR abs:TextGrad OR ti:OPRO OR abs:OPRO OR ti:Promptbreeder OR abs:Promptbreeder OR ti:EvoPrompt OR abs:EvoPrompt OR ti:ProTeGi OR abs:ProTeGi OR ti:AutoPrompt OR abs:AutoPrompt OR ti:RLPrompt OR abs:RLPrompt OR ti:PromptAgent OR abs:PromptAgent OR ti:GEPA OR abs:GEPA OR ti:MIPRO OR abs:MIPRO) AND cat:cs.*'
+  - name: huggingface
+    enabled: true
+    secret_env: null
+    lookback_days: 8
+    backfill_start: 2023-05-04
+    backfill_days: 365
+    page_size: 100
+    max_pages: 100
+    max_results: 2000
+    filters: {}
+topic:
+  include_any: []
+  include_all: []
+  exclude_any: []
+  categories: []
+  plugin: "topic_plugin:accept_topic"
+fetch:
+  request_timeout_seconds: 30
+  retries: 3
+  backoff_seconds: 1
+  total_deadline_seconds: 900
+conversion:
+  max_batches_per_run: 20
+  max_papers: 20
+  max_cost: 1000
+  timeout_seconds: 1800
+  html_cost: 2
+  latex_cost: 4
+  pdf_cost: 20
+  deadline_seconds: 10800
+concurrency:
+  html: 4
+  latex: 2
+  pdf: 1

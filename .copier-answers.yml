@@ -1,0 +1,6 @@
+_commit: v0.8.0
+_src_path: https://github.com/will-rice/papers-template.git
+project_name: Prompt Optimization Papers
+project_slug: prompt-optimization-papers
+template_version: 0.1.0
+topic_description: Automatic prompt optimization research papers
