@@ -1,0 +1,217 @@
+<svg id="A7.SS1.p2.pic1" class="ltx_picture" height="1874.75" overflow="visible" version="1.1" viewbox="0 0 653.15 1874.75" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1874.75) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 1874.75 L 653.15 1874.75 L 653.15 0 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 0.55 L 0.55 1874.2 L 652.6 1874.2 L 652.6 0.55 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.62 14.7)"><foreignobject style="--ltx-fo-width:43.35em;--ltx-fo-height:133.59em;--ltx-fo-depth:0.22em;font-size:10pt;" height="1851.53" overflow="visible" transform="matrix(1 0 0 -1 0 1848.45)" width="599.84"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A7.SS1.p2.pic1.1" class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:43.35em;">
+<span id="A7.SS1.p2.pic1.p72" class="ltx_para">
+<span id="A7.SS1.p2.pic1.p72.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p72.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">GEPA</span></span><span class="ltx_rule" style="width:100%;height:1px;--ltx-fg-color:#000000;--ltx-bg-color:#000000;display:inline-block;"> </span>
+</span>
+<span id="A7.SS1.p2.pic1.p1" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p1.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">You will be given:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p2" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p2.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- question: the natural-language request</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p3" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p3.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p3.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- database_schema: the exact SQLite schema available</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p4" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p4.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p4.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- external_knowledge: optional hints clarifying phrasing or value mappings</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p5" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p5.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p5.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Your task:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p6" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p6.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p6.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Return exactly one SQLite query inside a single ‘‘‘sql code block and nothing else.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p7" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p7.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p7.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Select exactly and only the columns the question asks for, in the order asked.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p8" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p8.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p8.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use only tables and columns present in the provided database_schema.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p9" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p9.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p9.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Do not concatenate, compute, alias, or rename columns unless the question explicitly asks for it (e.g., “as a single string”).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p10" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p10.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p10.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Avoid extraneous filters, joins, DISTINCT, GROUP BY, or ORDER BY clauses unless required by the question.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p11" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p11.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p11.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Reasoning and verification:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p12" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p12.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p12.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Carefully map any domain-specific phrasing using external_knowledge, but ensure it aligns with actual schema columns/values.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p13" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p13.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p13.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Prefer the simplest query that satisfies the question to avoid timeouts (minimize joins and avoid large event tables unless explicitly needed).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p14" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p14.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p14.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Verify the output shape (number and order of columns) matches the question exactly and that the query runs logically on the given schema.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p15" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p15.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p15.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Do not add unnecessary conditions like IS NOT NULL unless the question requires them.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p16" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p16.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p16.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- When computing ratios or percentages, ensure real (floating-point) division using 100.0 or CAST(... AS REAL) to avoid integer division.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p17" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p17.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p17.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- When aggregating over joins, do not add DISTINCT unless the question explicitly requires it; count/sum/avg over the joined rows as-is.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p18" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p18.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p18.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use explicit INNER JOINs via declared foreign keys instead of EXISTS filters when linking entities mentioned in the question.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p19" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p19.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p19.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">General patterns:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p20" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p20.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p20.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use LIMIT for “top K” requests.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p21" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p21.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p21.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use ORDER BY only when the question implies an ordering (e.g., “top/most”, “lowest/highest”, “earliest/latest”).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p22" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p22.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p22.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- For “most/least” by a numeric measure, ORDER BY that measure DESC/ASC accordingly and LIMIT 1.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p23" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p23.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p23.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use COUNT or COUNT(DISTINCT ...) only when aggregation or distinctness is explicitly required by the question.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p24" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p24.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p24.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Join via declared foreign keys in the schema (e.g., donations.projectid -&gt; projects.projectid; app_labels.label_id -&gt; label_categories.label_id; Crime.ward_no -&gt; Ward.ward_no).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p25" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p25.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p25.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Do not add secondary sort keys unless specified; sort only as required (e.g., by COUNT DESC for “top/most”).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p26" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p26.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p26.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- When multiple years/records per entity exist and the question does not specify a time period, keep the query simple: select the requested column(s) with the minimal required filter and, if an extreme (“lowest/highest”) is asked, order accordingly and LIMIT 1.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p27" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p27.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p27.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Domain-specific guidance and mappings:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p28" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p28.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p28.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- TV/person/credit schemas:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p29" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p29.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p29.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - A “crew member from [Department]” maps to Credit.category = ’&lt;Department Name&gt;’.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p30" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p30.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p30.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For average heights by department, join Person to Credit and filter Credit.category (e.g., AVG(Person.height_meters) with INNER JOIN Credit on the appropriate key).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p31" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p31.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p31.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Depending on schema, Credit may reference Person by name or ID:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p32" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p32.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p32.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - If Credit.person references Person.name, join ON Credit.person = Person.name.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p33" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p33.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p33.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - If Credit.person_id references Person.person_id, join ON Credit.person_id = Person.person_id.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p34" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p34.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p34.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “credited” status refers to Credit.credited = ’true’ (string).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p35" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p35.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p35.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - To count how many times someone was credited, join Person to Credit, filter by Person.name and Credit.credited = ’true’, and COUNT(*) (or COUNT of the joined key). Do not join Episode unless required by the question.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p36" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p36.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p36.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- DonorsChoose projects/resources:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p37" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p37.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p37.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “main subject area” maps to projects.primary_focus_area.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p38" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p38.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p38.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “resource type supplies” maps to resources.project_resource_type = ’Supplies’.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p39" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p39.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p39.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “most requested item” refers to the item with the highest resources.item_quantity; select resources.item_name, ORDER BY item_quantity DESC, LIMIT 1.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p40" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p40.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p40.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “public magnet school” maps to projects.school_magnet = ’t’.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p41" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p41.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p41.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - City filters (e.g., “Brooklyn”) map to projects.school_city = ’Brooklyn’.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p42" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p42.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p42.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “projects created by a teacher working in …” generally means filter using project attributes and join donations/resources only if the question references those tables’ fields.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p43" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p43.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p43.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Apps/categories dataset:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p44" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p44.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p44.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “categories” are label_categories.category.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p45" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p45.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p45.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For “top N categories with the most app users/popularity,” aggregate over app_labels joined to label_categories:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p46" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p46.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p46.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> SELECT category, COUNT(app_id)</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p47" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p47.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p47.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> FROM app_labels al</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p48" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p48.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p48.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> JOIN label_categories lc ON al.label_id = lc.label_id</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p49" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p49.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p49.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> GROUP BY category</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p50" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p50.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p50.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> ORDER BY COUNT(app_id) DESC</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p51" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p51.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p51.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> LIMIT N</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p52" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p52.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p52.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Do not join events or device tables unless the question explicitly asks about devices or active/installed users.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p53" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p53.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p53.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Chicago crime and wards:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p54" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p54.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p54.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “case No. &lt;ID&gt;” maps to Crime.case_number = ’&lt;ID&gt;’.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p55" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p55.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p55.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “alderman of the legislative district” means join Crime.ward_no to Ward.ward_no.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p56" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p56.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p56.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - When asked for “full name,” return two columns alderman_first_name and alderman_last_name in that order unless the question explicitly requests a single concatenated string.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p57" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p57.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p57.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For “percentage of crimes in &lt;district name&gt;,” join Crime to District on district_no and compute the percentage in a single pass to avoid mismatched denominators and integer division:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p58" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p58.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p58.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> SELECT CAST(SUM(CASE WHEN d.district_name = ’&lt;District Name&gt;’ THEN 1 ELSE 0 END) AS REAL) * 100.0 / COUNT(c.case_number)</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p59" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p59.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p59.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> FROM Crime c</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p60" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p60.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p60.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> INNER JOIN District d ON c.district_no = d.district_no</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p61" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p61.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p61.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Use COUNT(c.case_number) (not COUNT(*)) when counting cases to align with case-based counts.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p62" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p62.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p62.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- World Bank Indicators-style datasets:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p63" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p63.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p63.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Country name is typically Indicators.CountryName (or specific ShortName/LongName columns if explicitly required).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p64" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p64.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p64.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - “arable land percentage” maps to IndicatorName LIKE ’Arable land (% of land area)’.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p65" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p65.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p65.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For “lowest/highest,” use ORDER BY Value ASC/DESC LIMIT 1.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p66" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p66.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p66.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Do not add year filters or aggregations unless the question specifies a time period.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p67" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p67.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p67.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Style and correctness:</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p68" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p68.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p68.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use exact table/column names from database_schema. If the schema uses quoted identifiers (e.g., &quot;Episode&quot;), reference them exactly as defined.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p69" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p69.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p69.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Treat booleans as stored in the schema (commonly ’true’/’false’ or ’t’/’f’ strings).</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p70" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p70.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p70.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Ensure the final query returns exactly the requested columns and nothing else.</span></span>
+</span>
+<span id="A7.SS1.p2.pic1.p71" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p2.pic1.p71.1" class="ltx_p"><span id="A7.SS1.p2.pic1.p71.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Output only the SQL query inside a single ‘‘‘sql code block and no additional text.</span></span>
+</span></span></span></span></foreignobject></g></g></svg>

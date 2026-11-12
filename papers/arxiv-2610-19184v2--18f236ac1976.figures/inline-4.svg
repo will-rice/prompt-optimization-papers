@@ -1,0 +1,202 @@
+<svg id="A7.SS1.p1.pic1" class="ltx_picture" height="2480.81" overflow="visible" version="1.1" viewbox="0 0 653.15 2480.81" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,2480.81) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 2480.81 L 653.15 2480.81 L 653.15 0 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0.55 0.55 L 0.55 2480.26 L 652.6 2480.26 L 652.6 0.55 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.62 14.7)"><foreignobject style="--ltx-fo-width:43.35em;--ltx-fo-height:177.39em;--ltx-fo-depth:0.22em;font-size:10pt;" height="2457.6" overflow="visible" transform="matrix(1 0 0 -1 0 2454.52)" width="599.84"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A7.SS1.p1.pic1.1" class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:43.35em;">
+<span id="A7.SS1.p1.pic1.p67" class="ltx_para">
+<span id="A7.SS1.p1.pic1.p67.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p67.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">HERO</span></span><span class="ltx_rule" style="width:100%;height:1px;--ltx-fg-color:#000000;--ltx-bg-color:#000000;display:inline-block;"> </span>
+</span>
+<span id="A7.SS1.p1.pic1.p1" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p1.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Plan the query before writing it.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p2" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p2.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Determine the exact output the question requests: the column names, their order, and how many columns the result should have. If the request says &quot;full name&quot; and the schema stores name parts separately, treat the full name as those separate parts in multiple columns unless the question explicitly asks for a single combined string or the schema has a single full-name column.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p3" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p3.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p3.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Identify the required grain (per row, per day, per episode, per team/season, per order, etc.). If the question mentions a specific grain like &quot;in a single day&quot; or &quot;per year&quot;, operate at that grain rather than pre-aggregating to a higher level.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p4" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p4.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p4.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Extract filters and map each to the correct column(s) by name (ids, codes, dates, categories). Keep filters minimal: include only constraints stated or necessary for the computation.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p5" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p5.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p5.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Choose the minimal set of tables that contain the needed columns. Prefer direct join paths indicated by foreign keys over indirect or text-based joins.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p6" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p6.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p6.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Decide the aggregation: COUNT rows for &quot;how many&quot; entities; SUM a numeric measure only when the question asks for a total of that measure (e.g., goals/points/units made) and the column stores that quantity per row; use AVG only when asked. Use DISTINCT only when the question says distinct/unique/different.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p7" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p7.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p7.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- For &quot;most/least/top N&quot; questions, define the ordering expression, add a deterministic secondary tie-breaker (e.g., id or name ascending), and use LIMIT appropriately. Prefer ORDER BY ... LIMIT over equality to global MIN/MAX to avoid ties and type issues.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p8" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p8.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p8.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- For multi-part questions that request different results, plan a single result schema that fits all parts. If parts share a single column type, combine them with UNION/UNION ALL into one column set. Do not add extra columns unless the question explicitly asks for them.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p9" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p9.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p9.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- For percentages, define numerator and denominator explicitly to match the question, and compute numerator * 100.0 / denominator with REAL casting to avoid integer division.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p10" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p10.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p10.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Prefer the simplest correct formulation (fewest joins, no unnecessary subqueries/CTEs) to reduce the chance of timeouts.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p11" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p11.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p11.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Constrain all logic to the provided schema.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p12" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p12.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p12.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use only existing tables/columns. Select join keys from declared foreign keys and primary keys; include all columns of composite keys in join predicates.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p13" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p13.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p13.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- When a measure exists in multiple tables, pick the table that is the factual source of that measure (e.g., a detail/fact table) unless the question explicitly targets a summary/lookup.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p14" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p14.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p14.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Map natural-language attributes to columns with matching semantics:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p15" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p15.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p15.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Names: if the schema splits a name into parts, match on the appropriate first/last (and middle if needed) columns; do not use nickname/alias columns unless the question mentions them.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p16" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p16.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p16.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Birth/birthplace </span><math id="A7.SS1.p1.pic1.p16.m1" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p16.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> birth_* columns; high school </span><math id="A7.SS1.p1.pic1.p16.m2" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p16.1.3" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> hs* columns; college </span><math id="A7.SS1.p1.pic1.p16.m3" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p16.1.4" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> college* columns; episode/season/series </span><math id="A7.SS1.p1.pic1.p16.m4" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p16.1.5" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> the corresponding columns; addresses used by an order </span><math id="A7.SS1.p1.pic1.p16.m5" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p16.1.6" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> the address referenced by the order, not a customer’s unrelated addresses.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p17" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p17.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p17.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Facts related to weather, stations, or locations: when keys exist (e.g., zip or station id), join on both the date component and the location key rather than text-only or date-only joins.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p18" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p18.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p18.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Use INNER JOIN by default. Use LEFT JOIN only when the question requires keeping unmatched entities (e.g., &quot;including those with zero&quot;). Ensure no join omits a necessary key that would create a Cartesian product.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p19" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p19.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p19.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Do not introduce DISTINCT, extra GROUP BY, IS NOT NULL, or LIKE patterns unless the question calls for them or they are necessary to faithfully map natural-language tokens that may vary (e.g., case or pluralization).</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p20" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p20.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p20.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Text comparisons:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p21" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p21.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p21.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Use case-insensitive equality (e.g., COLLATE NOCASE or UPPER(...)=UPPER(...)) for names and categories unless the column is a case-sensitive code.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p22" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p22.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p22.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For categorical/unit tokens where the natural-language term may differ in case or simple pluralization/punctuation from stored values, prefer case-insensitive equality; if ambiguity remains, use a narrowly targeted LIKE that matches the intended token (e.g., a substring of the unit name) rather than inventing multiple alternatives.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p23" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p23.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p23.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Dates/times: use the stored formats. If extracting parts (year/month/day) is necessary, use SQLite text functions consistently with the stored format.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p24" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p24.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p24.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Return exactly ONE SQLite query in a ‘‘‘sql code block.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p25" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p25.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p25.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Select exactly the columns requested, in the order requested. Do not add extra columns, labels, or computed/decoded values unless explicitly requested.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p26" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p26.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p26.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Names: if the schema stores name parts separately and the question requests a &quot;full name&quot;, return the separate name-part columns (e.g., first, middle, last) as separate output columns; only concatenate into a single string if explicitly asked for a single combined full-name string or if a single full-name column exists in the schema.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p27" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p27.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p27.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Multi-part questions: produce a single column set across the whole result. If different parts request values of the same column type, combine them with UNION or UNION ALL so the output shape remains constant. Do not append unrelated extra columns to satisfy a later part.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p28" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p28.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p28.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Aggregation:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p29" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p29.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p29.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - &quot;How many&quot; entities </span><math id="A7.SS1.p1.pic1.p29.m1" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p29.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> COUNT over the relevant rows; use COUNT(DISTINCT ...) only if the question says distinct/unique/different or you are counting unique entities across multiple rows.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p30" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p30.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p30.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Totals of a numeric measure explicitly mentioned (e.g., goals/points/units made) </span><math id="A7.SS1.p1.pic1.p30.m1" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p30.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> SUM the measure column over the filtered set.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p31" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p31.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p31.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Averages </span><math id="A7.SS1.p1.pic1.p31.m1" class="ltx_Math" alttext="\rightarrow" display="inline" intent=":literal"><semantics><mo style="--ltx-fg-color:#000000;" mathcolor="#000000" stretchy="false">→</mo><annotation encoding="application/x-tex">\rightarrow</annotation></semantics></math><span id="A7.SS1.p1.pic1.p31.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> AVG over the intended numeric expression; cast to REAL as needed to avoid integer division.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p32" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p32.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p32.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For &quot;zero&quot; conditions on an existing numeric column, filter that column equals 0 rather than using NOT EXISTS.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p33" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p33.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p33.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Joins:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p34" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p34.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p34.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Join tables using explicit foreign keys; include all parts of composite keys.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p35" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p35.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p35.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Prefer key-based joins (ids, codes) over text/date-string joins when keys exist.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p36" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p36.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p36.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For weather or other time/location facts, join on both date (or date substring) and the relevant location key (e.g., zip/station) when both are available.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p37" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p37.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p37.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Granularity:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p38" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p38.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p38.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Respect the grain implied by the question (e.g., per day/episode/order). For phrases like &quot;in a single day&quot; or per-episode counts, avoid pre-aggregating to coarser grains (e.g., per station overall) before ranking; order or aggregate at the specified grain.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p39" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p39.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p39.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Ordering and limits:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p40" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p40.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p40.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For &quot;top N&quot;/&quot;lowest/highest&quot; return ordered results with LIMIT N and a deterministic secondary tie-breaker (e.g., id or name ASC) when ties are unspecified.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p41" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p41.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p41.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Prefer ORDER BY with LIMIT to equality against global MIN/MAX to avoid missing rows due to ties or type casting.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p42" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p42.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p42.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Text filtering:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p43" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p43.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p43.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Use case-insensitive comparisons for names/categories (COLLATE NOCASE or UPPER(...)).</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p44" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p44.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p44.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For unit/category tokens susceptible to singular/plural or punctuation differences, if exact equality is uncertain, use a careful LIKE on a stable substring of the token.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p45" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p45.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p45.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Keep the query minimal (avoid unnecessary CTEs/subqueries, DISTINCT, or extra joins) to reduce runtime and avoid timeouts.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p46" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p46.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p46.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">Before returning the query, validate the following:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p47" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p47.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p47.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Output shape:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p48" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p48.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p48.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - The number of columns and their order exactly match what the question asks. If a &quot;full name&quot; is requested and the schema has separate name parts, ensure the output includes those parts as separate columns (not concatenated) unless a single combined string is explicitly requested.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p49" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p49.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p49.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For multi-part requests, ensure a single, consistent set of columns is returned across all parts. Use UNION/UNION ALL across SELECTs that project the same columns rather than adding extra columns for later parts.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p50" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p50.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p50.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Joins:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p51" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p51.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p51.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Every join uses the correct key(s) as indicated by foreign keys; include all parts of composite keys.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p52" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p52.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p52.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - There is no missing connecting condition that could create a Cartesian product.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p53" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p53.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p53.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Where both a date and a location key are relevant (e.g., facts to weather), both are part of the join/filter.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p54" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p54.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p54.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Filters:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p55" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p55.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p55.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Each literal maps to the correct column; no speculative alternatives (no extra ORs, no nickname fallbacks) unless required by the question.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p56" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p56.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p56.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Text comparisons are case-insensitive where appropriate. For unit/category tokens where singular/plural or punctuation could differ, consider using a precise LIKE on a meaningful substring if exact equality might fail.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p57" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p57.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p57.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Time filters match the specified range/grain and use the stored format correctly (e.g., year extraction, month/day substrings).</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p58" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p58.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p58.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Aggregation and DISTINCT:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p59" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p59.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p59.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Use COUNT to answer &quot;how many&quot; entities; use SUM only when summing an explicit numeric measure is required by the question; use COUNT(DISTINCT ...) only when uniqueness is requested.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p60" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p60.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p60.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - The grouping or lack of grouping matches the intended grain. Do not pre-aggregate to a higher grain than requested.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p61" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p61.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p61.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Ranking and extremes:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p62" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p62.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p62.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - For top/bottom/most/least, verify ORDER BY uses the intended measure and includes a deterministic secondary tie-breaker; prefer ORDER BY ... LIMIT over equality to MIN/MAX.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p63" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p63.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p63.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">- Result sanity:</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p64" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p64.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p64.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Avoid transforming requested raw values into derived labels (e.g., do not convert flags into Yes/No unless asked).</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p65" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p65.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p65.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;"> - Check that the query is unlikely to return zero rows if the question implies an answer exists; if risk arises from equality to an extreme value or over-restrictive filters, consider re-expressing with ORDER BY/LIMIT or removing non-essential filters.</span></span>
+</span>
+<span id="A7.SS1.p1.pic1.p66" class="ltx_para ltx_align_left ltx_noindent">
+<span id="A7.SS1.p1.pic1.p66.1" class="ltx_p"><span id="A7.SS1.p1.pic1.p66.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">If any check fails, revise the query before returning it.</span></span>
+</span></span></span></span></foreignobject></g></g></svg>
