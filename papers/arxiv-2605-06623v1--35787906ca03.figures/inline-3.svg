@@ -1,0 +1,29 @@
+<svg id="A1.p3.pic1" class="ltx_picture" height="457.54" overflow="visible" version="1.1" viewbox="0 0 477.38 457.54" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,457.54) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#606060;" fill="#606060" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 457.54 L 477.38 457.54 L 477.38 6.64 C 477.38 2.97 474.4 0 470.73 0 Z" /></g><g style="--ltx-fill-color:#F9F9F9;" fill="#F9F9F9" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 1.11 L 1.11 433.61 L 476.27 433.61 L 476.27 6.64 C 476.27 3.58 473.79 1.11 470.73 1.11 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.92 442.12)"><foreignobject style="--ltx-fo-width:28.37em;--ltx-fo-height:0.75em;--ltx-fo-depth:0.25em;font-size:10pt;" height="13.84" overflow="visible" transform="matrix(1 0 0 -1 0 10.38)" width="392.56"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.p3.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:28.37em;">
+<span id="A1.p3.pic1.1.1" class="ltx_p"><span id="A1.p3.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Meta-Optimizer Prompt (Code)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.92 15.69)"><foreignobject style="--ltx-fo-width:34.53em;--ltx-fo-height:29.35em;--ltx-fo-depth:0.2em;font-size:10pt;" height="408.89" overflow="visible" transform="matrix(1 0 0 -1 0 406.12)" width="477.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.p3.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:34.53em;">
+<span id="A1.p3.pic1.2.1" class="ltx_p"><span id="A1.p3.pic1.2.1.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">You are optimizing a prompt for a specific agent in a multi-agent code generation system. 
+<br class="ltx_break">CRITICAL: The agent’s core role and responsibilities MUST be preserved in the optimized prompt. 
+<br class="ltx_break">Agent Type: {agent_type} 
+<br class="ltx_break">Current System Role: {role_description} 
+<br class="ltx_break">
+<br class="ltx_break">Sample Execution Traces... 
+<br class="ltx_break">{samples} 
+<br class="ltx_break">Requirements... 
+<br class="ltx_break">{requirements} 
+<br class="ltx_break">Reference prompt... 
+<br class="ltx_break">{prompt} 
+<br class="ltx_break">
+<br class="ltx_break">Your Task: 
+<br class="ltx_break">1. Analyze the &quot;Agent Output&quot; in the samples above. 
+<br class="ltx_break">2. Identify specific **coding errors** (e.g., off-by-one errors, wrong library usage, syntax errors) or **format violations**. 
+<br class="ltx_break">3. Determine if the current prompt is too vague, causing these errors. 
+<br class="ltx_break">4. Propose a new prompt that explicitly instructs the agent to avoid these specific pitfalls. 
+<br class="ltx_break">
+<br class="ltx_break">Format your response exactly as follows: 
+<br class="ltx_break">&lt;analyse&gt;Detailed analysis of the bugs found...&lt;/analyse&gt; 
+<br class="ltx_break">&lt;modification&gt;One sentence summary...&lt;/modification&gt; 
+<br class="ltx_break">&lt;prompt&gt;The complete, optimized prompt (keep it under 300 words). Ensure it retains the core task description.&lt;/prompt&gt;
+</span></span>
+</span></span></span></foreignobject></g></g></svg>
