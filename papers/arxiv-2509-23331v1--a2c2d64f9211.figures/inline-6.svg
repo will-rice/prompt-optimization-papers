@@ -1,0 +1,46 @@
+<svg id="A9.p6.pic1" class="ltx_picture" height="484.18" overflow="visible" version="1.1" viewbox="0 0 550 484.18" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,484.18) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#807B73;" fill="#807B73" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 484.18 L 550 484.18 L 550 0 Z" /></g><g style="--ltx-fill-color:#FFF5E6;" fill="#FFF5E6" fill-opacity="1.0"><path style="stroke:none" d="M 1.18 1.18 L 1.18 461.79 L 548.82 461.79 L 548.82 1.18 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.42 469.6)"><foreignobject style="--ltx-fo-width:37.81em;--ltx-fo-height:0.68em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.15" overflow="visible" transform="matrix(1 0 0 -1 0 9.46)" width="523.18"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A9.p6.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:37.81em;">
+<span id="A9.p6.pic1.1.1" class="ltx_p"><span id="A9.p6.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">5. GPQA</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.42 10.65)"><foreignobject style="--ltx-fo-width:37.81em;--ltx-fo-height:31.92em;--ltx-fo-depth:0em;font-size:10pt;" height="441.67" overflow="visible" transform="matrix(1 0 0 -1 0 441.67)" width="523.18"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A9.p6.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:37.81em;">
+<span id="A9.p6.pic1.2.1" class="ltx_p"><span id="A9.p6.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Your task is to optimize a system prompt for Multiple-choice questions.</span></span>
+<span id="A9.p6.pic1.2.2" class="ltx_p"><span id="A9.p6.pic1.2.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Goal:<span id="A9.p6.pic1.2.2.1.1" class="ltx_text ltx_font_medium"> Given an input Multiple-choice question, answer this question to get the final answer.</span></span></span>
+<span id="A9.p6.pic1.2.3" class="ltx_p"><span id="A9.p6.pic1.2.3.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Task Pipeline:<span id="A9.p6.pic1.2.3.1.1" class="ltx_text"></span></span></span>
+<span id="A9.I9" class="ltx_enumerate ltx_leftmargin_flush">
+<span id="A9.I9.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span id="A9.I9.i1.1" class="ltx_text ltx_font_bold">Step 1:</span></span> 
+<span id="A9.I9.i1.p1" class="ltx_para ltx_noindent">
+<span id="A9.I9.i1.p1.1" class="ltx_p"><span id="A9.I9.i1.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Answer</span></span>
+<span id="A9.I9.i1.I1" class="ltx_itemize" style="--ltx-enum-leftmargin:12pt;">
+<span id="A9.I9.i1.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A9.I9.i1.I1.i1.p1" class="ltx_para ltx_noindent">
+<span id="A9.I9.i1.I1.i1.p1.1" class="ltx_p"><span id="A9.I9.i1.I1.i1.p1.1.1" class="ltx_text ltx_font_italic" style="--ltx-fg-color:#000000;">Input:</span><span id="A9.I9.i1.I1.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> question</span></span>
+</span></span>
+<span id="A9.I9.i1.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A9.I9.i1.I1.i2.p1" class="ltx_para">
+<span id="A9.I9.i1.I1.i2.p1.1" class="ltx_p"><span id="A9.I9.i1.I1.i2.p1.1.1" class="ltx_text ltx_font_italic" style="--ltx-fg-color:#000000;">Output:</span><span id="A9.I9.i1.I1.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> the answer, and put the final answer in </span><code id="A9.I9.i1.I1.i2.p1.1.3" class="ltx_verbatim ltx_font_typewriter" style="--ltx-fg-color:#000000;">\boxed{}</code><span id="A9.I9.i1.I1.i2.p1.1.4" class="ltx_text" style="--ltx-fg-color:#000000;"> tag, i.e. $</span><code id="A9.I9.i1.I1.i2.p1.1.5" class="ltx_verbatim ltx_font_typewriter" style="--ltx-fg-color:#000000;">\boxed{}</code><span id="A9.I9.i1.I1.i2.p1.1.6" class="ltx_text" style="--ltx-fg-color:#000000;">{answer here}.</span></span>
+</span></span>
+</span>
+</span></span>
+</span>
+<span id="A9.p6.pic1.2.4" class="ltx_p"><span id="A9.p6.pic1.2.4.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Your Task:<span id="A9.p6.pic1.2.4.1.1" class="ltx_text ltx_font_medium">
+Optimize system prompt 1 to provide clearer, more effective guidance for their corresponding steps. Ensure overall accuracy is maximized, so that the predicted answer can exactly match the true answer.</span></span></span>
+<span id="A9.p6.pic1.2.5" class="ltx_p"><span id="A9.p6.pic1.2.5.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Constraints:<span id="A9.p6.pic1.2.5.1.1" class="ltx_text"></span></span></span>
+<span id="A9.I10" class="ltx_itemize ltx_leftmargin_flush">
+<span id="A9.I10.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A9.I10.i1.p1" class="ltx_para ltx_noindent">
+<span id="A9.I10.i1.p1.1" class="ltx_p"><span id="A9.I10.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You may perform multiple modifications</span></span>
+</span></span>
+<span id="A9.I10.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A9.I10.i2.p1" class="ltx_para ltx_noindent">
+<span id="A9.I10.i2.p1.1" class="ltx_p"><span id="A9.I10.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Cannot modify content inside angle brackets (e.g., </span><span id="A9.I10.i2.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">&lt;system_prompt_1&gt;</span><span id="A9.I10.i2.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">)</span></span>
+</span></span>
+<span id="A9.I10.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A9.I10.i3.p1" class="ltx_para ltx_noindent">
+<span id="A9.I10.i3.p1.1" class="ltx_p"><span id="A9.I10.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Final output must contain exactly one system prompt</span></span>
+</span></span>
+<span id="A9.I10.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A9.I10.i4.p1" class="ltx_para">
+<span id="A9.I10.i4.p1.1" class="ltx_p"><span id="A9.I10.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Each prompt must be presented in the format: </span><span id="A9.I10.i4.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">&lt;system_prompt_x&gt; ... &lt;/system_prompt_x&gt;</span></span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>
