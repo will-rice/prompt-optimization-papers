@@ -1,0 +1,54 @@
+<svg id="A3.SS6.p5.pic1" class="ltx_picture" height="665.57" overflow="visible" version="1.1" viewbox="0 0 653.15 665.57" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,665.57) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#8EC4B0;" fill="#8EC4B0" fill-opacity="1.0"><path style="stroke:none" d="M 0 4.01 L 0 661.55 C 0 663.77 1.8 665.57 4.01 665.57 L 649.14 665.57 C 651.35 665.57 653.15 663.77 653.15 661.55 L 653.15 4.01 C 653.15 1.8 651.35 0 649.14 0 L 4.01 0 C 1.8 0 0 1.8 0 4.01 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 1.25 4.01 L 1.25 641.37 L 651.9 641.37 L 651.9 4.01 C 651.9 2.48 650.67 1.25 649.14 1.25 L 4.01 1.25 C 2.48 1.25 1.25 2.48 1.25 4.01 Z" /></g><g style="--ltx-fill-color:#8EC4B0;" fill="#8EC4B0" fill-opacity="1.0"><path style="stroke:none" d="M 1.25 642.61 L 1.25 661.55 C 1.25 663.08 2.48 664.32 4.01 664.32 L 649.14 664.32 C 650.67 664.32 651.9 663.08 651.9 661.55 L 651.9 642.61 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.06 650.01)"><foreignobject style="--ltx-fo-width:39.41em;--ltx-fo-height:0.75em;--ltx-fo-depth:0.25em;font-size:10pt;" height="13.84" overflow="visible" transform="matrix(1 0 0 -1 0 10.38)" width="545.32"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A3.SS6.p5.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:39.41em;">
+<span id="A3.SS6.p5.pic1.1.1" class="ltx_p"><span id="A3.SS6.p5.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Rulebook Revision — Per-Cluster Rule Synthesis, paired traces (Stage 4)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.06 13.86)"><foreignobject style="--ltx-fo-width:45.32em;--ltx-fo-height:44.64em;--ltx-fo-depth:0.2em;font-size:10pt;" height="620.44" overflow="visible" transform="matrix(1 0 0 -1 0 617.68)" width="627.1"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A3.SS6.p5.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.32em;">
+<span id="A3.SS6.p5.pic1.2.1" class="ltx_p"><span id="A3.SS6.p5.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are an expert at <span id="A3.SS6.p5.pic1.2.1.1.1" class="ltx_text ltx_font_typewriter">{CLASSIFICATION_TASK}</span>.</span></span>
+<span id="A3.SS6.p5.pic1.2.2" class="ltx_p"><span id="A3.SS6.p5.pic1.2.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">The rulebook below works well on most inputs but misses some hard examples —
+a teacher applying it reasons incorrectly, while an RL-trained model reasons
+correctly on the same inputs. Your task: propose ONE new rule that complements
+the rulebook.</span></span>
+<span id="A3.SS6.p5.pic1.2.3" class="ltx_p"><span id="A3.SS6.p5.pic1.2.3.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">&lt;EXISTING_RULES&gt;
+<br class="ltx_break">{EXISTING_RULES}
+<br class="ltx_break">&lt;/EXISTING_RULES&gt;<span id="A3.SS6.p5.pic1.2.3.1.1" class="ltx_text ltx_font_serif">
+</span></span></span>
+<span id="A3.SS6.p5.pic1.2.4" class="ltx_p"><span id="A3.SS6.p5.pic1.2.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">Paired traces below show (teacher-incorrect, RL-correct) on the same inputs,
+grouped because the correct reasoning shares a strategy.</span></span>
+<span id="A3.SS6.p5.pic1.2.5" class="ltx_p"><span id="A3.SS6.p5.pic1.2.5.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">&lt;PAIRED_REASONING_TRACES&gt;
+<br class="ltx_break">{ROLLOUT_ENTRIES}
+<br class="ltx_break">&lt;/PAIRED_REASONING_TRACES&gt;<span id="A3.SS6.p5.pic1.2.5.1.1" class="ltx_text ltx_font_serif">
+</span></span></span>
+<span id="A3.SS6.p5.pic1.2.6" class="ltx_p"><span id="A3.SS6.p5.pic1.2.6.1" class="ltx_text" style="--ltx-fg-color:#000000;">Treat rollouts whose gold label is <span id="A3.SS6.p5.pic1.2.6.1.1" class="ltx_text ltx_font_typewriter">{RULE_LABEL}</span> as positive evidence
+(rule should fire) and rollouts whose gold label is anything else as negative
+evidence (rule should NOT fire). If you cannot identify a coherent pattern
+that supports label=<span id="A3.SS6.p5.pic1.2.6.1.2" class="ltx_text ltx_font_typewriter">{RULE_LABEL}</span> — including the case where the
+pattern actually points to a different label — output ONLY:
+<span id="A3.SS6.p5.pic1.2.6.1.3" class="ltx_text ltx_font_typewriter">SKIP: insufficient signal for label={RULE_LABEL}</span>.</span></span>
+<span id="A3.SS6.p5.pic1.2.7" class="ltx_p"><span id="A3.SS6.p5.pic1.2.7.1" class="ltx_text" style="--ltx-fg-color:#000000;">Otherwise, generate ONE compact rule predicting label=<span id="A3.SS6.p5.pic1.2.7.1.1" class="ltx_text ltx_font_typewriter">{RULE_LABEL}</span>,
+with:</span></span>
+<span id="A3.I2" class="ltx_itemize">
+<span id="A3.I2.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A3.I2.i1.p1" class="ltx_para">
+<span id="A3.I2.i1.p1.1" class="ltx_p"><span id="A3.I2.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Trigger: the specific features the correct reasoning used.</span></span>
+</span></span>
+<span id="A3.I2.i2" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A3.I2.i2.p1" class="ltx_para">
+<span id="A3.I2.i2.p1.1" class="ltx_p"><span id="A3.I2.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Exceptions: the specific mistakes the incorrect reasoning made
+(2–3 bullets).</span></span>
+</span></span>
+<span id="A3.I2.i3" class="ltx_item" style="list-style-type:none;padding-top:0.0pt;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A3.I2.i3.p1" class="ltx_para">
+<span id="A3.I2.i3.p1.1" class="ltx_p"><span id="A3.I2.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">One concrete source-text example.</span></span>
+</span></span>
+</span>
+<span id="A3.SS6.p5.pic1.2.8" class="ltx_p"><span id="A3.SS6.p5.pic1.2.8.1" class="ltx_text" style="--ltx-fg-color:#000000;">Output (the first line inside <span id="A3.SS6.p5.pic1.2.8.1.1" class="ltx_text ltx_font_typewriter">&lt;RULE_DESCRIPTION&gt;</span> MUST be exactly
+<span id="A3.SS6.p5.pic1.2.8.1.2" class="ltx_text ltx_font_typewriter">Rule Label: {RULE_LABEL}</span> — numeric, no text alias; downstream
+tooling parses this line):</span></span>
+<span id="A3.SS6.p5.pic1.2.9" class="ltx_p"><span id="A3.SS6.p5.pic1.2.9.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">&lt;RULE_NAME&gt;[name]&lt;/RULE_NAME&gt;<span id="A3.SS6.p5.pic1.2.9.1.1" class="ltx_text ltx_font_serif">
+</span></span></span>
+<span id="A3.SS6.p5.pic1.2.10" class="ltx_p"><span id="A3.SS6.p5.pic1.2.10.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">&lt;RULE_DESCRIPTION&gt;
+<br class="ltx_break">Rule Label: {RULE_LABEL}
+<br class="ltx_break">[body]
+<br class="ltx_break">&lt;/RULE_DESCRIPTION&gt;<span id="A3.SS6.p5.pic1.2.10.1.1" class="ltx_text ltx_font_serif">
+</span></span></span>
+</span></span></span></foreignobject></g></g></svg>
