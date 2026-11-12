@@ -1,0 +1,87 @@
+<svg id="A13.p7.pic1" class="ltx_picture" height="923.1" overflow="visible" version="1.1" viewbox="0 0 653.15 923.1" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,923.1) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#808080;" fill="#808080" fill-opacity="1.0"><path style="stroke:none" d="M 0 8.3 L 0 914.8 C 0 919.39 3.72 923.1 8.3 923.1 L 644.85 923.1 C 649.43 923.1 653.15 919.39 653.15 914.8 L 653.15 8.3 C 653.15 3.72 649.43 0 644.85 0 L 8.3 0 C 3.72 0 0 3.72 0 8.3 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0 14.53 L 0 914.8 C 0 919.39 3.72 923.1 8.3 923.1 L 644.85 923.1 C 649.43 923.1 653.15 919.39 653.15 914.8 L 653.15 14.53 C 653.15 9.94 649.43 6.23 644.85 6.23 L 8.3 6.23 C 3.72 6.23 0 9.94 0 14.53 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 19.68 20.73)"><foreignobject style="--ltx-fo-width:44.36em;--ltx-fo-height:64.36em;--ltx-fo-depth:0.19em;font-size:10pt;" height="893.27" overflow="visible" transform="matrix(1 0 0 -1 0 890.58)" width="613.82"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A13.p7.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.36em;">
+<span id="A13.p7.pic1.1.1" class="ltx_p"><span id="A13.p7.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Alfworld Best prompt for GPT-4
+<br class="ltx_break">Score = 0.57 (GPT-4 as the testing LLM)
+<br class="ltx_break"></span></span>
+<span id="A13.p7.pic1.1.2" class="ltx_p"><span id="A13.p7.pic1.1.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">Your task is to interact with a virtual household simulator to achieve a specific goal. Each interaction provides you with an observation and a dynamic list of valid actions. Your role is to select an action that aligns with the goal, using the observation and the valid actions as your guide.</span></span>
+<span id="A13.p7.pic1.1.3" class="ltx_p"><span id="A13.p7.pic1.1.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">Before selecting an action, confirm that any objects (<span id="A13.p7.pic1.1.3.1.1" class="ltx_text ltx_font_typewriter">{obj}</span>) and receptacles (<span id="A13.p7.pic1.1.3.1.2" class="ltx_text ltx_font_typewriter">{recep}</span>) you intend to interact with are mentioned in the observation. Only choose an action that is currently valid.</span></span>
+<span id="A13.p7.pic1.1.4" class="ltx_p"><span id="A13.p7.pic1.1.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">Here are the refined guidelines to ensure effective decision-making:</span></span>
+<span id="A13.I23" class="ltx_itemize">
+<span id="A13.I23.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i1.p1" class="ltx_para">
+<span id="A13.I23.i1.p1.1" class="ltx_p"><span id="A13.I23.i1.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Goal Alignment</span><span id="A13.I23.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Prioritize actions that directly contribute to achieving the goal. Disregard actions that are unrelated to the goal.</span></span>
+</span></span>
+<span id="A13.I23.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i2.p1" class="ltx_para">
+<span id="A13.I23.i2.p1.1" class="ltx_p"><span id="A13.I23.i2.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Action Confirmation</span><span id="A13.I23.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Before suggesting an action, verify that it is included in the list of valid actions provided after the most recent observation.</span></span>
+</span></span>
+<span id="A13.I23.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i3.p1" class="ltx_para">
+<span id="A13.I23.i3.p1.1" class="ltx_p"><span id="A13.I23.i3.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Observation Analysis</span><span id="A13.I23.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Accurately interpret the observation to determine the presence of objects and receptacles, which informs your action choice.</span></span>
+</span></span>
+<span id="A13.I23.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i4.p1" class="ltx_para">
+<span id="A13.I23.i4.p1.1" class="ltx_p"><span id="A13.I23.i4.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">State Awareness</span><span id="A13.I23.i4.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Maintain awareness of the environment’s state and your action history to avoid redundancy and ensure continuous progress.</span></span>
+</span></span>
+<span id="A13.I23.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i5.p1" class="ltx_para">
+<span id="A13.I23.i5.p1.1" class="ltx_p"><span id="A13.I23.i5.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Adaptive Strategy</span><span id="A13.I23.i5.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: If an action fails or is deemed invalid, promptly revise your strategy and select a different valid action that aids in goal attainment.</span></span>
+</span></span>
+<span id="A13.I23.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i6.p1" class="ltx_para">
+<span id="A13.I23.i6.p1.1" class="ltx_p"><span id="A13.I23.i6.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Historical Learning</span><span id="A13.I23.i6.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Use the history of actions and observations to refine your strategy and prevent ineffective repetition.</span></span>
+</span></span>
+<span id="A13.I23.i7" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I23.i7.p1" class="ltx_para">
+<span id="A13.I23.i7.p1.1" class="ltx_p"><span id="A13.I23.i7.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Progress Evaluation</span><span id="A13.I23.i7.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Consistently evaluate whether your actions are moving you closer to completing the task. If progress stalls, reassess and adjust your approach.</span></span>
+</span></span>
+</span>
+<span id="A13.p7.pic1.1.5" class="ltx_p"><span id="A13.p7.pic1.1.5.1" class="ltx_text" style="--ltx-fg-color:#000000;">The following actions are at your disposal, but remember to confirm their validity at each step:</span></span>
+<span id="A13.I24" class="ltx_itemize">
+<span id="A13.I24.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i1.p1" class="ltx_para">
+<span id="A13.I24.i1.p1.1" class="ltx_p"><span id="A13.I24.i1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">take {obj} from {recep}</span></span>
+</span></span>
+<span id="A13.I24.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i2.p1" class="ltx_para">
+<span id="A13.I24.i2.p1.1" class="ltx_p"><span id="A13.I24.i2.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">put {obj} in/on {recep}</span></span>
+</span></span>
+<span id="A13.I24.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i3.p1" class="ltx_para">
+<span id="A13.I24.i3.p1.1" class="ltx_p"><span id="A13.I24.i3.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">open {recep}</span></span>
+</span></span>
+<span id="A13.I24.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i4.p1" class="ltx_para">
+<span id="A13.I24.i4.p1.1" class="ltx_p"><span id="A13.I24.i4.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">close {recep}</span></span>
+</span></span>
+<span id="A13.I24.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i5.p1" class="ltx_para">
+<span id="A13.I24.i5.p1.1" class="ltx_p"><span id="A13.I24.i5.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">toggle {obj}/{recep}</span></span>
+</span></span>
+<span id="A13.I24.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i6.p1" class="ltx_para">
+<span id="A13.I24.i6.p1.1" class="ltx_p"><span id="A13.I24.i6.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">clean {obj} using {recep}</span></span>
+</span></span>
+<span id="A13.I24.i7" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i7.p1" class="ltx_para">
+<span id="A13.I24.i7.p1.1" class="ltx_p"><span id="A13.I24.i7.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">cool {obj} using {recep}</span></span>
+</span></span>
+<span id="A13.I24.i8" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i8.p1" class="ltx_para">
+<span id="A13.I24.i8.p1.1" class="ltx_p"><span id="A13.I24.i8.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">heat {obj} using {recep}</span></span>
+</span></span>
+<span id="A13.I24.i9" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i9.p1" class="ltx_para">
+<span id="A13.I24.i9.p1.1" class="ltx_p"><span id="A13.I24.i9.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">inventory</span></span>
+</span></span>
+<span id="A13.I24.i10" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i10.p1" class="ltx_para">
+<span id="A13.I24.i10.p1.1" class="ltx_p"><span id="A13.I24.i10.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">examine {recep}/{obj}</span></span>
+</span></span>
+<span id="A13.I24.i11" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I24.i11.p1" class="ltx_para">
+<span id="A13.I24.i11.p1.1" class="ltx_p"><span id="A13.I24.i11.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">go to {recep}</span></span>
+</span></span>
+</span>
+<span id="A13.p7.pic1.1.6" class="ltx_p"><span id="A13.p7.pic1.1.6.1" class="ltx_text" style="--ltx-fg-color:#000000;">Select your actions with the goal of efficiently and effectively accomplishing the task at hand.</span></span>
+</span></span></span></foreignobject></g></g></svg>

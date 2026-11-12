@@ -1,0 +1,23 @@
+<svg id="Sx13.SSx2.p2.pic1" class="ltx_picture" height="421.76" overflow="visible" version="1.1" viewbox="0 0 322 421.76" width="322"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,421.76) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#00008C;" fill="#00008C" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 415.86 C 0 419.12 2.64 421.76 5.91 421.76 L 316.1 421.76 C 319.36 421.76 322 419.12 322 415.86 L 322 5.91 C 322 2.64 319.36 0 316.1 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F2F2FF;" fill="#F2F2FF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 400.5 L 320.04 400.5 L 320.04 5.91 C 320.04 3.73 318.27 1.97 316.1 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 406.4)"><foreignobject style="--ltx-fo-width:19.7em;--ltx-fo-height:0.68em;--ltx-fo-depth:0em;font-size:10pt;" height="9.46" overflow="visible" transform="matrix(1 0 0 -1 0 9.46)" width="272.59"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="Sx13.SSx2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:19.7em;">
+<span id="Sx13.SSx2.p2.pic1.1.1" class="ltx_p"><span id="Sx13.SSx2.p2.pic1.1.1.1" class="ltx_text ltx_font_italic" style="--ltx-fg-color:#FFFFFF;">APE</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 379.08)"><foreignobject style="--ltx-fo-width:20.14em;--ltx-fo-height:0.69em;--ltx-fo-depth:26.4em;font-size:10pt;" height="374.91" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="278.68"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="Sx13.SSx2.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:20.14em;">
+<span id="Sx13.SSx2.p2.pic1.2.1" class="ltx_p"><span id="Sx13.SSx2.p2.pic1.2.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">The meta-prompt for update:<span id="Sx13.SSx2.p2.pic1.2.1.1.1" class="ltx_text ltx_font_medium"> 
+<br class="ltx_break">
+<br class="ltx_break">Your task is to write a prompt to replace Prompt.
+<br class="ltx_break">
+<br class="ltx_break">Below is the current prompt with its score. The score ranges from 0 to 100, and higher score indicates better quality.
+<br class="ltx_break">Prompt: {current prompt}
+<br class="ltx_break">Score: {current prompt score}
+<br class="ltx_break">
+<br class="ltx_break">The current prompt is:
+<br class="ltx_break">{current prompt}
+<br class="ltx_break">
+<br class="ltx_break">The following exemplars show how to apply the prompt: you replace Prompt in each input with your new prompt, then read the input and give an output. We say your output is wrong if it is different from the given output, and we say your output is correct if they are the same.
+<br class="ltx_break">
+<br class="ltx_break">{task examples}
+<br class="ltx_break">
+<br class="ltx_break">Write a new improved prompt to replace Prompt {prompt position description} in the task examples.
+<br class="ltx_break">Wrap the new prompt with START and END.</span></span></span>
+</span></span></span></foreignobject></g></g></svg>

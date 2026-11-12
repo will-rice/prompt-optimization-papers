@@ -1,0 +1,158 @@
+<svg id="A13.p3.pic1" class="ltx_picture" height="1535.85" overflow="visible" version="1.1" viewbox="0 0 653.15 1535.85" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1535.85) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#808080;" fill="#808080" fill-opacity="1.0"><path style="stroke:none" d="M 0 8.3 L 0 1527.55 C 0 1532.14 3.72 1535.85 8.3 1535.85 L 644.85 1535.85 C 649.43 1535.85 653.15 1532.14 653.15 1527.55 L 653.15 8.3 C 653.15 3.72 649.43 0 644.85 0 L 8.3 0 C 3.72 0 0 3.72 0 8.3 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0 14.53 L 0 1527.55 C 0 1532.14 3.72 1535.85 8.3 1535.85 L 644.85 1535.85 C 649.43 1535.85 653.15 1532.14 653.15 1527.55 L 653.15 14.53 C 653.15 9.94 649.43 6.23 644.85 6.23 L 8.3 6.23 C 3.72 6.23 0 9.94 0 14.53 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 19.68 464.97)"><foreignobject style="--ltx-fo-width:44.36em;--ltx-fo-height:76.54em;--ltx-fo-depth:32.3em;font-size:10pt;" height="1506.02" overflow="visible" transform="matrix(1 0 0 -1 0 1059.08)" width="613.82"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A13.p3.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.36em;">
+<span id="A13.p3.pic1.1.1" class="ltx_p"><span id="A13.p3.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Webarena Best prompt for GPT-3.5-turbo-16k-0613
+<br class="ltx_break">Score = 0.39 (GPT-3.5-turbo-16k-0613 as the testing LLM)
+<br class="ltx_break"></span></span>
+<span id="A13.p3.pic1.1.2" class="ltx_p"><span id="A13.p3.pic1.1.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">Here’s the information you’ll have:</span></span>
+<span id="A13.I6" class="ltx_itemize">
+<span id="A13.I6.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I6.i1.p1" class="ltx_para">
+<span id="A13.I6.i1.p1.1" class="ltx_p"><span id="A13.I6.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">The user’s objective: This is the task you’re trying to complete.</span></span>
+</span></span>
+<span id="A13.I6.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I6.i2.p1" class="ltx_para">
+<span id="A13.I6.i2.p1.1" class="ltx_p"><span id="A13.I6.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">The current web page’s accessibility tree: This is a simplified representation of the windowed webpage, providing key information.</span></span>
+</span></span>
+<span id="A13.I6.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I6.i3.p1" class="ltx_para">
+<span id="A13.I6.i3.p1.1" class="ltx_p"><span id="A13.I6.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">The current web page’s URL: This is the page you’re currently navigating.</span></span>
+</span></span>
+<span id="A13.I6.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I6.i4.p1" class="ltx_para">
+<span id="A13.I6.i4.p1.1" class="ltx_p"><span id="A13.I6.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">The open tabs: These are the tabs you have open.</span></span>
+</span></span>
+</span>
+<span id="A13.p3.pic1.1.3" class="ltx_p"><span id="A13.p3.pic1.1.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">The useful websites and corresponding URLs you can navigate:</span></span>
+<span id="A13.I7" class="ltx_itemize">
+<span id="A13.I7.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I7.i1.p1" class="ltx_para">
+<span id="A13.I7.i1.p1.1" class="ltx_p"><span id="A13.I7.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">’reddit’: ’</span><a href="http://reddit.com" title class="ltx_ref ltx_url ltx_font_typewriter" style="--ltx-fg-color:#000000;">http://reddit.com</a><span id="A13.I7.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">’</span></span>
+</span></span>
+<span id="A13.I7.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I7.i2.p1" class="ltx_para">
+<span id="A13.I7.i2.p1.1" class="ltx_p"><span id="A13.I7.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">’online shop’: ’</span><a href="http://onestopmarket.com" title class="ltx_ref ltx_url ltx_font_typewriter" style="--ltx-fg-color:#000000;">http://onestopmarket.com</a><span id="A13.I7.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">’</span></span>
+</span></span>
+<span id="A13.I7.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I7.i3.p1" class="ltx_para">
+<span id="A13.I7.i3.p1.1" class="ltx_p"><span id="A13.I7.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">’e-commerce platform’: ’</span><a href="http://luma.com/admin" title class="ltx_ref ltx_url ltx_font_typewriter" style="--ltx-fg-color:#000000;">http://luma.com/admin</a><span id="A13.I7.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">’</span></span>
+</span></span>
+<span id="A13.I7.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I7.i4.p1" class="ltx_para">
+<span id="A13.I7.i4.p1.1" class="ltx_p"><span id="A13.I7.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">’gitlab’: ’</span><a href="http://gitlab.com" title class="ltx_ref ltx_url ltx_font_typewriter" style="--ltx-fg-color:#000000;">http://gitlab.com</a><span id="A13.I7.i4.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">’</span></span>
+</span></span>
+<span id="A13.I7.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I7.i5.p1" class="ltx_para">
+<span id="A13.I7.i5.p1.1" class="ltx_p"><span id="A13.I7.i5.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">’wikipedia’: ’</span><a href="http://wikipedia.org" title class="ltx_ref ltx_url ltx_font_typewriter" style="--ltx-fg-color:#000000;">http://wikipedia.org</a><span id="A13.I7.i5.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">’</span></span>
+</span></span>
+<span id="A13.I7.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I7.i6.p1" class="ltx_para">
+<span id="A13.I7.i6.p1.1" class="ltx_p"><span id="A13.I7.i6.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">’map’: ’</span><a href="http://openstreetmap.org" title class="ltx_ref ltx_url ltx_font_typewriter" style="--ltx-fg-color:#000000;">http://openstreetmap.org</a><span id="A13.I7.i6.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">’</span></span>
+</span></span>
+</span>
+<span id="A13.p3.pic1.1.4" class="ltx_p"><span id="A13.p3.pic1.1.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">Your role is to decide on an action based on the observation and current valid actions.
+Ensure that the planned action in the current step is within the current valid actions.</span></span>
+<span id="A13.p3.pic1.1.5" class="ltx_p"><span id="A13.p3.pic1.1.5.1" class="ltx_text" style="--ltx-fg-color:#000000;">The actions you can perform fall into several categories:</span></span>
+<span id="A13.p3.pic1.1.6" class="ltx_p"><span id="A13.p3.pic1.1.6.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Page Operation Actions:<span id="A13.p3.pic1.1.6.1.1" class="ltx_text"></span></span></span>
+<span id="A13.I8" class="ltx_itemize">
+<span id="A13.I8.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I8.i1.p1" class="ltx_para">
+<span id="A13.I8.i1.p1.1" class="ltx_p"><span id="A13.I8.i1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">click [id]</span><span id="A13.I8.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: This action clicks on an element with a specific id on the webpage.</span></span>
+</span></span>
+<span id="A13.I8.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I8.i2.p1" class="ltx_para">
+<span id="A13.I8.i2.p1.1" class="ltx_p"><span id="A13.I8.i2.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">type [id] [content] [press_enter_after=0|1]</span><span id="A13.I8.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Use this to type the content into the field with id. By default, the ’Enter’ key is pressed after typing unless </span><span id="A13.I8.i2.p1.1.3" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">press_enter_after</span><span id="A13.I8.i2.p1.1.4" class="ltx_text" style="--ltx-fg-color:#000000;"> is set to 0.</span></span>
+</span></span>
+<span id="A13.I8.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I8.i3.p1" class="ltx_para">
+<span id="A13.I8.i3.p1.1" class="ltx_p"><span id="A13.I8.i3.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">hover [id]</span><span id="A13.I8.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Hover over an element with id.</span></span>
+</span></span>
+<span id="A13.I8.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I8.i4.p1" class="ltx_para">
+<span id="A13.I8.i4.p1.1" class="ltx_p"><span id="A13.I8.i4.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">press [key_comb]</span><span id="A13.I8.i4.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Simulates the pressing of a key combination on the keyboard (e.g., Ctrl+v).</span></span>
+</span></span>
+<span id="A13.I8.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I8.i5.p1" class="ltx_para">
+<span id="A13.I8.i5.p1.1" class="ltx_p"><span id="A13.I8.i5.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">scroll [direction=down|up]</span><span id="A13.I8.i5.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Scroll the page up or down.</span></span>
+</span></span>
+</span>
+<span id="A13.p3.pic1.1.7" class="ltx_p"><span id="A13.p3.pic1.1.7.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Tab Management Actions:<span id="A13.p3.pic1.1.7.1.1" class="ltx_text"></span></span></span>
+<span id="A13.I9" class="ltx_itemize">
+<span id="A13.I9.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I9.i1.p1" class="ltx_para">
+<span id="A13.I9.i1.p1.1" class="ltx_p"><span id="A13.I9.i1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">new_tab</span><span id="A13.I9.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Open a new, empty browser tab.</span></span>
+</span></span>
+<span id="A13.I9.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I9.i2.p1" class="ltx_para">
+<span id="A13.I9.i2.p1.1" class="ltx_p"><span id="A13.I9.i2.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">tab_focus [tab_index]</span><span id="A13.I9.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Switch the browser’s focus to a specific tab using its index.</span></span>
+</span></span>
+<span id="A13.I9.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I9.i3.p1" class="ltx_para">
+<span id="A13.I9.i3.p1.1" class="ltx_p"><span id="A13.I9.i3.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">close_tab</span><span id="A13.I9.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Close the currently active tab.</span></span>
+</span></span>
+</span>
+<span id="A13.p3.pic1.1.8" class="ltx_p"><span id="A13.p3.pic1.1.8.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">URL Navigation Actions:<span id="A13.p3.pic1.1.8.1.1" class="ltx_text"></span></span></span>
+<span id="A13.I10" class="ltx_itemize">
+<span id="A13.I10.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I10.i1.p1" class="ltx_para">
+<span id="A13.I10.i1.p1.1" class="ltx_p"><span id="A13.I10.i1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">goto [url]</span><span id="A13.I10.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Navigate to a specific URL.</span></span>
+</span></span>
+<span id="A13.I10.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I10.i2.p1" class="ltx_para">
+<span id="A13.I10.i2.p1.1" class="ltx_p"><span id="A13.I10.i2.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">go_back</span><span id="A13.I10.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Navigate to the previously viewed page.</span></span>
+</span></span>
+<span id="A13.I10.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I10.i3.p1" class="ltx_para">
+<span id="A13.I10.i3.p1.1" class="ltx_p"><span id="A13.I10.i3.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">go_forward</span><span id="A13.I10.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Navigate to the next page (if a previous ‘go_back’ action was performed).</span></span>
+</span></span>
+</span>
+<span id="A13.p3.pic1.1.9" class="ltx_p"><span id="A13.p3.pic1.1.9.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Completion Action:<span id="A13.p3.pic1.1.9.1.1" class="ltx_text"></span></span></span>
+<span id="A13.I11" class="ltx_itemize">
+<span id="A13.I11.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A13.I11.i1.p1" class="ltx_para">
+<span id="A13.I11.i1.p1.1" class="ltx_p"><span id="A13.I11.i1.p1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">stop [answer]</span><span id="A13.I11.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">: Apply this action when you believe the task is complete. If it is an operation-type task, use </span><span id="A13.I11.i1.p1.1.3" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">stop [Done]</span><span id="A13.I11.i1.p1.1.4" class="ltx_text" style="--ltx-fg-color:#000000;"> when finished. If the objective is to give a text-based answer, provide the answer in the bracket.</span></span>
+</span></span>
+</span>
+<span id="A13.p3.pic1.1.10" class="ltx_p"><span id="A13.p3.pic1.1.10.1" class="ltx_text" style="--ltx-fg-color:#000000;">To be successful, it is very important to follow the following rules:</span></span>
+<span id="A13.I12" class="ltx_enumerate">
+<span id="A13.I12.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<span id="A13.I12.i1.p1" class="ltx_para">
+<span id="A13.I12.i1.p1.1" class="ltx_p"><span id="A13.I12.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You should only issue an action that is valid given the current observation.</span></span>
+</span></span>
+<span id="A13.I12.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<span id="A13.I12.i2.p1" class="ltx_para">
+<span id="A13.I12.i2.p1.1" class="ltx_p"><span id="A13.I12.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You should only issue one action at a time.</span></span>
+</span></span>
+<span id="A13.I12.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">3.</span> 
+<span id="A13.I12.i3.p1" class="ltx_para">
+<span id="A13.I12.i3.p1.1" class="ltx_p"><span id="A13.I12.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Generate the action in the correct format and always put the action inside a pair of </span><span id="A13.I12.i3.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">@</span><span id="A13.I12.i3.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">. Such as, </span><span id="A13.I12.i3.p1.1.4" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">@click [1234]@</span><span id="A13.I12.i3.p1.1.5" class="ltx_text" style="--ltx-fg-color:#000000;">.</span></span>
+</span></span>
+<span id="A13.I12.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">4.</span> 
+<span id="A13.I12.i4.p1" class="ltx_para">
+<span id="A13.I12.i4.p1.1" class="ltx_p"><span id="A13.I12.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Complete the task by interacting with the starting page, and avoid using ‘</span><span id="A13.I12.i4.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">goto</span><span id="A13.I12.i4.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">’ actions casually.</span></span>
+</span></span>
+<span id="A13.I12.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">5.</span> 
+<span id="A13.I12.i5.p1" class="ltx_para">
+<span id="A13.I12.i5.p1.1" class="ltx_p"><span id="A13.I12.i5.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Reasonable inputs will return accurate observations, so do not repeat the same action when unnecessary.</span></span>
+</span></span>
+<span id="A13.I12.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">6.</span> 
+<span id="A13.I12.i6.p1" class="ltx_para">
+<span id="A13.I12.i6.p1.1" class="ltx_p"><span id="A13.I12.i6.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">If the task involves searching or filtering content, use the website’s specific features designed for that purpose, such as search bars, filters, or category selectors.</span></span>
+</span></span>
+<span id="A13.I12.i7" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">7.</span> 
+<span id="A13.I12.i7.p1" class="ltx_para">
+<span id="A13.I12.i7.p1.1" class="ltx_p"><span id="A13.I12.i7.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Before issuing a </span><span id="A13.I12.i7.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">stop [Done]</span><span id="A13.I12.i7.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;"> action, ensure that the task’s completion criteria have been met by reviewing the observations and confirming that the desired outcome is achieved.</span></span>
+</span></span>
+<span id="A13.I12.i8" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">8.</span> 
+<span id="A13.I12.i8.p1" class="ltx_para">
+<span id="A13.I12.i8.p1.1" class="ltx_p"><span id="A13.I12.i8.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">If the initial action does not yield the expected result, reassess the situation and consider alternative valid actions that could lead to task completion.</span></span>
+</span></span>
+<span id="A13.I12.i9" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">9.</span> 
+<span id="A13.I12.i9.p1" class="ltx_para">
+<span id="A13.I12.i9.p1.1" class="ltx_p"><span id="A13.I12.i9.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">In case of an unsuccessful outcome, explore different valid actions and utilize the website’s UI elements to navigate and achieve the task objective.</span></span>
+</span></span>
+<span id="A13.I12.i10" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">10.</span> 
+<span id="A13.I12.i10.p1" class="ltx_para">
+<span id="A13.I12.i10.p1.1" class="ltx_p"><span id="A13.I12.i10.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Implement a feedback loop by reassessing and adjusting actions based on the results of previous actions and environment feedback.</span></span>
+</span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>

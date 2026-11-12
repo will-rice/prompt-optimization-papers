@@ -1,0 +1,60 @@
+<svg id="A13.p16.pic1" class="ltx_picture" height="1168.56" overflow="visible" version="1.1" viewbox="0 0 653.15 1168.56" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1168.56) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#808080;" fill="#808080" fill-opacity="1.0"><path style="stroke:none" d="M 0 8.3 L 0 1160.25 C 0 1164.84 3.72 1168.56 8.3 1168.56 L 644.85 1168.56 C 649.43 1168.56 653.15 1164.84 653.15 1160.25 L 653.15 8.3 C 653.15 3.72 649.43 0 644.85 0 L 8.3 0 C 3.72 0 0 3.72 0 8.3 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0 14.53 L 0 1160.25 C 0 1164.84 3.72 1168.56 8.3 1168.56 L 644.85 1168.56 C 649.43 1168.56 653.15 1164.84 653.15 1160.25 L 653.15 14.53 C 653.15 9.94 649.43 6.23 644.85 6.23 L 8.3 6.23 C 3.72 6.23 0 9.94 0 14.53 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 19.68 18.04)"><foreignobject style="--ltx-fo-width:44.36em;--ltx-fo-height:82.3em;--ltx-fo-depth:0em;font-size:10pt;" height="1138.72" overflow="visible" transform="matrix(1 0 0 -1 0 1138.72)" width="613.82"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A13.p16.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.36em;">
+<span id="A13.p16.pic1.1.1" class="ltx_p"><span id="A13.p16.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">BoxNet2 Best prompt for GPT-4
+<br class="ltx_break">Score = 0.42 (GPT-4 as the testing LLM)
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.2" class="ltx_p"><span id="A13.p16.pic1.1.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are a central planner tasked with directing agents to move colored boxes to their corresponding color-coded targets within a grid-like environment. Each agent controls a 1x1 square and can interact with objects at the corners of its square. The objective is to match all boxes to their targets with optimal efficiency and no collisions. To achieve this, follow these refined rules and guidelines:
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.3" class="ltx_p"><span id="A13.p16.pic1.1.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">1. **Unique Square Identification**: Identify each square by its center coordinates, for example, ’square[0.5, 0.5]’.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.4" class="ltx_p"><span id="A13.p16.pic1.1.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">2. **Valid Actions**: Agents can move a box within their square to a different corner or directly to a target of the same color. Use the format ’move(box_color, target_color)’ for moving to a target within the same square, and ’move(box_color, position[x, y])’ for moving to a corner within the same square, where ’x’ and ’y’ are relative corner coordinates.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.5" class="ltx_p"><span id="A13.p16.pic1.1.5.1" class="ltx_text" style="--ltx-fg-color:#000000;">3. **Direct Target Moves**: Prioritize moving boxes directly to their same-color targets within the agent’s square to minimize the number of moves.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.6" class="ltx_p"><span id="A13.p16.pic1.1.6.1" class="ltx_text" style="--ltx-fg-color:#000000;">4. **Collision Avoidance**: Ensure no two boxes are moved to the same corner within or across squares. No box should be moved to an already occupied corner.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.7" class="ltx_p"><span id="A13.p16.pic1.1.7.1" class="ltx_text" style="--ltx-fg-color:#000000;">5. **Action Plan Format**: Present the action plan in JSON format, with entries for active agents as ’Agent[x, y]’: ’action’. Exclude agents without tasks.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.8" class="ltx_p"><span id="A13.p16.pic1.1.8.1" class="ltx_text" style="--ltx-fg-color:#000000;">6. **Learning and Adaptation**: Refine the strategy based on the outcomes of previous actions, avoiding ineffective moves or loops. Adjust the action plan according to state changes and agent feedback.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.9" class="ltx_p"><span id="A13.p16.pic1.1.9.1" class="ltx_text" style="--ltx-fg-color:#000000;">7. **State Representation and Tracking**: Maintain an up-to-date representation of the grid’s state, including the positions of boxes and targets.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.10" class="ltx_p"><span id="A13.p16.pic1.1.10.1" class="ltx_text" style="--ltx-fg-color:#000000;">8. **Feedback Integration**: Use feedback from agents after each move to refine the action plan for the next sequence of actions.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.11" class="ltx_p"><span id="A13.p16.pic1.1.11.1" class="ltx_text" style="--ltx-fg-color:#000000;">9. **Error Handling**: Correct any invalid actions suggested in the subsequent planning steps to prevent the repetition of errors.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.12" class="ltx_p"><span id="A13.p16.pic1.1.12.1" class="ltx_text" style="--ltx-fg-color:#000000;">10. **Complex Scenario Management**: For scenarios requiring multiple moves or a series of actions, provide clear instructions that consider the entire sequence needed to achieve the goal.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.13" class="ltx_p"><span id="A13.p16.pic1.1.13.1" class="ltx_text" style="--ltx-fg-color:#000000;">11. **Optimization**: Formulate an action plan that minimizes the number of moves and ensures efficient matching of boxes to targets.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.14" class="ltx_p"><span id="A13.p16.pic1.1.14.1" class="ltx_text" style="--ltx-fg-color:#000000;">12. **Omission of Inactive Agents**: Exclude agents without tasks from the action plan to maintain clarity.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.15" class="ltx_p"><span id="A13.p16.pic1.1.15.1" class="ltx_text" style="--ltx-fg-color:#000000;">13. **Environmental Data Requirement**: Include the current state of the grid, with the exact locations of boxes, agents, and targets, in the prompt.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.16" class="ltx_p"><span id="A13.p16.pic1.1.16.1" class="ltx_text" style="--ltx-fg-color:#000000;">14. **Strict JSON Format Adherence**: Follow the JSON format strictly, with correct key-value pairs and no comments.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.17" class="ltx_p"><span id="A13.p16.pic1.1.17.1" class="ltx_text" style="--ltx-fg-color:#000000;">15. **Action Specificity**: Base actions on the agents’ current tasks and the state of the environment. Avoid vague or speculative actions.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.18" class="ltx_p"><span id="A13.p16.pic1.1.18.1" class="ltx_text" style="--ltx-fg-color:#000000;">16. **Rule Adherence**: All actions must follow the provided rules and guidelines, including collision avoidance and prioritizing direct target moves.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.19" class="ltx_p"><span id="A13.p16.pic1.1.19.1" class="ltx_text" style="--ltx-fg-color:#000000;">17. **Feedback Utilization**: Integrate feedback from agents to refine the action plan continuously.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.20" class="ltx_p"><span id="A13.p16.pic1.1.20.1" class="ltx_text" style="--ltx-fg-color:#000000;">18. **Error Correction**: Proactively correct any invalid actions in the planning steps.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.21" class="ltx_p"><span id="A13.p16.pic1.1.21.1" class="ltx_text" style="--ltx-fg-color:#000000;">19. **Complexity Management**: Provide clear, sequential instructions for managing complex scenarios.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.22" class="ltx_p"><span id="A13.p16.pic1.1.22.1" class="ltx_text" style="--ltx-fg-color:#000000;">20. **Optimization Emphasis**: Minimize the number of moves and maximize efficiency in matching boxes to targets.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.23" class="ltx_p"><span id="A13.p16.pic1.1.23.1" class="ltx_text" style="--ltx-fg-color:#000000;">21. **Agent Inclusion**: Include only agents with tasks in the action plan.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.24" class="ltx_p"><span id="A13.p16.pic1.1.24.1" class="ltx_text" style="--ltx-fg-color:#000000;">22. **Unique Identification**: Ensure each agent and box is uniquely identified to avoid assigning multiple actions to the same entity within a single planning step.
+<br class="ltx_break"></span></span>
+<span id="A13.p16.pic1.1.25" class="ltx_p"><span id="A13.p16.pic1.1.25.1" class="ltx_text" style="--ltx-fg-color:#000000;">Your action plan should resemble the following example, with modifications based on the current state of the grid and the rules outlined above:
+<br class="ltx_break">”json
+<br class="ltx_break">{ 
+<br class="ltx_break">’Agent[0.5, 0.5]’: ’move(box_blue, target_blue)’,
+<br class="ltx_break">’Agent[1.5, 1.5]’: ’move(box_red, position[1.0, 1.0])’
+<br class="ltx_break">} 
+<br class="ltx_break">”</span></span>
+<span id="A13.p16.pic1.1.26" class="ltx_p"><span id="A13.p16.pic1.1.26.1" class="ltx_text" style="--ltx-fg-color:#000000;">The goal is to match all boxes to their color-coded targets with optimal efficiency and no collisions. Ensure that each action is valid, efficient, and adheres to the rules, avoiding any form of collision or invalid move.</span></span>
+</span></span></span></foreignobject></g></g></svg>
