@@ -1,0 +1,26 @@
+<svg id="Pt0.A4.p18.pic1" class="ltx_picture" height="616.36" overflow="visible" version="1.1" viewbox="0 0 477.38 616.36" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,616.36) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#CCCCCC;" fill="#CCCCCC" fill-opacity="1.0"><path style="stroke:none" d="M 0 8.3 L 0 608.05 C 0 612.64 3.72 616.36 8.3 616.36 L 469.07 616.36 C 473.66 616.36 477.38 612.64 477.38 608.05 L 477.38 8.3 C 477.38 3.72 473.66 0 469.07 0 L 8.3 0 C 3.72 0 0 3.72 0 8.3 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0 8.3 L 0 608.05 C 0 612.64 3.72 616.36 8.3 616.36 L 469.07 616.36 C 473.66 616.36 477.38 612.64 477.38 608.05 L 477.38 8.3 C 477.38 3.72 473.66 0 469.07 0 L 8.3 0 C 3.72 0 0 3.72 0 8.3 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 15.01 15.35)"><foreignobject style="--ltx-fo-width:34.21em;--ltx-fo-height:42.55em;--ltx-fo-depth:0.23em;font-size:10pt;" height="591.88" overflow="visible" transform="matrix(1 0 0 -1 0 588.77)" width="473.37"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="Pt0.A4.p18.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:34.21em;">
+<span id="Pt0.A4.p18.pic1.1.1" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.1.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Analyze the image carefully and identify the key visual similarities between the object shown in the green bounding box and the one shown in the blue bounding box.
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.2" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.2.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Follow the following steps:
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.3" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.3.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Step-1. Describe the similar visual characteristics that set apart the object in the green bounding box from the object in the blue bounding box.
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.4" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.4.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Step-2. Based on these similarity traits, formulate a clear and descriptive class definition for the object in the blue bounding box as well as the object in the green bounding box. This definition should focus on its unique visual and contextual features that help identify both instances of the object in the green and blue bounding boxes.
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.5" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.5.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Step-3. Compare your new class definition with the existing definition of the ’{class_name}’ class provided below:
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.6" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.6.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Current class definition of the ‘{class_name}’ class:
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.7" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.7.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">{current_instructions}
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.8" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.8.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Step-4. Synthesize both definitions to produce an improved, more precise descriptive class definition for the ’{class_name}’ class. The updated definition should make it easier to accurately identify all true instances of the ’{class_name}’ class similar to the one seen in the blue and green bounding boxes.
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.9" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.9.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Note: Do not mention bounding boxes, colors, or image annotations in your response. The updated class definition should be a textual description of the ’{class_name}’ class objects.
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.10" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.10.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">Return the final updated class definition as descriptive text in the following format:
+</span></span>
+<span id="Pt0.A4.p18.pic1.1.11" class="ltx_p"><span id="Pt0.A4.p18.pic1.1.11.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">‘‘‘python {{‘{class_name}’: &lt;updated definition&gt;}}‘‘‘
+
+</span></span>
+</span></span></span></foreignobject></g></g></svg>

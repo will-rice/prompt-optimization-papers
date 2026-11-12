@@ -1,0 +1,64 @@
+<svg id="A2.p5.pic1" class="ltx_picture" height="724.91" overflow="visible" version="1.1" viewbox="0 0 550 724.91" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,724.91) matrix(1 0 0 -1 0 0)"><g style="--ltx-stroke-color:#808080;--ltx-fill-color:#808080;--ltx-fg-color:#808080;" color="#808080" fill="#808080" fill-opacity="0.5" stroke="#808080" stroke-opacity="0.5"><path style="stroke:none" d="M 3.54 -3.54 L 3.54 714.68 C 3.54 718.38 6.54 721.37 10.24 721.37 L 546.85 721.37 C 550.55 721.37 553.54 718.38 553.54 714.68 L 553.54 -3.54 Z" /></g><g style="--ltx-fill-color:#404040;" fill="#404040" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 719.99 C 0 722.71 2.2 724.91 4.92 724.91 L 545.08 724.91 C 547.8 724.91 550 722.71 550 719.99 L 550 0 Z" /></g><g style="--ltx-fill-color:#F5F5F5;" fill="#F5F5F5" fill-opacity="1.0"><path style="stroke:none" d="M 0.98 0.98 L 0.98 702.77 L 549.02 702.77 L 549.02 0.98 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.67 710.38)"><foreignobject style="--ltx-fo-width:31.97em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="442.37"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.p5.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.97em;">
+<span id="A2.p5.pic1.1.1" class="ltx_p"><span id="A2.p5.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">RoPE: contrastive analysis</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.67 16.25)"><foreignobject style="--ltx-fo-width:35.01em;--ltx-fo-height:48.76em;--ltx-fo-depth:0.25em;font-size:10pt;" height="678.17" overflow="visible" transform="matrix(1 0 0 -1 0 674.72)" width="484.44"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.p5.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:35.01em;">
+<span id="A2.p5.pic1.2.1" class="ltx_p"><span id="A2.p5.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are analyzing the results of prompt variant re-executions for a failing agent to extract concrete prompt improvements.</span></span>
+<span id="A2.p5.pic1.2.2" class="ltx_p"><span id="A2.p5.pic1.2.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Agent name:<span id="A2.p5.pic1.2.2.1.1" class="ltx_text ltx_font_medium"> {agent_name} 
+<br class="ltx_break"></span>Agent role:<span id="A2.p5.pic1.2.2.1.2" class="ltx_text ltx_font_medium"> {agent_role} 
+<br class="ltx_break"></span>Original prompt:<span id="A2.p5.pic1.2.2.1.3" class="ltx_text ltx_font_medium"> {original_prompt}</span></span></span>
+<span id="A2.p5.pic1.2.3" class="ltx_p"><span id="A2.p5.pic1.2.3.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Variant execution results:<span id="A2.p5.pic1.2.3.1.1" class="ltx_text ltx_font_medium"> 
+<br class="ltx_break">{variant_results}</span></span></span>
+<span id="A2.p5.pic1.2.4" class="ltx_p"><span id="A2.p5.pic1.2.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">Each result entry contains:</span></span>
+<span id="A2.I8" class="ltx_itemize">
+<span id="A2.I8.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I8.i1.p1" class="ltx_para ltx_noindent">
+<span id="A2.I8.i1.p1.1" class="ltx_p"><span id="A2.I8.i1.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Variant prompt:</span><span id="A2.I8.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> {variant_prompt}</span></span>
+</span></span>
+<span id="A2.I8.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I8.i2.p1" class="ltx_para ltx_noindent">
+<span id="A2.I8.i2.p1.1" class="ltx_p"><span id="A2.I8.i2.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Re-executed trajectory:</span><span id="A2.I8.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> {trajectory}</span></span>
+</span></span>
+<span id="A2.I8.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I8.i3.p1" class="ltx_para ltx_noindent">
+<span id="A2.I8.i3.p1.1" class="ltx_p"><span id="A2.I8.i3.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">F1 score:</span><span id="A2.I8.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> {f1}</span></span>
+</span></span>
+<span id="A2.I8.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A2.I8.i4.p1" class="ltx_para">
+<span id="A2.I8.i4.p1.1" class="ltx_p"><span id="A2.I8.i4.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Tokens used:</span><span id="A2.I8.i4.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> {tokens}</span></span>
+</span></span>
+</span>
+<span id="A2.p5.pic1.2.5" class="ltx_p"><span id="A2.p5.pic1.2.5.1" class="ltx_text" style="--ltx-fg-color:#000000;">Perform a contrastive analysis between successful and failed variants:</span></span>
+<span id="A2.I9" class="ltx_enumerate">
+<span id="A2.I9.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<span id="A2.I9.i1.p1" class="ltx_para ltx_noindent">
+<span id="A2.I9.i1.p1.1" class="ltx_p"><span id="A2.I9.i1.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Operational rules</span><span id="A2.I9.i1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> (</span><math id="A2.I9.i1.p1.m1" class="ltx_Math" alttext="\Delta\rho_{i}^{op}" display="inline" intent=":literal"><semantics><mrow><mi style="--ltx-fg-color:#000000;" mathcolor="#000000" mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msubsup><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">ρ</mi><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">i</mi><mrow><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">o</mi><mo lspace="0em" rspace="0em">​</mo><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">p</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\Delta\rho_{i}^{op}</annotation></semantics></math><span id="A2.I9.i1.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">): Extract short-term corrective behaviors — specific, concrete instructions that directly address the observed failure pattern. These should be actionable in the agent’s very next execution. </span>
+<br class="ltx_break"></span>
+</span></span>
+<span id="A2.I9.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<span id="A2.I9.i2.p1" class="ltx_para ltx_noindent">
+<span id="A2.I9.i2.p1.1" class="ltx_p"><span id="A2.I9.i2.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Behavioral principles</span><span id="A2.I9.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> (</span><math id="A2.I9.i2.p1.m1" class="ltx_Math" alttext="\Delta\rho_{i}^{bp}" display="inline" intent=":literal"><semantics><mrow><mi style="--ltx-fg-color:#000000;" mathcolor="#000000" mathvariant="normal">Δ</mi><mo lspace="0em" rspace="0em">​</mo><msubsup><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">ρ</mi><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">i</mi><mrow><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">b</mi><mo lspace="0em" rspace="0em">​</mo><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">p</mi></mrow></msubsup></mrow><annotation encoding="application/x-tex">\Delta\rho_{i}^{bp}</annotation></semantics></math><span id="A2.I9.i2.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">): Extract long-term strategic generalizations — higher-level guidance distilled from patterns across multiple trajectories. These shape the agent’s overall approach rather than fixing a single failure. </span>
+<br class="ltx_break"></span>
+</span></span>
+</span>
+<span id="A2.p5.pic1.2.6" class="ltx_p"><span id="A2.p5.pic1.2.6.1" class="ltx_text" style="--ltx-fg-color:#000000;">Respond in the following JSON format:</span></span><pre id="A2.p5.pic1.2.7" class="ltx_verbatim ltx_font_typewriter" style="--ltx-fg-color:#000000;">
+{
+  &quot;operational_rules&quot;: [
+    {
+      &quot;rule&quot;: &quot;&lt;concrete instruction&gt;&quot;,
+      &quot;derived_from&quot;: &quot;&lt;which variant comparison motivated this rule&gt;&quot;
+    },
+    ...
+  ],
+  &quot;behavioral_principles&quot;: [
+    {
+      &quot;principle&quot;: &quot;&lt;strategic guidance&gt;&quot;,
+      &quot;derived_from&quot;: &quot;&lt;pattern observed across which variants&gt;&quot;
+    },
+    ...
+  ],
+  &quot;updated_prompt&quot;: &quot;&lt;full revised prompt integrating all rules and principles \\
+  into the original, with redundant instructions pruned&gt;&quot;
+}
+</pre>
+</span></span></span></foreignobject></g></g></svg>
