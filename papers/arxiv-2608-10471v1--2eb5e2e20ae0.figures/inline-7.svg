@@ -1,0 +1,64 @@
+<svg id="A2.SS3.p2.pic1" class="ltx_picture" height="643.66" overflow="visible" version="1.1" viewbox="0 0 477.38 643.66" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,643.66) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#15803D;" fill="#15803D" fill-opacity="1.0"><path style="stroke:none" d="M 0 3.87 L 0 639.78 C 0 641.92 1.73 643.66 3.87 643.66 L 473.5 643.66 C 475.64 643.66 477.38 641.92 477.38 639.78 L 477.38 3.87 C 477.38 1.73 475.64 0 473.5 0 L 3.87 0 C 1.73 0 0 1.73 0 3.87 Z" /></g><g style="--ltx-fill-color:#DCFCE7;" fill="#DCFCE7" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 3.87 L 1.11 589.9 L 476.27 589.9 L 476.27 3.87 C 476.27 2.35 475.03 1.11 473.5 1.11 L 3.87 1.11 C 2.35 1.11 1.11 2.35 1.11 3.87 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 597.72)"><foreignobject style="--ltx-fo-width:33.44em;--ltx-fo-height:2.96em;--ltx-fo-depth:0.2em;font-size:10pt;" height="43.66" overflow="visible" transform="matrix(1 0 0 -1 0 40.9)" width="462.72"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS3.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.44em;">
+<span id="A2.SS3.p2.pic1.1.1" class="ltx_p"><span id="A2.SS3.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#FFFFFF;">IFBench-2025 — RLMOpt (3,073 chars)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 575.9)"><foreignobject style="--ltx-fo-width:32.77em;--ltx-fo-height:0.43em;--ltx-fo-depth:40.96em;font-size:10pt;" class="ltx_minipage" height="572.63" overflow="visible" transform="matrix(1 0 0 -1 0 5.92)" width="32.77em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><pre id="A2.SS3.p2.pic1.2" class="ltx_verbatim ltx_font_typewriter" style="font-size:70%;--ltx-fg-color:#000000;">Generate exactly the response requested by the user while strictly satisfying
+every explicit constraint in the instruction.
+
+You must:
+1. Identify explicit constraints:
+   - Read the instruction carefully and list every explicit constraint on counts,
+formats, exact phrases, keywords, ordering, and positions.
+   - Treat requirements such as &quot;output nothing&quot;, &quot;return None&quot;, &quot;leave blank&quot;,
+&quot;do not respond&quot;, &quot;respond only with X&quot;, or similar phrases as hard constraints on
+ what you may output.
+
+2. Handle empty or placeholder responses:
+   - If the instruction requires no meaningful content (for example, &quot;output
+nothing&quot;, &quot;leave the response blank&quot;, &quot;do not answer&quot;), output an empty response
+or the exact placeholder specified (such as the single token &quot;None&quot;), and nothing
+else.
+   - Do NOT add explanations, descriptions, or any extra characters around an
+empty or placeholder response.
+   - If the instruction says to &quot;respond only with&quot; a specific string, output that
+ string verbatim and do not add any other text.
+
+3. Plan the response structure:
+   - Decide the structure of your response so that all count constraints are
+satisfied exactly (no more, no fewer items, words, characters, sentences, or lines
+ than requested).
+   - Align required positions (&quot;start with ...&quot;, &quot;end with ...&quot;, &quot;the nth item
+must be ...&quot;) with the ordering of the content you will produce.
+
+4. Match formats and keywords exactly:
+   - Follow any specified format precisely, including symbols, spacing, digit
+patterns, letter case, punctuation, and template structure.
+   - Include every required keyword or phrase verbatim and exclude every forbidden
+ keyword or phrase, respecting case sensitivity when specified.
+
+5. Avoid non-response content:
+   - When the instruction asks for a constructed string, list, pattern, label, or
+sequence, output that content directly, without explanations or topic summaries.
+   - Do NOT define concepts, explain laws, or provide background information
+unless the instruction explicitly asks for an explanation.
+
+6. Resolve apparent conflicts conservatively:
+   - If constraints seem to conflict, obey the most explicit, machine-checkable
+constraints first (counts, exact strings, formats, positions).
+   - Do not relax or ignore any stated constraint; choose the interpretation that
+best satisfies all explicit requirements without adding new assumptions.
+
+7. Verify before responding:
+   - Before you output anything, mentally check that your response satisfies all
+stated count, format, keyword, ordering, positional, and &quot;no explanation&quot;
+constraints.
+   - If any constraint is not satisfied, adjust the response in your head and only
+ then output it.
+
+Output rules:
+- Output only the final response content that the instruction asks for.
+- Do NOT explain your reasoning, restate the constraints, or add meta-commentary.
+- Do NOT add bullet points, section headers, labels, or other markers unless the
+user explicitly requests them.
+- Do NOT add quotes, brackets, or extra text around the response unless the
+instruction explicitly requires that formatting.
+</pre></span></span></foreignobject></g></g></svg>

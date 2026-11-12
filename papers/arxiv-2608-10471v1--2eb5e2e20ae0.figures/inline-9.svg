@@ -1,0 +1,116 @@
+<svg id="A2.SS4.p2.pic1" class="ltx_picture" height="1091.97" overflow="visible" version="1.1" viewbox="0 0 477.38 1091.97" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1091.97) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#15803D;" fill="#15803D" fill-opacity="1.0"><path style="stroke:none" d="M 0 3.87 L 0 1088.1 C 0 1090.24 1.73 1091.97 3.87 1091.97 L 473.5 1091.97 C 475.64 1091.97 477.38 1090.24 477.38 1088.1 L 477.38 3.87 C 477.38 1.73 475.64 0 473.5 0 L 3.87 0 C 1.73 0 0 1.73 0 3.87 Z" /></g><g style="--ltx-fill-color:#DCFCE7;" fill="#DCFCE7" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 3.87 L 1.11 1038.22 L 476.27 1038.22 L 476.27 3.87 C 476.27 2.35 475.03 1.11 473.5 1.11 L 3.87 1.11 C 2.35 1.11 1.11 2.35 1.11 3.87 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 1046.03)"><foreignobject style="--ltx-fo-width:33.44em;--ltx-fo-height:2.96em;--ltx-fo-depth:0.2em;font-size:10pt;" height="43.66" overflow="visible" transform="matrix(1 0 0 -1 0 40.9)" width="462.72"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS4.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.44em;">
+<span id="A2.SS4.p2.pic1.1.1" class="ltx_p"><span id="A2.SS4.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#FFFFFF;">BFCL multi-turn — RLMOpt (5,419 chars)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 1024.22)"><foreignobject style="--ltx-fo-width:32.77em;--ltx-fo-height:0.43em;--ltx-fo-depth:73.36em;font-size:10pt;" class="ltx_minipage" height="1020.95" overflow="visible" transform="matrix(1 0 0 -1 0 5.92)" width="32.77em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><pre id="A2.SS4.p2.pic1.2" class="ltx_verbatim ltx_font_typewriter" style="font-size:70%;--ltx-fg-color:#000000;">Plan the complete sequence of tool calls for a multi-turn conversation, emitting
+exactly one JSON array named ‘tool_calls‘.
+
+## Task
+- Read the entire conversation from start to finish, respecting turn order and
+conversational state.
+- Identify every explicit and implicit user request that requires using the
+provided tools.
+- Decompose each request into the minimal sequence of tool calls needed to satisfy
+ it fully, in the order they should be executed.
+
+## Input
+- &quot;conversation&quot;: the full multi-turn dialogue, with user and assistant turns.
+- &quot;functions&quot;: a JSON list describing each available tool:
+  - Each function has a &quot;name&quot;, &quot;description&quot;, and a JSON schema for its
+&quot;arguments&quot;.
+
+You must:
+- Use ONLY the tools whose &quot;name&quot; appears in the ‘functions‘ JSON; never invent
+new function names.
+- For each function, construct &quot;arguments&quot; that exactly match its schema (field
+names, types, and required/optional status).
+- Derive argument values strictly from the conversation and tool descriptions; do
+not guess values not supported by the context.
+- Respect temporal and dependency constraints: resolve prerequisites first (e.g.,
+look up an ID before using it), then perform dependent actions.
+
+## Output Format
+Emit a single JSON array assigned to ‘tool_calls‘. The top-level output must be
+ONLY this array, for example:
+[
+  { &quot;name&quot;: &quot;function_name&quot;, &quot;arguments&quot;: { &quot;arg1&quot;: &quot;value1&quot;, &quot;arg2&quot;: 2 } },
+  { &quot;name&quot;: &quot;another_function&quot;, &quot;arguments&quot;: { &quot;flag&quot;: true } }
+]
+
+Formatting rules:
+- Do not wrap the array in any additional object or fields.
+- Do not include comments, natural-language explanations, or reasoning outside the
+ JSON.
+- Each element in the array must be a JSON object with exactly two keys:
+  - &quot;name&quot;: the function name string, exactly as given in ‘functions‘.
+  - &quot;arguments&quot;: a JSON object whose keys and value types follow that function’s
+argument schema.
+
+
+## Rules
+
+- When choosing among similar tools, always:
+  - Base the choice strictly on each function’s &quot;description&quot; field and arguments
+schema from the provided functions list.
+  - Select the tool whose documented purpose most directly satisfies the user’s
+request; do not use a more generic or adjacent tool when a specific one exists.
+- Arguments must match the tool’s JSON schema exactly:
+  - Include all required arguments with appropriate types and units.
+  - Do not add extra arguments that are not defined in the schema.
+  - Use the exact field names and value formats shown in the tool schema and
+conversation (e.g., correct symbol strings, option names, booleans true/false).
+- When the gold sequences show repeated or mirrored calls (e.g., calling a
+function twice with different arguments to compare or update state), reflect that
+pattern:
+  - Emit multiple calls to the same tool when needed, rather than collapsing them
+into one approximate call.
+- Treat each tool_call as explicitly linked to a user request or a necessary
+prerequisite for it:
+  - Avoid speculative or redundant calls that are not supported by the
+conversation or tool descriptions.
+
+
+- When working with folders and files:
+  - Use navigation tools like cd(folder) to move into the correct directory BEFORE
+ invoking tools that operate on files there.
+  - Use listing/inspection tools like ls() or similar to confirm file presence
+where appropriate.
+  - Use content-reading tools like cat(file_name) BEFORE running tools that depend
+ on that file’s contents.
+- When performing actions that require authentication or identity:
+  - Call the appropriate login/authentication tool (e.g., message_login(user_id)
+or equivalent) BEFORE sending messages or performing actions that assume a
+logged-in state.
+  - Do not assume you are logged in unless a prior tool_call in the plan logs in
+during this conversation.
+- For multi-step goals:
+  - Plan each goal as a sequence of tool_calls where earlier calls establish
+prerequisites (navigation, selection, reading, authentication) and later calls
+perform the requested action.
+  - Include intermediate &quot;check&quot; or &quot;inspect&quot; calls (such as reading current state
+ or configuration) when the expected gold sequences show them; do not skip them to
+ shorten the plan.
+
+- tool_calls:
+  - Include every required tool call needed to satisfy the user’s requests; do not
+ omit necessary steps.
+  - Avoid spurious calls: only include tools that the user’s request or the tool
+descriptions clearly require.
+  - Preserve and reuse state across calls when appropriate (e.g., watchlists,
+created objects) instead of recomputing or overwriting without being asked.
+  - Use the minimal sufficient sequence of calls; do not add exploratory or
+redundant calls.
+  - When the conversation includes multiple independent tasks, include calls for
+each task in the single ‘tool_calls‘ array, ordered in the sequence they should be
+ performed.
+  - Ensure argument values are precise and consistent with the request (e.g.,
+correct quantities, symbols, IDs), and avoid changing a value unless the user
+explicitly requests it.
+
+General guidance:
+- Prefer direct calls that accomplish what the user asked, rather than indirect or
+ unnecessary chains.
+- If the user asks to both perform an action and then report results, include
+tools for the action first and then tools to retrieve or expose the result.
+- If information required for a tool argument is missing from the conversation and
+ tool descriptions, omit that tool call rather than guessing.
+</pre></span></span></foreignobject></g></g></svg>

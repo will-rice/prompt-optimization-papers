@@ -1,0 +1,77 @@
+<svg id="A2.SS2.p2.pic1" class="ltx_picture" height="809.61" overflow="visible" version="1.1" viewbox="0 0 477.38 809.61" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,809.61) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#15803D;" fill="#15803D" fill-opacity="1.0"><path style="stroke:none" d="M 0 3.87 L 0 805.73 C 0 807.87 1.73 809.61 3.87 809.61 L 473.5 809.61 C 475.64 809.61 477.38 807.87 477.38 805.73 L 477.38 3.87 C 477.38 1.73 475.64 0 473.5 0 L 3.87 0 C 1.73 0 0 1.73 0 3.87 Z" /></g><g style="--ltx-fill-color:#DCFCE7;" fill="#DCFCE7" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 3.87 L 1.11 755.95 L 476.27 755.95 L 476.27 3.87 C 476.27 2.35 475.03 1.11 473.5 1.11 L 3.87 1.11 C 2.35 1.11 1.11 2.35 1.11 3.87 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 763.76)"><foreignobject style="--ltx-fo-width:33.44em;--ltx-fo-height:2.95em;--ltx-fo-depth:0.2em;font-size:10pt;" height="43.57" overflow="visible" transform="matrix(1 0 0 -1 0 40.8)" width="462.72"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.44em;">
+<span id="A2.SS2.p2.pic1.1.1" class="ltx_p"><span id="A2.SS2.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#FFFFFF;">HotpotQA — RLMOpt (3,961 chars)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 741.94)"><foreignobject style="--ltx-fo-width:32.77em;--ltx-fo-height:0.43em;--ltx-fo-depth:52.96em;font-size:10pt;" class="ltx_minipage" height="738.67" overflow="visible" transform="matrix(1 0 0 -1 0 5.92)" width="32.77em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><pre id="A2.SS2.p2.pic1.2" class="ltx_verbatim ltx_font_typewriter" style="font-size:70%;--ltx-fg-color:#000000;">Answer the multi-hop question using only the information in the provided
+supporting paragraphs.
+
+You must:
+- Carefully read all paragraphs in the context, not just the first one.
+- Identify the specific entities, dates, numbers, or facts mentioned in the
+question.
+- Find the necessary pieces of evidence in two or more different paragraphs and
+mentally chain them together to reach the answer.
+- Ignore any knowledge that is not explicitly stated in the context; do not rely
+on outside or prior knowledge.
+- When the question is a comparison or verification (e.g., asking if a statement
+is true), use the context to decide and answer with a single word: &quot;yes&quot; or &quot;no&quot;.
+- When the question asks for a person, place, organization, date, number, title,
+or short phrase, copy the answer as a short span exactly as written in the
+context.
+
+Input format:
+- question: a multi-hop question that typically requires combining facts from at
+least two different paragraphs.
+- context: several Wikipedia-style paragraphs; they contain all facts needed to
+answer the question.
+
+Output format:
+- Return only the short factual answer span, with no explanation, no extra words,
+and no leading phrases like &quot;the answer is&quot;.
+- Do not output full sentences.
+- If multiple valid surface forms exist, choose the form that appears most
+directly and clearly in the context.
+
+# WORKED EXAMPLES (follow this input -&gt; output mapping)
+
+Example 1:
+Input: {&quot;question&quot;: &quot;Which 2008 French film was the third of a four-film
+adaptation?&quot;, &quot;context&quot;: &quot;## 2008 French Open - Boys’ Singles\nThe 2008 French
+Open - Boys’ Singles tournament was an event during the 2008 French Open tennis
+tournament.  Vladimir Ignatic was the defending champion, but did not compete in
+the Juniors in this year.\n\n## Asterix at the Olympic Games (film)\nAsterix at
+the Olympic Games (French: \&quot;Ast?rix aux Jeux Olympiques\&quot; ) is a 2008 French
+fantasy comedy film directed by Fr?d?ric Forestier and Thomas Langmann, and
+written by Langmann, Alexandre Charlot, and Frank Magnier, based on characters
+from Ren? Goscinny and Albert Uderzo’s Ast?rix comic series.  It was filmed
+primarily in Spain over the course of the year 2006.\n\n## The Beautiful
+Person\nThe Beautiful Person (Fr
+Output: &quot;Asterix at the Olympic Games&quot;
+
+Example 2:
+Input: {&quot;question&quot;: &quot;Who rode with the cosmonaut who commanded the historic
+Voskhod 2 mission?&quot;, &quot;context&quot;: &quot;## Pete Conrad\nCharles \&quot;Pete\&quot; Conrad Jr. (June
+ 2, 1930?- July 8, 1999), (Captain, USN), was an American NASA astronaut, naval
+officer and aviator, test pilot, and during the Apollo 12 mission became the third
+ man to walk on the Moon.  He set an eight-day space endurance record along with
+his Command Pilot Gordon Cooper on the Gemini 5 mission, and commanded the Gemini
+11 mission.  After Apollo, he commanded the Skylab 2 mission (the first manned
+one), on which he and his crewmates repaired significant launch damage to the
+Skylab space station.  For this, President Jimmy Carter awarded him the
+Congressional Space Medal of Honor in 1978.\n\n## Alexey Leonov\nAlexey
+Arkhipovich Leonov (Rus
+Output: &quot;Alexey Leonov&quot;
+
+Example 3:
+Input: {&quot;question&quot;: &quot;What was the occupation of the person whose first serious
+lover was Richard Chanlaire?&quot;, &quot;context&quot;: &quot;## Stripper\nA stripper or exotic
+dancer is a person whose occupation involves performing striptease in a public
+adult entertainment venue such as a strip club.  At times, a stripper may be hired
+ to perform at a bachelor party or other private event.\n\n## Marshman\nThe name
+Marshman is a family, or surname which originated in England and either refers to
+an occupation - namely a person whose job it was to work the marshes or it is
+derived from their residency possibly of Marsham in Norfolk, or in Mersham in
+Kent.  There is a strong settlement of the Marshman family in Wiltshire,
+especially near Dilton Marsh.\n\n## Roughneck\nRoughneck is a term for a person
+whose occupation i
+Output: &quot;composer and pianist&quot;
+</pre></span></span></foreignobject></g></g></svg>

@@ -1,0 +1,238 @@
+<svg id="A2.SS1.p2.pic1" class="ltx_picture" height="2470.41" overflow="visible" version="1.1" viewbox="0 0 477.38 2470.41" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,2470.41) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#15803D;" fill="#15803D" fill-opacity="1.0"><path style="stroke:none" d="M 0 3.87 L 0 2466.53 C 0 2468.67 1.73 2470.41 3.87 2470.41 L 473.5 2470.41 C 475.64 2470.41 477.38 2468.67 477.38 2466.53 L 477.38 3.87 C 477.38 1.73 475.64 0 473.5 0 L 3.87 0 C 1.73 0 0 1.73 0 3.87 Z" /></g><g style="--ltx-fill-color:#DCFCE7;" fill="#DCFCE7" fill-opacity="1.0"><path style="stroke:none" d="M 1.11 3.87 L 1.11 2416.66 L 476.27 2416.66 L 476.27 3.87 C 476.27 2.35 475.03 1.11 473.5 1.11 L 3.87 1.11 C 2.35 1.11 1.11 2.35 1.11 3.87 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 2424.47)"><foreignobject style="--ltx-fo-width:33.44em;--ltx-fo-height:2.96em;--ltx-fo-depth:0.2em;font-size:10pt;" height="43.66" overflow="visible" transform="matrix(1 0 0 -1 0 40.9)" width="462.72"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A2.SS1.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.44em;">
+<span id="A2.SS1.p2.pic1.1.1" class="ltx_p"><span id="A2.SS1.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:80%;--ltx-fg-color:#FFFFFF;">Chia — RLMOpt (12,605 chars)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.96 2402.65)"><foreignobject style="--ltx-fo-width:32.77em;--ltx-fo-height:0.43em;--ltx-fo-depth:172.98em;font-size:10pt;" class="ltx_minipage" height="2399.4" overflow="visible" transform="matrix(1 0 0 -1 0 5.92)" width="32.77em"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><pre id="A2.SS1.p2.pic1.2" class="ltx_verbatim ltx_font_typewriter" style="font-size:70%;--ltx-fg-color:#000000;">Extract clinical-trial eligibility entities from one criteria block as lists of
+exact text spans for six medical categories.
+
+## Input
+- You receive a single string field &quot;criteria&quot; containing one eligibility
+criterion or a short block of criteria text from a ClinicalTrials.gov protocol.
+
+## Output Format
+Return a Python-style JSON-compatible object with exactly these six fields, each a
+ list of strings (0 or more items):
+- conditions: list[str]
+- drugs: list[str]
+- procedures:
+  - Extract diagnostic or therapeutic interventions performed on the patient,
+including:
+    - surgeries and operations (e.g., ’vitrectomy surgery’, ’submacular surgery’,
+’surgical intervention’).
+    - tests and imaging (e.g., ’serological testing’, ’biopsy’, ’Urine ?-HCG
+pregnancy test’).
+    - treatments or courses of therapy (e.g., ’progesterone therapy’,
+’treatment’).
+  - Separate procedures from conditions and measurements:
+    - If a phrase combines a procedure with a condition (e.g., ’biopsy-proven
+LN’),
+      extract ’biopsy’ as a procedure and ’LN’ as a condition.
+    - Laboratory analytes or values (e.g., ’ALT’, ’Serum creatinine’, ’2-hour
+C-peptide level’)
+      belong in measurements, not procedures; only the act of testing (e.g.,
+’serological testing’)
+      is a procedure.
+  - Do not include general eligibility language or follow-up phrases as procedures
+    (e.g., ’follow-up visit’, ’scheduled visit’) unless they clearly denote a
+specific medical
+    intervention or test.
+  - When multiple similar procedures are listed together, extract each as a
+separate span
+    if the gold-standard patterns favor separate items (e.g., ’vitrectomy
+surgery’,
+    ’submacular surgery’, ’surgical intervention’).
+- measurements: list[str]
+- temporals: list[str]
+- observations:
+  - Capture ONLY clinical status, findings, or ongoing routines about the patient,
+ such as:
+    - symptoms or signs (e.g., ’pregnant’, ’breastfeeding’, ’acute intercurrent
+illness’)
+    - stable care patterns or routines (e.g., ’regular bowel care routine’)
+    - descriptive phrases that summarize current health state (e.g., ’good
+health’).
+  - Do NOT include legal, administrative, or cooperation requirements (e.g.,
+’willing to participate’,
+    ’able to comply with study procedures’, ’provide written informed consent’) as
+ observations.
+  - Do NOT move entities that belong to other fields into observations:
+    - conditions remain in conditions (e.g., ’Impaired liver function’, ’MI’,
+’CVA’).
+    - procedures remain in procedures (e.g., ’serological testing’, ’treated’).
+    - measurements remain in measurements (e.g., ’ALT’, ’Serum creatinine’).
+  - Prefer under-extraction over over-extraction for observations: if a phrase is
+ambiguous between
+    an administrative requirement and a clinical finding, leave it out of
+observations unless it
+    clearly describes patient status.
+  - Treat environmental or lifestyle exposure phrases that describe a patient’s
+current situation
+    as observations when they do not clearly denote a disease, for example:
+    - ’altitude exposure’, ’current heavy smoking’, ’occupational exposure’, ’high
+ altitude exposure’.
+  - In these cases, keep the disease or risk-condition in conditions (e.g.,
+’respiratory disease’,
+    ’cardiovascular disease’) and put only the exposure/state itself in
+observations (e.g., ’altitude exposure’).
+  - Do not create observations entries for phrases that simply restate a condition
+ name with modifiers;
+    those should remain in the conditions list.
+- conditions: Diagnoses, syndromes, or clinical states describing a disease or
+health condition (e.g., &quot;acute coronary syndrome&quot;, &quot;diabetes&quot;, &quot;stroke&quot;).
+- drugs: Names of medications or biologic agents, including abbreviations and
+combination phrases (e.g., &quot;beta-blocker&quot;, &quot;dual antiplatelet therapy&quot;).
+- procedures: Surgical or interventional procedures, medical operations, or
+therapeutic interventions (e.g., &quot;liver transplant&quot;, &quot;angioplasty&quot;).
+- measurements: Quantitative or score-based measures, thresholds, or lab values
+(e.g., &quot;LDL-cholesterol&quot;, &quot;CrCl&quot;, &quot;Beck’s Depression Inventory (BDI)&quot;).
+- temporals: Words or phrases indicating time, duration, or ordering of events
+(e.g., &quot;prior&quot;, &quot;history&quot;, &quot;after pretreatment&quot;, &quot;within 6 months&quot;).
+- observations: Non-diagnostic patient attributes, behaviors, or clinical findings
+ that are not clearly procedures or measurements (e.g., &quot;regular bowel care
+routine&quot;, &quot;pregnant&quot;, &quot;breastfeeding&quot;).
+
+## Field-specific rules
+
+- conditions:
+  - Extract each disease or clinical condition as its own span, even if listed in
+a series.
+  - Include both expanded and abbreviated forms when both appear (e.g., extract
+&quot;Acute coronary syndrome&quot; and &quot;ACS&quot; separately).
+  - Prefer condition phrases (e.g., &quot;bleeding&quot;) over generic outcome words like
+&quot;death&quot; when they appear together, but include &quot;death&quot; when explicitly listed
+among clinical outcomes.
+
+- drugs:
+  - Treat drug classes, specific drug names, and combination therapies as drug
+spans.
+  - When a therapy phrase mixes drug and procedure concepts (e.g., &quot;triple
+antiplatelet therapy&quot;), extract it as drugs only if it clearly refers to
+medication combinations.
+  - Do not duplicate abbreviations that are already part of the same phrase;
+extract each distinct token or phrase once.
+
+- procedures:
+  - Extract concrete interventions and operations (e.g., &quot;Bioresorbable Vascular
+Scaffold implantation&quot;, &quot;repeat revascularization&quot;, &quot;liver transplant&quot;).
+  - Do not label generic words like &quot;treatment&quot; alone as procedures when no
+specific procedure is given.
+  - When a phrase combines therapy and procedure (e.g., &quot;triple antiplatelet
+therapy&quot;, &quot;dual antiplatelet therapy&quot;), prefer classifying it as drugs unless
+explicitly described as a procedure.
+
+- measurements:
+  - Extract the name of the measurement itself, not the full inequality or numeric
+ bound.
+    - Example: from &quot;CrCl &lt; 30ml/min&quot;, extract &quot;CrCl&quot;.
+    - Example: from &quot;Beck’s Depression Inventory (BDI) =14&quot;, extract &quot;Beck’s
+Depression Inventory (BDI)&quot;.
+    - Example: from &quot;LDL-cholesterol&gt; 1.8 mmol / l&quot;, extract &quot;LDL-cholesterol&quot;.
+  - If multiple numeric thresholds are given for the same measurement, still
+extract the single measurement name once.
+  - Do not treat plain counts of events (e.g., &quot;2 previous failed embryo
+transfers&quot;) as measurements unless a named scale or lab test is present.
+
+- temporals:
+  - Extract short time-related words or phrases that indicate timing, duration, or
+ ordering of events.
+    - Examples that should be extracted as temporals when they refer to past
+events:
+      - &quot;history&quot; (when used as in &quot;history of myocardial infarction&quot;).
+      - &quot;prior&quot; and &quot;previous&quot; (when they indicate that a condition or procedure
+occurred in the past).
+      - &quot;after pretreatment&quot;.
+      - Phrases like &quot;within 6 months&quot;, &quot;at least 4 weeks&quot;, &quot;for at least 4
+weeks&quot;.
+  - Do **not** extract purely numeric count phrases as temporals when they
+primarily indicate quantity rather than time.
+    - Example: from &quot;&gt;= 2 previous failed embryo transfers&quot;, do **not** extract
+&quot;&gt;= 2 previous failed embryo transfers&quot; as a temporal.
+    - Instead, treat &quot;previous&quot; as a temporal only if it can be extracted as a
+minimal standalone temporal word or short phrase.
+  - Prefer minimal temporal spans that still convey the temporal meaning (e.g.,
+&quot;after pretreatment&quot;, &quot;history&quot;, &quot;prior&quot;, &quot;previous&quot;).
+  - Do not re-label measurement thresholds (e.g., &quot;CrCl &lt; 30ml/min&quot;) as temporals.
+
+- observations:
+  - Use observations for patient status, routines, and non-diagnostic findings
+that describe how the patient lives or functions, not for diseases or procedures.
+    - Example: extract &quot;regular bowel care routine&quot;.
+    - Example: extract status phrases like &quot;pregnant&quot; and &quot;breastfeeding&quot; when
+they describe current patient status.
+  - Do **not** extract purely legal, administrative, or cooperation-related
+phrases as observations:
+    - Examples to skip: &quot;No legal ability or legal ability is limited&quot;, &quot;subjects
+unlikely to cooperate&quot;.
+  - When a phrase mixes administrative and clinical content, extract only the
+clinical part if it can be isolated as a verbatim substring; otherwise skip.
+  - Prefer to skip borderline administrative or compliance phrases rather than
+over-extract them as observations.
+  - Do not re-label conditions or procedures as observations; leave them in their
+primary category only.
+
+## General guidance
+
+- Focus on high recall for conditions, drugs, procedures, measurements, and
+temporals while avoiding over-extraction for observations.
+- Each output list may be empty or contain multiple spans; order does not matter
+for scoring.
+- Ensure that every extracted span is present verbatim in the input criteria text.
+
+# WORKED EXAMPLES (follow this input -&gt; output mapping)
+
+Example 1:
+Input: {&quot;criteria&quot;: &quot;Adults older than 45 and children younger than 18
+years\nPlatelet count higher than 30x109/l at time of screening\nSuspicion of
+secondary ITP\nPositive family history for ITP\nPresence or history of autoimmune
+disease as judged by the investigator\nHepatosplenomegaly\nPresence or history of
+relevant hepatic disease as judged by the investigator\nPresence or history of
+thromboembolic disease as judged by the investigator\nPatients with
+splenectomy\nWomen who are pregnant or breast feeding\nIntention to become
+pregnant during the course of the study\nLack of safe double contraception (see
+7.1)\nAny vaccination 2 weeks prior start of the study\nDrugs with a known impact
+on the immune system or on platelet function must be recorded and an exclusion of
+the study should be discusse
+Output: {&quot;conditions&quot;: [&quot;secondary ITP&quot;, &quot;autoimmune disease&quot;, &quot;hepatic disease&quot;,
+&quot;thromboembolic disease&quot;, &quot;alcohol abuse&quot;, &quot;drug abuse&quot;, &quot;Hypersensitivity&quot;,
+&quot;Hepatosplenomegaly&quot;], &quot;drugs&quot;: [&quot;romiplostim&quot;, &quot;eltrombopag&quot;], &quot;procedures&quot;:
+[&quot;splenectomy&quot;, &quot;vaccination&quot;], &quot;measurements&quot;: [&quot;Platelet count&quot;], &quot;temporals&quot;:
+[&quot;at time of screening&quot;, &quot;2 weeks prior start of the study&quot;], &quot;observations&quot;:
+[&quot;family history for ITP&quot;]}
+
+Example 2:
+Input: {&quot;criteria&quot;: &quot;Clinically significant systemic disease (such as diabetes,
+metabolic syndrome, immunological diseases, diagnosed thrombophilia, porphyria, or
+ any other medical condition requiring the use of low-molecular weight heparin
+therapy)\nPolycystic ovary syndrome (PCOS) according to Rotterdam Consensus
+Criteria (European Society of Human Reproduction and Embryology [ESHRE]/American
+Society for Reproductive Medicine [ASRM], 2003)\nPoor ovarian response (POR)
+according to the European Society of Human Reproduction and Embryology (ESHRE)
+Criteria\nRIF (repeated implantation failure), defined as greater than or equals
+to (&gt;=) 2 previous failed embryo transfers\nEndometriosis III-IV stage or
+adenomyosis\nClinically significant findings on exam or ultrasound, such as
+salpingitis, hydrosalp
+Output: {&quot;conditions&quot;: [&quot;systemic disease&quot;, &quot;diabetes&quot;, &quot;metabolic syndrome&quot;,
+&quot;immunological diseases&quot;, &quot;diagnosed thrombophilia&quot;, &quot;porphyria&quot;, &quot;medical
+condition&quot;, &quot;Polycystic ovary syndrome (PCOS)&quot;, &quot;Poor ovarian response (POR)&quot;,
+&quot;RIF (repeated implantation failure)&quot;, &quot;Endometriosis&quot;, &quot;adenomyosis&quot;,
+&quot;salpingitis&quot;, &quot;hydrosalpynx&quot;, &quot;ovarian cysts&quot;, &quot;hypersensitivity&quot;], &quot;drugs&quot;:
+[&quot;low-molecular weight heparin&quot;, &quot;vaginal progesterone&quot;, &quot;excipients&quot;, &quot;components
+ of the solution&quot;], &quot;procedures&quot;: [&quot;exam&quot;, &quot;ultrasound&quot;], &quot;measurements&quot;:
+[&quot;previous failed embryo transfers&quot;], &quot;temporals&quot;: [], &quot;observations&quot;:
+[&quot;findings&quot;]}
+
+Example 3:
+Input: {&quot;criteria&quot;: &quot;Patients must have histologic proof of a malignancy suitable
+for radiation therapy. \nPatients must have received prior external beam radiation
+ therapy to the region proposed for HDR brachytherapy treatment; evaluation of
+doses previously delivered to spinal cord/cauda equine, pelvis, and other critical
+ structures (bowel, kidneys, rectum) will be taken into consideration. \nIf repeat
+ irradiation would exceed any normal tissue constraint set by MSKCC Radiation
+Oncology Department dose constraint criteria, the patient will potentially be
+eligible. \nIf the total prior radiation dose to the cord or pelvis exceeds 100 Gy
+ BED equivalent, the patient will be potentially eligible, where a total of 100
+BED Gy equivalent is determined by the biological equivalent dose (BED) calculatio
+Output: {&quot;conditions&quot;: [&quot;malignancy&quot;], &quot;drugs&quot;: [], &quot;procedures&quot;: [&quot;radiation
+therapy&quot;, &quot;histologic&quot;, &quot;external beam radiation therapy&quot;, &quot;HDR brachytherapy&quot;,
+&quot;repeat irradiation&quot;], &quot;measurements&quot;: [&quot;MSKCC Radiation Oncology Department dose
+constraint criteria&quot;, &quot;KPS&quot;], &quot;temporals&quot;: [&quot;prior&quot;], &quot;observations&quot;: []}
+</pre></span></span></foreignobject></g></g></svg>
