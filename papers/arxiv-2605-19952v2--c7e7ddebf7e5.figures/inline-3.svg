@@ -1,0 +1,219 @@
+<svg id="A5.SS1.p3.pic1" class="ltx_picture" height="916.05" overflow="visible" version="1.1" viewbox="0 0 477.38 916.05" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,916.05) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#00FFFF;" fill="#00FFFF" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 910.14 C 0 913.4 2.64 916.05 5.91 916.05 L 471.47 916.05 C 474.73 916.05 477.38 913.4 477.38 910.14 L 477.38 5.91 C 477.38 2.64 474.73 0 471.47 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 910.14 C 1.97 912.32 3.73 914.08 5.91 914.08 L 471.47 914.08 C 473.65 914.08 475.41 912.32 475.41 910.14 L 475.41 5.91 C 475.41 3.73 473.65 1.97 471.47 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 13.78)"><foreignobject style="--ltx-fo-width:29.88em;--ltx-fo-height:64.21em;--ltx-fo-depth:0em;font-size:10pt;" height="888.5" overflow="visible" transform="matrix(1 0 0 -1 0 888.5)" width="413.46"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A5.SS1.p3.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:29.88em;">
+<span id="A5.SS1.p3.pic1.1.1" class="ltx_p"><span id="A5.SS1.p3.pic1.1.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p1.1" class="ltx_p">```json</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.2" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p2.1" class="ltx_p">[</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.3" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p3.1" class="ltx_p">  {{</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.4" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.4.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.4.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.4.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.4.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p4.1" class="ltx_p">    &quot;lossless_restatement&quot;: &quot;Alice started working at Google as of 2025-11-15.&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.5" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p5.1" class="ltx_p">    &quot;keywords&quot;: [&quot;Alice&quot;, &quot;Google&quot;, &quot;employment&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.6" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p6.1" class="ltx_p">    &quot;timestamp&quot;: &quot;2025-11-15T14:30:00&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.7" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p7.1" class="ltx_p">    &quot;location&quot;: null,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.8" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p8.1" class="ltx_p">    &quot;persons&quot;: [&quot;Alice&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.9" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p9.1" class="ltx_p">    &quot;entities&quot;: [&quot;Google&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.10" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p10.1" class="ltx_p">    &quot;topic&quot;: &quot;Alice’s new job&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.11" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p11.1" class="ltx_p">    &quot;source_dialogue_ids&quot;: [1]</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.12" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p12.1" class="ltx_p">  }},</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.13" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p13.1" class="ltx_p">  {{</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.14" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.14.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.14.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.14.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.14.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p14.1" class="ltx_p">    &quot;lossless_restatement&quot;: &quot;Alice suggested meeting with Bob at Starbucks on 2025-11-16T14:00:00.&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.15" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.15.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.15.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.15.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.15.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p15.1" class="ltx_p">    &quot;keywords&quot;: [&quot;Alice&quot;, &quot;Bob&quot;, &quot;Starbucks&quot;, &quot;meeting&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.16" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.16.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p16.1" class="ltx_p">    &quot;timestamp&quot;: &quot;2025-11-16T14:00:00&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.17" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p17.1" class="ltx_p">    &quot;location&quot;: &quot;Starbucks&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.18" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p18.1" class="ltx_p">    &quot;persons&quot;: [&quot;Alice&quot;, &quot;Bob&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.19" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p19.1" class="ltx_p">    &quot;entities&quot;: [],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.20" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p20.1" class="ltx_p">    &quot;topic&quot;: &quot;Meeting arrangement&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.21" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p21.1" class="ltx_p">    &quot;source_dialogue_ids&quot;: [1]</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.22" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p22.1" class="ltx_p">  }},</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.23" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p23.1" class="ltx_p">  {{</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.24" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.24.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.24.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.24.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.24.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p24.1" class="ltx_p">    &quot;lossless_restatement&quot;: &quot;Bob has been playing tennis frequently as of 2025-11-15.&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.25" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p25.1" class="ltx_p">    &quot;keywords&quot;: [&quot;Bob&quot;, &quot;tennis&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.26" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p26.1" class="ltx_p">    &quot;timestamp&quot;: &quot;2025-11-15T14:31:00&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.27" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p27.1" class="ltx_p">    &quot;location&quot;: null,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.28" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p28.1" class="ltx_p">    &quot;persons&quot;: [&quot;Bob&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.29" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p29.1" class="ltx_p">    &quot;entities&quot;: [],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.30" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p30.1" class="ltx_p">    &quot;topic&quot;: &quot;Bob’s hobby&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.31" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p31.1" class="ltx_p">    &quot;source_dialogue_ids&quot;: [2]</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.32" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p32.1" class="ltx_p">  }},</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.33" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p33.1" class="ltx_p">  {{</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.34" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.34.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.34.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.34.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.34.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p34.1" class="ltx_p">    &quot;lossless_restatement&quot;: &quot;Alice uses the Pomodoro technique (25 minutes work, 5-minute break) for studying.&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.35" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.35.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.35.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.35.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.35.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p35.1" class="ltx_p">    &quot;keywords&quot;: [&quot;Alice&quot;, &quot;Pomodoro technique&quot;, &quot;studying&quot;, &quot;time management&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.36" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p36.1" class="ltx_p">    &quot;timestamp&quot;: &quot;2025-11-15T14:32:00&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.37" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p37.1" class="ltx_p">    &quot;location&quot;: null,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.38" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p38.1" class="ltx_p">    &quot;persons&quot;: [&quot;Alice&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.39" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p39.1" class="ltx_p">    &quot;entities&quot;: [&quot;Pomodoro technique&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.40" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p40.1" class="ltx_p">    &quot;topic&quot;: &quot;Alice’s study method&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.41" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p41" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p41.1" class="ltx_p">    &quot;source_dialogue_ids&quot;: [3]</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.42" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p42.1" class="ltx_p">  }},</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.43" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.43.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p43.1" class="ltx_p">  {{</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.44" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.44.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.44.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.44.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.44.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p44.1" class="ltx_p">    &quot;lossless_restatement&quot;: &quot;Bob enjoys playing the Harry Potter theme song (composed by John Williams) on piano.&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.45" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.45.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.45.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.45.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A5.SS1.p3.pic1.1.45.1.3" class="ltx_text ltx_inline-block" style="width:21.0pt;"> </span><span id="A5.SS1.p3.pic1.1.45.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:292.7pt;">
+<span id="A5.SS1.p3.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p45.1" class="ltx_p">    &quot;keywords&quot;: [&quot;Bob&quot;, &quot;piano&quot;, &quot;Harry Potter&quot;, &quot;John Williams&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.46" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.46.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p46" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p46.1" class="ltx_p">    &quot;timestamp&quot;: &quot;2025-11-15T14:33:00&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.47" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.47.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p47.1" class="ltx_p">    &quot;location&quot;: null,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.48" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.48.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.48.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p48.1" class="ltx_p">    &quot;persons&quot;: [&quot;Bob&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.49" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.49.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.49.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p49" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p49.1" class="ltx_p">    &quot;entities&quot;: [&quot;Harry Potter&quot;, &quot;John Williams&quot;],</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.50" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.50.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.50.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p50.1" class="ltx_p">    &quot;topic&quot;: &quot;Bob’s piano playing&quot;,</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.51" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.51.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.51.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p51.1" class="ltx_p">    &quot;source_dialogue_ids&quot;: [4]</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.52" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.52.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.52.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p52.1" class="ltx_p">  }}</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.53" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.53.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.53.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p53.1" class="ltx_p">]</span>
+</span></span></span></span>
+<span id="A5.SS1.p3.pic1.1.54" class="ltx_p" style="width:313.7pt;"><span id="A5.SS1.p3.pic1.1.54.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:313.7pt;--ltx-fg-color:#000000;"><span id="A5.SS1.p3.pic1.1.54.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:313.7pt;">
+<span id="A5.SS1.p3.pic1.p54" class="ltx_para ltx_noindent">
+<span id="A5.SS1.p3.pic1.p54.1" class="ltx_p">```</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

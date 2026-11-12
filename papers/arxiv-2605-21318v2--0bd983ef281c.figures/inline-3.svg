@@ -1,0 +1,21 @@
+<svg id="A5.SS2.p2.pic1" class="ltx_picture" height="193.74" overflow="visible" version="1.1" viewbox="0 0 650 193.74" width="650"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,193.74) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#4D4D4D;" fill="#4D4D4D" fill-opacity="1.0"><path style="stroke:none" d="M 0 17.13 L 0 176.61 C 0 186.07 7.67 193.74 17.13 193.74 L 632.87 193.74 C 642.33 193.74 650 186.07 650 176.61 L 650 17.13 C 650 7.67 642.33 0 632.87 0 L 17.13 0 C 7.67 0 0 7.67 0 17.13 Z" /></g><g style="--ltx-fill-color:#FFFFF2;" fill="#FFFFF2" fill-opacity="1.0"><path style="stroke:none" d="M 1.38 17.13 L 1.38 173.49 L 648.62 173.49 L 648.62 17.13 C 648.62 8.43 641.57 1.38 632.87 1.38 L 17.13 1.38 C 8.43 1.38 1.38 8.43 1.38 17.13 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.19 178.81)"><foreignobject style="--ltx-fo-width:45.07em;--ltx-fo-height:0.69em;--ltx-fo-depth:0em;font-size:10pt;" height="9.61" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="623.64"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A5.SS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.07em;">
+<span id="A5.SS2.p2.pic1.1.1" class="ltx_p"><span id="A5.SS2.p2.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">Alternative Initializations</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.19 61.49)"><foreignobject style="--ltx-fo-width:48.73em;--ltx-fo-height:7.53em;--ltx-fo-depth:3.78em;font-size:10pt;" height="156.36" overflow="visible" transform="matrix(1 0 0 -1 0 104.12)" width="674.29"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A5.SS2.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:48.73em;">
+<span id="A5.SS2.p2.pic1.2.1" class="ltx_p"><span id="A5.SS2.p2.pic1.2.1.1" class="ltx_text ltx_font_bold" style="font-size:90%;--ltx-fg-color:#000000;">Hand-written<span id="A5.SS2.p2.pic1.2.1.1.1" class="ltx_text ltx_font_medium">:
+<span id="A5.SS2.p2.pic1.2.1.1.1.1" class="ltx_text ltx_font_italic">Answer the following multiple-choice reasoning question. Think through
+the problem step by step and base your answer only on the information given in
+the question. Do not skip steps in your reasoning. Conclude with the final
+answer on its own line in the format ‘Answer: ($VALUE)’, where VALUE is the
+letter of the correct option.</span>
+
+<br class="ltx_break" style="--ltx-break-space:3.9pt;">
+</span>Structured<span id="A5.SS2.p2.pic1.2.1.1.2" class="ltx_text ltx_font_medium">:
+<span id="A5.SS2.p2.pic1.2.1.1.2.1" class="ltx_text ltx_font_italic">You are an assistant for multiple-choice reasoning questions.
+Task: solve the question below.
+Method: reason step by step, using only the information given in the question.
+Check: verify your conclusion against the question before answering.
+Output: end your response with a line in exactly this format: ‘Answer:
+($VALUE)’ where VALUE is the letter of the correct option.</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

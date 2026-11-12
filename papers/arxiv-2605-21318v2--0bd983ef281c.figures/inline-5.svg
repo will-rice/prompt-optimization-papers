@@ -1,0 +1,46 @@
+<svg id="A7.SS2.p2.pic1" class="ltx_picture" height="430.97" overflow="visible" version="1.1" viewbox="0 0 650 430.97" width="650"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,430.97) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#4D4D4D;" fill="#4D4D4D" fill-opacity="1.0"><path style="stroke:none" d="M 0 17.13 L 0 413.84 C 0 423.3 7.67 430.97 17.13 430.97 L 632.87 430.97 C 642.33 430.97 650 423.3 650 413.84 L 650 17.13 C 650 7.67 642.33 0 632.87 0 L 17.13 0 C 7.67 0 0 7.67 0 17.13 Z" /></g><g style="--ltx-fill-color:#FFFFF2;" fill="#FFFFF2" fill-opacity="1.0"><path style="stroke:none" d="M 1.38 17.13 L 1.38 408.03 L 648.62 408.03 L 648.62 17.13 C 648.62 8.43 641.57 1.38 632.87 1.38 L 17.13 1.38 C 8.43 1.38 1.38 8.43 1.38 17.13 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.19 416.04)"><foreignobject style="--ltx-fo-width:45.07em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="623.64"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A7.SS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:45.07em;">
+<span id="A7.SS2.p2.pic1.1.1" class="ltx_p"><span id="A7.SS2.p2.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">RuleBank Canonicalization Prompt</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 13.19 28.98)"><foreignobject style="--ltx-fo-width:48.73em;--ltx-fo-height:26.83em;--ltx-fo-depth:1.43em;font-size:10pt;" height="390.9" overflow="visible" transform="matrix(1 0 0 -1 0 371.18)" width="674.29"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A7.SS2.p2.pic1.2" class="ltx_inline-sectional-block ltx_minipage">
+                    
+<span id="A7.SS2.p2.pic1.p1" class="ltx_para">
+<span id="A7.SS2.p2.pic1.p1.1" class="ltx_p"><span id="A7.SS2.p2.pic1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">You are a rule canonicalization and matching engine. Given a raw textual
+gradient and the current RuleBank, perform two tasks:</span></span>
+<span id="A7.I2" class="ltx_enumerate ltx_leftmargin_flush">
+<span id="A7.I2.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<span id="A7.I2.i1.p1" class="ltx_para">
+<span id="A7.I2.i1.p1.1" class="ltx_p"><span id="A7.I2.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Extract mid-level canonical </span><span id="A7.I2.i1.p1.1.2" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">{rule_scope}</span><span id="A7.I2.i1.p1.1.3" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;"> rules from the
+raw gradient. Remove references to specific entities, exact numbers, or
+particular examples. Preserve structural </span><span id="A7.I2.i1.p1.1.4" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">{rule_patterns}</span><span id="A7.I2.i1.p1.1.5" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">. Keep
+rules at mid-level abstraction.</span></span>
+</span></span>
+<span id="A7.I2.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<span id="A7.I2.i2.p1" class="ltx_para">
+<span id="A7.I2.i2.p1.1" class="ltx_p"><span id="A7.I2.i2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">For each extracted rule, compare it with the existing RuleBank. If
+semantically equivalent to an existing rule (same structural pattern, not
+just similar wording), output an </span><span id="A7.I2.i2.p1.1.2" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">INCREMENT</span><span id="A7.I2.i2.p1.1.3" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;"> operation with that
+rule’s ID. Otherwise, output an </span><span id="A7.I2.i2.p1.1.4" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">INSERT</span><span id="A7.I2.i2.p1.1.5" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;"> operation with the canonical
+description.</span></span>
+</span></span>
+</span>
+</span>
+                    
+<section id="A7.SS2.SSS0.Px1" class="ltx_paragraph">
+<h4 class="ltx_title ltx_title_paragraph" style="font-size:90%;--ltx-fg-color:#000000;">Input</h4>
+
+<span id="A7.SS2.SSS0.Px1.p1" class="ltx_para">
+<span id="A7.SS2.SSS0.Px1.p1.1" class="ltx_p"><span id="A7.SS2.SSS0.Px1.p1.1.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">[CURRENT RULEBANK]</span><span id="A7.SS2.SSS0.Px1.p1.1.2" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;"> </span><span id="A7.SS2.SSS0.Px1.p1.1.3" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">{rulebank_summary}</span><span id="A7.SS2.SSS0.Px1.p1.1.4" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">;
+</span><span id="A7.SS2.SSS0.Px1.p1.1.5" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">[RAW GRADIENT]</span><span id="A7.SS2.SSS0.Px1.p1.1.6" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;"> </span><span id="A7.SS2.SSS0.Px1.p1.1.7" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">{raw_gradient}</span><span id="A7.SS2.SSS0.Px1.p1.1.8" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">.</span></span>
+</span>
+</section>
+                    
+<section id="A7.SS2.SSS0.Px2" class="ltx_paragraph">
+<h4 class="ltx_title ltx_title_paragraph" style="font-size:90%;--ltx-fg-color:#000000;">Output format</h4>
+
+<span id="A7.SS2.SSS0.Px2.p1" class="ltx_para">
+<span id="A7.SS2.SSS0.Px2.p1.1" class="ltx_p"><span id="A7.SS2.SSS0.Px2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Strictly valid JSON: </span><span id="A7.SS2.SSS0.Px2.p1.1.2" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">{&quot;operations&quot;: [{&quot;type&quot;: &quot;increment&quot;, &quot;rule_id&quot;:
+&quot;R3&quot;, &quot;value&quot;: 1}, {&quot;type&quot;: &quot;insert&quot;, &quot;canonical_description&quot;: &quot;...&quot;,
+&quot;value&quot;: 1}]}</span><span id="A7.SS2.SSS0.Px2.p1.1.3" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">.</span></span>
+</span>
+</section>
+                  </span></span></span></foreignobject></g></g></svg>
