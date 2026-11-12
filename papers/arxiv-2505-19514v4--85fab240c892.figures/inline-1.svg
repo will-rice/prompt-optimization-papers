@@ -1,0 +1,57 @@
+<svg id="S4.SS2.p2.pic1" class="ltx_picture" height="578.98" overflow="visible" version="1.1" viewbox="0 0 550 578.98" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,578.98) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 570.41 C 0 575.14 3.84 578.98 8.57 578.98 L 541.43 578.98 C 546.16 578.98 550 575.14 550 570.41 L 550 0 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 0.69 L 0.69 557.42 L 549.31 557.42 L 549.31 0.69 Z" /></g><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 558.11 L 0.69 570.41 C 0.69 574.76 4.22 578.29 8.57 578.29 L 541.43 578.29 C 545.78 578.29 549.31 574.76 549.31 570.41 L 549.31 558.11 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.5 564.74)"><foreignobject style="--ltx-fo-width:34.49em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="477.24"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S4.SS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:34.49em;">
+<span id="S4.SS2.p2.pic1.1.1" class="ltx_p"><span id="S4.SS2.p2.pic1.1.1.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Causal Judgment Prompt Template</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.5 15.96)"><foreignobject style="--ltx-fo-width:37.94em;--ltx-fo-height:38.28em;--ltx-fo-depth:0.25em;font-size:10pt;" height="533.12" overflow="visible" transform="matrix(1 0 0 -1 0 529.66)" width="524.98"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="S4.SS2.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:37.94em;">
+<span id="S4.SS2.p2.pic1.2.1" class="ltx_p"><span id="S4.SS2.p2.pic1.2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">[System Input]<span id="S4.SS2.p2.pic1.2.1.1.1" class="ltx_text ltx_font_serif">: 
+<br class="ltx_break"></span></span></span>
+<span id="S4.SS2.p2.pic1.2.2" class="ltx_p"><span id="S4.SS2.p2.pic1.2.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are an expert in generating logical causal-attribute questions and answers. Your task is to generate one pair of causal attributions or causation. One is a causation statement, and another is a non-causation statement.
+<br class="ltx_break"></span></span>
+<span id="S4.SS2.p2.pic1.2.3" class="ltx_p"><span id="S4.SS2.p2.pic1.2.3.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">[User Input]:<span id="S4.SS2.p2.pic1.2.3.1.1" class="ltx_text ltx_font_serif"> 
+<br class="ltx_break"></span></span></span>
+<span id="S4.SS2.p2.pic1.2.4" class="ltx_p"><span id="S4.SS2.p2.pic1.2.4.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Guidelines:<span id="S4.SS2.p2.pic1.2.4.1.1" class="ltx_text"></span></span></span>
+<span id="S4.I1" class="ltx_enumerate" style="--ltx-enum-leftmargin:1.5em;">
+<span id="S4.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<span id="S4.I1.i1.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i1.p1.1" class="ltx_p"><span id="S4.I1.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Make sure that the data generated is different.</span></span>
+</span></span>
+<span id="S4.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<span id="S4.I1.i2.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i2.p1.1" class="ltx_p"><span id="S4.I1.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Use clear and direct words in the question, avoiding overly complex phrasing, trickiness, or ambiguity.</span></span>
+</span></span>
+<span id="S4.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">3.</span> 
+<span id="S4.I1.i3.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i3.p1.1" class="ltx_p"><span id="S4.I1.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Do not make the logic in the statement overly complicated; the statement and question should be understood at a fair level.</span></span>
+</span></span>
+<span id="S4.I1.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">4.</span> 
+<span id="S4.I1.i4.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i4.p1.1" class="ltx_p"><span id="S4.I1.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Be creative and diverse. Only follow the logic and flow of the given examples, but be creative and diverse with the content and not limited to the given example.</span></span>
+</span></span>
+<span id="S4.I1.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">5.</span> 
+<span id="S4.I1.i5.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i5.p1.1" class="ltx_p"><span id="S4.I1.i5.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Only one data instance needs to be generated each time.</span></span>
+</span></span>
+<span id="S4.I1.i6" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">6.</span> 
+<span id="S4.I1.i6.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i6.p1.1" class="ltx_p"><span id="S4.I1.i6.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Generate only one output: the generated content should strictly follow the output format from the examples below.</span></span>
+</span></span>
+<span id="S4.I1.i7" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">7.</span> 
+<span id="S4.I1.i7.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i7.p1.1" class="ltx_p"><span id="S4.I1.i7.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Difficulty should increase with each iteration with total difficulty level: {max difficulty level} (current difficulty level: {c}).</span></span>
+</span></span>
+<span id="S4.I1.i8" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">8.</span> 
+<span id="S4.I1.i8.p1" class="ltx_para ltx_noindent">
+<span id="S4.I1.i8.p1.1" class="ltx_p"><span id="S4.I1.i8.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Make sure the generated data is sufficient and robust without any errors, especially logic.</span></span>
+</span></span>
+<span id="S4.I1.i9" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">9.</span> 
+<span id="S4.I1.i9.p1" class="ltx_para">
+<span id="S4.I1.i9.p1.1" class="ltx_p"><span id="S4.I1.i9.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">The generated samples are suppose to challenge the model’s ability to reason and answer the question correctly.</span>
+<br class="ltx_break"></span>
+</span></span>
+</span>
+<span id="S4.SS2.p2.pic1.2.5" class="ltx_p"><span id="S4.SS2.p2.pic1.2.5.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Past generated samples:<span id="S4.SS2.p2.pic1.2.5.1.1" class="ltx_text ltx_font_medium"> {Generated data with difficulty}
+<br class="ltx_break">
+<br class="ltx_break"></span>Below are the Examples with expected data format:
+<br class="ltx_break"><span id="S4.SS2.p2.pic1.2.5.1.2" class="ltx_text ltx_font_medium">{True Data 1}
+<br class="ltx_break">{True Data 2}</span></span></span>
+</span></span></span></foreignobject></g></g></svg>

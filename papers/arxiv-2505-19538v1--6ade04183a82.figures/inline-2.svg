@@ -1,0 +1,68 @@
+<svg id="A4.SS1.p4.pic1" class="ltx_picture" height="747.23" overflow="visible" version="1.1" viewbox="0 0 477.38 747.23" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,747.23) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#808080;" fill="#808080" fill-opacity="1.0"><path style="stroke:none" d="M 0 3.46 L 0 743.77 C 0 745.68 1.55 747.23 3.46 747.23 L 473.92 747.23 C 475.83 747.23 477.38 745.68 477.38 743.77 L 477.38 3.46 C 477.38 1.55 475.83 0 473.92 0 L 3.46 0 C 1.55 0 0 1.55 0 3.46 Z" /></g><g style="--ltx-fill-color:#F2F2F2;" fill="#F2F2F2" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 3.46 L 0.69 724.14 L 476.68 724.14 L 476.68 3.46 C 476.68 1.93 475.45 0.69 473.92 0.69 L 3.46 0.69 C 1.93 0.69 0.69 1.93 0.69 3.46 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.38 732.22)"><foreignobject style="--ltx-fo-width:27.44em;--ltx-fo-height:0.75em;--ltx-fo-depth:0.25em;font-size:10pt;" height="13.84" overflow="visible" transform="matrix(1 0 0 -1 0 10.38)" width="379.69"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A4.SS1.p4.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:27.44em;">
+<span id="A4.SS1.p4.pic1.1.1" class="ltx_p"><span id="A4.SS1.p4.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Prompt: Disease Diagnosis for Patient (DialMed)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.38 580.05)"><foreignobject style="--ltx-fo-width:31.56em;--ltx-fo-height:9.56em;--ltx-fo-depth:41.02em;font-size:10pt;" height="699.83" overflow="visible" transform="matrix(1 0 0 -1 0 132.28)" width="436.7"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A4.SS1.p4.pic1.2" class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:31.56em;">
+<span id="A4.SS1.p4.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A4.SS1.p4.pic1.p1.1" class="ltx_p"><span id="A4.SS1.p4.pic1.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Role Description:</span><span id="A4.SS1.p4.pic1.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">
+The LLM acts as a medical diagnostic expert. Its task is to predict the most likely disease for a patient based on their symptoms, provided medical knowledge, and information from similar patient cases. The &quot;System Message&quot; described above is used.</span></span>
+</span>
+<span id="A4.SS1.p4.pic1.p2" class="ltx_para ltx_noindent">
+<span id="A4.SS1.p4.pic1.p2.1" class="ltx_p"><span id="A4.SS1.p4.pic1.p2.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Prompt Template Structure:</span></span>
+<span id="A4.I1" class="ltx_itemize">
+<span id="A4.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I1.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I1.i1.p1.1" class="ltx_p"><span id="A4.I1.i1.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Input:</span></span>
+<span id="A4.I1.i1.I1" class="ltx_itemize">
+<span id="A4.I1.i1.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span id="A4.I1.i1.I1.i1.1" class="ltx_text ltx_font_bold">–</span></span> 
+<span id="A4.I1.i1.I1.i1.p1" class="ltx_para ltx_noindent">
+<span id="A4.I1.i1.I1.i1.p1.1" class="ltx_p"><span id="A4.I1.i1.I1.i1.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Patient Symptoms: {</span><span id="A4.I1.i1.I1.i1.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">evidences</span><span id="A4.I1.i1.I1.i1.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">} (List of symptoms)</span></span>
+</span></span>
+<span id="A4.I1.i1.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span id="A4.I1.i1.I1.i2.1" class="ltx_text ltx_font_bold">–</span></span> 
+<span id="A4.I1.i1.I1.i2.p1" class="ltx_para ltx_noindent">
+<span id="A4.I1.i1.I1.i2.p1.1" class="ltx_p"><span id="A4.I1.i1.I1.i2.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Knowledge Context: {</span><span id="A4.I1.i1.I1.i2.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">knowledge_text</span><span id="A4.I1.i1.I1.i2.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">} (Text containing relevant medical knowledge)</span></span>
+</span></span>
+<span id="A4.I1.i1.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span id="A4.I1.i1.I1.i3.1" class="ltx_text ltx_font_bold">–</span></span> 
+<span id="A4.I1.i1.I1.i3.p1" class="ltx_para ltx_noindent">
+<span id="A4.I1.i1.I1.i3.p1.1" class="ltx_p"><span id="A4.I1.i1.I1.i3.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Similar Patients Information: {</span><span id="A4.I1.i1.I1.i3.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">similar_patients_text</span><span id="A4.I1.i1.I1.i3.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">} (Text describing similar patient cases)</span></span>
+</span></span>
+<span id="A4.I1.i1.I1.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item"><span id="A4.I1.i1.I1.i4.1" class="ltx_text ltx_font_bold">–</span></span> 
+<span id="A4.I1.i1.I1.i4.p1" class="ltx_para">
+<span id="A4.I1.i1.I1.i4.p1.1" class="ltx_p"><span id="A4.I1.i1.I1.i4.p1.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Valid Disease Options: {</span><span id="A4.I1.i1.I1.i4.p1.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">VALID_DISEASES</span><span id="A4.I1.i1.I1.i4.p1.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">} (List of possible diseases to choose from)</span></span>
+</span></span>
+</span>
+</span></span>
+<span id="A4.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I1.i2.p1" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p1.1" class="ltx_p"><span id="A4.I1.i2.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Instructions within the prompt to the LLM:</span><span id="A4.I1.i2.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;">
+As a medical diagnostic expert, predict the most likely disease for this patient.</span></span>
+</span>
+<span id="A4.I1.i2.p2" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p2.1" class="ltx_p"><span id="A4.I1.i2.p2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Patient Information:</span></span>
+</span>
+<span id="A4.I1.i2.p3" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p3.1" class="ltx_p"><span id="A4.I1.i2.p3.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Symptoms: {</span><span id="A4.I1.i2.p3.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">evidences</span><span id="A4.I1.i2.p3.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">}</span></span>
+</span>
+<span id="A4.I1.i2.p4" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p4.1" class="ltx_p"><span id="A4.I1.i2.p4.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Relevant Information:</span></span>
+</span>
+<span id="A4.I1.i2.p5" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p5.1" class="ltx_p"><span id="A4.I1.i2.p5.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">{</span><span id="A4.I1.i2.p5.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">knowledge_text</span><span id="A4.I1.i2.p5.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">}</span></span>
+</span>
+<span id="A4.I1.i2.p6" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p6.1" class="ltx_p"><span id="A4.I1.i2.p6.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">{</span><span id="A4.I1.i2.p6.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">similar_patients_text</span><span id="A4.I1.i2.p6.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">}</span></span>
+</span>
+<span id="A4.I1.i2.p7" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p7.1" class="ltx_p"><span id="A4.I1.i2.p7.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Based on the above information, determine the most likely disease from the following options only:</span></span>
+</span>
+<span id="A4.I1.i2.p8" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p8.1" class="ltx_p"><span id="A4.I1.i2.p8.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">{</span><span id="A4.I1.i2.p8.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">VALID_DISEASES</span><span id="A4.I1.i2.p8.1.3" class="ltx_text" style="--ltx-fg-color:#000000;">}</span></span>
+</span>
+<span id="A4.I1.i2.p9" class="ltx_para ltx_noindent">
+<span id="A4.I1.i2.p9.1" class="ltx_p"><span id="A4.I1.i2.p9.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Return only the name of the disease without any additional text.</span></span>
+</span></span>
+<span id="A4.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I1.i3.p1" class="ltx_para">
+<span id="A4.I1.i3.p1.1" class="ltx_p"><span id="A4.I1.i3.p1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Output format:</span><span id="A4.I1.i3.p1.1.2" class="ltx_text" style="--ltx-fg-color:#000000;"> Only the name of the predicted disease.</span></span>
+</span></span>
+</span>
+</span></span></span></span></foreignobject></g></g></svg>

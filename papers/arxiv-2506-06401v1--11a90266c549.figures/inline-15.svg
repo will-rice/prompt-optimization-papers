@@ -1,0 +1,40 @@
+<svg id="A5.F19.pic1" class="ltx_picture ltx_centering" height="803.16" overflow="visible" version="1.1" viewbox="0 0 653.15 803.16" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,803.16) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 797.26 C 0 800.52 2.64 803.16 5.91 803.16 L 647.24 803.16 C 650.51 803.16 653.15 800.52 653.15 797.26 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 779.05 L 651.18 779.05 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 787.65)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A5.F19.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A5.F19.pic1.1.1" class="ltx_p"><span id="A5.F19.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">DP&amp;CoT Prompt of Logical Deduction</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 17.24)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:54.2em;--ltx-fo-depth:0.25em;font-size:10pt;" height="753.47" overflow="visible" transform="matrix(1 0 0 -1 0 750.01)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A5.F19.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A5.F19.pic1.2.1" class="ltx_p"><span id="A5.F19.pic1.2.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Question:<span id="A5.F19.pic1.2.1.1.1" class="ltx_text ltx_font_medium"> The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. 
+<br class="ltx_break">In a golf tournament, there were three golfers: Amy, Eli, and Eve. Eve finished above Amy. Eli finished below Amy. 
+<br class="ltx_break">Options: (A) Amy finished last (B) Eli finished last (C) Eve finished last 
+<br class="ltx_break"></span><span id="A5.F19.pic1.2.1.1.2" class="ltx_text" style="--ltx-fg-color:#808080;">Solution:<span id="A5.F19.pic1.2.1.1.2.1" class="ltx_text ltx_font_medium"> (1) Eve finished above Amy: &quot;(above) ? Eve ? Amy ? (below)&quot;. 
+<br class="ltx_break">(2) Eli finished below Amy: &quot;(above) ? Amy ? Eli ? (below)&quot;. 
+<br class="ltx_break">(3) Combining (1) and (2) we get the following ordering: &quot;(above) Eve Amy Eli (below)&quot;. 
+<br class="ltx_break">According to this ordering, the person who finished last (the one at the bottom of this list) is Eli. 
+<br class="ltx_break">Eli finished last. So the answer is (B).<span id="A5.F19.pic1.2.1.1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;"> 
+<br class="ltx_break"></span></span></span>Answer:<span id="A5.F19.pic1.2.1.1.3" class="ltx_text ltx_font_medium"> (B) 
+<br class="ltx_break"></span></span></span>
+<span id="A5.F19.pic1.2.2" class="ltx_p"><span id="A5.F19.pic1.2.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Question:<span id="A5.F19.pic1.2.2.1.1" class="ltx_text ltx_font_medium"> The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. 
+<br class="ltx_break">On a shelf, there are three books: a white book, a green book, and an orange book. The green book is to the right of the white book. The orange book is the rightmost. 
+<br class="ltx_break">Options: (A) The white book is the leftmost (B) The green book is the leftmost (C) The orange book is the leftmost 
+<br class="ltx_break"></span><span id="A5.F19.pic1.2.2.1.2" class="ltx_text" style="--ltx-fg-color:#808080;">Solution:<span id="A5.F19.pic1.2.2.1.2.1" class="ltx_text ltx_font_medium"> (1) The green book is to the right of the white book: &quot;(left) ? white ? green ? (right)&quot;. 
+<br class="ltx_break">(2) The orange book is the rightmost: &quot;(left) ? white ? green orange (right)&quot;. 
+<br class="ltx_break">(3) Combining (1) and (2) we get the following ordering: &quot;(left) white green orange (right)&quot;. 
+<br class="ltx_break">According to this ordering, the leftmost book is the white book. 
+<br class="ltx_break">The white book is the leftmost. So the answer is (A).<span id="A5.F19.pic1.2.2.1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;"> 
+<br class="ltx_break"></span></span></span>Answer:<span id="A5.F19.pic1.2.2.1.3" class="ltx_text ltx_font_medium"> (A) 
+<br class="ltx_break"></span></span></span>
+<span id="A5.F19.pic1.2.3" class="ltx_p"><span id="A5.F19.pic1.2.3.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Question:<span id="A5.F19.pic1.2.3.1.1" class="ltx_text ltx_font_medium"> The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. 
+<br class="ltx_break">On a shelf, there are three books: a red book, a gray book, and a white book. The white book is to the left of the gray book. The red book is the second from the left. 
+<br class="ltx_break">Options: (A) The red book is the leftmost (B) The gray book is the leftmost (C) The white book is the leftmost 
+<br class="ltx_break"></span><span id="A5.F19.pic1.2.3.1.2" class="ltx_text" style="--ltx-fg-color:#808080;">Solution:<span id="A5.F19.pic1.2.3.1.2.1" class="ltx_text ltx_font_medium"> (1) The white book is to the left of the gray book: &quot;(left) ? white ? gray ? (right)&quot;. 
+<br class="ltx_break">(2) The red book is the second from the left: &quot;(left) ? white red gray ? (right)&quot;. 
+<br class="ltx_break">(3) Combining (1) and (2) we get the following ordering: &quot;(left) white red gray (right)&quot;. 
+<br class="ltx_break">According to this ordering, the leftmost book is the white book. 
+<br class="ltx_break">The white book is the leftmost. So the answer is (C).<span id="A5.F19.pic1.2.3.1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;"> 
+<br class="ltx_break"></span></span></span>Answer:<span id="A5.F19.pic1.2.3.1.3" class="ltx_text ltx_font_medium"> (C) 
+<br class="ltx_break"></span></span></span>
+<span id="A5.F19.pic1.2.4" class="ltx_p"><span id="A5.F19.pic1.2.4.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Question:<span id="A5.F19.pic1.2.4.1.1" class="ltx_text"></span></span></span><pre id="A5.F19.pic1.2.5" class="ltx_verbatim ltx_font_typewriter" style="--ltx-fg-color:#000000;">
+{question}
+    
+</pre>
+</span></span></span></foreignobject></g></g></svg>
