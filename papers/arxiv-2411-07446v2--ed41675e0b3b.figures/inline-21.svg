@@ -1,0 +1,41 @@
+<svg id="A6.F24.pic1" class="ltx_picture ltx_centering" height="962.82" overflow="visible" version="1.1" viewbox="0 0 653.15 962.82" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,962.82) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#0D0D0D;" fill="#0D0D0D" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 956.92 C 0 960.18 2.64 962.82 5.91 962.82 L 647.24 962.82 C 650.51 962.82 653.15 960.18 653.15 956.92 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 956.92 C 1.97 959.09 3.73 960.86 5.91 960.86 L 647.24 960.86 C 649.42 960.86 651.18 959.09 651.18 956.92 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 910.42)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:2.79em;--ltx-fo-depth:64.8em;font-size:10pt;" height="935.28" overflow="visible" transform="matrix(1 0 0 -1 0 38.63)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.F24.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A6.F24.pic1.1.1" class="ltx_p"><span id="A6.F24.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">ERM Optimized Prompt
+<br class="ltx_break"><span id="A6.F24.pic1.1.1.1.1" class="ltx_text ltx_font_typewriter ltx_font_medium">
+## Task 
+<br class="ltx_break">Approach this problem methodically by following these steps: 
+<br class="ltx_break">1. **Interpretation:** Carefully read and interpret the problem statement. Pay close attention to the relationships, conditions, constraints, and sequence of events described. Identify key quantities and their interrelationships. 
+<br class="ltx_break">2. **Break Down:** Break the problem into manageable steps. Identify the calculations required for each step and the sequence in which to perform them. Ensure you understand how the different parts of the problem connect. 
+<br class="ltx_break">3. **Calculation:** Perform the calculations step-by-step. Ensure that each calculation is based on the correct interpretation of the problem’s conditions. Be meticulous with numerical values, units, and any given constraints. 
+<br class="ltx_break">4. **Verification:** Double-check your calculations. Verify that each step logically follows from the previous one and that the final result makes sense in the context of the problem. Recalculate if necessary to ensure accuracy. 
+<br class="ltx_break">Refer to the following examples for guidance: 
+<br class="ltx_break">Example 1: 
+<br class="ltx_break">Text: ‘‘At the burger hut, you can buy a burger for $5, french fries for $3, and a soft drink for $3. If you order a special burger meal, you get all 3 of these food items for $9.50. A kid’s burger is $3, a kid’s french fries are $2, and a kid’s juice box is $2. They also have a kids meal of all 3 kids’ food items for $5. Mr. Parker buys 2 burger meals for his wife and himself. He also buys 2 burger meals and 2 kid’s meals for his 4 children. How much money does Mr. Parker save by buying the 6 meals versus buying the individual food items?&quot; 
+<br class="ltx_break">Solution Steps: 
+<br class="ltx_break">- Calculate the individual cost of each adult meal: $5 + $3 + $3 = $11. 
+<br class="ltx_break">- Total cost for 4 adult meals: 4 * $11 = $44. 
+<br class="ltx_break">- Calculate the cost of each kid’s meal: $3 + $2 + $2 = $7. 
+<br class="ltx_break">- Total cost for 2 kids’ meals: 2 * $7 = $14.
+<br class="ltx_break">- Total cost without meal deals: $44 + $14 = $58. 
+<br class="ltx_break">- Cost with meal deals: 4 * $9.50 (adult meals) + 2 * $5 (kids’ meals) = $38 + $10 = $48. 
+<br class="ltx_break">- Total savings: $58 - $48 = $10. 
+<br class="ltx_break">Label: 10.
+<br class="ltx_break">Example 2: 
+<br class="ltx_break">Text: ‘‘Liam wants to go to Paris, but first, he has to pay his bills. His trip costs $7,000, and his bills cost $3,500. Knowing that Liam has saved $500/month for 2 years, how much money will he have left after paying his bills?&quot;
+Solution Steps: 
+<br class="ltx_break">- Total savings: $500 * 24 months = $12,000. 
+<br class="ltx_break">- Total expenses (trip + bills): $7,000 + $3,500 = $10,500. 
+<br class="ltx_break">- Money left after expenses: $12,000 - $10,500 = $1,500.
+<br class="ltx_break">Label: 1500.
+<br class="ltx_break">Example 3:
+<br class="ltx_break">Text: ‘‘Steve has a bank account that earns 10% interest every year. He puts $100 in it, and then $10 each year. How much money is in it after two years?&quot; 
+<br class="ltx_break">Solution Steps: 
+<br class="ltx_break">- First year: $100 * 1.10 + $10 = $120. 
+<br class="ltx_break">- Second year: $120 * 1.10 + $10 = $142. 
+<br class="ltx_break">Label: 142. 
+<br class="ltx_break">Use these examples as a guide to solve your problem. Carefully verify each step, consider any numerical variations, and ensure all calculations align with the problem’s conditions. Once you have your solution, review it to confirm its validity in the context of the problem.
+<br class="ltx_break">## Prediction 
+<br class="ltx_break">Text: {input} 
+<br class="ltx_break">Label:<span id="A6.F24.pic1.1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

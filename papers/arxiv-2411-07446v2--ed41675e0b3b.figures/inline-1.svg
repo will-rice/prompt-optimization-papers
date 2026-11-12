@@ -1,0 +1,21 @@
+<svg id="A5.F4.pic1" class="ltx_picture ltx_centering" height="385.86" overflow="visible" version="1.1" viewbox="0 0 653.15 385.86" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,385.86) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#0D0D0D;" fill="#0D0D0D" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 379.95 C 0 383.22 2.64 385.86 5.91 385.86 L 647.24 385.86 C 650.51 385.86 653.15 383.22 653.15 379.95 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 379.95 C 1.97 382.13 3.73 383.89 5.91 383.89 L 647.24 383.89 C 649.42 383.89 651.18 382.13 651.18 379.95 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 363.62)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:0.61em;--ltx-fo-depth:25.28em;font-size:10pt;" height="358.31" overflow="visible" transform="matrix(1 0 0 -1 0 8.46)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A5.F4.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A5.F4.pic1.1.1" class="ltx_p"><span id="A5.F4.pic1.1.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#000000;">I’m trying to write and complete a zero-shot classifier prompt from difficult or erroneous examples, ‘text’ field means model input, ‘label’ field means true label.
+<br class="ltx_break">My current prompt is: 
+<br class="ltx_break">{curr_prompt} 
+<br class="ltx_break">But this prompt gets the following examples wrong: 
+<br class="ltx_break">{error_samples} 
+<br class="ltx_break">To improve my understanding and performance, I would like to identify {num_exemplar} typical examples from the above cases where the current prompt fails. 
+<br class="ltx_break">These examples should be diverse to cover a range of different issues. 
+<br class="ltx_break">For each example, provide the following format in JSON and wrap each example with &lt;key_example&gt; and &lt;/key_example&gt;: 
+<br class="ltx_break">&lt;key_example&gt; 
+<br class="ltx_break">{ 
+<br class="ltx_break">‘‘text&quot;: ‘‘{{text}}&quot;,
+<br class="ltx_break">‘‘label&quot;: ‘‘{{label}}&quot;,
+<br class="ltx_break">‘‘solution&quot;: ‘‘How to solve this problem step-by-step to get a more accurate answer.&quot;
+<br class="ltx_break">}
+<br class="ltx_break">&lt;/key_example&gt;
+<br class="ltx_break">After identifying these {num_exemplar} typical examples, please provide {num_feedbacks} reasons why the prompt could have gotten these examples wrong. Wrap each reason with &lt;feedback&gt; and &lt;/feedback&gt;.
+<br class="ltx_break"><span id="A5.F4.pic1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span>
+</span></span></span></foreignobject></g></g></svg>

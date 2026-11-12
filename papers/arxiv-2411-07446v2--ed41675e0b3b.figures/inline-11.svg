@@ -1,0 +1,20 @@
+<svg id="A6.F14.pic1" class="ltx_picture ltx_centering" height="452.28" overflow="visible" version="1.1" viewbox="0 0 653.15 452.28" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,452.28) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#0D0D0D;" fill="#0D0D0D" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 446.37 C 0 449.63 2.64 452.28 5.91 452.28 L 647.24 452.28 C 650.51 452.28 653.15 449.63 653.15 446.37 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 446.37 C 1.97 448.55 3.73 450.31 5.91 450.31 L 647.24 450.31 C 649.42 450.31 651.18 448.55 651.18 446.37 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 412.29)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:1.89em;--ltx-fo-depth:28.8em;font-size:10pt;" height="424.72" overflow="visible" transform="matrix(1 0 0 -1 0 26.21)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.F14.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A6.F14.pic1.1.1" class="ltx_p"><span id="A6.F14.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">ProTeGi Optimized Prompt
+<br class="ltx_break"><span id="A6.F14.pic1.1.1.1.1" class="ltx_text ltx_font_typewriter ltx_font_medium">
+## Task 
+<br class="ltx_break">Input: Please determine whether the provided text constitutes hate speech. Hate speech encompasses any expression that belittles, discriminates against, or dehumanizes individuals or groups based on attributes such as race, religion, ethnic background, sexual orientation, disability, or gender. Analyze if the text contains harmful stereotypes, derogatory language, or promotes violence or discrimination, including subtle, coded, sarcastic, or ironic language. Take into account the context and any potentially harmful intentions behind the words, even if they are not overtly stated. Pay particular attention to implicit forms of hate speech that may not be explicitly offensive but still perpetuate harmful stereotypes or intentions. 
+<br class="ltx_break">Examples: 
+<br class="ltx_break">- ‘‘Men race is a subordinate of women&quot;: Yes, this is hate speech. 
+<br class="ltx_break">- ‘‘I love deaf people. I can scream on them and I can scold them&quot;: Yes, this is hate speech. 
+<br class="ltx_break">- ‘‘Don’t hit Women. Just fuck them and make them pregnant.&quot;: Yes, this is hate speech. 
+<br class="ltx_break">- ‘‘Autists is why presidents like trump are getting elected&quot;: Yes, this is hate speech. 
+<br class="ltx_break">Now, please evaluate the following text: 
+<br class="ltx_break">## Output format 
+<br class="ltx_break">Answer Yes or No as labels. 
+<br class="ltx_break">## Prediction 
+<br class="ltx_break">Text: {input} 
+<br class="ltx_break">Label: 
+<br class="ltx_break"><span id="A6.F14.pic1.1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

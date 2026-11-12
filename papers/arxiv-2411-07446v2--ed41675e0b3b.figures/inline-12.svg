@@ -1,0 +1,30 @@
+<svg id="A6.F15.pic1" class="ltx_picture ltx_centering" height="863.2" overflow="visible" version="1.1" viewbox="0 0 653.15 863.2" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,863.2) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#0D0D0D;" fill="#0D0D0D" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 857.29 C 0 860.55 2.64 863.2 5.91 863.2 L 647.24 863.2 C 650.51 863.2 653.15 860.55 653.15 857.29 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 857.29 C 1.97 859.47 3.73 861.23 5.91 861.23 L 647.24 861.23 C 649.42 861.23 651.18 859.47 651.18 857.29 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 810.79)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:2.79em;--ltx-fo-depth:57.6em;font-size:10pt;" height="835.65" overflow="visible" transform="matrix(1 0 0 -1 0 38.63)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.F15.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A6.F15.pic1.1.1" class="ltx_p"><span id="A6.F15.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">ERM Optimized Prompt
+<br class="ltx_break"><span id="A6.F15.pic1.1.1.1.1" class="ltx_text ltx_font_typewriter ltx_font_medium">
+## Task 
+<br class="ltx_break">You are an expert in identifying hate speech. Hate speech includes any expression, gesture, conduct, writing, or display that incites violence or prejudicial action against a particular individual or group or disparages or intimidates a protected individual or group. This includes derogatory comments about race, religion, ethnicity, sexual orientation, disability, gender, nationality, medical conditions (such as autism), and more. Hate speech can target individuals or entire communities and can include threats, slurs, dehumanizing language, and claims of superiority or inferiority of one gender or group over another. 
+<br class="ltx_break">Given the following text, determine whether it qualifies as hate speech or not. Answer ‘‘Yes&quot; if it is hate speech and ‘‘No&quot; if it is not. 
+<br class="ltx_break">Consider the context, implicit meanings, and any underlying biases or derogatory generalizations in the text. Pay attention to any language that may incite violence, express hate, promote discrimination, or dehumanize specific groups, including nationalities, religions, disabilities, medical conditions, or other protected characteristics. Be sensitive to sarcasm, coded language, indirect expressions of hate, and claims of gender superiority or inferiority. Hate speech can be directed at any group, including white people and women. Remember to include exclusionary practices, ableist language, and derogatory comments about medical conditions as potential hate speech. 
+<br class="ltx_break">*** Note: ** Scientific debates or discussions that do not contain derogatory language or intentions to harm specific groups should not be considered hate speech. Focus on identifying language that explicitly or implicitly promotes hate, violence, or dehumanization. 
+<br class="ltx_break">Examples of hate speech include but are not limited to: 
+<br class="ltx_break">- Racist slurs or statements promoting racial superiority. 
+<br class="ltx_break">- Comments that dehumanize or demean individuals based on their religion. 
+<br class="ltx_break">- Statements advocating violence or harm against a specific group. 
+<br class="ltx_break">- Derogatory terms or phrases targeting sexual orientation. 
+<br class="ltx_break">- Ableist language such as ‘‘retard,&quot; ‘‘mentally ill,&quot; or any other term that demeans disabilities. 
+<br class="ltx_break">Examples: 
+<br class="ltx_break">Text: ‘‘Transgenderism is a DISEASE. Transgenders are an abomination. Not only that, but they’re also lying to themselves. You CANNOT change your DNA from male to female, or from female to male. There are only TWO genders and you are either born MALE or FEMALE because that’s how GOD created you. And you cannot change that no matter how many surgeries, drugs, hormones and no matter how much therapy one has. FACT.&quot; 
+<br class="ltx_break">Label: ‘‘Yes&quot; 
+<br class="ltx_break">Text: ‘‘Transgenders have to protect each other, not fight each other.&quot; 
+<br class="ltx_break">Label: ‘‘No&quot; 
+<br class="ltx_break">Text: ‘‘Gayness should be removed from the face of the earth.&quot; 
+<br class="ltx_break">Label: ‘‘Yes&quot; 
+<br class="ltx_break">... 
+<br class="ltx_break">## Output format 
+<br class="ltx_break">Answer Yes or No as labels. 
+<br class="ltx_break">## Prediction 
+<br class="ltx_break">Text: {input} 
+<br class="ltx_break">Label:<span id="A6.F15.pic1.1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

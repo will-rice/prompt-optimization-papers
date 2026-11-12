@@ -1,0 +1,19 @@
+<svg id="A6.F20.pic1" class="ltx_picture ltx_centering" height="419.07" overflow="visible" version="1.1" viewbox="0 0 653.15 419.07" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,419.07) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#0D0D0D;" fill="#0D0D0D" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 413.16 C 0 416.43 2.64 419.07 5.91 419.07 L 647.24 419.07 C 650.51 419.07 653.15 416.43 653.15 413.16 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 413.16 C 1.97 415.34 3.73 417.1 5.91 417.1 L 647.24 417.1 C 649.42 417.1 651.18 415.34 651.18 413.16 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 379.08)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:1.89em;--ltx-fo-depth:26.4em;font-size:10pt;" height="391.51" overflow="visible" transform="matrix(1 0 0 -1 0 26.21)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.F20.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A6.F20.pic1.1.1" class="ltx_p"><span id="A6.F20.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">ProTeGi Optimized Prompt
+<br class="ltx_break"><span id="A6.F20.pic1.1.1.1.1" class="ltx_text ltx_font_typewriter ltx_font_medium">
+## Task
+<br class="ltx_break">You are given a set of triples that need to be converted into coherent and fluent English sentences. Each triple consists of a subject, predicate, and object. Your task is to accurately convey the information from these triples into well-formed sentences. Ensure that the sentences are complete, grammatically correct, and clearly express the relationships provided in the triples. 
+<br class="ltx_break">Guidelines: 
+<br class="ltx_break">1. Combine related triples into a single sentence where appropriate. 
+<br class="ltx_break">2. Use synonyms and variations to avoid repetition, but ensure the meaning remains clear and accurate. 
+<br class="ltx_break">3. Incorporate all relevant information for each subject within the same sentence or group of sentences. 
+<br class="ltx_break">4. Maintain the context and coherence of the information while ensuring the sentences flow naturally. 
+<br class="ltx_break">5. Be mindful of the sequence of information to enhance readability and understanding. 
+<br class="ltx_break">6. Clearly differentiate between simple and more complex relationships to fully capture the depth of the information provided. Pay particular attention to hierarchical relationships or ownership, clearly distinguishing between entities such as manufacturers, subsidiaries, and divisions. 
+<br class="ltx_break">## Prediction 
+<br class="ltx_break">{input} 
+<br class="ltx_break">Answer:
+<span id="A6.F20.pic1.1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

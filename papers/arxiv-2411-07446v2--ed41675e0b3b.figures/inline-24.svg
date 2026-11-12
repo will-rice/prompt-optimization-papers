@@ -1,0 +1,34 @@
+<svg id="A6.F27.pic1" class="ltx_picture ltx_centering" height="680.55" overflow="visible" version="1.1" viewbox="0 0 653.15 680.55" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,680.55) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#0D0D0D;" fill="#0D0D0D" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 674.64 C 0 677.91 2.64 680.55 5.91 680.55 L 647.24 680.55 C 650.51 680.55 653.15 677.91 653.15 674.64 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FCFCFC;" fill="#FCFCFC" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 674.64 C 1.97 676.82 3.73 678.58 5.91 678.58 L 647.24 678.58 C 649.42 678.58 651.18 676.82 651.18 674.64 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 628.14)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:2.79em;--ltx-fo-depth:44.4em;font-size:10pt;" height="653" overflow="visible" transform="matrix(1 0 0 -1 0 38.63)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.F27.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A6.F27.pic1.1.1" class="ltx_p"><span id="A6.F27.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">ERM Optimized Prompt
+<br class="ltx_break"><span id="A6.F27.pic1.1.1.1.1" class="ltx_text ltx_font_typewriter ltx_font_medium">
+## Task 
+<br class="ltx_break">You will be given a sentence or a pair of sentences containing one or more pronouns. Your task is to identify the noun or noun phrase that each pronoun most logically refers to, based on context, causality, descriptive details, and common sense reasoning. Carefully analyze the sentences and use your understanding of typical human behavior, relationships, and world knowledge to determine the correct antecedent for each pronoun. 
+<br class="ltx_break">Consider the following guiding principles: 
+<br class="ltx_break">1. **Influence and Causality**: Who or what is causing an action or effect? 
+<br class="ltx_break">2. **Descriptive Context**: What descriptive details precede or follow the pronoun? 
+<br class="ltx_break">3. **Actions and Reactions**: Who is performing or receiving an action? 
+<br class="ltx_break">4. **Contextual Dependencies**: Use background knowledge and the usual roles in interactions to resolve pronouns accurately. 
+<br class="ltx_break">Examples: 
+<br class="ltx_break">1. ‘‘Steve follows Fred’s example in everything. He influences him hugely. What does the pronoun ‘He’ refer to?&quot; 
+<br class="ltx_break">(A) Steve 
+<br class="ltx_break">(B) Fred 
+<br class="ltx_break">Answer: (B) Fred 
+<br class="ltx_break">2. ‘‘Pete envies Martin because he is very successful. What does the pronoun ‘he’ refer to?&quot; 
+<br class="ltx_break">(A) Pete 
+<br class="ltx_break">(B) Martin 
+<br class="ltx_break">Answer: (B) Martin 
+<br class="ltx_break">3. ‘‘Sid explained his theory to Mark but he couldn’t convince him. What does the pronoun ‘he’ refer to?&quot; 
+<br class="ltx_break">(A) Sid 
+<br class="ltx_break">(B) Mark 
+<br class="ltx_break">Answer: (A) Sid 
+<br class="ltx_break">4. ‘‘The fish ate the worm. It was tasty. What does the pronoun ‘It’ refer to?&quot; 
+<br class="ltx_break">(A) The fish 
+<br class="ltx_break">(B) The worm 
+<br class="ltx_break">Answer: (B) The worm 
+<br class="ltx_break">Analyze each sentence and select the option that best fits the context and your general knowledge. 
+<br class="ltx_break">## Prediction 
+<br class="ltx_break">Text: {input} 
+<br class="ltx_break">Label:<span id="A6.F27.pic1.1.1.1.1.1" class="ltx_text ltx_font_serif">
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
