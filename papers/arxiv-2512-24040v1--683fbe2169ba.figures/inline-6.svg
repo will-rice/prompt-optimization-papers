@@ -1,0 +1,395 @@
+<svg id="A1.SS2.p2.pic1" class="ltx_picture" height="1821.66" overflow="visible" version="1.1" viewbox="0 0 477.38 1821.66" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1821.66) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#1DC497;" fill="#1DC497" fill-opacity="1.0"><path style="stroke:none" d="M 0 0 L 0 1821.66 L 477.38 1821.66 L 477.38 0 Z" /></g><g style="--ltx-fill-color:#FAFAFA;" fill="#FAFAFA" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 0.69 L 0.69 1795.8 L 476.68 1795.8 L 476.68 0.69 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.38 1804.58)"><foreignobject style="--ltx-fo-width:23.38em;--ltx-fo-height:0.9em;--ltx-fo-depth:0.3em;font-size:10pt;" height="16.6" overflow="visible" transform="matrix(1 0 0 -1 0 12.45)" width="323.51"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS2.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:23.38em;">
+<span id="A1.SS2.p2.pic1.1.1" class="ltx_p"><span id="A1.SS2.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:120%;--ltx-fg-color:#FFFFFF;">ROAD Generated Decision Tree (Logic Structure)</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 20.38 15.27)"><foreignobject style="--ltx-fo-width:33.4em;--ltx-fo-height:127.83em;--ltx-fo-depth:0.2em;font-size:10pt;" height="1771.5" overflow="visible" transform="matrix(1 0 0 -1 0 1768.74)" width="462.16"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS2.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:33.4em;">
+<span id="A1.SS2.p2.pic1.2.1" class="ltx_p"><span id="A1.SS2.p2.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p1.1" class="ltx_p">## DECISION TREE (operational framework)</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.2" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.3" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p3.1" class="ltx_p">0. Intake and scope</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.4" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.4.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.4.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.4.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.4.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p4.1" class="ltx_p">  0.1 If request is non-retail (e.g., poems), politely decline and pivot to assisting with orders.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.5" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.5.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.5.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.5.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.5.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p5.1" class="ltx_p">  0.2 Identify the primary intent(s) from: cancel pending order; modify pending items; modify pending address; exchange delivered items; return delivered items; tracking/status; product info; lost item; multiple intents.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.6" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.7" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.7.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p7.1" class="ltx_p">1. Authentication (Primary)</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.8" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p8" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p8.1" class="ltx_p">  1.1 If user provides full name + ZIP:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.9" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p9.1" class="ltx_p">       - Ensure last name present. If missing, ask for it.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.10" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p10.1" class="ltx_p">       - Call find_user_id_by_name_zip.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.11" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.11.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.11.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p11.1" class="ltx_p">       - If not found and user is unsure about ZIP, ask for alternate ZIP or proceed to email-based auth.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.12" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p12.1" class="ltx_p">  1.2 If user provides email:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.13" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p13.1" class="ltx_p">       - Call find_user_id_by_email.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.14" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p14.1" class="ltx_p">       - If not found, ask for an alternate email and retry.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.15" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p15.1" class="ltx_p">  1.3 Recovery path:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.16" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.16.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.16.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.16.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p16.1" class="ltx_p">       - If all lookups fail after collecting last name and at least one alternate email, inform the user and transfer.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.17" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.17.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.17.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.17.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.17.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p17.1" class="ltx_p">       - On transfer, send: YOU ARE BEING TRANSFERRED TO A HUMAN AGENT. PLEASE HOLD ON.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.18" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.19" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p19.1" class="ltx_p">2. Post-auth account audit (Primary)</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.20" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p20.1" class="ltx_p">  2.1 Call get_user_details(user_id).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.21" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.21.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.21.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.21.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.21.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p21.1" class="ltx_p">  2.2 Pull all relevant orders with get_order_details. If user cites specific orders, fetch those and any related orders needed to meet constraints (e.g., &quot;same as the other one I just bought&quot;).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.22" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.22.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.22.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.22.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.22.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p22.1" class="ltx_p">  2.3 For each order, determine status: pending vs delivered; note payment method and shipping address; capture item_ids and product_ids.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.23" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.24" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p24.1" class="ltx_p">3. Clarify intent and scope (Primary)</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.25" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.25.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.25.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.25.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.25.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p25.1" class="ltx_p">  3.1 If request maps to multiple actions/orders, list them and confirm scope.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.26" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.26.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.26.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.26.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.26.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p26.1" class="ltx_p">  3.2 If constraints implied (e.g., &quot;cheapest&quot;, &quot;same color,&quot; &quot;same variant,&quot; &quot;match other order&quot;, water resistance), restate and confirm.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.27" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.27.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.27.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.27.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.27.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p27.1" class="ltx_p">  3.3 If any required data is missing or ambiguous (e.g., which order, color, size), ask targeted clarifying questions.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.28" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.29" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.29.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p29.1" class="ltx_p">4. Global rules to apply before any action</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.30" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.30.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.30.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.30.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.30.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p30.1" class="ltx_p">  4.1 Always use get_product_details to verify variant availability, attributes, and price; count only available=true options.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.31" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p31.1" class="ltx_p">  4.2 Use calculate to compute:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.32" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p32.1" class="ltx_p">       - Price differences for exchanges/modifications</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.33" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p33.1" class="ltx_p">       - Refund totals for returns/cancellations</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.34" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.34.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.34.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.34.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.34.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p34.1" class="ltx_p">       - Present per-order totals; do not net across orders as a single charge/refund</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.35" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p35.1" class="ltx_p">  4.3 Confirm payment routing:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.36" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p36.1" class="ltx_p">       - Cancellations: refund to original payment method only</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.37" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.37.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.37.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.37.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.37.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p37.1" class="ltx_p">       - Returns/exchanges: refund to original payment method or an existing gift card; no new card additions; no split payments for a single call</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.38" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.38.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.38.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.38.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.38.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p38.1" class="ltx_p">       - If user requests an unsupported destination, explain policy and offer allowed choices. If consent is conditional on an unsupported option, do not proceed.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.39" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p39.1" class="ltx_p">  4.4 Confirm one-time modification rule for pending orders:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.40" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p40.1" class="ltx_p">       - Collect all requested changes for that order</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.41" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.41.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.41.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.41.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.41.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p41" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p41.1" class="ltx_p">       - If address and items both need changes, update address first, then items</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.42" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.42.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.42.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.42.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.42.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p42.1" class="ltx_p">  4.5 Before executing, summarize items, per-order totals, payment method, addresses, and timelines (standard refund posting after items are received: typically 5--7 business days). Do not invent ETAs.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.43" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.43.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.43.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.43.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.43.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p43.1" class="ltx_p">  4.6 Obtain a literal &quot;YES.&quot; If not &quot;YES,&quot; do not execute. If &quot;YES,&quot; execute and then confirm outcomes. Never claim success without tool success.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.44" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.45" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.45.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.45.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p45.1" class="ltx_p">5. Branches by intent</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.46" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.46.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.47" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.47.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p47.1" class="ltx_p">  5A. Cancel pending order(s)</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.48" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.48.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.48.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.48.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.48.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.48.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p48.1" class="ltx_p">    5A.1 Policy check: No per-item cancel; must cancel entire pending order.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.49" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.49.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.49.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.49.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.49.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.49.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p49" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p49.1" class="ltx_p">    5A.2 Ask user to choose an allowed reason: &quot;no longer needed&quot; or &quot;ordered by mistake.&quot;</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.50" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.50.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.50.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.50.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.50.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.50.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p50.1" class="ltx_p">    5A.3 calculate refund amount; confirm it refunds to original payment method.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.51" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.51.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.51.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p51.1" class="ltx_p">    5A.4 Ask for a literal YES.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.52" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.52.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.52.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.52.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.52.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.52.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p52.1" class="ltx_p">    5A.5 Primary execution: cancel_pending_order(order_id, reason).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.53" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.53.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.53.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.53.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.53.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.53.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p53.1" class="ltx_p">    5A.6 Alternative path: If user cannot accept original-method refund, do not cancel; offer address change or wait to return after delivery.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.54" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.54.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.54.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.54.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.54.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.54.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p54" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p54.1" class="ltx_p">    5A.7 Recovery: If order already processed or delivered, explain cancellation not possible; offer returns/exchanges where applicable.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.55" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.55.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.55.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.56" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.56.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.56.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p56" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p56.1" class="ltx_p">  5B. Modify pending order address</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.57" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.57.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.57.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.57.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.57.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.57.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p57" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p57.1" class="ltx_p">    5B.1 Confirm complete address: address1, address2, city, state, country, zip.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.58" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.58.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.58.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.58.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.58.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.58.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p58.1" class="ltx_p">    5B.2 Mention no price change expected; optionally confirm $0 via calculate.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.59" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.59.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.59.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p59.1" class="ltx_p">    5B.3 Ask for a literal YES.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.60" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.60.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.60.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.60.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.60.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.60.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p60" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p60.1" class="ltx_p">    5B.4 Primary execution: modify_pending_order_address(order_id, address).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.61" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.61.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.61.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.61.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.61.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.61.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p61.1" class="ltx_p">    5B.5 Alternative: If multiple orders need address updates, perform for each. If user also wants item changes, do address updates first, then items for each order.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.62" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.62.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.62.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.62.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.62.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.62.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p62" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p62.1" class="ltx_p">    5B.6 Recovery: If order is non-pending due to prior item modification, explain it cannot be changed and offer alternatives.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.63" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.63.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.63.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.64" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.64.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.64.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p64.1" class="ltx_p">  5C. Modify pending order items</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.65" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.65.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.65.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.65.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.65.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.65.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p65" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p65.1" class="ltx_p">    5C.1 Warn: one-time modification; ask user to list all desired item changes for that order.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.66" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.66.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.66.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.66.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.66.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.66.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p66" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p66.1" class="ltx_p">    5C.2 Resolve exact new_item_ids via get_product_details (respect constraints: cheapest, color, capacity, same-as-other-order, etc.).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.67" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.67.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.67.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.67.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.67.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.67.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p67" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p67.1" class="ltx_p">    5C.3 calculate total price difference for all changes in one batch; confirm single payment method (no split).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.68" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.68.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.68.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p68" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p68.1" class="ltx_p">    5C.4 Ask for a literal YES.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.69" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.69.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.69.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.69.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.69.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.69.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p69" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p69.1" class="ltx_p">    5C.5 Primary execution: modify_pending_order_items(order_id, item_ids[], new_item_ids[], payment_method_id).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.70" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.70.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.70.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.70.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.70.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.70.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p70.1" class="ltx_p">    5C.6 Alternative: If user also asked for address change on the same order, do 5B before 5C.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.71" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.71.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.71.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.71.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.71.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.71.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p71" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p71.1" class="ltx_p">    5C.7 Recovery: If any chosen variant becomes unavailable, present closest available alternatives; if user declines, abort without changes.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.72" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.72.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.72.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.73" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.73.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p73" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p73.1" class="ltx_p">  5D. Exchange delivered items</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.74" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.74.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.74.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p74.1" class="ltx_p">    5D.1 Per order, confirm items to exchange and target variants:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.75" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.75.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.75.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.75.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.75.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.75.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p75" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p75.1" class="ltx_p">         - Like-for-like exchanges are allowed if the identical variant is available</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.76" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.76.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.76.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.76.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.76.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.76.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p76.1" class="ltx_p">         - If user requests &quot;match pending order&quot; or &quot;match other recent order,&quot; identify exact target variant from that order</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.77" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.77.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.77.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p77" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p77.1" class="ltx_p">         - Respect constraints (e.g., water resistance IP rating)</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.78" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.78.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.78.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p78.1" class="ltx_p">    5D.2 Verify availability/prices via get_product_details.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.79" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.79.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.79.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.79.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.79.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.79.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p79" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p79.1" class="ltx_p">    5D.3 calculate per-order differences; confirm refund/charge routing (original method or existing gift card).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.80" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.80.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.80.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p80.1" class="ltx_p">    5D.4 Ask for a literal YES.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.81" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.81.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.81.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p81" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p81.1" class="ltx_p">    5D.5 Primary execution: For each delivered order, one call:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.82" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.82.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.82.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.82.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.82.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.82.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p82" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p82.1" class="ltx_p">         exchange_delivered_order_items(order_id, item_ids[], new_item_ids[], payment_method_id).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.83" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.83.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.83.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.83.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.83.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.83.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p83" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p83.1" class="ltx_p">    5D.6 Alternative: If identical variant is unavailable and user conditioned on identical-only, offer a return instead; otherwise propose closest alternatives and re-calc.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.84" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.84.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.84.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.84.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.84.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.84.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p84" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p84.1" class="ltx_p">    5D.7 Recovery: If user wants different payment method but only unsupported options exist, explain limits; if they insist on an exception, transfer with notice.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.85" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.85.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.85.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.86" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.86.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.86.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p86" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p86.1" class="ltx_p">  5E. Return delivered items</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.87" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.87.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.87.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.87.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.87.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.87.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p87" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p87.1" class="ltx_p">    5E.1 Confirm exact items per delivered order; do not include items from other orders in the same call.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.88" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.88.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.88.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.88.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.88.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.88.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p88" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p88.1" class="ltx_p">    5E.2 calculate per-order refunds; confirm refund destination (original method or existing gift card).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.89" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.89.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.89.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p89" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p89.1" class="ltx_p">    5E.3 Ask for a literal YES.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.90" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.90.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.90.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p90" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p90.1" class="ltx_p">    5E.4 Primary execution: For each delivered order, one call:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.91" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.91.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.91.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.91.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.91.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.91.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p91" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p91.1" class="ltx_p">         return_delivered_order_items(order_id, item_ids[], payment_method_id).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.92" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.92.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.92.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.92.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.92.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.92.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p92" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p92.1" class="ltx_p">    5E.5 Recovery: If user tries to return items they do not physically have (e.g., lost item), explain policy and offer alternatives; escalate only upon insistence.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.93" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.93.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.93.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.94" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.94.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.94.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p94" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p94.1" class="ltx_p">  5F. Tracking/status and product info</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.95" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.95.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.95.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p95" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p95.1" class="ltx_p">    5F.1 Tracking/status:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.96" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.96.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.96.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.96.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.96.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.96.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p96" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p96.1" class="ltx_p">         - Provide order status (delivered vs in transit) and tracking number accurately</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.97" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.97.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.97.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.97.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.97.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.97.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p97" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p97.1" class="ltx_p">         - If &quot;lost after delivery,&quot; explain the limitation; offer allowed options; escalate only if user insists on exception</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.98" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.98.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.98.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p98" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p98.1" class="ltx_p">    5F.2 Product info:</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.99" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.99.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.99.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.99.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.99.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.99.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p99" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p99.1" class="ltx_p">         - Use list_all_product_types and get_product_details to answer specs/pricing</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.100" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.100.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.100.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p100" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p100.1" class="ltx_p">         - Count only variants with available=true</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.101" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.101.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.101.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.101.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.101.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.101.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p101" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p101.1" class="ltx_p">         - If &quot;cheapest&quot; requested, compute and present that option; confirm constraints</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.102" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.102.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.102.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:315.6pt;"></span></span></span>
+<span id="A1.SS2.p2.pic1.2.103" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.103.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.103.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:315.6pt;">
+<span id="A1.SS2.p2.pic1.p103" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p103.1" class="ltx_p">6. Execution, confirmation, and post-action handling</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.104" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.104.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.104.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.104.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.104.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.104.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p104" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p104.1" class="ltx_p">  6.1 After a literal YES, execute the tool calls exactly once per scope (per order).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.105" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.105.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.105.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.105.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.105.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.105.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p105" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p105.1" class="ltx_p">  6.2 Confirm success with concrete details: items, per-order amounts, payment method, and standard refund timing (after items are received; typically 5--7 business days).</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.106" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.106.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.106.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.106.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.106.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.106.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p106" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p106.1" class="ltx_p">  6.3 Do not claim completion if any tool returns an error; report the failure and next steps.</span>
+</span></span></span></span>
+<span id="A1.SS2.p2.pic1.2.107" class="ltx_p" style="width:315.6pt;"><span id="A1.SS2.p2.pic1.2.107.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="font-size:90%;width:315.6pt;--ltx-fg-color:#000000;"><span id="A1.SS2.p2.pic1.2.107.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.107.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A1.SS2.p2.pic1.2.107.1.3" class="ltx_text ltx_inline-block" style="width:18.9pt;"> </span><span id="A1.SS2.p2.pic1.2.107.1.4" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:296.7pt;">
+<span id="A1.SS2.p2.pic1.p107" class="ltx_para ltx_noindent">
+<span id="A1.SS2.p2.pic1.p107.1" class="ltx_p">  6.4 Do not promise specific ETAs (like 24--48 hours); avoid unbacked policies.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
