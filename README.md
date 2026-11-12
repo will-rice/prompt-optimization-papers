@@ -3,10 +3,44 @@
 Standalone paper discovery and conversion for Automatic prompt optimization research papers.
 
 <!-- papers-index:start -->
+
 # Papers
 
-| Published | Identifier | Title | Source |
-| --- | --- | --- | --- |
+The 30 most recent of 608 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+
+| Published                 | Identifier         | Title                                                                                                                                                          | Source |
+| ------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| 2026-11-06T16:44:08+00:00 | arxiv:2611.09699v1 | [Verifier Noise Is a Temperature: Testing Tilt Predictions in Finite-Budget LLM-Guided Search](https://arxiv.org/abs/2611.09699v1)                             | arxiv  |
+| 2026-11-05T19:44:51+00:00 | arxiv:2611.08643v1 | [FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction](https://arxiv.org/abs/2611.08643v1)                     | arxiv  |
+| 2026-11-04T20:38:52+00:00 | arxiv:2611.07123v1 | [PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems](https://arxiv.org/abs/2611.07123v1)                                                      | arxiv  |
+| 2026-11-03T03:04:18+00:00 | arxiv:2611.04225v1 | [IntentGEO: Intent-aware Generative Engine Optimization for Recommendation](https://arxiv.org/abs/2611.04225v1)                                                | arxiv  |
+| 2026-11-03T00:25:59+00:00 | arxiv:2611.04104v1 | [ModelBlaster: Closing the Performance Gap through Learning-Augmented Agents Across Models, Kernels and Hardware Backends](https://arxiv.org/abs/2611.04104v1) | arxiv  |
+| 2026-11-02T10:13:54+00:00 | arxiv:2611.02877v1 | [ProtoFusion: Protocol-Guided Prompt Refinement for Generative Infrared and Visible Image Fusion](https://arxiv.org/abs/2611.02877v1)                          | arxiv  |
+| 2026-11-01T05:13:12+00:00 | arxiv:2611.01585v1 | [StateGate: A Behavioral-Fidelity Prompt Optimization Method for Long-Chain LLM Agents](https://arxiv.org/abs/2611.01585v1)                                    | arxiv  |
+| 2026-10-31T23:44:52+00:00 | arxiv:2611.01351v1 | [MAPLE: A Multimodal Mobile Agent with Playbook-Learned Experience](https://arxiv.org/abs/2611.01351v1)                                                        | arxiv  |
+| 2026-10-31T17:24:48+00:00 | arxiv:2611.01135v1 | [Compile as Hypothesis: A Headroom Typology for Prompt Optimization on Real Reasoning Models](https://arxiv.org/abs/2611.01135v1)                              | arxiv  |
+| 2026-10-27T17:58:11+00:00 | arxiv:2610.37651v1 | [GEPA-Curator: Curated Learning for Self Improving Agents](https://arxiv.org/abs/2610.37651v1)                                                                 | arxiv  |
+| 2026-10-27T02:10:25+00:00 | arxiv:2610.36506v1 | [GarmentSegAgent: Autonomous Garment Segmentation for Web Fashion Images via Textual Self-Refinement](https://arxiv.org/abs/2610.36506v1)                      | arxiv  |
+| 2026-10-26T18:50:50+00:00 | arxiv:2610.36146v1 | [From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors](https://arxiv.org/abs/2610.36146v1)                              | arxiv  |
+| 2026-10-26T02:19:53+00:00 | arxiv:2610.34722v1 | [CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems](https://arxiv.org/abs/2610.34722v1)                                       | arxiv  |
+| 2026-10-20T01:38:24+00:00 | arxiv:2610.27468v1 | [Training-Free Continual Learning for Multimodal Forecasting via Prompt Evolution](https://arxiv.org/abs/2610.27468v1)                                         | arxiv  |
+| 2026-10-19T22:46:39+00:00 | arxiv:2610.27367v2 | [Explore More, Validate Less: Efficient Reflective Prompt Optimization](https://arxiv.org/abs/2610.27367v2)                                                    | arxiv  |
+| 2026-10-17T23:18:46+00:00 | arxiv:2610.24913v1 | [A Cross-Domain Evaluation of Prompting Techniques for Large Language Models](https://arxiv.org/abs/2610.24913v1)                                              | arxiv  |
+| 2026-10-17T06:43:22+00:00 | arxiv:2610.24498v1 | [MAVE: A Multi-Agent Framework for Grounded Pedagogical Feedback from Online Class Videos](https://arxiv.org/abs/2610.24498v1)                                 | arxiv  |
+| 2026-10-15T16:23:55+00:00 | arxiv:2610.22160v1 | [EMO: A Closed-Loop Test-Time Computation Framework via Alternating Context Optimization and Logits Steering](https://arxiv.org/abs/2610.22160v1)              | arxiv  |
+| 2026-10-15T07:24:24+00:00 | arxiv:2610.21407v1 | [Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction](https://arxiv.org/abs/2610.21407v1)                                   | arxiv  |
+| 2026-10-15T00:31:18+00:00 | arxiv:2610.21040v1 | [Recursive Reward Improvement via Adversarial Meta-Prompt Evolution](https://arxiv.org/abs/2610.21040v1)                                                       | arxiv  |
+| 2026-10-14T12:23:59+00:00 | arxiv:2610.20085v1 | [Designing Textual Interfaces To Enhance Llm Reasoning On Audio-Visual Question Answering](https://arxiv.org/abs/2610.20085v1)                                 | arxiv  |
+| 2026-10-14T05:33:36+00:00 | arxiv:2610.19610v1 | [CORE: Contrast-and-Reflect for Self-Supervised Prompt Optimization in Anomaly Synthesis](https://arxiv.org/abs/2610.19610v1)                                  | arxiv  |
+| 2026-10-13T20:49:08+00:00 | arxiv:2610.19184v2 | [HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation](https://arxiv.org/abs/2610.19184v2)                         | arxiv  |
+| 2026-10-13T19:15:06+00:00 | arxiv:2610.19084v1 | [Beyond Aggregate Accuracy: Item-Level Transitions in Prompt Optimization](https://arxiv.org/abs/2610.19084v1)                                                 | arxiv  |
+| 2026-10-13T18:59:04+00:00 | arxiv:2610.19062v1 | [RLPE: Teaching LLMs to Prompt with Reinforcement Learning](https://arxiv.org/abs/2610.19062v1)                                                                | arxiv  |
+| 2026-10-13T10:48:01+00:00 | arxiv:2610.18142v1 | [FlowCred: Hierarchical Credit Assignment and Functional Coordination for Joint Text-to-Video Post-Training](https://arxiv.org/abs/2610.18142v1)               | arxiv  |
+| 2026-10-12T03:46:35+00:00 | arxiv:2610.16129v1 | [PID-Gated Continual Prompt Adaptation Under Noisy Feedback](https://arxiv.org/abs/2610.16129v1)                                                               | arxiv  |
+| 2026-10-10T18:15:09+00:00 | arxiv:2610.15098v1 | [TIDE: Trajectory-Informed Skill Distillation for Efficient Text-to-Video Prompt Optimization](https://arxiv.org/abs/2610.15098v1)                             | arxiv  |
+| 2026-10-10T14:51:25+00:00 | arxiv:2610.14977v1 | [EnactOpt: Diagnosis-Guided Harness Evolution for Embodied Agents](https://arxiv.org/abs/2610.14977v1)                                                         | arxiv  |
+| 2026-10-10T08:57:19+00:00 | arxiv:2610.14736v1 | [Think in Strategies, Act with Tools: Traceable Agentic Optimization for Combinatorial Problems](https://arxiv.org/abs/2610.14736v1)                           | arxiv  |
+
 <!-- papers-index:end -->
 
 ## Architecture
