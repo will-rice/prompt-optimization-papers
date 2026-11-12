@@ -1,0 +1,39 @@
+<svg id="Ax1.F5.p2.pic1" class="ltx_picture" height="686.26" overflow="visible" version="1.1" viewbox="0 0 700 686.26" width="700"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,686.26) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 13.19 L 0 673.07 C 0 680.35 5.91 686.26 13.19 686.26 L 686.81 686.26 C 694.09 686.26 700 680.35 700 673.07 L 700 13.19 C 700 5.91 694.09 0 686.81 0 L 13.19 0 C 5.91 0 0 5.91 0 13.19 Z" /></g><g style="--ltx-fill-color:#F2F2FF;" fill="#F2F2FF" fill-opacity="1.0"><path style="stroke:none" d="M 1.38 13.19 L 1.38 673.07 C 1.38 679.59 6.67 684.88 13.19 684.88 L 686.81 684.88 C 693.33 684.88 698.62 679.59 698.62 673.07 L 698.62 13.19 C 698.62 6.67 693.33 1.38 686.81 1.38 L 13.19 1.38 C 6.67 1.38 1.38 6.67 1.38 13.19 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.07 15.89)"><foreignobject style="--ltx-fo-width:47.54em;--ltx-fo-height:47.49em;--ltx-fo-depth:0.19em;font-size:10pt;" height="659.88" overflow="visible" transform="matrix(1 0 0 -1 0 657.19)" width="657.82"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="Ax1.F5.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:47.54em;">
+<span id="Ax1.F5.p2.pic1.1.1" class="ltx_p"><span id="Ax1.F5.p2.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Problem Analysis Prompt
+<br class="ltx_break"><span id="Ax1.F5.p2.pic1.1.1.1.1" class="ltx_text ltx_font_medium">I have an existing problem with the code as follows:{problem}.
+<br class="ltx_break">Please analyze the problem.
+<br class="ltx_break">Your analysis must be within 50 words.
+<br class="ltx_break"></span>Generation Prompt
+<br class="ltx_break">Generation 1
+<br class="ltx_break"><span id="Ax1.F5.p2.pic1.1.1.1.2" class="ltx_text ltx_font_medium">{problem}
+<br class="ltx_break">I have an initial algorithm with the code as follows:
+{init_code}.
+<br class="ltx_break">And the optimization history it presents in the problem is as follows:{init_eval}.
+<br class="ltx_break">Please help me create a new algorithm that has a totally different form from the given ones but can be motivated from them.
+<br class="ltx_break">1.Analyze the history of fitness values and optimize the algorithm with the goal of surpassing the optimal value.
+<br class="ltx_break">2.You will notice that there are #EVOLVE-START and #EVOLVE-END comments in the following code. The code within these comments is the part that you need to optimize.
+<br class="ltx_break">3.The code:{code}. Analyze the algorithm, optimize the algorithm. Record your thought process in the {} brackets. 
+<br class="ltx_break">4.Your thought process must be within 50 words.
+<br class="ltx_break"></span>Generation 2
+<br class="ltx_break"><span id="Ax1.F5.p2.pic1.1.1.1.3" class="ltx_text ltx_font_medium">The reflection results of metacognition are as follows:{metacognition}.
+<br class="ltx_break">I have a existing algorithm with their codes as follows:{init_code}.
+<br class="ltx_break">The optimization history it presents in the optimization problem is as follows:{init_eval}.
+<br class="ltx_break">Please retain the advantageous components and innovate to improve the deficient ones.
+<br class="ltx_break">1.You will notice that there are #EVOLVE-START and #EVOLVE-END comments in the following code. The code within these comments is the part that you need to optimize.
+<br class="ltx_break">2.The code:{code}. Analyze the algorithm, optimize the algorithm.Record your thought process in the {} brackets. 
+<br class="ltx_break">3.Your thought process must be within 50 words.
+<br class="ltx_break"></span>Error Prompt
+<br class="ltx_break"><span id="Ax1.F5.p2.pic1.1.1.1.4" class="ltx_text ltx_font_medium">The code you generated {code_str} has the following error {str_error}.
+<br class="ltx_break">Please make it correct and functional.
+<br class="ltx_break"></span>Metacognition Prompt
+<br class="ltx_break"><span id="Ax1.F5.p2.pic1.1.1.1.5" class="ltx_text ltx_font_medium">The thinking process and score of each algorithm are as follows:{thoughts}.
+<br class="ltx_break">The errors are as follows:{errors}.
+<br class="ltx_break">You should avoid the errors and ensure that no new error.
+The optimal algorithm is as follows:{code}.
+<br class="ltx_break">Please conduct metacognitive reflection on your own thinking process, scores and mistakes.
+<br class="ltx_break">1.Analyze the important considerations for optimizing fitness values.
+<br class="ltx_break">2.The excellent components that should be retained in the optimal algorithm.
+<br class="ltx_break">3.The components with better performance that need to be retained.
+<br class="ltx_break">4.Your output content must be within 80 words.</span></span></span>
+</span></span></span></foreignobject></g></g></svg>

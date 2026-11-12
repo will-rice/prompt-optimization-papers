@@ -1,0 +1,28 @@
+<svg id="A1.SS4.SSS1.p1.pic1" class="ltx_picture" height="494.48" overflow="visible" version="1.1" viewbox="0 0 477.38 494.48" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,494.48) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 488.58 C 0 491.84 2.64 494.48 5.91 494.48 L 471.47 494.48 C 474.73 494.48 477.38 491.84 477.38 488.58 L 477.38 5.91 C 477.38 2.64 474.73 0 471.47 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 470.37 L 475.41 470.37 L 475.41 5.91 C 475.41 3.73 473.65 1.97 471.47 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 478.97)"><foreignobject style="--ltx-fo-width:31.37em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="434.07"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS4.SSS1.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.37em;">
+<span id="A1.SS4.SSS1.p1.pic1.1.1" class="ltx_p"><span id="A1.SS4.SSS1.p1.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">APE-OPRO best Prompt for Amsterdam in Iteration 1</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 17.24)"><foreignobject style="--ltx-fo-width:31.37em;--ltx-fo-height:31.89em;--ltx-fo-depth:0.25em;font-size:10pt;" height="444.79" overflow="visible" transform="matrix(1 0 0 -1 0 441.33)" width="434.07"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS4.SSS1.p1.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:31.37em;">
+<span id="A1.SS4.SSS1.p1.pic1.2.1" class="ltx_p"><span id="A1.SS4.SSS1.p1.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are a specialist in travel experience products. Given a product description, your task is to assign the most suitable label from the following unordered list:
+<br class="ltx_break">List of labels:
+<br class="ltx_break">- Amsterdam City Exploration by Land
+<br class="ltx_break">- Art Gallery &amp; Museum
+<br class="ltx_break">- Bar Hopping
+<br class="ltx_break">- Canal Cruise
+<br class="ltx_break">- Combo Experience Tour
+<br class="ltx_break">- Countryside &amp; Nearby Towns
+<br class="ltx_break">- Cross-Border Excursion
+<br class="ltx_break">- Event &amp; Show
+<br class="ltx_break">- Food Tours
+<br class="ltx_break">- Historical Tour
+<br class="ltx_break">- Immersive Experience
+<br class="ltx_break">- Other Experiences
+<br class="ltx_break">- Seasonal Tulip Tour
+<br class="ltx_break">- Seasonal/Festive Tour
+<br class="ltx_break">- Transfer
+<br class="ltx_break">- Vineyard / Wine Tasting
+<br class="ltx_break">Each label should be regarded as equally probable, with no relation to their order in the list. Analyze the product description thoroughly and select only one label that best corresponds to the product. Respond with your selection in this JSON format:
+<br class="ltx_break">{
+<br class="ltx_break">&quot;label&quot;: &quot;&lt;Most appropriate label for the product&gt;&quot;
+<br class="ltx_break">}</span></span>
+</span></span></span></foreignobject></g></g></svg>
