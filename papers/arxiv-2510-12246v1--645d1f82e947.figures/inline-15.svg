@@ -1,0 +1,64 @@
+<svg id="Ax20.SSx1.SSSx1.p8.pic1" class="ltx_picture" height="255.4" overflow="visible" version="1.1" viewbox="0 0 700 255.4" width="700"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,255.4) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#000000;" fill="#000000" fill-opacity="1.0"><path style="stroke:none" d="M 0 15.81 L 0 239.59 C 0 248.32 7.08 255.4 15.81 255.4 L 684.19 255.4 C 692.92 255.4 700 248.32 700 239.59 L 700 15.81 C 700 7.08 692.92 0 684.19 0 L 15.81 0 C 7.08 0 0 7.08 0 15.81 Z" /></g><g style="--ltx-fill-color:#FFFFFF;" fill="#FFFFFF" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 15.81 L 1.97 233.98 L 698.03 233.98 L 698.03 15.81 C 698.03 8.16 691.84 1.97 684.19 1.97 L 15.81 1.97 C 8.16 1.97 1.97 8.16 1.97 15.81 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 239.88)"><foreignobject style="--ltx-fo-width:41.27em;--ltx-fo-height:0.69em;--ltx-fo-depth:0em;font-size:10pt;" height="9.61" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="571.06"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:41.27em;">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.1.1" class="ltx_p"><span id="Ax20.SSx1.SSSx1.p8.pic1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">Calculate Score</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 62.07)"><foreignobject style="--ltx-fo-width:47.46em;--ltx-fo-height:11.57em;--ltx-fo-depth:3.49em;font-size:10pt;" height="208.39" overflow="visible" transform="matrix(1 0 0 -1 0 160.1)" width="656.71"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:47.46em;">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1" class="ltx_tabular ltx_centering ltx_align_middle">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Pairs</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Prev Score</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.1.3.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Prev Loss</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Name, Reflect)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6501</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.2.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.3499</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Book, Sort)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6052</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.3.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.3975</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Company, Refine)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.5565</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.4.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.4435</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Book, COT)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.5254</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.5.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.4746</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6.1" class="ltx_td ltx_align_left ltx_border_b ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Name, COT)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6.2" class="ltx_td ltx_align_center ltx_border_b ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6400</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6.3" class="ltx_td ltx_align_center ltx_border_b ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.1.6.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.3600</span></span></span>
+</span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2" class="ltx_tabular ltx_centering ltx_align_middle">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.1.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Pairs</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.2.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Cur Score</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.3.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Loss</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.4" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.1.4.1" class="ltx_text ltx_font_bold" style="--ltx-fg-color:#000000;">Gradient</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Name, Reflect)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6602</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.3398</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.4" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.2.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.0101</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Book, Sort)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6040</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.3948</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.4" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.3.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">-0.0012</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Company, Refine)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6512</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.4435</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.4" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.4.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.0947</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.1" class="ltx_td ltx_align_left ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Book, COT)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.2" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.5111</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.3" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.4889</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.4" class="ltx_td ltx_align_center ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.5.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">-0.0143</span></span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6" class="ltx_tr">
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.1" class="ltx_td ltx_align_left ltx_border_b ltx_border_l ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">(Name, COT)</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.2" class="ltx_td ltx_align_center ltx_border_b ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.6420</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.3" class="ltx_td ltx_align_center ltx_border_b ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">0.3580</span></span>
+<span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.4" class="ltx_td ltx_align_center ltx_border_b ltx_border_r ltx_border_t"><span id="Ax20.SSx1.SSSx1.p8.pic1.2.2.6.4.1" class="ltx_text" style="--ltx-fg-color:#000000;">-0.002</span></span></span>
+</span>
+</span></span></span></foreignobject></g></g></svg>

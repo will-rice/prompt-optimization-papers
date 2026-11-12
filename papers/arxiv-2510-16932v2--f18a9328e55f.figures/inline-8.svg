@@ -1,0 +1,23 @@
+<svg id="A1.SS6.p2.pic1" class="ltx_picture" height="317.29" overflow="visible" version="1.1" viewbox="0 0 653.15 317.29" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,317.29) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#BF6000;" fill="#BF6000" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 311.39 C 0 314.65 2.64 317.29 5.91 317.29 L 647.24 317.29 C 650.51 317.29 653.15 314.65 653.15 311.39 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#FFF9F2;" fill="#FFF9F2" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 275.96 L 651.18 275.96 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 285.33)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:1.88em;--ltx-fo-depth:0.25em;font-size:10pt;" height="29.52" overflow="visible" transform="matrix(1 0 0 -1 0 26.06)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS6.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A1.SS6.p2.pic1.1.1" class="ltx_p"><span id="A1.SS6.p2.pic1.1.1.1" class="ltx_text ltx_font_smallcaps" style="--ltx-fg-color:#FFFFFF;">Prompt-MII<span id="A1.SS6.p2.pic1.1.1.1.1" class="ltx_text ltx_font_upright">-Zero for Reddit Attribution Task (yyu/reddit-attrprompt)</span></span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 13.78)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:18.09em;--ltx-fo-depth:0em;font-size:10pt;" height="250.38" overflow="visible" transform="matrix(1 0 0 -1 0 250.38)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><span id="A1.SS6.p2.pic1.2" class="ltx_inline-logical-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A1.SS6.p2.pic1.p2" class="ltx_para">
+<span id="A1.SS6.p2.pic1.p2.1" class="ltx_p"><span id="A1.SS6.p2.pic1.p2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">Classify the input text as one of the following labels: 1; 0; 2; 3. 
+<br class="ltx_break">The task is to determine whether the input text is a question or request for advice (label 0); a statement or opinion (label 1); a spam or promotional message (label 2); or an off-topic or unrelated message (label 3).
+<br class="ltx_break"></span></span>
+<span id="A1.SS6.p2.pic1.p2.2" class="ltx_p"><span id="A1.SS6.p2.pic1.p2.2.1" class="ltx_text" style="--ltx-fg-color:#000000;">Useful clues for making the decision include:
+<br class="ltx_break">- The presence of a question or request for help; which is often indicated by words or phrases such as ’I need’; ’Can you’; ’How do I’; or ’What is’.
+<br class="ltx_break">- The tone and language used; which may indicate a question or request for advice (e.g. polite language; uncertainty; or a sense of seeking guidance).
+<br class="ltx_break">- The content of the text; which may be related to a specific topic or subject (e.g. computer hardware; medical careers; or cryptocurrency).
+<br class="ltx_break"></span></span>
+<span id="A1.SS6.p2.pic1.p2.3" class="ltx_p"><span id="A1.SS6.p2.pic1.p2.3.1" class="ltx_text" style="--ltx-fg-color:#000000;">Respond with only the label name; without any explanation or additional text.
+<br class="ltx_break">Only return one of these options: 1; 0; 2; 3. Do not output ’Label:’ or any extra text.
+<br class="ltx_break"></span></span>
+</span>
+<span id="A1.SS6.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A1.SS6.p2.pic1.p1.1" class="ltx_p"><span id="A1.SS6.p2.pic1.p1.1.1" class="ltx_text ltx_leader" style="--ltx-fg-color:#B35900;">.</span><span id="A1.SS6.p2.pic1.p1.1.2" class="ltx_text"></span></span>
+</span>
+<span id="A1.SS6.p2.pic1.p3" class="ltx_para">
+<span id="A1.SS6.p2.pic1.p3.1" class="ltx_p ltx_align_center"><span id="A1.SS6.p2.pic1.p3.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">F1: 0.241</span></span>
+</span></span></span></span></foreignobject></g></g></svg>

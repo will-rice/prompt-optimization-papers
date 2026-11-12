@@ -1,0 +1,17 @@
+<svg id="A1.SS6.p1.pic1" class="ltx_picture" height="211.44" overflow="visible" version="1.1" viewbox="0 0 653.15 211.44" width="653.15"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,211.44) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#606060;" fill="#606060" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 205.53 C 0 208.8 2.64 211.44 5.91 211.44 L 647.24 211.44 C 650.51 211.44 653.15 208.8 653.15 205.53 L 653.15 5.91 C 653.15 2.64 650.51 0 647.24 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F9F9F9;" fill="#F9F9F9" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 187.33 L 651.18 187.33 L 651.18 5.91 C 651.18 3.73 649.42 1.97 647.24 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 195.93)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS6.p1.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A1.SS6.p1.pic1.1.1" class="ltx_p"><span id="A1.SS6.p1.pic1.1.1.1" class="ltx_text" style="--ltx-fg-color:#FFFFFF;">Llama Meta-Prompt Template</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 21.65 16.47)"><foreignobject style="--ltx-fo-width:44.07em;--ltx-fo-height:11.49em;--ltx-fo-depth:0.19em;font-size:10pt;" height="161.74" overflow="visible" transform="matrix(1 0 0 -1 0 159.05)" width="609.8"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A1.SS6.p1.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:44.07em;">
+<span id="A1.SS6.p1.pic1.2.1" class="ltx_p"><span id="A1.SS6.p1.pic1.2.1.1" class="ltx_text" style="--ltx-fg-color:#000000;">You are helping to create a prompt for a language model to classify text inputs. The model should choose one label from the following options: {label_names}. 
+<br class="ltx_break">
+<br class="ltx_break">Here are some example inputs and their correct labels: 
+<br class="ltx_break">{examples} 
+<br class="ltx_break">
+<br class="ltx_break">Write an instruction that: 
+<br class="ltx_break">- Describes the classification task in a way that generalizes to new inputs. 
+<br class="ltx_break">- Points out any useful clues or strategies for making the decision. 
+<br class="ltx_break">- Clearly tells the model to respond with only the label name, and not to include any explanation or additional text. 
+<br class="ltx_break">
+<br class="ltx_break">Provide only the instruction, not the examples or labels.</span></span>
+</span></span></span></foreignobject></g></g></svg>
