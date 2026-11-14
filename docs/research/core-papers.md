@@ -17,6 +17,16 @@ for automatically searching for or rewriting natural-language prompts.
 - Not included: GATE (Joko et al., 2024), cited by the survey, which could not
   be matched to an arXiv paper.
 
+## Use in the topic rule
+
+`core_papers.json` holds the title and abstract of 52 of these papers. The
+topic rule's similarity gate accepts a paper only if it is close to at least
+one of them, and the tests require every one to pass the keyword rule and to
+clear the similarity threshold against the others. Two listed papers are not
+used: LMEA treats the LLM as an optimizer for combinatorial problems and never
+mentions prompts, and DSP is a retrieval pipeline framework (DSPy's
+predecessor) rather than a prompt optimizer.
+
 | Method | arXiv | Year | First discussed in survey | Title |
 |---|---|---|---|---|
 | AutoPrompt | [2010.15980](https://arxiv.org/abs/2010.15980) | 2020 | added (not in survey) | AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts |
