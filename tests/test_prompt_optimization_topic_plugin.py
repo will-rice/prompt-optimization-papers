@@ -28,19 +28,41 @@ from topic_plugin import accept_topic
         (
             "Large Language Models Are Human-Level Prompt Engineers",
             "We propose Automatic Prompt Engineer (APE) for instruction generation.",
-            TopicDecision(True, "accepted by abstract"),
+            TopicDecision(True, "accepted by title"),
         ),
         (
             "Large Language Models as Optimizers",
             "We propose OPRO, which describes the optimization task in natural"
-            " language.",
+            " language. Prompts optimized by OPRO outperform human-designed ones.",
             TopicDecision(True, "accepted by abstract"),
         ),
         (
             "Query-Dependent Prompt Evaluation and Optimization with Offline Inverse RL",
             "Prompt optimization is costly online; offline prompt optimization"
             " learns a reward model from existing data.",
-            TopicDecision(True, "accepted by repeated abstract mentions"),
+            TopicDecision(True, "accepted by abstract"),
+        ),
+        (
+            "Optimizing Instructions and Demonstrations for Multi-Stage Language"
+            " Model Programs",
+            "We optimize the free-form instructions of each module.",
+            TopicDecision(True, "accepted by title"),
+        ),
+        (
+            "A Large-Scale Dataset and Citation Intent Classification in Turkish",
+            "Prompts were tuned with DSPy for a classification baseline.",
+            TopicDecision(False, "missing prompt optimization signal"),
+        ),
+        (
+            "ATT3D: Amortized Text-to-3D Object Synthesis",
+            "Unlike per-prompt optimization, we amortize prompt optimization across"
+            " many text prompts.",
+            TopicDecision(False, "title not about prompts or optimization"),
+        ),
+        (
+            "Learning from Hard Prompts: Difficulty-aware Advantage Amplification",
+            "Hard prompts are the most difficult training examples.",
+            TopicDecision(False, "missing prompt optimization signal"),
         ),
         (
             "In-context Examples Selection for Machine Translation",
