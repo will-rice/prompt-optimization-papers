@@ -5,32 +5,23 @@ Standalone paper discovery and conversion for Automatic prompt optimization rese
 <!-- papers-index:start -->
 # Papers
 
-The 30 most recent of 529 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 412 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published | Identifier | Title | Source |
 | --- | --- | --- | --- |
 | 2026-11-12T07:25:46+00:00 | arxiv:2611.16414v1 | [Small Language Models for Inference-Capability Routing: Effects of Model Capacity and Prompt Optimization on Downstream Quality and Efficiency](papers/arxiv-2611-16414v1--e899453ad608.md) | arxiv |
-| 2026-11-05T19:44:51+00:00 | arxiv:2611.08643v1 | [FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction](papers/arxiv-2611-08643v1--0802d754b95b.md) | arxiv |
 | 2026-11-04T20:38:52+00:00 | arxiv:2611.07123v1 | [PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems](papers/arxiv-2611-07123v1--ca4c773d21e3.md) | arxiv |
 | 2026-11-03T03:04:18+00:00 | arxiv:2611.04225v1 | [IntentGEO: Intent-aware Generative Engine Optimization for Recommendation](papers/arxiv-2611-04225v1--124b2c2d0563.md) | arxiv |
-| 2026-11-02T10:13:54+00:00 | arxiv:2611.02877v1 | [ProtoFusion: Protocol-Guided Prompt Refinement for Generative Infrared and Visible Image Fusion](papers/arxiv-2611-02877v1--fd7b6761f9fb.md) | arxiv |
 | 2026-11-01T05:13:12+00:00 | arxiv:2611.01585v1 | [StateGate: A Behavioral-Fidelity Prompt Optimization Method for Long-Chain LLM Agents](papers/arxiv-2611-01585v1--ebfb858834ab.md) | arxiv |
 | 2026-10-31T17:24:48+00:00 | arxiv:2611.01135v1 | [Compile as Hypothesis: A Headroom Typology for Prompt Optimization on Real Reasoning Models](papers/arxiv-2611-01135v1--ddc551dd3967.md) | arxiv |
-| 2026-10-27T02:10:25+00:00 | arxiv:2610.36506v1 | [GarmentSegAgent: Autonomous Garment Segmentation for Web Fashion Images via Textual Self-Refinement](papers/arxiv-2610-36506v1--3652e9169a51.md) | arxiv |
-| 2026-10-26T18:50:50+00:00 | arxiv:2610.36146v1 | [From Structural Feedback to Prompt Policies: Learning Faithful Text-to-Image Prompt Editors](papers/arxiv-2610-36146v1--3bc62c8f18ac.md) | arxiv |
 | 2026-10-26T02:19:53+00:00 | arxiv:2610.34722v1 | [CEPO: A General Framework for Improving Prompt Optimization in Multi-Agent Systems](papers/arxiv-2610-34722v1--fe9c09b16a5b.md) | arxiv |
-| 2026-10-20T01:38:24+00:00 | arxiv:2610.27468v1 | [Training-Free Continual Learning for Multimodal Forecasting via Prompt Evolution](papers/arxiv-2610-27468v1--eab759e6b72a.md) | arxiv |
 | 2026-10-19T22:46:39+00:00 | arxiv:2610.27367v2 | [Explore More, Validate Less: Efficient Reflective Prompt Optimization](papers/arxiv-2610-27367v2--107297b990e2.md) | arxiv |
 | 2026-10-15T16:23:55+00:00 | arxiv:2610.22160v1 | [EMO: A Closed-Loop Test-Time Computation Framework via Alternating Context Optimization and Logits Steering](papers/arxiv-2610-22160v1--9b186ee4f288.md) | arxiv |
-| 2026-10-15T07:24:24+00:00 | arxiv:2610.21407v1 | [Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction](papers/arxiv-2610-21407v1--2bd0f2318b7a.md) | arxiv |
 | 2026-10-15T00:31:18+00:00 | arxiv:2610.21040v1 | [Recursive Reward Improvement via Adversarial Meta-Prompt Evolution](papers/arxiv-2610-21040v1--ed1a6e3a28bf.md) | arxiv |
-| 2026-10-14T12:23:59+00:00 | arxiv:2610.20085v1 | [Designing Textual Interfaces To Enhance Llm Reasoning On Audio-Visual Question Answering](papers/arxiv-2610-20085v1--235314c3d69b.md) | arxiv |
-| 2026-10-14T05:33:36+00:00 | arxiv:2610.19610v1 | [CORE: Contrast-and-Reflect for Self-Supervised Prompt Optimization in Anomaly Synthesis](papers/arxiv-2610-19610v1--3945f3707e31.md) | arxiv |
 | 2026-10-13T20:49:08+00:00 | arxiv:2610.19184v2 | [HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation](papers/arxiv-2610-19184v2--18f236ac1976.md) | arxiv |
 | 2026-10-13T19:15:06+00:00 | arxiv:2610.19084v1 | [Beyond Aggregate Accuracy: Item-Level Transitions in Prompt Optimization](papers/arxiv-2610-19084v1--b43c661fcbf9.md) | arxiv |
 | 2026-10-13T18:59:04+00:00 | arxiv:2610.19062v1 | [RLPE: Teaching LLMs to Prompt with Reinforcement Learning](papers/arxiv-2610-19062v1--4b1cb551012a.md) | arxiv |
 | 2026-10-12T03:46:35+00:00 | arxiv:2610.16129v1 | [PID-Gated Continual Prompt Adaptation Under Noisy Feedback](papers/arxiv-2610-16129v1--1408988db98c.md) | arxiv |
-| 2026-10-10T18:15:09+00:00 | arxiv:2610.15098v1 | [TIDE: Trajectory-Informed Skill Distillation for Efficient Text-to-Video Prompt Optimization](papers/arxiv-2610-15098v1--1069771d0911.md) | arxiv |
 | 2026-10-10T08:57:19+00:00 | arxiv:2610.14736v1 | [Think in Strategies, Act with Tools: Traceable Agentic Optimization for Combinatorial Problems](papers/arxiv-2610-14736v1--bd151a06ed6b.md) | arxiv |
 | 2026-10-09T11:00:33+00:00 | arxiv:2610.13386v1 | [MoPrO-SD: Modular Prompt Optimization for Stance Detection](papers/arxiv-2610-13386v1--00316b64e9b6.md) | arxiv |
 | 2026-10-09T09:38:51+00:00 | arxiv:2610.13287v1 | [Do Prompt Optimizers Break Requirements They Are Not Scored On? A Preregistered Study](papers/arxiv-2610-13287v1--a80b3df07f0a.md) | arxiv |
@@ -39,6 +30,15 @@ The 30 most recent of 529 papers. Every paper is listed in [papers.csv](papers.c
 | 2026-10-07T05:45:25+00:00 | arxiv:2610.09489v1 | [Goldsmith: Gold-Loss-Guided Definition Optimization with an Agentic Annotation Harness](papers/arxiv-2610-09489v1--d430dd5ae81d.md) | arxiv |
 | 2026-10-06T14:15:44+00:00 | arxiv:2610.08405v1 | [Learning from Failures: A Failure-Driven Prompt Refinement for LLM-Based Vulnerability Analysis](papers/arxiv-2610-08405v1--7599ca471623.md) | arxiv |
 | 2026-10-06T02:59:54+00:00 | arxiv:2610.07663v1 | [Joint Workflow and Prompt Optimization for User Behavior Simulation](papers/arxiv-2610-07663v1--b116182f41bb.md) | arxiv |
+| 2026-10-05T01:34:14+00:00 | arxiv:2610.05671v3 | [How Should a Prompt Optimizer Spend a Tight Budget? BudgetAPO with Noise-Adaptive Evaluation](papers/arxiv-2610-05671v3--83b8d8976d48.md) | arxiv |
+| 2026-09-30T17:59:56+00:00 | arxiv:2609.40361v1 | [Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis](papers/arxiv-2609-40361v1--10531682b91f.md) | arxiv |
+| 2026-09-30T15:13:40+00:00 | arxiv:2609.39927v1 | [AdaGEPA: Adaptive Feedback Allocation for Reflective Prompt Optimization](papers/arxiv-2609-39927v1--16abc8accaf6.md) | arxiv |
+| 2026-09-30T14:25:55+00:00 | arxiv:2610.00416v2 | [Benchmarking Prompt Optimization of Large Language Models With Chess](papers/arxiv-2610-00416v2--77f0b7bb3051.md) | arxiv |
+| 2026-09-28T08:05:12+00:00 | arxiv:2609.34540v2 | [APOLO: Automatic Prompt Optimization for Ontology Learning](papers/arxiv-2609-34540v2--a2918b08f500.md) | arxiv |
+| 2026-09-25T20:50:20+00:00 | arxiv:2609.31989v1 | [Communication between Frozen Large Language Models via Prompt Optimization in a Referential Game](papers/arxiv-2609-31989v1--51f0ad46db02.md) | arxiv |
+| 2026-09-20T15:48:35+00:00 | arxiv:2609.23716v1 | [STEVE: Stabilizing Textual Gradient-Based Prompt Optimization via Error-Driven Refinement and Regularized Verification](papers/arxiv-2609-23716v1--1ad1a86246f4.md) | arxiv |
+| 2026-09-19T05:51:27+00:00 | arxiv:2609.22792v1 | [SelfOp: An Optimization Algorithm for Self-Improving Security Agents](papers/arxiv-2609-22792v1--f2edb5edee48.md) | arxiv |
+| 2026-09-18T11:05:41+00:00 | arxiv:2609.21626v1 | [One Prompt Does Not Fit All: Self-Meta-Evolve for Personalized Information Extraction](papers/arxiv-2609-21626v1--575ddb37f6c4.md) | arxiv |
 <!-- papers-index:end -->
 
 ## Architecture
