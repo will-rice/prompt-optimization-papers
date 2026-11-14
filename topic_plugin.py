@@ -9,10 +9,11 @@ out of scope.
 
 A title that names the task or a known method decides on its own, unless it
 names an excluded topic: discrete methods often contrast themselves with soft
-prompts, or evaluate on jailbreak detection, in their abstracts. Otherwise the
-abstract must avoid attack and continuous-prompt terms and either use a phrase
-specific to the task or a method name, or name the task with a generic phrase
-at least twice.
+prompts, or evaluate on jailbreak detection, in their abstracts. A paper whose
+title does not name the task needs more: its abstract must avoid attack and
+continuous-prompt terms and name the task or a method at least twice, and its
+title must still be about prompts or optimization. Papers that only use DSPy
+or compare against OPRO mention them once, in passing.
 """
 
 import re
@@ -57,30 +58,28 @@ METHODS = (
     r"|rlprompt|promptagent|mipro(v2)?)\b"
 )
 
-# Phrases specific enough that one mention in an abstract makes the paper
-# about prompt optimization.
-SPECIFIC_PATTERN = re.compile(
+# Phrases that name the task, counted in an abstract.
+TASK_PATTERN = re.compile(
     r"(automatic|automated) prompt (optimi[sz]|engineer)|textual gradients?"
-    r"|prompt evolution|evolutionary prompt|" + METHODS
+    r"|prompt evolution|evolutionary prompt|prompt optimi[sz]"
+    r"|instruction optimi[sz]|instruction induction|" + METHODS
 )
+ABSTRACT_MENTIONS = 2
 
-# Generic phrases that abstracts also use in passing (and "instruction
-# induction" is a benchmark other papers evaluate on); they count only when
-# the abstract names the task at least twice.
-GENERIC_PATTERN = re.compile(
-    r"prompt optimi[sz]|instruction optimi[sz]|instruction induction"
-)
-GENERIC_MENTIONS = 2
-
-# A title is a stronger signal, so it may also use these broader phrases.
+# A title names the task with these, or with an optimization verb applied to
+# prompts or instructions ("Optimizing Instructions and Demonstrations",
+# "Evolving LLM Instructions"), or calls a system a prompt engineer (APE).
 TITLE_PATTERN = re.compile(
-    SPECIFIC_PATTERN.pattern
-    + "|"
-    + GENERIC_PATTERN.pattern
-    + r"|automatic(ally)? prompt|automated prompt"
-    r"|optimi[sz](e|es|ing) (the )?prompts?\b|(prompt|instruction) search"
-    r"|discrete prompt|hard prompt|prompt (refinement|rewriting)"
+    TASK_PATTERN.pattern
+    + r"|automatic(ally)? prompt|automated prompt|prompt engineers?\b"
+    r"|(prompt|instruction) search|discrete prompt|prompt (refinement|rewriting)"
+    r"|\b(optimi[sz]\w*|evolv\w*|search\w*|refin\w*|rewrit\w*|train\w*"
+    r"|tun(e|es|ing)) ([\w-]+ ){0,3}(prompts?|instructions)\b"
 )
+
+# Without a task phrase in its title, a paper must at least be about prompts
+# or optimization.
+TOPICAL_TITLE = re.compile(r"prompt|instruction|optimi[sz]|evolv|textual|self-improv")
 
 
 def accept_topic(paper: Paper) -> TopicDecision:
@@ -105,8 +104,8 @@ def accept_topic(paper: Paper) -> TopicDecision:
     )
     if excluded is not None:
         return TopicDecision(False, f"matched excluded term: {excluded}")
-    if SPECIFIC_PATTERN.search(text):
-        return TopicDecision(True, "accepted by abstract")
-    if len(GENERIC_PATTERN.findall(text)) >= GENERIC_MENTIONS:
-        return TopicDecision(True, "accepted by repeated abstract mentions")
-    return TopicDecision(False, "missing prompt optimization signal")
+    if len(TASK_PATTERN.findall(text)) < ABSTRACT_MENTIONS:
+        return TopicDecision(False, "missing prompt optimization signal")
+    if not TOPICAL_TITLE.search(title):
+        return TopicDecision(False, "title not about prompts or optimization")
+    return TopicDecision(True, "accepted by abstract")
