@@ -1,0 +1,68 @@
+<svg id="A4.SS1.SSS1.p2.pic1" class="ltx_picture" height="1209.21" overflow="visible" version="1.1" viewbox="0 0 477.38 1209.21" width="477.38"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,1209.21) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#666666;" fill="#666666" fill-opacity="1.0"><path style="stroke:none" d="M 0 5.91 L 0 1203.31 C 0 1206.57 2.64 1209.21 5.91 1209.21 L 471.47 1209.21 C 474.73 1209.21 477.38 1206.57 477.38 1203.31 L 477.38 5.91 C 477.38 2.64 474.73 0 471.47 0 L 5.91 0 C 2.64 0 0 2.64 0 5.91 Z" /></g><g style="--ltx-fill-color:#F9F9F9;" fill="#F9F9F9" fill-opacity="1.0"><path style="stroke:none" d="M 1.97 5.91 L 1.97 1188.75 L 475.41 1188.75 L 475.41 5.91 C 475.41 3.73 473.65 1.97 471.47 1.97 L 5.91 1.97 C 3.73 1.97 1.97 3.73 1.97 5.91 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.44 1194.66)"><foreignobject style="--ltx-fo-width:36.5em;--ltx-fo-height:0.68em;--ltx-fo-depth:0em;font-size:9.25pt;" height="8.65" overflow="visible" transform="matrix(1 0 0 -1 0 8.65)" width="467.17"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A4.SS1.SSS1.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.5em;">
+<span id="A4.SS1.SSS1.p2.pic1.1.1" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.1.1.1" class="ltx_text ltx_font_bold ltx_font_smallcaps" style="font-size:90%;--ltx-fg-color:#FFFFFF;">DefineFeatures</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 11.44 11.09)"><foreignobject style="--ltx-fo-width:35.51em;--ltx-fo-height:91.49em;--ltx-fo-depth:0.19em;font-size:9.25pt;" height="1173.39" overflow="visible" transform="matrix(1 0 0 -1 0 1170.97)" width="454.5"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A4.SS1.SSS1.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:35.51em;">
+<span id="A4.SS1.SSS1.p2.pic1.2.1" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">You are an expert at analyzing text objects and identifying patterns that predict performance.</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.2" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.2.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">These text objects are system prompts for an AI assistant performing the following task:
+<span id="A4.SS1.SSS1.p2.pic1.2.2.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#800080;">{task_context}</span></span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.3" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.3.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Define numerical features that capture what makes a prompt effective FOR THIS SPECIFIC TASK. Focus on properties that have a CAUSAL relationship to the AI’s ability to solve this type of problem — properties that, if changed in a prompt, would directly affect performance. Avoid features that merely correlate with score or describe surface-level text properties without a causal mechanism.</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.4" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.4.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Before defining features, closely inspect the data:</span></span>
+<span id="A4.I1" class="ltx_enumerate">
+<span id="A4.I1.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">1.</span> 
+<span id="A4.I1.i1.p1" class="ltx_para">
+<span id="A4.I1.i1.p1.1" class="ltx_p"><span id="A4.I1.i1.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">What specific patterns or properties are present in the TOP-performing text objects but absent from the BOTTOM ones?</span></span>
+</span></span>
+<span id="A4.I1.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">2.</span> 
+<span id="A4.I1.i2.p1" class="ltx_para">
+<span id="A4.I1.i2.p1.1" class="ltx_p"><span id="A4.I1.i2.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">What do the BOTTOM-performing text objects have that the TOP ones don’t?</span></span>
+</span></span>
+<span id="A4.I1.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">3.</span> 
+<span id="A4.I1.i3.p1" class="ltx_para">
+<span id="A4.I1.i3.p1.1" class="ltx_p"><span id="A4.I1.i3.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">List 2–3 concrete observations about these differences.</span></span>
+</span></span>
+</span>
+<span id="A4.SS1.SSS1.p2.pic1.2.5" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.5.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Then define features that capture these observed causal differences.</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.6" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.6.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Requirements for each feature:</span></span>
+<span id="A4.I2" class="ltx_itemize">
+<span id="A4.I2.i1" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I2.i1.p1" class="ltx_para">
+<span id="A4.I2.i1.p1.1" class="ltx_p"><span id="A4.I2.i1.p1.1.1" class="ltx_text ltx_font_bold" style="font-size:90%;--ltx-fg-color:#000000;">name</span><span id="A4.I2.i1.p1.1.2" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">: A short identifier.</span></span>
+</span></span>
+<span id="A4.I2.i2" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I2.i2.p1" class="ltx_para">
+<span id="A4.I2.i2.p1.1" class="ltx_p"><span id="A4.I2.i2.p1.1.1" class="ltx_text ltx_font_bold" style="font-size:90%;--ltx-fg-color:#000000;">description</span><span id="A4.I2.i2.p1.1.2" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">: Explain what the feature measures for this specific task, what 0 and 1 represent (anchor semantics), and why it causally affects performance.</span></span>
+</span></span>
+<span id="A4.I2.i3" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I2.i3.p1" class="ltx_para">
+<span id="A4.I2.i3.p1.1" class="ltx_p"><span id="A4.I2.i3.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">All feature values must be in [0, 1].</span></span>
+</span></span>
+<span id="A4.I2.i4" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I2.i4.p1" class="ltx_para">
+<span id="A4.I2.i4.p1.1" class="ltx_p"><span id="A4.I2.i4.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Each feature MUST be INDEPENDENT of the others. If you can predict one feature’s value from the others, they are redundant — keep only the more causally relevant one.</span></span>
+</span></span>
+<span id="A4.I2.i5" class="ltx_item" style="list-style-type:none;"><span class="ltx_tag ltx_tag_item">•</span> 
+<span id="A4.I2.i5.p1" class="ltx_para">
+<span id="A4.I2.i5.p1.1" class="ltx_p"><span id="A4.I2.i5.p1.1.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Before finalizing, verify: for each pair of features, can you imagine a text that is high on one and low on the other? If not, they are not independent — drop one.</span></span>
+</span></span>
+</span>
+<span id="A4.SS1.SSS1.p2.pic1.2.7" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.7.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Choose the number of features based on the available data. With small datasets (10 or fewer examples), prefer fewer features (1–2) — a single well-chosen feature is better than several noisy ones. As the dataset grows and patterns become clearer, additional features can capture richer structure that was not visible with less data. Every feature must earn its place by capturing genuinely independent variation.</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.8" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.8.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Respond with a JSON array of objects, each with ‘name’ and ‘description’ fields. Example:</span></span><pre id="A4.SS1.SSS1.p2.pic1.2.9" class="ltx_verbatim ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#000000;">
+[
+  {
+    &quot;name&quot;: &quot;example_feature_name&quot;,
+    &quot;description&quot;: &quot;What this feature measures for the specific task,&quot;\
+            &quot;what 0 and 1 represent, and why it causally affects performance.&quot;
+  }
+]
+</pre>
+<span id="A4.SS1.SSS1.p2.pic1.2.10" class="ltx_p"><em id="A4.SS1.SSS1.p2.pic1.2.10.1" class="ltx_emph ltx_font_italic" style="font-size:90%;--ltx-fg-color:#000000;">[When <math id="A4.SS1.SSS1.p2.pic1.m1" class="ltx_Math" alttext="t&gt;1" display="inline" intent=":literal"><semantics><mrow><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">t</mi><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">&gt;</mo><mn style="--ltx-fg-color:#000000;" mathcolor="#000000">1</mn></mrow><annotation encoding="application/x-tex">t&gt;1</annotation></semantics></math> and incumbent features <math id="A4.SS1.SSS1.p2.pic1.m2" class="ltx_Math" alttext="\mathcal{F}_{t-1}" display="inline" intent=":literal"><semantics><msub><mi style="--ltx-fg-color:#000000;" class="ltx_font_mathcaligraphic" mathcolor="#000000">ℱ</mi><mrow><mi style="--ltx-fg-color:#000000;" mathcolor="#000000">t</mi><mo style="--ltx-fg-color:#000000;" mathcolor="#000000">−</mo><mn style="--ltx-fg-color:#000000;" mathcolor="#000000">1</mn></mrow></msub><annotation encoding="application/x-tex">\mathcal{F}_{t-1}</annotation></semantics></math> are provided, the following is prepended to the input. Incumbent features are shown in shuffled order to avoid position bias.]</em><span id="A4.SS1.SSS1.p2.pic1.2.10.2" class="ltx_text"></span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.11" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.11.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">The following features are currently in use for this task:
+<br class="ltx_break">— <span id="A4.SS1.SSS1.p2.pic1.2.11.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#800080;">{f.name}</span>: <span id="A4.SS1.SSS1.p2.pic1.2.11.1.2" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#800080;">{f.description}</span>  <em id="A4.SS1.SSS1.p2.pic1.2.11.1.3" class="ltx_emph ltx_font_italic">[for each incumbent feature]</em></span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.12" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.12.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Analyze the data to identify patterns or properties NOT captured by these features. You may keep features that are clearly the most predictive, but your proposed set MUST differ from the current set by at least one meaningful change: add a genuinely new feature, remove a feature, or substantively redefine one. Renaming or trivially rephrasing an existing feature does NOT count as a change.</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.13" class="ltx_p"><em id="A4.SS1.SSS1.p2.pic1.2.13.1" class="ltx_emph ltx_font_italic" style="font-size:90%;--ltx-fg-color:#000000;">[Then always:]</em><span id="A4.SS1.SSS1.p2.pic1.2.13.2" class="ltx_text"></span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.14" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.14.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">Here are <span id="A4.SS1.SSS1.p2.pic1.2.14.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#800080;">{n}</span> text objects with their performance scores (higher is better), sorted by performance tier:</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.15" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.15.1" class="ltx_text ltx_font_typewriter" style="font-size:90%;--ltx-fg-color:#800080;">{examples_text}</span><span id="A4.SS1.SSS1.p2.pic1.2.15.2" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">  <em id="A4.SS1.SSS1.p2.pic1.2.15.2.1" class="ltx_emph ltx_font_italic">[formatted with TOP/BOTTOM tier labels]</em></span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.16" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.16.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">You have <span id="A4.SS1.SSS1.p2.pic1.2.16.1.1" class="ltx_text ltx_font_typewriter" style="--ltx-fg-color:#800080;">{n}</span> text objects available. Be mindful of this sample size — fewer high-quality, genuinely distinct features are far better than many overlapping ones.</span></span>
+<span id="A4.SS1.SSS1.p2.pic1.2.17" class="ltx_p"><span id="A4.SS1.SSS1.p2.pic1.2.17.1" class="ltx_text" style="font-size:90%;--ltx-fg-color:#000000;">First list your observations about what distinguishes TOP from BOTTOM performers, then define features. Return ONLY the JSON array.</span></span>
+</span></span></span></foreignobject></g></g></svg>
