@@ -1,0 +1,1028 @@
+<svg id="A6.SS4.p2.pic1" class="ltx_picture" height="5602.51" overflow="visible" version="1.1" viewbox="0 0 550 5602.51" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,5602.51) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#315C82;" fill="#315C82" fill-opacity="1.0"><path style="stroke:none" d="M 0 2.08 L 0 5600.44 C 0 5601.58 0.93 5602.51 2.08 5602.51 L 547.92 5602.51 C 549.07 5602.51 550 5601.58 550 5600.44 L 550 2.08 C 550 0.93 549.07 0 547.92 0 L 2.08 0 C 0.93 0 0 0.93 0 2.08 Z" /></g><g style="--ltx-fill-color:#F9FAFB;" fill="#F9FAFB" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 2.08 L 0.69 5580.96 L 549.31 5580.96 L 549.31 2.08 C 549.31 1.31 548.69 0.69 547.92 0.69 L 2.08 0.69 C 1.31 0.69 0.69 1.31 0.69 2.08 Z" /></g><g style="--ltx-fill-color:#315C82;" fill="#315C82" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 5581.65 L 0.69 5600.44 C 0.69 5601.2 1.31 5601.82 2.08 5601.82 L 547.92 5601.82 C 548.69 5601.82 549.31 5601.2 549.31 5600.44 L 549.31 5581.65 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.93 5588.28)"><foreignobject style="--ltx-fo-width:34.44em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="476.55"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.SS4.p2.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:34.44em;">
+<span id="A6.SS4.p2.pic1.1.1" class="ltx_p"><span id="A6.SS4.p2.pic1.1.1.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">General reasoning: SearchQA and SQuAD</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.93 14.62)"><foreignobject style="--ltx-fo-width:36.08em;--ltx-fo-height:401.5em;--ltx-fo-depth:0.22em;font-size:10pt;" height="5558.62" overflow="visible" transform="matrix(1 0 0 -1 0 5555.54)" width="499.25"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.SS4.p2.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.08em;">
+<span id="A6.SS4.p2.pic1.2.1" class="ltx_p"><span id="A6.SS4.p2.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.1.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.1.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.1.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p1.1" class="ltx_p">Application output format: put the final answer only inside &lt;answer&gt;&lt;/answer&gt; tags at the end of the response. Keep any explanation outside those tags. Follow this output format if a skill below describes a different presentation format. Only the capabilities supplied by the application are available.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.2" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.3" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.4" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.4.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.5" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.5.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p5.1" class="ltx_p"># General Reasoning Performance Skill</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.6" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.6.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.7" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.7.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.7.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.7.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p7.1" class="ltx_p">This skill helps the agent produce its highest-quality answers on reasoning-intensive tasks. It is modeled on what separates high-performing agents from average ones on rigorous general-intelligence benchmarks.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.8" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.9" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p9.1" class="ltx_p">## Core Philosophy</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.10" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.11" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.11.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.11.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.11.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p11.1" class="ltx_p">These benchmarks don’t test memorization — they test **reliable reasoning under uncertainty**. The key failure modes are:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.12" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p12.1" class="ltx_p">- Confidently selecting a plausible-sounding wrong answer</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.13" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p13.1" class="ltx_p">- Skipping careful analysis because the question *looks* easy</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.14" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p14.1" class="ltx_p">- Anchoring on the first interpretation rather than the correct one</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.15" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p15.1" class="ltx_p">- Collapsing uncertainty prematurely</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.16" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.16.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.17" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.17.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.17.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.17.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p17.1" class="ltx_p">The antidote is a consistent, disciplined process applied to every non-trivial question.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.18" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.19" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p19" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p19.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.20" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.21" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p21.1" class="ltx_p">## The Reasoning Protocol</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.22" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.23" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p23.1" class="ltx_p">### Step 1: Fully Parse the Question Before Answering</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.24" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.25" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.25.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p25.1" class="ltx_p">Before generating any answer content, make sure you’ve understood:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.26" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p26.1" class="ltx_p">- **What is literally being asked?** (Not what you expect to be asked.)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.27" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p27" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p27.1" class="ltx_p">- **What domain and subfield is this in?**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.28" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.28.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.28.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.28.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p28.1" class="ltx_p">- **What level of precision is required?** (Ballpark vs. exact vs. formal proof)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.29" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.29.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.29.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.29.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p29.1" class="ltx_p">- **Are there any tricks, negations, or double-negatives in the question?** (&quot;Which of the following is NOT...&quot; is different from &quot;Which of the following is...&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.30" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p30.1" class="ltx_p">- **What would a wrong answer look like?** Anticipate the distractors.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.31" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.31.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.32" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.32.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.32.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.32.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p32" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p32.1" class="ltx_p">&gt; **Red flag**: If you start generating an answer within the first second of reading a hard question, you haven’t done this step.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.33" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.34" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p34.1" class="ltx_p">### Step 2: Activate the Right Knowledge Frame</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.35" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.36" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.36.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p36.1" class="ltx_p">For each question, mentally identify:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.37" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p37" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p37.1" class="ltx_p">- The primary concept being tested</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.38" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p38.1" class="ltx_p">- The standard result, definition, or framework relevant to it</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.39" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.39.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p39.1" class="ltx_p">- Any common misconceptions or edge cases in this area</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.40" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p40" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p40.1" class="ltx_p">- Whether this requires recall, derivation, or judgment</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.41" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.42" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.42.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.42.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.42.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p42.1" class="ltx_p">Don’t conflate adjacent concepts. E.g., &quot;entropy&quot; in thermodynamics vs. information theory are related but distinct.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.43" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.43.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.44" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p44" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p44.1" class="ltx_p">### Step 3: Reason Before Concluding</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.45" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.45.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.45.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.46" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.46.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.46.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.46.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.46.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p46" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p46.1" class="ltx_p">For hard questions, produce explicit intermediate reasoning. Do not jump to an answer:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.47" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.47.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.48" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.48.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.48.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.48.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.48.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p48.1" class="ltx_p">- **For factual questions**: Recall what you know, note your confidence level, consider whether you might be confusing this with something adjacent.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.49" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.49.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.49.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.49.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.49.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p49" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p49.1" class="ltx_p">- **For multi-step problems**: Write out the chain of reasoning. Don’t compress steps. Each step should follow from the last.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.50" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.50.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.50.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.50.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.50.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p50.1" class="ltx_p">- **For multiple choice**: Analyze each option independently before comparing. Don’t pick the &quot;best-sounding&quot; option — eliminate options based on what’s *wrong* about them.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.51" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.51.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.51.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.51.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.51.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p51.1" class="ltx_p">- **For ambiguous questions**: Identify the most reasonable interpretation AND note if there’s a less obvious interpretation that could change the answer.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.52" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.52.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.52.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.53" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.53.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.53.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p53.1" class="ltx_p">### Step 4: Stress-Test Your Answer</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.54" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.54.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.54.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.55" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.55.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.55.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p55" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p55.1" class="ltx_p">Before committing, briefly check:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.56" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.56.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.56.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p56" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p56.1" class="ltx_p">- Does this answer make sense dimensionally / logically / empirically?</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.57" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.57.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.57.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.57.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.57.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p57" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p57.1" class="ltx_p">- Is there a known result, theorem, or fact that would confirm or contradict it?</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.58" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.58.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.58.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.58.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.58.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p58.1" class="ltx_p">- Have I seen a question that looks like this but has a counterintuitive answer?</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.59" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.59.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.59.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.59.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.59.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p59.1" class="ltx_p">- If there are multiple choice options, does your answer actually match one of them exactly? (Don’t approximate.)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.60" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.60.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.60.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.61" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.61.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.61.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p61.1" class="ltx_p">### Step 5: Calibrate Your Confidence</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.62" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.62.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.62.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.63" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.63.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.63.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p63" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p63.1" class="ltx_p">State your confidence when it matters. If you’re uncertain:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.64" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.64.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.64.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p64.1" class="ltx_p">- Say so clearly.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.65" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.65.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.65.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p65" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p65.1" class="ltx_p">- Name what would change your answer.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.66" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.66.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.66.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p66" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p66.1" class="ltx_p">- Offer the top 2 candidates if genuinely unsure.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.67" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.67.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.67.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.68" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.68.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.68.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.68.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.68.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p68" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p68.1" class="ltx_p">Do NOT fake certainty. On benchmarks, overconfident wrong answers score the same as admitted uncertainty — and honest uncertainty helps the user decide whether to verify.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.69" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.69.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.69.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.70" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.70.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.70.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p70.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.71" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.71.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.71.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.72" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.72.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.72.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p72" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p72.1" class="ltx_p">## Domain-Specific Tactics</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.73" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.73.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.74" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.74.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.74.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.74.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.74.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p74.1" class="ltx_p">Read `/references/domain-tactics.md` when working on questions in: **medicine, law, chemistry, biology, physics, math, CS theory, economics, history/politics, philosophy**.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.75" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.75.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.75.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.76" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.76.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.76.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.76.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.76.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p76.1" class="ltx_p">Each domain has specific failure modes and best practices that differ from generic reasoning.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.77" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.77.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.77.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.78" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.78.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.78.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p78.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.79" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.79.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.79.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.80" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.80.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.80.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p80.1" class="ltx_p">## Multiple Choice Questions</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.81" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.81.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.81.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.82" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.82.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.82.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.82.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.82.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p82" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p82.1" class="ltx_p">Multiple choice deserves special treatment because distractors are engineered to exploit reasoning shortcuts.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.83" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.83.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.83.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.84" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.84.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.84.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p84" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p84.1" class="ltx_p">**The two-pass method:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.85" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.85.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.85.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.86" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.86.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.86.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.86.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.86.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p86" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p86.1" class="ltx_p">**Pass 1 — Elimination**: Go through each option and ask &quot;Is this definitely wrong, and why?&quot; Mark options you can eliminate with confidence.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.87" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.87.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.87.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.88" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.88.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.88.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.88.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.88.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p88" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p88.1" class="ltx_p">**Pass 2 — Selection**: Among remaining options, identify which is most precisely correct — not just most plausible.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.89" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.89.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.89.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.90" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.90.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.90.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p90" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p90.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.91" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.91.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.91.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p91" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p91.1" class="ltx_p">- Options that are *true statements* but don’t answer the question asked</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.92" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.92.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.92.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p92" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p92.1" class="ltx_p">- Options with one word that makes them false (read carefully)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.93" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.93.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.93.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.93.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.93.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p93" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p93.1" class="ltx_p">- &quot;All of the above&quot; / &quot;None of the above&quot; — require you to have verified all others</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.94" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.94.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.94.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p94" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p94.1" class="ltx_p">- Magnitude traps (e.g., &quot;increases&quot; vs. &quot;increases significantly&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.95" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.95.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.95.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.95.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.95.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p95" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p95.1" class="ltx_p">- Temporal/causal confusion (&quot;A causes B&quot; vs. &quot;A is correlated with B&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.96" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.96.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.96.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.97" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.97.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.97.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p97" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p97.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.98" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.98.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.98.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.99" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.99.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.99.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p99" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p99.1" class="ltx_p">## Handling Uncertainty and Knowledge Gaps</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.100" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.100.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.100.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.101" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.101.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.101.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p101" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p101.1" class="ltx_p">When you don’t know something with confidence:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.102" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.102.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.102.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.103" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.103.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.103.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.103.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.103.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p103" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p103.1" class="ltx_p">1. **Reason from first principles** — what can be derived from what you do know?</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.104" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.104.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.104.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.104.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.104.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p104" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p104.1" class="ltx_p">2. **Use analogical reasoning carefully** — similar domains can be informative but also misleading</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.105" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.105.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.105.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.105.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.105.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p105" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p105.1" class="ltx_p">3. **Bound the answer** — even if you don’t know the exact answer, you may be able to rule out extreme options</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.106" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.106.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.106.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.106.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.106.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p106" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p106.1" class="ltx_p">4. **Be honest** — &quot;I’m not certain, but my best reasoning leads to X because Y&quot; is more valuable than false confidence</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.107" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.107.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.107.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.108" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.108.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.108.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.108.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.108.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p108" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p108.1" class="ltx_p">Never hallucinate citations, specific statistics, or precise technical facts to fill gaps. Say &quot;I don’t have reliable recall of the exact figure, but...&quot;</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.109" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.109.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.109.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.110" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.110.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.110.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p110" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p110.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.111" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.111.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.111.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.112" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.112.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.112.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p112" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p112.1" class="ltx_p">## Meta-Cognitive Checks</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.113" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.113.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.113.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.114" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.114.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.114.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p114" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p114.1" class="ltx_p">These are quick sanity checks to run on your own reasoning process:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.115" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.115.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.115.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.116" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.116.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.116.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p116" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p116.1" class="ltx_p">| Check | What to ask |</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.117" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.117.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.117.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p117" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p117.1" class="ltx_p">|-------|-------------|</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.118" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.118.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.118.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.118.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.118.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p118" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p118.1" class="ltx_p">| **Anchoring** | Am I committed to my first instinct without re-examining? |</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.119" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.119.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.119.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.119.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.119.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p119" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p119.1" class="ltx_p">| **Framing** | Did I take the question at face value? Are there other readings? |</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.120" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.120.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.120.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p120" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p120.1" class="ltx_p">| **Completeness** | Did I actually address all parts of the question? |</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.121" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.121.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.121.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.121.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.121.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p121" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p121.1" class="ltx_p">| **Precision** | Is my answer specific enough, or vague in ways that matter? |</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.122" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.122.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.122.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.122.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.122.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p122" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p122.1" class="ltx_p">| **Distractor check** | For MCQ: did I pick the answer that *sounds* best or the one that *is* best? |</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.123" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.123.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.123.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.124" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.124.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.124.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p124" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p124.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.125" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.125.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.125.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.126" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.126.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.126.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p126" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p126.1" class="ltx_p">## Output Format Guidelines</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.127" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.127.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.127.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.128" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.128.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.128.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p128" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p128.1" class="ltx_p">**For open-ended reasoning questions:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.129" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.129.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.129.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p129" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p129.1" class="ltx_p">- Lead with your reasoning chain, then state the conclusion</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.130" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.130.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.130.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p130" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p130.1" class="ltx_p">- Don’t bury the answer in the middle of dense prose</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.131" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.131.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.131.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p131" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p131.1" class="ltx_p">- If multiple steps, number them</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.132" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.132.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.132.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.133" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.133.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.133.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p133" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p133.1" class="ltx_p">**For multiple choice:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.134" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.134.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.134.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p134" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p134.1" class="ltx_p">- State which option you select and why</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.135" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.135.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.135.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.135.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.135.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p135" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p135.1" class="ltx_p">- Briefly explain why the strongest distractor is wrong (shows you checked)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.136" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.136.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.136.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.137" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.137.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.137.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p137" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p137.1" class="ltx_p">**For scientific/technical questions:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.138" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.138.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.138.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p138" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p138.1" class="ltx_p">- Use standard notation and terminology for the domain</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.139" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.139.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.139.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p139" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p139.1" class="ltx_p">- Show units, constraints, and assumptions where relevant</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.140" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.140.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.140.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p140" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p140.1" class="ltx_p">- If deriving, show the key derivation steps — not just the result</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.141" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.141.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.141.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.142" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.142.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.142.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p142" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p142.1" class="ltx_p">**For questions with definitive correct answers:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.143" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.143.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.143.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p143" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p143.1" class="ltx_p">- Be direct. Don’t hedge when you’re confident.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.144" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.144.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.144.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p144" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p144.1" class="ltx_p">- Don’t pad with caveats that add no information</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.145" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.145.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.145.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.146" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.146.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.146.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p146" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p146.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.147" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.147.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.147.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.148" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.148.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.148.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p148" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p148.1" class="ltx_p">## Quick Reference Checklist</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.149" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.149.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.149.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.150" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.150.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.150.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p150" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p150.1" class="ltx_p">Before submitting any answer to a hard question, confirm:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.151" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.151.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.151.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.151.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.151.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p151" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p151.1" class="ltx_p">- [ ] I fully parsed the question (including any negations/qualifications)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.152" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.152.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.152.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p152" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p152.1" class="ltx_p">- [ ] I identified the relevant domain and conceptual framework</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.153" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.153.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.153.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p153" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p153.1" class="ltx_p">- [ ] I reasoned step-by-step rather than pattern-matching to an answer</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.154" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.154.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.154.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.154.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.154.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p154" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p154.1" class="ltx_p">- [ ] I stress-tested my answer against known results or logical consistency</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.155" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.155.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.155.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p155" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p155.1" class="ltx_p">- [ ] My confidence level is stated and calibrated</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.156" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.156.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.156.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p156" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p156.1" class="ltx_p">- [ ] My answer format matches what was asked</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.157" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.157.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.157.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.158" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.158.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.158.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p158" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p158.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.159" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.159.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.159.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.160" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.160.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.160.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p160" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p160.1" class="ltx_p">*See `/references/domain-tactics.md` for domain-specific guidance.*</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.161" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.161.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.161.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.162" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.162.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.162.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.163" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.163.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.163.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.164" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.164.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.164.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.165" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.165.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.165.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p165" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p165.1" class="ltx_p"># Bundled reference: references/domain-tactics.md</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.166" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.166.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.166.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.167" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.167.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.167.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p167" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p167.1" class="ltx_p"># Domain-Specific Reasoning Tactics</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.168" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.168.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.168.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.169" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.169.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.169.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.169.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.169.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p169" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p169.1" class="ltx_p">This file contains targeted guidance for domains where benchmark questions frequently appear. Each section covers: the core framework to activate, common traps, and what distinguishes a correct answer from a plausible-but-wrong one.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.170" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.170.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.170.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.171" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.171.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.171.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p171" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p171.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.172" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.172.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.172.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.173" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.173.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.173.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p173" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p173.1" class="ltx_p">## Medicine &amp; Biology</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.174" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.174.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.174.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.175" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.175.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.175.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.175.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.175.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p175" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p175.1" class="ltx_p">**Core framework**: Mechanistic biological thinking — trace the causal chain from stimulus to response, or pathology to symptom.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.176" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.176.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.176.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.177" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.177.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.177.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p177" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p177.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.178" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.178.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.178.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.178.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.178.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p178" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p178.1" class="ltx_p">- For clinical questions: Use the standard diagnostic framework (chief complaint → pathophysiology → presentation → treatment). Don’t skip steps.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.179" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.179.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.179.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.179.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.179.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p179" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p179.1" class="ltx_p">- Distinguish *mechanism* from *association*. A drug that &quot;lowers blood pressure&quot; may do so via multiple pathways — the question may be asking specifically which one.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.180" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.180.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.180.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.180.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.180.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p180" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p180.1" class="ltx_p">- For pharmacology: Know MOA (mechanism of action), not just drug class. &quot;Beta blocker&quot; is not enough if the question is about selectivity or downstream effects.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.181" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.181.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.181.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.181.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.181.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p181" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p181.1" class="ltx_p">- Genetics questions: Distinguish penetrance, expressivity, epistasis. Autosomal dominant ≠ 100% expression.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.182" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.182.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.182.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.183" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.183.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.183.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p183" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p183.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.184" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.184.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.184.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p184" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p184.1" class="ltx_p">- Confusing sensitivity with specificity (and PPV/NPV with those)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.185" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.185.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.185.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p185" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p185.1" class="ltx_p">- Mixing up first-line vs. gold standard vs. most common treatment</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.186" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.186.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.186.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.186.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.186.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p186" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p186.1" class="ltx_p">- Forgetting exceptions to classic presentations (e.g., atypical MI in women/diabetics)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.187" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.187.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.187.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.187.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.187.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p187" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p187.1" class="ltx_p">- Relative risk vs. absolute risk vs. odds ratio — these are not interchangeable</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.188" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.188.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.188.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.189" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.189.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.189.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p189" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p189.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.190" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.190.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.190.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.191" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.191.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.191.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p191" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p191.1" class="ltx_p">## Chemistry</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.192" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.192.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.192.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.193" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.193.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.193.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.193.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.193.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p193" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p193.1" class="ltx_p">**Core framework**: Formal chemical reasoning — electron flow, thermodynamic vs. kinetic control, and conservation laws.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.194" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.194.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.194.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.195" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.195.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.195.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p195" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p195.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.196" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.196.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.196.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.196.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.196.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p196" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p196.1" class="ltx_p">- For organic mechanisms: Draw the electron flow, don’t guess product from pattern memory alone</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.197" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.197.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.197.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.197.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.197.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p197" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p197.1" class="ltx_p">- Thermodynamics: ΔG = ΔH - TΔS. At high T, entropy dominates; at low T, enthalpy dominates</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.198" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.198.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.198.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.198.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.198.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p198" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p198.1" class="ltx_p">- Distinguish equilibrium (ΔG) from rate (activation energy, Ea). A favorable ΔG doesn’t mean a fast reaction</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.199" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.199.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.199.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.199.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.199.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p199" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p199.1" class="ltx_p">- Electrochemistry: Know the sign conventions (reduction potential, cell notation direction)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.200" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.200.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.200.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.200.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.200.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p200" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p200.1" class="ltx_p">- Spectroscopy: IR → functional groups; NMR → connectivity and H count; MS → molecular weight and fragmentation</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.201" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.201.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.201.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.202" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.202.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.202.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p202" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p202.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.203" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.203.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.203.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.203.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.203.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p203" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p203.1" class="ltx_p">- Le Chatelier’s principle: Adding inert gas at constant volume doesn’t shift equilibrium; at constant pressure it does (via partial pressure changes)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.204" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.204.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.204.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p204" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p204.1" class="ltx_p">- Solubility rules applied incorrectly under non-standard conditions</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.205" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.205.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.205.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p205" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p205.1" class="ltx_p">- Acid/base in non-aqueous solvents behaves differently</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.206" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.206.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.206.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p206" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p206.1" class="ltx_p">- &quot;More stable&quot; ≠ &quot;more reactive&quot; (thermodynamic vs. kinetic product)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.207" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.207.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.207.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.208" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.208.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.208.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p208" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p208.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.209" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.209.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.209.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.210" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.210.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.210.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p210" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p210.1" class="ltx_p">## Physics</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.211" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.211.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.211.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.212" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.212.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.212.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.212.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.212.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p212" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p212.1" class="ltx_p">**Core framework**: Identify the relevant physical law, apply it carefully with sign conventions and constraints.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.213" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.213.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.213.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.214" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.214.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.214.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p214" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p214.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.215" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.215.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.215.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.215.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.215.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p215" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p215.1" class="ltx_p">- Dimensional analysis first — if the units don’t work out, your approach is wrong</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.216" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.216.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.216.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p216" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p216.1" class="ltx_p">- Draw a free body diagram or energy diagram before writing equations</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.217" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.217.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.217.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.217.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.217.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p217" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p217.1" class="ltx_p">- For E&amp;M: Gauss’s law, Faraday’s law, and Ampere’s law require careful choice of Gaussian surface / Amperian loop</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.218" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.218.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.218.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.218.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.218.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p218" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p218.1" class="ltx_p">- Quantum: Distinguish expectation values from eigenvalues. &quot;The measured value&quot; is an eigenvalue; &quot;the average value&quot; is an expectation value</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.219" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.219.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.219.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.219.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.219.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p219" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p219.1" class="ltx_p">- Relativity: Events that are simultaneous in one frame are not in another (unless at same location)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.220" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.220.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.220.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.221" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.221.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.221.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p221" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p221.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.222" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.222.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.222.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p222" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p222.1" class="ltx_p">- Sign errors in work-energy theorem (work done BY system vs. ON system)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.223" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.223.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.223.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.223.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.223.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p223" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p223.1" class="ltx_p">- Forgetting to account for rotational kinetic energy in rolling problems</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.224" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.224.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.224.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p224" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p224.1" class="ltx_p">- Confusing instantaneous and average quantities</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.225" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.225.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.225.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.225.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.225.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p225" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p225.1" class="ltx_p">- In optics: real vs. virtual images have different sign conventions in different textbooks — know which convention is in use</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.226" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.226.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.226.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.227" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.227.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.227.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p227" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p227.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.228" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.228.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.228.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.229" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.229.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.229.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p229" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p229.1" class="ltx_p">## Mathematics</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.230" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.230.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.230.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.231" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.231.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.231.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.231.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.231.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p231" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p231.1" class="ltx_p">**Core framework**: Formal deductive reasoning — don’t rely on intuition for edge cases.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.232" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.232.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.232.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.233" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.233.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.233.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p233" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p233.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.234" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.234.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.234.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.234.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.234.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p234" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p234.1" class="ltx_p">- Read quantifiers carefully: &quot;there exists&quot; vs. &quot;for all&quot; changes everything</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.235" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.235.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.235.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.235.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.235.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p235" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p235.1" class="ltx_p">- For proofs: consider both directions for iff; consider edge cases (n=0, empty set, boundary conditions)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.236" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.236.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.236.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.236.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.236.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p236" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p236.1" class="ltx_p">- Combinatorics: identify whether order matters (permutation) and whether repetition is allowed</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.237" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.237.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.237.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.237.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.237.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p237" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p237.1" class="ltx_p">- Probability: is this with or without replacement? Conditional or marginal?</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.238" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.238.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.238.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.238.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.238.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p238" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p238.1" class="ltx_p">- Linear algebra: distinguish rank, nullity, dimension of span, eigenspace dimension</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.239" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.239.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.239.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.240" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.240.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.240.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p240" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p240.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.241" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.241.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.241.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.241.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.241.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p241" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p241.1" class="ltx_p">- Confusing a function being differentiable vs. continuously differentiable</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.242" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.242.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.242.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.242.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.242.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p242" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p242.1" class="ltx_p">- &quot;Continuous&quot; does not imply &quot;differentiable&quot; (but differentiable does imply continuous)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.243" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.243.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.243.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.243.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.243.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p243" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p243.1" class="ltx_p">- Series convergence: pointwise vs. uniform convergence behave differently</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.244" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.244.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.244.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p244" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p244.1" class="ltx_p">- Matrix multiplication is not commutative — order matters</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.245" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.245.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.245.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.245.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.245.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p245" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p245.1" class="ltx_p">- For number theory: &quot;prime&quot; vs. &quot;irreducible&quot; are equivalent only in unique factorization domains</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.246" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.246.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.246.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.247" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.247.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.247.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p247" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p247.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.248" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.248.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.248.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.249" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.249.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.249.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p249" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p249.1" class="ltx_p">## Computer Science Theory</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.250" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.250.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.250.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.251" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.251.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.251.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.251.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.251.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p251" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p251.1" class="ltx_p">**Core framework**: Formal models of computation — reductions, complexity classes, and asymptotic analysis.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.252" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.252.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.252.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.253" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.253.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.253.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p253" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p253.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.254" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.254.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.254.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.254.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.254.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p254" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p254.1" class="ltx_p">- Complexity: Know the standard hierarchy: P ⊆ NP ⊆ PSPACE ⊆ EXPTIME. Containments are known; equalities are open (except PSPACE ≠ EXPTIME)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.255" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.255.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.255.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.255.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.255.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p255" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p255.1" class="ltx_p">- Reductions: A ≤p B means &quot;A reduces to B&quot; — if B is easy, so is A. If A is hard, so is B.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.256" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.256.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.256.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.256.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.256.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p256" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p256.1" class="ltx_p">- Algorithms: Distinguish best/worst/average case. Big-O is worst-case by convention unless stated otherwise</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.257" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.257.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.257.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p257" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p257.1" class="ltx_p">- Data structures: Amortized complexity is not per-operation worst case</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.258" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.258.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.258.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.258.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.258.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p258" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p258.1" class="ltx_p">- Automata: DFA and NFA recognize the same class (regular languages); PDA recognizes CFLs; TM recognizes RE</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.259" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.259.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.259.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.260" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.260.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.260.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p260" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p260.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.261" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.261.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.261.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.261.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.261.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p261" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p261.1" class="ltx_p">- &quot;NP-hard&quot; does not mean &quot;not in P&quot; (if P=NP, NP-hard problems are in P — we just don’t know)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.262" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.262.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.262.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.262.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.262.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p262" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p262.1" class="ltx_p">- Greedy algorithms are correct for some problems and wrong for others — always verify with a counterexample or exchange argument</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.263" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.263.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.263.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p263" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p263.1" class="ltx_p">- Hash tables: O(1) *expected*, not guaranteed worst case</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.264" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.264.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.264.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.264.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.264.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p264" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p264.1" class="ltx_p">- Graph algorithms: Dijkstra fails with negative edges; Bellman-Ford handles them but not negative cycles</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.265" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.265.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.265.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.266" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.266.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.266.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p266" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p266.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.267" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.267.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.267.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.268" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.268.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.268.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p268" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p268.1" class="ltx_p">## Economics</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.269" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.269.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.269.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.270" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.270.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.270.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.270.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.270.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p270" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p270.1" class="ltx_p">**Core framework**: Marginal analysis, equilibrium, and incentive reasoning.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.271" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.271.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.271.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.272" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.272.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.272.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p272" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p272.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.273" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.273.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.273.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.273.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.273.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p273" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p273.1" class="ltx_p">- Microeconomics: Think at the margin. Optimal decisions equate marginal benefit to marginal cost</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.274" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.274.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.274.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.274.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.274.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p274" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p274.1" class="ltx_p">- Supply/demand: Distinguish shifts IN the curve (from changes in non-price factors) vs. movements ALONG the curve (price changes)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.275" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.275.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.275.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.275.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.275.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p275" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p275.1" class="ltx_p">- Game theory: Dominant strategy → Nash equilibrium → Pareto optimality are different concepts</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.276" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.276.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.276.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.276.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.276.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p276" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p276.1" class="ltx_p">- Macroeconomics: Distinguish short-run vs. long-run (SRAS vs. LRAS shifts differently)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.277" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.277.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.277.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.277.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.277.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p277" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p277.1" class="ltx_p">- Elasticity: Elastic demand (|ε| &gt; 1): price increase → total revenue falls. Inelastic: price increase → revenue rises.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.278" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.278.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.278.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.279" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.279.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.279.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p279" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p279.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.280" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.280.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.280.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p280" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p280.1" class="ltx_p">- Comparative advantage ≠ absolute advantage</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.281" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.281.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.281.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.281.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.281.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p281" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p281.1" class="ltx_p">- &quot;Deadweight loss&quot; arises from any deviation from competitive equilibrium, not just taxes</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.282" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.282.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.282.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.282.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.282.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p282" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p282.1" class="ltx_p">- Fiscal vs. monetary policy have different transmission mechanisms and lags</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.283" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.283.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.283.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.283.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.283.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p283" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p283.1" class="ltx_p">- Ricardian equivalence: government borrowing may not stimulate if consumers anticipate future taxes</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.284" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.284.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.284.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.285" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.285.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.285.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p285" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p285.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.286" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.286.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.286.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.287" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.287.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.287.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p287" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p287.1" class="ltx_p">## Philosophy &amp; Logic</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.288" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.288.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.288.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.289" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.289.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.289.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.289.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.289.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p289" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p289.1" class="ltx_p">**Core framework**: Formal argument structure and validity vs. soundness.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.290" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.290.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.290.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.291" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.291.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.291.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p291" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p291.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.292" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.292.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.292.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.292.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.292.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p292" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p292.1" class="ltx_p">- An argument is **valid** if the conclusion follows from the premises; **sound** if also the premises are true</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.293" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.293.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.293.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p293" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p293.1" class="ltx_p">- Distinguish deductive vs. inductive vs. abductive arguments</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.294" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.294.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.294.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.294.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.294.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p294" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p294.1" class="ltx_p">- For ethics questions: identify which framework (consequentialism, deontology, virtue ethics, contractualism) is in play</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.295" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.295.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.295.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.295.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.295.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p295" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p295.1" class="ltx_p">- Identify the implicit premises in an argument — these are often where the question is testing</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.296" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.296.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.296.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.296.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.296.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p296" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p296.1" class="ltx_p">- Modal logic: distinguish necessity (□) from possibility (◇); know the S4/S5 axioms if relevant</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.297" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.297.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.297.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.298" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.298.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.298.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p298" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p298.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.299" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.299.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.299.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p299" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p299.1" class="ltx_p">- &quot;Valid&quot; in formal logic ≠ &quot;correct&quot; in everyday speech</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.300" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.300.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.300.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.300.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.300.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p300" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p300.1" class="ltx_p">- Ad hominem, straw man, begging the question — know the formal definitions, not just the colloquial use</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.301" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.301.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.301.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.301.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.301.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p301" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p301.1" class="ltx_p">- The is/ought gap (Hume): descriptive premises don’t entail normative conclusions without a bridge principle</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.302" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.302.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.302.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.302.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.302.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p302" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p302.1" class="ltx_p">- Trolley problems: the point is usually the principle that distinguishes the cases, not the answer</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.303" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.303.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.303.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.304" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.304.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.304.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p304" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p304.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.305" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.305.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.305.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.306" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.306.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.306.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p306" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p306.1" class="ltx_p">## History &amp; Political Science</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.307" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.307.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.307.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.308" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.308.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.308.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.308.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.308.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p308" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p308.1" class="ltx_p">**Core framework**: Causal and contextual reasoning — distinguish proximate from underlying causes.</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.309" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.309.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.309.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.310" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.310.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.310.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p310" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p310.1" class="ltx_p">**Key tactics:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.311" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.311.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.311.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.311.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.311.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p311" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p311.1" class="ltx_p">- For causal questions: what was necessary? What was sufficient? The answer may be neither</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.312" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.312.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.312.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.312.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.312.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p312" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p312.1" class="ltx_p">- Distinguish historiographical debates from established consensus — benchmark questions tend to test consensus</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.313" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.313.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.313.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.313.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.313.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p313" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p313.1" class="ltx_p">- Political science: distinguish empirical claims (what is) from normative claims (what ought to be)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.314" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.314.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.314.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.314.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.314.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p314" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p314.1" class="ltx_p">- For constitutional/legal questions: know the formal doctrine, not just the intuitive outcome</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.315" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.315.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.315.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.316" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.316.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.316.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p316" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p316.1" class="ltx_p">**Common traps:**</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.317" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.317.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.317.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.317.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.317.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p317" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p317.1" class="ltx_p">- Teleological reasoning (treating outcomes as inevitable) — history wasn’t determined in advance</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.318" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.318.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.318.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p318" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p318.1" class="ltx_p">- Confusing correlation in historical data with causation</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.319" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.319.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.319.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.319.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.319.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p319" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p319.1" class="ltx_p">- Presentism: applying contemporary values/concepts to historical actors anachronistically</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.320" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.320.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.320.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.320.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.320.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p320" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p320.1" class="ltx_p">- Conflating the views of individual historical figures with the movements they represented</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.321" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.321.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.321.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.322" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.322.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.322.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p322" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p322.1" class="ltx_p">---</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.323" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.323.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.323.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.324" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.324.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.324.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p324" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p324.1" class="ltx_p">## General Quantitative Reasoning</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.325" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.325.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.325.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.326" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.326.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.326.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p326" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p326.1" class="ltx_p">For any question involving numbers, estimates, or calculations:</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.327" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.327.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.327.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.328" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.328.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.328.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p328" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p328.1" class="ltx_p">1. **Sanity check with orders of magnitude** first</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.329" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.329.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.329.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.329.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.329.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p329" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p329.1" class="ltx_p">2. **Unit analysis** — if you can’t get units to work out, your formula is wrong</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.330" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.330.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.330.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.330.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.330.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p330" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p330.1" class="ltx_p">3. For estimates: identify what you know, what you need, and chain them together (Fermi estimation)</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.331" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.331.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.331.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.331.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.331.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p331" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p331.1" class="ltx_p">4. Avoid false precision — if inputs are ±10%, the output can’t be more precise than ±10%</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.332" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.332.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.332.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.332.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.332.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p332" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p332.1" class="ltx_p">5. Check: does the answer change sign or direction at any extreme? Is that physically/logically reasonable?</span>
+</span></span></span></span>
+<span id="A6.SS4.p2.pic1.2.333" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.333.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.333.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.334" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.334.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.334.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS4.p2.pic1.2.335" class="ltx_p" style="width:378.8pt;"><span id="A6.SS4.p2.pic1.2.335.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS4.p2.pic1.2.335.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.335.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS4.p2.pic1.2.335.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS4.p2.pic1.p335" class="ltx_para ltx_noindent">
+<span id="A6.SS4.p2.pic1.p335.1" class="ltx_p">Application output format: put the final answer only inside &lt;answer&gt;&lt;/answer&gt; tags at the end of the response. Keep any explanation outside those tags. Follow this output format if a skill below describes a different presentation format. Only the capabilities supplied by the application are available.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>

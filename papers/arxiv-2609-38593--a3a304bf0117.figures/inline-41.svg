@@ -1,0 +1,958 @@
+<svg id="A6.SS5.SSS4.p4.pic1" class="ltx_picture" height="4537.53" overflow="visible" version="1.1" viewbox="0 0 550 4537.53" width="550"><g style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" fill="#000000" stroke="#000000" stroke-width="0.4pt" transform="translate(0,4537.53) matrix(1 0 0 -1 0 0)"><g style="--ltx-fill-color:#237B57;" fill="#237B57" fill-opacity="1.0"><path style="stroke:none" d="M 0 2.08 L 0 4535.45 C 0 4536.6 0.93 4537.53 2.08 4537.53 L 547.92 4537.53 C 549.07 4537.53 550 4536.6 550 4535.45 L 550 2.08 C 550 0.93 549.07 0 547.92 0 L 2.08 0 C 0.93 0 0 0.93 0 2.08 Z" /></g><g style="--ltx-fill-color:#F8FBFA;" fill="#F8FBFA" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 2.08 L 0.69 4515.97 L 549.31 4515.97 L 549.31 2.08 C 549.31 1.31 548.69 0.69 547.92 0.69 L 2.08 0.69 C 1.31 0.69 0.69 1.31 0.69 2.08 Z" /></g><g style="--ltx-fill-color:#237B57;" fill="#237B57" fill-opacity="1.0"><path style="stroke:none" d="M 0.69 4516.66 L 0.69 4535.45 C 0.69 4536.21 1.31 4536.83 2.08 4536.83 L 547.92 4536.83 C 548.69 4536.83 549.31 4536.21 549.31 4535.45 L 549.31 4516.66 Z" /></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.93 4523.29)"><foreignobject style="--ltx-fo-width:34.44em;--ltx-fo-height:0.69em;--ltx-fo-depth:0.19em;font-size:10pt;" height="12.3" overflow="visible" transform="matrix(1 0 0 -1 0 9.61)" width="476.55"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.SS5.SSS4.p4.pic1.1" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:34.44em;">
+<span id="A6.SS5.SSS4.p4.pic1.1.1" class="ltx_p"><span id="A6.SS5.SSS4.p4.pic1.1.1.1" class="ltx_text ltx_font_sansserif ltx_font_bold" style="--ltx-fg-color:#FFFFFF;">SpreadsheetBench: GPT-5.5</span></span>
+</span></span></span></foreignobject></g><g fill-opacity="1.0" transform="matrix(1.0 0.0 0.0 1.0 12.93 13.47)"><foreignobject style="--ltx-fo-width:36.08em;--ltx-fo-height:324.61em;--ltx-fo-depth:0.14em;font-size:10pt;" height="4493.62" overflow="visible" transform="matrix(1 0 0 -1 0 4491.7)" width="499.25"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span id="A6.SS5.SSS4.p4.pic1.2" class="ltx_inline-block ltx_minipage ltx_align_bottom" style="width:36.08em;">
+<span id="A6.SS5.SSS4.p4.pic1.2.1" class="ltx_p"><span id="A6.SS5.SSS4.p4.pic1.2.1.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.1.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p1" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p1.1" class="ltx_p"># Spreadsheet Manipulation Skill</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.2" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.2.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.2.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.3" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.3.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.3.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p3" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p3.1" class="ltx_p">## Core Principles</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.4" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.4.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.4.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.4.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.4.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p4" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p4.1" class="ltx_p">- Make the smallest edit that satisfies the request. Do **not** change unrelated sheets, cells, formulas, formatting, workbook properties, sheet order, hidden rows/cols, or filters unless requested.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.5" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.5.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.5.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.5.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.5.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p5" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p5.1" class="ltx_p">- Always inspect the workbook before editing: sheet names, used ranges, headers, sample rows, data types, formulas, merged cells, and existing formatting conventions.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.6" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.6.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.6.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.6.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.6.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p6" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p6.1" class="ltx_p">- Treat natural-language requests as concrete operations on sheets/ranges: add/update/delete rows/columns, compute values, sort/filter, aggregate, reformat, or create sheets.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.7" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.7.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.7.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.7.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.7.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p7" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p7.1" class="ltx_p">- Save only the final edited workbook as `output.xlsx`. Re-open it and verify before finishing.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.8" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.8.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.8.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.9" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.9.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.9.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p9" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p9.1" class="ltx_p">## 1. Inspect Workbook Structure</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.10" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.10.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.10.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p10" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p10.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.11" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.11.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.11.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p11" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p11.1" class="ltx_p">from openpyxl import load_workbook</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.12" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.12.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.12.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p12" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p12.1" class="ltx_p">wb = load_workbook(&quot;input.xlsx&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.13" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.13.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.13.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p13" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p13.1" class="ltx_p">print(wb.sheetnames)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.14" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.14.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.14.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p14" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p14.1" class="ltx_p">for ws in wb.worksheets:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.15" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.15.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.15.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p15" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p15.1" class="ltx_p">    print(ws.title, ws.max_row, ws.max_column)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.16" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.16.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.16.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.16.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.16.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p16" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p16.1" class="ltx_p">    for row in ws.iter_rows(min_row=1, max_row=min(ws.max_row,5), values_only=True):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.17" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.17.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.17.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p17" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p17.1" class="ltx_p">        print(row)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.18" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.18.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.18.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p18" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p18.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.19" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.19.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.19.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.20" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.20.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.20.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p20" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p20.1" class="ltx_p">Also inspect formulas/styles when relevant:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.21" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.21.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.21.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p21" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p21.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.22" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.22.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.22.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p22" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p22.1" class="ltx_p">for ws in wb.worksheets:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.23" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.23.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.23.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p23" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p23.1" class="ltx_p">    print(ws.title)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.24" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.24.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.24.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p24" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p24.1" class="ltx_p">    for row in ws.iter_rows(min_row=1, max_row=min(ws.max_row,3)):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.25" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.25.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.25.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.25.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.25.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p25" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p25.1" class="ltx_p">        print([(c.coordinate, c.value, c.data_type, c.number_format) for c in row])</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.26" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.26.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.26.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p26" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p26.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.27" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.27.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.27.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.28" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.28.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.28.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p28" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p28.1" class="ltx_p">## 2. Identify Headers Reliably</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.29" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.29.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.29.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.29.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.29.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p29" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p29.1" class="ltx_p">- Prefer the visible header row near the top; commonly row 1, but inspect first rows.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.30" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.30.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.30.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p30" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p30.1" class="ltx_p">- Build a header map instead of hardcoding column letters.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.31" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.31.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.31.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.31.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.31.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p31" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p31.1" class="ltx_p">- Normalize header text for matching: trim spaces, lowercase, collapse punctuation/underscores/spaces.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.32" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.32.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.32.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.33" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.33.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.33.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p33" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p33.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.34" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.34.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.34.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p34" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p34.1" class="ltx_p">import re</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.35" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.35.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.35.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p35" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p35.1" class="ltx_p">def norm(s):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.36" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.36.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.36.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.36.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.36.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p36" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p36.1" class="ltx_p">    return re.sub(r’[ˆa-z0-9]+’, ’’, str(s).strip().lower()) if s is not None else &quot;&quot;</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.37" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.37.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.37.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.38" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.38.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.38.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p38" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p38.1" class="ltx_p">def header_map(ws, header_row=1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.39" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.39.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.39.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.39.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.39.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p39" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p39.1" class="ltx_p">    return {norm(c.value): c.column for c in ws[header_row] if c.value not in (None, &quot;&quot;)}</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.40" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.40.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.40.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.41" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.41.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.41.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p41" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p41.1" class="ltx_p">headers = header_map(ws)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.42" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.42.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.42.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p42" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p42.1" class="ltx_p"># Example: col = headers[norm(&quot;Requested Header&quot;)]</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.43" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.43.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.43.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p43" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p43.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.44" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.44.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.44.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.45" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.45.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.45.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.45.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.45.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p45" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p45.1" class="ltx_p">If the request names a sheet/header that is not exact, match normalized names and inspect similar candidates before editing.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.46" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.46.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.46.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.47" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.47.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.47.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p47" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p47.1" class="ltx_p">## 3. Parse the Request Into Operations</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.48" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.48.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.48.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p48" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p48.1" class="ltx_p">Before coding, decide:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.49" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.49.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.49.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p49" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p49.1" class="ltx_p">- Target sheet(s). If user says “work only on X”, do not touch others.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.50" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.50.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.50.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p50" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p50.1" class="ltx_p">- Whether to modify existing data or create a new sheet/column.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.51" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.51.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.51.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.51.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.51.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p51" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p51.1" class="ltx_p">- Exact placement of new columns/rows: “at the end” means after current `max_column`; “after X” means insert after header X.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.52" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.52.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.52.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p52" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p52.1" class="ltx_p">- Whether calculations should be static values or Excel formulas:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.53" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.53.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.53.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.53.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.53.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p53" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p53.1" class="ltx_p">  - Use formulas if explicitly requested, or if matching neighboring formula columns.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.54" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.54.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.54.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.54.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.54.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p54" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p54.1" class="ltx_p">  - Otherwise compute static values with Python for reliable saved results.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.55" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.55.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.55.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.55.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.55.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p55" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p55.1" class="ltx_p">- Blank behavior: if an input needed for a calculation is blank or invalid, leave the output blank unless instruction says otherwise.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.56" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.56.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.56.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.56.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.56.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p56" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p56.1" class="ltx_p">- Filtering/deleting means physically delete nonmatching rows, not just apply an AutoFilter, unless user specifically asks for a filter view.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.57" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.57.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.57.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.58" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.58.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.58.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p58" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p58.1" class="ltx_p">## 4. Preserve Formatting and Workbook Features</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.59" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.59.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.59.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.59.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.59.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p59" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p59.1" class="ltx_p">- When adding a column next to existing data, copy style/number format from a neighboring comparable column/header.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.60" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.60.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.60.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p60" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p60.1" class="ltx_p">- Preserve formulas in unaffected cells.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.61" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.61.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.61.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.61.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.61.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p61" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p61.1" class="ltx_p">- Avoid using pandas to rewrite sheets unless formatting does not matter; prefer `openpyxl`.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.62" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.62.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.62.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.62.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.62.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p62" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p62.1" class="ltx_p">- Be careful with merged cells: inspect `ws.merged_cells.ranges`; do not write into non-top-left merged cells.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.63" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.63.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.63.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.63.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.63.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p63" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p63.1" class="ltx_p">- Preserve sheet order. When creating a new sheet, place it only as requested; otherwise append at end.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.64" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.64.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.64.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p64" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p64.1" class="ltx_p">- If deleting rows, delete from bottom to top to avoid index shifts.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.65" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.65.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.65.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.66" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.66.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.66.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p66" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p66.1" class="ltx_p">Style copy helper:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.67" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.67.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.67.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p67" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p67.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.68" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.68.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.68.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p68" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p68.1" class="ltx_p">from copy import copy</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.69" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.69.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.69.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p69" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p69.1" class="ltx_p">def copy_cell_style(src, dst):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.70" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.70.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.70.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p70" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p70.1" class="ltx_p">    if src.has_style:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.71" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.71.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.71.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p71" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p71.1" class="ltx_p">        dst._style = copy(src._style)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.72" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.72.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.72.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p72" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p72.1" class="ltx_p">    dst.number_format = src.number_format</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.73" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.73.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.73.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p73" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p73.1" class="ltx_p">    dst.font = copy(src.font)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.74" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.74.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.74.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p74" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p74.1" class="ltx_p">    dst.fill = copy(src.fill)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.75" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.75.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.75.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p75" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p75.1" class="ltx_p">    dst.border = copy(src.border)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.76" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.76.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.76.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p76" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p76.1" class="ltx_p">    dst.alignment = copy(src.alignment)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.77" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.77.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.77.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p77" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p77.1" class="ltx_p">    dst.protection = copy(src.protection)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.78" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.78.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.78.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p78" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p78.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.79" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.79.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.79.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.80" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.80.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.80.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p80" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p80.1" class="ltx_p">## 5. Robust Value Handling</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.81" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.81.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.81.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p81" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p81.1" class="ltx_p">Use helpers for blanks, numbers, dates, and text comparisons.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.82" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.82.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.82.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.83" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.83.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.83.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p83" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p83.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.84" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.84.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.84.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p84" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p84.1" class="ltx_p">from datetime import datetime, date</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.85" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.85.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.85.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p85" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p85.1" class="ltx_p">from openpyxl.utils.datetime import from_excel</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.86" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.86.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.86.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.87" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.87.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.87.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p87" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p87.1" class="ltx_p">def is_blank(v):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.88" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.88.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.88.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p88" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p88.1" class="ltx_p">    return v is None or (isinstance(v, str) and v.strip() == &quot;&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.89" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.89.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.89.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.90" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.90.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.90.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p90" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p90.1" class="ltx_p">def text(v):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.91" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.91.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.91.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p91" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p91.1" class="ltx_p">    return &quot;&quot; if v is None else str(v).strip()</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.92" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.92.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.92.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.93" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.93.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.93.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p93" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p93.1" class="ltx_p">def norm_text(v):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.94" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.94.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.94.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p94" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p94.1" class="ltx_p">    return re.sub(r’\s+’, ’ ’, text(v)).strip().lower()</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.95" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.95.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.95.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.96" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.96.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.96.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p96" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p96.1" class="ltx_p">def to_number(v):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.97" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.97.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.97.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p97" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p97.1" class="ltx_p">    if is_blank(v): return None</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.98" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.98.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.98.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p98" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p98.1" class="ltx_p">    if isinstance(v, (int, float)): return v</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.99" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.99.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.99.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.99.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.99.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p99" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p99.1" class="ltx_p">    s = str(v).strip().replace(&quot;,&quot;, &quot;&quot;).replace(&quot;$&quot;, &quot;&quot;).replace(&quot;%&quot;, &quot;&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.100" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.100.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.100.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p100" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p100.1" class="ltx_p">    try: return float(s)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.101" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.101.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.101.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p101" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p101.1" class="ltx_p">    except ValueError: return None</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.102" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.102.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.102.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.103" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.103.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.103.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p103" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p103.1" class="ltx_p">def to_date(v):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.104" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.104.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.104.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p104" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p104.1" class="ltx_p">    if is_blank(v): return None</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.105" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.105.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.105.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p105" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p105.1" class="ltx_p">    if isinstance(v, datetime): return v.date()</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.106" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.106.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.106.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p106" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p106.1" class="ltx_p">    if isinstance(v, date): return v</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.107" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.107.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.107.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p107" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p107.1" class="ltx_p">    if isinstance(v, (int, float)):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.108" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.108.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.108.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p108" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p108.1" class="ltx_p">        try: return from_excel(v).date()</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.109" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.109.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.109.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p109" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p109.1" class="ltx_p">        except Exception: pass</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.110" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.110.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.110.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.110.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.110.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p110" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p110.1" class="ltx_p">    for fmt in (&quot;%Y-%m-%d&quot;, &quot;%m/%d/%Y&quot;, &quot;%m/%d/%y&quot;, &quot;%d/%m/%Y&quot;, &quot;%d-%m-%Y&quot;):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.111" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.111.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.111.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p111" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p111.1" class="ltx_p">        try: return datetime.strptime(str(v).strip(), fmt).date()</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.112" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.112.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.112.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p112" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p112.1" class="ltx_p">        except ValueError: pass</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.113" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.113.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.113.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p113" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p113.1" class="ltx_p">    return None</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.114" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.114.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.114.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p114" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p114.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.115" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.115.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.115.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.116" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.116.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.116.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p116" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p116.1" class="ltx_p">## 6. Add or Update Columns</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.117" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.117.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.117.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p117" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p117.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.118" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.118.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.118.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p118" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p118.1" class="ltx_p">from openpyxl import load_workbook</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.119" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.119.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.119.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p119" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p119.1" class="ltx_p">wb = load_workbook(&quot;input.xlsx&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.120" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.120.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.120.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p120" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p120.1" class="ltx_p">ws = wb[&quot;SheetName&quot;]</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.121" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.121.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.121.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.122" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.122.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.122.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p122" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p122.1" class="ltx_p">hdr = header_map(ws)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.123" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.123.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.123.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.123.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.123.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p123" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p123.1" class="ltx_p">insert_at = ws.max_column + 1           # or hdr[norm(&quot;Some Header&quot;)] + 1</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.124" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.124.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.124.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p124" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p124.1" class="ltx_p">if insert_at &lt;= ws.max_column:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.125" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.125.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.125.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p125" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p125.1" class="ltx_p">    ws.insert_cols(insert_at)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.126" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.126.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.126.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.127" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.127.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.127.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p127" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p127.1" class="ltx_p">header_cell = ws.cell(1, insert_at)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.128" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.128.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.128.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p128" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p128.1" class="ltx_p">header_cell.value = &quot;New Header&quot;</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.129" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.129.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.129.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p129" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p129.1" class="ltx_p">copy_cell_style(ws.cell(1, insert_at-1), header_cell)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.130" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.130.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.130.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.131" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.131.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.131.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p131" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p131.1" class="ltx_p">for r in range(2, ws.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.132" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.132.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.132.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p132" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p132.1" class="ltx_p">    out = ws.cell(r, insert_at)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.133" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.133.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.133.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p133" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p133.1" class="ltx_p">    copy_cell_style(ws.cell(r, insert_at-1), out)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.134" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.134.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.134.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p134" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p134.1" class="ltx_p">    # compute using header-based columns</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.135" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.135.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.135.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p135" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p135.1" class="ltx_p">    a = ws.cell(r, hdr[norm(&quot;Input A&quot;)]).value</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.136" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.136.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.136.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p136" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p136.1" class="ltx_p">    b = ws.cell(r, hdr[norm(&quot;Input B&quot;)]).value</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.137" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.137.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.137.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p137" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p137.1" class="ltx_p">    if is_blank(a) or is_blank(b):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.138" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.138.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.138.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p138" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p138.1" class="ltx_p">        out.value = None</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.139" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.139.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.139.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p139" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p139.1" class="ltx_p">    else:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.140" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.140.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.140.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p140" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p140.1" class="ltx_p">        out.value = computed_value</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.141" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.141.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.141.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p141" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p141.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.142" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.142.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.142.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.143" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.143.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.143.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.143.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.143.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p143" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p143.1" class="ltx_p">For percentages, store decimals like `0.85` and set `number_format = ’0.00%’` if the sheet uses percent formatting or the request asks for percent display.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.144" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.144.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.144.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.145" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.145.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.145.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p145" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p145.1" class="ltx_p">## 7. Conditional Edits</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.146" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.146.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.146.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p146" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p146.1" class="ltx_p">- Build predicates using header-based access.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.147" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.147.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.147.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.147.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.147.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p147" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p147.1" class="ltx_p">- Normalize text for comparisons unless exact case is explicitly required.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.148" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.148.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.148.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.148.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.148.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p148" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p148.1" class="ltx_p">- For numeric/date thresholds, convert values first and treat invalid/blanks according to the instruction.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.149" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.149.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.149.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.150" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.150.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.150.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p150" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p150.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.151" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.151.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.151.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p151" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p151.1" class="ltx_p">for r in range(2, ws.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.152" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.152.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.152.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p152" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p152.1" class="ltx_p">    row = {h: ws.cell(r, c).value for h, c in hdr.items()}</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.153" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.153.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.153.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p153" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p153.1" class="ltx_p">    target = ws.cell(r, hdr[norm(&quot;Target Column&quot;)])</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.154" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.154.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.154.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p154" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p154.1" class="ltx_p">    if condition(row):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.155" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.155.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.155.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p155" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p155.1" class="ltx_p">        target.value = &quot;YES&quot;</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.156" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.156.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.156.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p156" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p156.1" class="ltx_p">    else:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.157" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.157.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.157.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.157.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.157.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p157" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p157.1" class="ltx_p">        target.value = &quot;NO&quot;   # only if requested; otherwise leave unchanged</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.158" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.158.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.158.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p158" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p158.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.159" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.159.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.159.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.160" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.160.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.160.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p160" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p160.1" class="ltx_p">## 8. Delete or Keep Rows</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.161" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.161.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.161.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.161.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.161.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p161" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p161.1" class="ltx_p">- If asked to keep rows matching criteria, delete all rows that do not match.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.162" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.162.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.162.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p162" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p162.1" class="ltx_p">- Never delete the header row unless explicitly requested.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.163" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.163.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.163.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p163" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p163.1" class="ltx_p">- Delete bottom-up.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.164" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.164.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.164.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.165" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.165.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.165.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p165" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p165.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.166" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.166.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.166.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p166" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p166.1" class="ltx_p">rows_to_delete = []</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.167" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.167.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.167.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p167" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p167.1" class="ltx_p">for r in range(2, ws.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.168" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.168.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.168.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p168" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p168.1" class="ltx_p">    keep = predicate(r)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.169" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.169.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.169.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p169" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p169.1" class="ltx_p">    if not keep:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.170" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.170.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.170.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p170" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p170.1" class="ltx_p">        rows_to_delete.append(r)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.171" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.171.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.171.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.172" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.172.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.172.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p172" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p172.1" class="ltx_p">for r in reversed(rows_to_delete):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.173" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.173.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.173.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p173" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p173.1" class="ltx_p">    ws.delete_rows(r, 1)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.174" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.174.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.174.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p174" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p174.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.175" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.175.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.175.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.176" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.176.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.176.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.176.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.176.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p176" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p176.1" class="ltx_p">After deletion, verify `ws.max_row`, remaining criteria, and that formulas/ranges on unrelated sheets were not damaged.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.177" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.177.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.177.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.178" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.178.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.178.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p178" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p178.1" class="ltx_p">## 9. Sorting</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.179" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.179.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.179.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p179" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p179.1" class="ltx_p">- Sort only the intended data rows, not headers.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.180" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.180.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.180.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.180.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.180.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p180" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p180.1" class="ltx_p">- Preserve row integrity by sorting entire row records across all used columns.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.181" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.181.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.181.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p181" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p181.1" class="ltx_p">- Reapply values/styles row-by-row if necessary.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.182" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.182.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.182.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.183" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.183.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.183.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p183" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p183.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.184" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.184.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.184.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p184" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p184.1" class="ltx_p">data = []</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.185" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.185.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.185.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p185" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p185.1" class="ltx_p">for r in range(2, ws.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.186" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.186.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.186.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p186" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p186.1" class="ltx_p">    vals = [ws.cell(r,c).value for c in range(1, ws.max_column+1)]</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.187" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.187.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.187.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.187.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.187.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p187" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p187.1" class="ltx_p">    styles = [copy(ws.cell(r,c)._style) for c in range(1, ws.max_column+1)]</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.188" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.188.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.188.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p188" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p188.1" class="ltx_p">    data.append((sort_key(vals), vals, styles))</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.189" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.189.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.189.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p189" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p189.1" class="ltx_p">data.sort(key=lambda x: x[0])</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.190" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.190.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.190.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.191" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.191.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.191.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p191" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p191.1" class="ltx_p">for i, (_, vals, styles) in enumerate(data, start=2):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.192" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.192.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.192.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p192" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p192.1" class="ltx_p">    for c, v in enumerate(vals, start=1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.193" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.193.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.193.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p193" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p193.1" class="ltx_p">        ws.cell(i,c).value = v</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.194" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.194.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.194.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p194" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p194.1" class="ltx_p">        ws.cell(i,c)._style = styles[c-1]</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.195" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.195.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.195.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p195" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p195.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.196" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.196.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.196.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.197" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.197.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.197.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p197" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p197.1" class="ltx_p">## 10. Lookup / Match Across Sheets</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.198" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.198.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.198.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p198" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p198.1" class="ltx_p">- Inspect both sheets’ headers and key uniqueness.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.199" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.199.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.199.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p199" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p199.1" class="ltx_p">- Normalize keys only if matching should be case/space-insensitive.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.200" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.200.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.200.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.200.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.200.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p200" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p200.1" class="ltx_p">- Decide behavior for missing matches: blank unless instructed otherwise.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.201" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.201.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.201.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p201" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p201.1" class="ltx_p">- Do not alter lookup/source sheets unless requested.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.202" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.202.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.202.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.203" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.203.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.203.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p203" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p203.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.204" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.204.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.204.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p204" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p204.1" class="ltx_p">src_hdr = header_map(src)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.205" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.205.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.205.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p205" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p205.1" class="ltx_p">dst_hdr = header_map(dst)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.206" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.206.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.206.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.207" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.207.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.207.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p207" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p207.1" class="ltx_p">lookup = {}</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.208" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.208.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.208.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p208" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p208.1" class="ltx_p">for r in range(2, src.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.209" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.209.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.209.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p209" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p209.1" class="ltx_p">    k = norm_text(src.cell(r, src_hdr[norm(&quot;Key&quot;)]).value)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.210" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.210.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.210.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p210" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p210.1" class="ltx_p">    lookup[k] = src.cell(r, src_hdr[norm(&quot;Value&quot;)]).value</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.211" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.211.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.211.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.212" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.212.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.212.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p212" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p212.1" class="ltx_p">for r in range(2, dst.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.213" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.213.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.213.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p213" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p213.1" class="ltx_p">    k = norm_text(dst.cell(r, dst_hdr[norm(&quot;Key&quot;)]).value)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.214" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.214.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.214.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p214" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p214.1" class="ltx_p">    dst.cell(r, dst_hdr[norm(&quot;Output&quot;)]).value = lookup.get(k, None)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.215" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.215.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.215.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p215" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p215.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.216" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.216.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.216.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.217" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.217.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.217.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p217" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p217.1" class="ltx_p">## 11. Aggregates and Summary Sheets</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.218" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.218.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.218.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.218.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.218.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p218" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p218.1" class="ltx_p">- If creating a summary, remove/replace an existing summary sheet only if requested or clearly the target output.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.219" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.219.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.219.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p219" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p219.1" class="ltx_p">- Include exactly requested grouping columns and metrics.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.220" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.220.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.220.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p220" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p220.1" class="ltx_p">- Sort summaries only if requested or implied by examples/instructions.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.221" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.221.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.221.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.221.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.221.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p221" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p221.1" class="ltx_p">- Use static aggregate values unless formulas/pivots are explicitly requested.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.222" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.222.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.222.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.223" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.223.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.223.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p223" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p223.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.224" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.224.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.224.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p224" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p224.1" class="ltx_p">from collections import defaultdict</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.225" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.225.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.225.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p225" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p225.1" class="ltx_p">groups = defaultdict(lambda: {&quot;count&quot;:0, &quot;sum&quot;:0})</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.226" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.226.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.226.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p226" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p226.1" class="ltx_p">for r in range(2, ws.max_row + 1):</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.227" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.227.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.227.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p227" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p227.1" class="ltx_p">    key = ws.cell(r, group_col).value</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.228" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.228.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.228.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p228" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p228.1" class="ltx_p">    val = to_number(ws.cell(r, value_col).value) or 0</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.229" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.229.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.229.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p229" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p229.1" class="ltx_p">    groups[key][&quot;count&quot;] += 1</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.230" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.230.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.230.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p230" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p230.1" class="ltx_p">    groups[key][&quot;sum&quot;] += val</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.231" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.231.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.231.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p231" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p231.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.232" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.232.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.232.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.233" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.233.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.233.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p233" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p233.1" class="ltx_p">## 12. Formulas</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.234" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.234.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.234.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.234.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.234.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p234" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p234.1" class="ltx_p">- If writing formulas, use correct Excel syntax and relative row numbers.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.235" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.235.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.235.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p235" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p235.1" class="ltx_p">- Do not expect `openpyxl` to calculate formula results.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.236" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.236.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.236.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p236" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p236.1" class="ltx_p">- Preserve formulas in existing cells; inspect with `data_only=False`.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.237" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.237.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.237.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.237.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.237.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p237" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p237.1" class="ltx_p">- If verification needs calculated values but Excel is unavailable, prefer static Python-computed values unless formulas were explicitly requested.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.238" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.238.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.238.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.239" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.239.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.239.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p239" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p239.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.240" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.240.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.240.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p240" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p240.1" class="ltx_p">ws.cell(r, out_col).value = f&quot;=IF(A{r}=\&quot;\&quot;,\&quot;\&quot;,B{r}/C{r})&quot;</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.241" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.241.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.241.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p241" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p241.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.242" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.242.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.242.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.243" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.243.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.243.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p243" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p243.1" class="ltx_p">## 13. Number Formats and Display</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.244" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.244.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.244.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p244" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p244.1" class="ltx_p">- Match neighboring column formats when adding similar data.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.245" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.245.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.245.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p245" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p245.1" class="ltx_p">- Common safe formats:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.246" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.246.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.246.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p246" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p246.1" class="ltx_p">  - integer: `0`</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.247" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.247.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.247.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p247" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p247.1" class="ltx_p">  - decimal: `0.00`</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.248" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.248.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.248.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p248" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p248.1" class="ltx_p">  - currency: copy from existing currency column</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.249" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.249.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.249.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p249" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p249.1" class="ltx_p">  - percent: `0.00%`</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.250" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.250.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.250.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p250" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p250.1" class="ltx_p">  - date: copy from existing date column</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.251" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.251.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.251.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.251.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.251.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p251" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p251.1" class="ltx_p">- Do not round underlying values unless requested; use number format for display precision. If request says round, round the stored value.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.252" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.252.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.252.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.253" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.253.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.253.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p253" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p253.1" class="ltx_p">## 14. Final Verification</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.254" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.254.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.254.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p254" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p254.1" class="ltx_p">Before final save and after re-opening:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.255" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.255.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.255.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p255" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p255.1" class="ltx_p">```python</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.256" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.256.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.256.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p256" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p256.1" class="ltx_p">wb.save(&quot;output.xlsx&quot;)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.257" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.257.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.257.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.258" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.258.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.258.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p258" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p258.1" class="ltx_p">check = load_workbook(&quot;output.xlsx&quot;, data_only=False)</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.259" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.259.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.259.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p259" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p259.1" class="ltx_p"># verify target sheets, headers, row counts, sample outputs, formulas</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.260" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.260.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.260.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p260" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p260.1" class="ltx_p">```</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.261" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.261.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.261.1.1" class="ltx_inline-logical-block ltx_parbox ltx_pruned_first ltx_align_top" style="width:378.8pt;"></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.262" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.262.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.262.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p262" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p262.1" class="ltx_p">Verification checklist:</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.263" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.263.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.263.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p263" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p263.1" class="ltx_p">- Correct workbook saved as `output.xlsx`.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.264" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.264.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.264.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p264" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p264.1" class="ltx_p">- Only intended sheets/cells changed.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.265" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.265.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.265.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p265" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p265.1" class="ltx_p">- Required rows were added/deleted/kept correctly.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.266" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.266.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.266.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p266" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p266.1" class="ltx_p">- New/updated headers are spelled exactly as requested.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.267" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.267.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.267.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p267" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p267.1" class="ltx_p">- New columns are in the exact requested positions.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.268" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.268.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.268.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.268.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.268.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p268" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p268.1" class="ltx_p">- Calculations handle blanks, invalid values, zero denominators, dates, and text normalization correctly.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.269" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.269.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.269.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p269" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p269.1" class="ltx_p">- Formatting is preserved or matched where visible.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.270" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.270.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.270.1.1" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p270" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p270.1" class="ltx_p">- Existing formulas outside the edit area remain unchanged.</span>
+</span></span></span></span>
+<span id="A6.SS5.SSS4.p4.pic1.2.271" class="ltx_p" style="width:378.8pt;"><span id="A6.SS5.SSS4.p4.pic1.2.271.1" class="ltx_text ltx_verbatim ltx_font_typewriter ltx_inline-block" style="width:378.8pt;--ltx-fg-color:#000000;"><span id="A6.SS5.SSS4.p4.pic1.2.271.1.1" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.271.1.2" class="ltx_text ltx_inline-block" style="width:0.0pt;"> </span><span id="A6.SS5.SSS4.p4.pic1.2.271.1.3" class="ltx_inline-logical-block ltx_parbox ltx_align_top" style="width:378.8pt;">
+<span id="A6.SS5.SSS4.p4.pic1.p271" class="ltx_para ltx_noindent">
+<span id="A6.SS5.SSS4.p4.pic1.p271.1" class="ltx_p">- No accidental extra sheets, rows, columns, filters, or index columns were created.</span>
+</span></span></span></span>
+</span></span></span></foreignobject></g></g></svg>
