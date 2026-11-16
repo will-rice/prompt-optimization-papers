@@ -2,6 +2,9 @@
 
 Standalone paper discovery and conversion for Automatic prompt optimization research papers.
 
+Browse the collection on alphaXiv:
+https://www.alphaxiv.org/shared/folder/019ff645-c897-7d17-a979-3f9774ca652c
+
 <!-- papers-index:start -->
 
 # Papers
