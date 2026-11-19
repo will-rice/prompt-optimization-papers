@@ -9,10 +9,11 @@ https://www.alphaxiv.org/shared/folder/019ff645-c897-7d17-a979-3f9774ca652c
 
 # Papers
 
-The 30 most recent of 464 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
+The 30 most recent of 465 papers. Every paper is listed in [papers.csv](papers.csv) and converted under [papers/](papers/).
 
 | Published                 | Identifier         | Title                                                                                                                                                                                                      | Source      |
 | ------------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| 2026-11-17T11:22:27+00:00 | arxiv:2611.22605v1 | [Simplicity Goes Far: Auditing Prompt Optimizers with Demonstration-Conditioned Prompt Search](papers/arxiv-2611-22605v1--408a23dd3c27.md)                                                                 | arxiv       |
 | 2026-11-15T17:45:49+00:00 | arxiv:2611.20156v1 | [Risk-certified prompt optimization for LLM-as-a-judge guardrails](papers/arxiv-2611-20156v1--82df10ed72ae.md)                                                                                             | arxiv       |
 | 2026-11-12T07:25:46+00:00 | arxiv:2611.16414v1 | [Small Language Models for Inference-Capability Routing: Effects of Model Capacity and Prompt Optimization on Downstream Quality and Efficiency](papers/arxiv-2611-16414v1--e899453ad608.md)               | arxiv       |
 | 2026-11-04T20:38:52+00:00 | arxiv:2611.07123v1 | [PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems](papers/arxiv-2611-07123v1--ca4c773d21e3.md)                                                                                          | arxiv       |
@@ -42,7 +43,6 @@ The 30 most recent of 464 papers. Every paper is listed in [papers.csv](papers.c
 | 2026-09-29T00:00:00+00:00 | arxiv:2609.38593   | [Prompt2Skill: Unsupervised Skill Optimization From Natural Language Instructions](papers/arxiv-2609-38593--a3a304bf0117.md)                                                                               | huggingface |
 | 2026-09-28T08:05:12+00:00 | arxiv:2609.34540v2 | [APOLO: Automatic Prompt Optimization for Ontology Learning](papers/arxiv-2609-34540v2--a2918b08f500.md)                                                                                                   | arxiv       |
 | 2026-09-26T06:51:27+00:00 | arxiv:2609.32302v1 | [On the Capability and Limitation of Hard Prompt](papers/arxiv-2609-32302v1--e1dd87a3fa6f.md)                                                                                                              | arxiv       |
-| 2026-09-25T20:50:20+00:00 | arxiv:2609.31989v1 | [Communication between Frozen Large Language Models via Prompt Optimization in a Referential Game](papers/arxiv-2609-31989v1--51f0ad46db02.md)                                                             | arxiv       |
 
 <!-- papers-index:end -->
 
